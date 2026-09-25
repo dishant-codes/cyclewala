@@ -69,6 +69,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ id: order.id, total: order.total }, { status: 201 });
   } catch (error) {
     console.error("[orders] Failed to place order", error);
-    return NextResponse.json({ error: "Couldn't place the order — try again" }, { status: 400 });
+    return NextResponse.json({ error: "Order service is temporarily unavailable" }, { status: 503 });
   }
 }

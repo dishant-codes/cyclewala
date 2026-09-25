@@ -25,7 +25,14 @@ import { getStore } from "@netlify/blobs";
 import { get, put } from "@vercel/blob";
 
 const ON_NETLIFY = !!process.env.SITE_ID;
-const ON_VERCEL_BLOB = !ON_NETLIFY && !!process.env.BLOB_READ_WRITE_TOKEN;
+const ON_VERCEL = !ON_NETLIFY && process.env.VERCEL === "1";
+const ON_VERCEL_BLOB = ON_VERCEL && !!process.env.BLOB_READ_WRITE_TOKEN;
+
+function requireVercelBlob() {
+  if (ON_VERCEL && !ON_VERCEL_BLOB) {
+    throw new Error("BLOB_READ_WRITE_TOKEN is required for Vercel persistence");
+  }
+}
 
 export const DATA_DIR = process.env.DATA_DIR
   ? path.resolve(process.env.DATA_DIR)
@@ -62,6 +69,7 @@ export async function writeCollection(name: string, data: unknown): Promise<void
     await getStore("cyclewala-data").setJSON(name, data);
     return;
   }
+  requireVercelBlob();
   if (ON_VERCEL_BLOB) {
     await put(`collections/${name}.json`, JSON.stringify(data), {
       access: "private",
@@ -89,6 +97,7 @@ export async function writeUpload(filename: string, bytes: Buffer, contentType: 
     await getStore("cyclewala-uploads").set(filename, arrayBuffer, { metadata: { contentType } });
     return;
   }
+  requireVercelBlob();
   if (ON_VERCEL_BLOB) {
     await put(`uploads/${filename}`, bytes, {
       access: "private",
