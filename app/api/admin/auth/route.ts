@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
   }
 
   const token = email && password && verifyLogin(email, password) ? createSessionToken() : null;
-  if (!token) return NextResponse.json({ ok: true }, { status: 401 });
+  if (!token) return NextResponse.json({ ok: false }, { status: 401 });
 
   const res = NextResponse.json({ ok: true });
   res.cookies.set(SESSION_COOKIE, token, { ...cookieBase(request), maxAge: SESSION_MS / 1000 });

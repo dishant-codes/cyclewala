@@ -22,8 +22,10 @@ import fs from "fs";
 import path from "path";
 import { randomBytes } from "crypto";
 import { getStore } from "@netlify/blobs";
+import { get, put } from "@vercel/blob";
 
 const ON_NETLIFY = !!process.env.SITE_ID;
+const ON_VERCEL_BLOB = !ON_NETLIFY && !!process.env.BLOB_READ_WRITE_TOKEN;
 
 export const DATA_DIR = process.env.DATA_DIR
   ? path.resolve(process.env.DATA_DIR)
@@ -43,6 +45,11 @@ export async function readCollection<T>(name: string, fallback: T): Promise<T> {
     const value = await getStore("cyclewala-data").get(name, { type: "json" });
     return value === null ? fallback : (value as T);
   }
+  if (ON_VERCEL_BLOB) {
+    const blob = await get(`collections/${name}.json`, { access: "private", useCache: false });
+    if (!blob || blob.statusCode !== 200) return fallback;
+    return (await new Response(blob.stream).json()) as T;
+  }
   try {
     return JSON.parse(fs.readFileSync(path.join(DATA_DIR, `${name}.json`), "utf-8"));
   } catch {
@@ -53,6 +60,14 @@ export async function readCollection<T>(name: string, fallback: T): Promise<T> {
 export async function writeCollection(name: string, data: unknown): Promise<void> {
   if (ON_NETLIFY) {
     await getStore("cyclewala-data").setJSON(name, data);
+    return;
+  }
+  if (ON_VERCEL_BLOB) {
+    await put(`collections/${name}.json`, JSON.stringify(data), {
+      access: "private",
+      addRandomSuffix: false,
+      contentType: "application/json",
+    });
     return;
   }
   const file = path.join(DATA_DIR, `${name}.json`);
@@ -74,6 +89,14 @@ export async function writeUpload(filename: string, bytes: Buffer, contentType: 
     await getStore("cyclewala-uploads").set(filename, arrayBuffer, { metadata: { contentType } });
     return;
   }
+  if (ON_VERCEL_BLOB) {
+    await put(`uploads/${filename}`, bytes, {
+      access: "private",
+      addRandomSuffix: false,
+      contentType,
+    });
+    return;
+  }
   fs.mkdirSync(UPLOAD_DIR, { recursive: true });
   fs.writeFileSync(path.join(UPLOAD_DIR, filename), bytes);
 }
@@ -86,6 +109,14 @@ export async function readUpload(filename: string): Promise<{ bytes: Buffer; con
     if (!result) return null;
     const contentType = (result.metadata?.contentType as string) || "application/octet-stream";
     return { bytes: Buffer.from(result.data), contentType };
+  }
+  if (ON_VERCEL_BLOB) {
+    const blob = await get(`uploads/${filename}`, { access: "private", useCache: false });
+    if (!blob || blob.statusCode !== 200) return null;
+    return {
+      bytes: Buffer.from(await new Response(blob.stream).arrayBuffer()),
+      contentType: blob.blob.contentType || "application/octet-stream",
+    };
   }
   try {
     const bytes = fs.readFileSync(path.join(UPLOAD_DIR, filename));
