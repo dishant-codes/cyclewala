@@ -1,0 +1,472 @@
+{
+  "project": "AvengerArmy",
+  "version": "2.4.0",
+  "schema_version": "2026-08",
+  "description": "Production-grade, stack-agnostic multi-agent orchestration system with structured memory, skill registry, self-correcting workflows, and deterministic hook-enforced guardrails (git/database/secrets).",
+  "paths_relative_to": ".claude/",
+  "paths_note": "Every bare path referenced anywhere in this system (memory/root.md, context/root.md, doc/*.md, skills/*, credentials/credentials.md, security/guardrails.md, tools/*) is relative to .claude/ at the project root, e.g. memory/root.md means .claude/memory/root.md.",
+  "architecture": {
+    "entry_point": "nickfury",
+    "max_agents": 50,
+    "memory_format": "structured_markdown",
+    "context_ttl": "session",
+    "skill_atomicity": "single_capability"
+  },
+  "hooks": {
+    "config_file": "settings.json",
+    "definitions": {
+      "guard-git": {
+        "file": "hooks/guard-git.sh",
+        "trigger": "PreToolUse:Bash",
+        "blocks": ["force-push", "push-to-protected-branch", "merge", "committed-.env", "committed-secret-pattern"]
+      },
+      "guard-database": {
+        "file": "hooks/guard-database.sh",
+        "trigger": "PreToolUse:Bash",
+        "blocks": ["destructive-db-command-without-isolation", "destructive-db-command-in-production", "test-run-with-refresh-database-risk"]
+      },
+      "protect-env": {
+        "file": "hooks/protect-env.sh",
+        "trigger": "PreToolUse:Read|Edit|Write",
+        "blocks": ["reading/writing-.env-files", "reading/writing-key-or-cert-files"]
+      }
+    },
+    "note": "Deterministic enforcement backstop for the same rules stated in CLAUDE.md and security/guardrails.md. Prompt rules can be misread; hooks fail closed."
+  },
+  "agents": {
+    "nickfury": {
+      "role": "orchestrator",
+      "entry_point": true,
+      "can_delegate": true,
+      "can_create_skills": true,
+      "can_access_credentials": true,
+      "can_modify": [
+        "memory/root.md",
+        "context/root.md",
+        "skills/_ref/skills-registry.md",
+        "doc/brandpack.md"
+      ],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "skills/_ref/skills-registry.md",
+        "skills/_ref/agent-manifests.md",
+        "doc/project-overview.md",
+        "security/guardrails.md"
+      ],
+      "writes": [
+        "memory/root.md",
+        "context/root.md",
+        "skills/_ref/skills-registry.md"
+      ],
+      "memory_scope": "root",
+      "priority": 0
+    },
+    "ironman": {
+      "role": "fullstack",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/ironman.md",
+        "context/ironman.md",
+        "doc/project-overview.md",
+        "skills/ironman/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/ironman.md",
+        "context/ironman.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 1
+    },
+    "vision": {
+      "role": "frontend_minimal",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [
+        "doc/brandpack.md"
+      ],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/vision.md",
+        "context/vision.md",
+        "doc/brandpack.md",
+        "doc/project-overview.md",
+        "skills/vision/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/vision.md",
+        "context/vision.md",
+        "doc/brandpack.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 1
+    },
+    "blackpanther": {
+      "role": "backend",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/blackpanther.md",
+        "context/blackpanther.md",
+        "doc/database.md",
+        "doc/project-overview.md",
+        "skills/blackpanther/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/blackpanther.md",
+        "context/blackpanther.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 1
+    },
+    "odin": {
+      "role": "frontend_builder",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [
+        "doc/brandpack.md"
+      ],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/odin.md",
+        "context/odin.md",
+        "doc/brandpack.md",
+        "doc/project-overview.md",
+        "skills/odin/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/odin.md",
+        "context/odin.md",
+        "doc/brandpack.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 1
+    },
+    "natasha": {
+      "role": "documents",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [
+        "doc/project-overview.md",
+        "doc/filestructure.md",
+        "doc/database.md"
+      ],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/natasha.md",
+        "context/natasha.md",
+        "doc/",
+        "skills/natasha/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/natasha.md",
+        "context/natasha.md",
+        "doc/project-overview.md",
+        "doc/filestructure.md",
+        "doc/database.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 2
+    },
+    "hulk": {
+      "role": "qa_testing",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": false,
+      "can_modify": [],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/hulk.md",
+        "context/hulk.md",
+        "doc/project-overview.md",
+        "skills/hulk/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/hulk.md",
+        "context/hulk.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 2
+    },
+    "groot": {
+      "role": "deploy",
+      "entry_point": false,
+      "can_delegate": false,
+      "can_create_skills": false,
+      "can_access_credentials": true,
+      "can_modify": [],
+      "reads": [
+        "memory/root.md",
+        "context/root.md",
+        "memory/groot.md",
+        "context/groot.md",
+        "credentials/credentials.md",
+        "doc/project-overview.md",
+        "skills/groot/",
+        "skills/_global/"
+      ],
+      "writes": [
+        "memory/groot.md",
+        "context/groot.md"
+      ],
+      "memory_scope": "agent",
+      "priority": 2
+    }
+  },
+  "memory_rules": {
+    "format": "structured",
+    "append_only": true,
+    "deprecation_prefix": "[DEPRECATED YYYY-MM-DD]",
+    "compression_threshold": 100,
+    "categories": [
+      "successes",
+      "failures",
+      "patterns",
+      "preferences",
+      "skill_gaps"
+    ],
+    "mistake_format": "[YYYY-MM-DD HH:MM] MISTAKE: [what]. CONTEXT: [where]. FIX: [solution]. VERIFIED: [yes/no]",
+    "archive_after_days": 30,
+    "archive_format": "memory/{agent}-archive-YYYY-MM.md",
+    "compression_trigger": "file_size_or_age",
+    "compression_action": "summarize_old_entries"
+  },
+  "context_rules": {
+    "scope": "session",
+    "persistence": "nickfury_approved_only",
+    "max_size_kb": 50,
+    "reset_on": "task_complete",
+    "cleanup_trigger": "agent_task_complete",
+    "persistent_items": [
+      "user_preferences",
+      "brand_decisions",
+      "stack_changes"
+    ]
+  },
+  "skill_rules": {
+    "atomicity": "single_capability",
+    "registry": "skills/_ref/skills-registry.md",
+    "creation_approval": [
+      "user",
+      "nickfury"
+    ],
+    "template": "skills/_ref/skill-template.md"
+  },
+  "security": {
+    "credential_file": "credentials/credentials.md",
+    "gitignored": [
+      "credentials/",
+      "*.local.md",
+      ".env",
+      "*.key",
+      "*.pem"
+    ],
+    "approval_matrix": {
+      "create_skill": [
+        "user",
+        "nickfury"
+      ],
+      "modify_brandpack": [
+        "nickfury"
+      ],
+      "access_credentials": [
+        "nickfury"
+      ],
+      "deploy_production": [
+        "hulk_certification",
+        "nickfury"
+      ],
+      "change_database_schema": [
+        "natasha",
+        "nickfury"
+      ],
+      "add_global_tool": [
+        "user",
+        "nickfury"
+      ],
+      "disable_guardrail": [
+        "user",
+        "nickfury_emergency"
+      ]
+    }
+  },
+  "initialize": {
+    "trigger": "/initialize",
+    "mode": {
+      "note": "Detection runs first and sets mode. new_project = no real stack manifest found -> ask core_questions, extended_questions default to [TBD], run the design_direction step (3 mockups). existing_project = a stack manifest exists -> ask ONLY name + description; auto-accept stack, database+schema, file_structure, deployment, auth, testing, and the full design-token system from detection; agents+skills get defaults; the only interruption is the ambiguity_gate. Print an auto-accept summary for one-reply correction.",
+      "new_project": "ask core_questions + design_direction step",
+      "existing_project": "ask name + description only; everything else auto-accepted from detection; ambiguity_gate for genuine blockers; opt-out phrase 'let me confirm each' -> run the new_project-style confirm-each flow"
+    },
+    "ambiguity_gate": {
+      "note": "existing_project only. One targeted AskUserQuestion per unresolved blocker, and only if it fired. Otherwise zero questions beyond name + description.",
+      "blockers": [
+        "two conflicting framework signals at one root in a non-monorepo",
+        "backend/API code present but zero database signal",
+        "conflicting file-structure signals",
+        "more than one distinct design-token system with no clear canonical one (a clearly-scoped landing-vs-app split is recorded, not asked)",
+        "a manifest / schema / config that will not parse"
+      ]
+    },
+    "core_questions": [
+      {
+        "id": "name",
+        "prompt": "Project name?",
+        "type": "text",
+        "required": true,
+        "asked_when": "both modes (existing_project: pre-filled from detection, Enter accepts)",
+        "detect": "package.json name / README title",
+        "target": "doc/project-overview.md#name"
+      },
+      {
+        "id": "description",
+        "prompt": "One sentence: what does this site do? — then, optionally, one line for primary goal + anything out of scope (enter to skip).",
+        "type": "text",
+        "required": true,
+        "asked_when": "both modes (never detectable — the only thing existing_project asks besides name)",
+        "target": "doc/project-overview.md#description + #goals + #non-goals"
+      },
+      {
+        "id": "stack",
+        "prompt": "Tech stack?",
+        "type": "single_select",
+        "required": true,
+        "asked_when": "new_project only. existing_project: auto-accepted from detection (framework + major version + language + package manager); a question only if the ambiguity_gate fires.",
+        "options": [
+          { "id": "nextjs", "label": "Next.js" },
+          { "id": "react-vite", "label": "React (Vite SPA)" },
+          { "id": "other", "label": "Other", "free_text": true, "note": "auto-added by AskUserQuestion; free text e.g. 'Nuxt / Laravel / MySQL', 'Astro', 'SvelteKit'" }
+        ],
+        "detect": "next.config.* -> nextjs; vite.config.* + react dep -> react-vite; artisan -> Laravel + version; manage.py -> Django; a Vue/Svelte/Nuxt manifest -> that framework",
+        "target": "doc/project-overview.md#stack"
+      },
+      {
+        "id": "database",
+        "prompt": "Database?",
+        "type": "single_select",
+        "required": true,
+        "asked_when": "new_project only. existing_project: auto-accepted from detection + full schema enumeration; a question only if backend/API code exists but no DB signal (ambiguity_gate).",
+        "options": [
+          { "id": "postgresql", "label": "PostgreSQL" },
+          { "id": "mysql", "label": "MySQL" },
+          { "id": "mongodb", "label": "MongoDB" },
+          { "id": "none", "label": "None — frontend-only site", "sets_flag": "frontend_only" },
+          { "id": "other", "label": "Other", "free_text": true, "note": "auto-added; e.g. SQLite, Supabase, PlanetScale, DynamoDB" }
+        ],
+        "detect": "prisma provider / config/database.* / docker-compose db image / driver dep (pg, mysql2, mongoose) / .env.example DB_CONNECTION (NEVER .env)",
+        "frontend_only_effects": [
+          "doc/database.md is NOT generated",
+          "doc/project-overview.md#architecture = 'Frontend-only — no database / backend data layer'",
+          "auth is treated as not-applicable",
+          "agent defaults are UNCHANGED"
+        ],
+        "target": "doc/database.md (skipped if none) + doc/project-overview.md#stack"
+      },
+      {
+        "id": "brand",
+        "prompt": "Brand name, and a primary color + tone if you have one (else just the name).",
+        "type": "text",
+        "required": "when any of odin/vision is active",
+        "asked_when": "new_project only (Part 1). existing_project: not asked — name from the name question, primary color + full token system from detection, tone inferred from the description.",
+        "detect": "name; primary color + the whole token system (tailwind theme, :root/.dark custom properties, CVA maps in **/ui/*, ui/* primitives that exist, font links); logo/favicon/og paths",
+        "design_direction": "runs in the design_direction step after the agent set is known",
+        "skip_when": "no UI agent (odin/vision) active -> doc/brandpack.md not generated",
+        "target": "doc/brandpack.md + doc/brand-previews/brand-preview.html"
+      },
+      {
+        "id": "agents",
+        "prompt": "Select agents:",
+        "type": "multi_select",
+        "asked_when": "new_project only. existing_project: all optional agents on (defaults), disclosed in the summary; re-run -> 'update selection only' to change.",
+        "options": [
+          { "id": "nickfury", "label": "NickFury (Orchestrator)", "default": true, "locked": true },
+          { "id": "ironman", "label": "IronMan (Fullstack)", "default": true },
+          { "id": "vision", "label": "Vision (Frontend — small changes only)", "default": true },
+          { "id": "blackpanther", "label": "BlackPanther (Backend)", "default": true },
+          { "id": "odin", "label": "Odin (Full Frontend & Page Builder)", "default": true },
+          { "id": "natasha", "label": "Natasha (Documents)", "default": true },
+          { "id": "hulk", "label": "Hulk (QA Testing)", "default": true },
+          { "id": "groot", "label": "Groot (Deploy)", "default": true }
+        ],
+        "target": "context/root.md#active_agents"
+      },
+      {
+        "id": "skills",
+        "prompt": "Global skills:",
+        "type": "multi_select",
+        "asked_when": "new_project only. existing_project: defaults + auto-check Jira/ClickUp/AWS when their signal is detected; disclosed in the summary.",
+        "options": [
+          { "id": "git", "label": "Git", "default": true },
+          { "id": "docker", "label": "Docker", "default": true },
+          { "id": "jira", "label": "Jira", "default": false, "auto_when": "existing_project + Jira key in commits / .jira config" },
+          { "id": "clickup", "label": "ClickUp", "default": false, "auto_when": "existing_project + .clickup config" },
+          { "id": "aws", "label": "AWS", "default": false, "auto_when": "existing_project + terraform/ or aws-sdk dep" },
+          { "id": "modern-frontend", "label": "Modern Frontend", "default": true, "default_when": "odin or vision selected" }
+        ],
+        "target": "skills/_ref/skills-registry.md#active_global"
+      }
+    ],
+    "design_direction": {
+      "note": "Runs after the agent set is known, only if a UI agent (odin/vision) is active. Writes doc/brandpack.md (18-section design system) + doc/brand-previews/. Token sections concrete; component-implementation sections [TBD] in new_project until built.",
+      "new_project": "derive 3 distinct directions from goal/audience/tone -> write doc/brand-previews/option-{a,b,c}.html (self-contained style guides) -> SendUserFile all 3 -> AskUserQuestion: A / B / C / Skip -> iterate on the pick until approved -> keep as brand-preview.html, delete rejected. Skip -> tokens [TBD], policy sections stay.",
+      "existing_project": "reverse-engineer the token system + Known Issues from the code -> write doc/brandpack.md fully -> render ONE doc/brand-previews/brand-preview.html -> SendUserFile as FYI, do NOT wait -> iterate only if the user replies with a correction."
+    },
+    "extended_topics": {
+      "note": "No longer questions in EITHER mode. new_project: doc/*.md fields ship as honest [TBD]. existing_project: each filled directly from its detection signal; becomes an ambiguity_gate question only if signals conflict or a value the code implies has no signal.",
+      "file_structure": { "detect": "apps/+packages/ -> monorepo; frontend/+backend/ -> separated; single app -> flat", "new_project_default": "flat", "target": "doc/filestructure.md" },
+      "deployment": { "detect": "vercel.json/netlify.toml/wrangler.toml/Dockerfile -> provider; .github/workflows/ or .gitlab-ci.yml -> CI; file names -> environments", "new_project_default": "[TBD] fields", "target": "doc/deployment.md", "written": "regardless of whether Groot is active" },
+      "auth": { "detect": "next-auth/@auth/passport-*/sanctum/socialite/devise+omniauth dep + auth route names -> method + provider(s)", "new_project_default": "Architecture: 'Auth — not yet decided'", "target": "doc/project-overview.md#architecture" },
+      "testing": { "detect": "vitest/jest + supertest + playwright/cypress; phpunit/pest; pytest; rspec -> unit/integration/e2e. .env.testing / sqlite override -> test-DB isolation", "new_project_default": "[TBD] fields", "target": "doc/testing.md", "written": "regardless of whether Hulk is active" },
+      "credentials": { "collected": "never — key names written as [PENDING] for every active skill that needs one; NickFury asks at first use", "target": "credentials/credentials.md" }
+    },
+    "auto_accept_summary": {
+      "note": "existing_project only. After generation, print every auto-accepted value with the file/signal it came from. A reply naming a wrong value -> edit only that one doc/*.md field, re-print that line, do not re-run."
+    }
+  },
+  "cleanup_protocol": {
+    "context_cleanup": {
+      "when": "task_complete",
+      "who": "each_agent",
+      "action": "reset_to_idle_template",
+      "exceptions": "nickfury_approved_persistent_notes"
+    },
+    "memory_compression": {
+      "when": "file_size > 50KB OR entries > 30 days old",
+      "who": "nickfury",
+      "action": "summarize_entries_into_single_pattern",
+      "archive_to": "memory/{agent}-archive-YYYY-MM.md"
+    },
+    "root_memory_compression": {
+      "when": "quarterly",
+      "who": "nickfury",
+      "action": "compress_old_decisions_and_patterns"
+    }
+  }
+}

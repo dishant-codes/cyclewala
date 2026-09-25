@@ -1,0 +1,25 @@
+/* Nothing between <main> and a stacked section may set overflow, transform,
+   filter or perspective — any of those would become the sticky containing
+   block and the stack would collapse back to ordinary scrolling. */
+.stack {
+  position: sticky;
+}
+
+.fromRight {
+  will-change: transform;
+}
+
+/* zero-height anchor target that never moves */
+.anchor {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* the stack is a motion effect — people who ask for less get plain scrolling */
+@media (prefers-reduced-motion: reduce) {
+  .stack {
+    position: static;
+  }
+}

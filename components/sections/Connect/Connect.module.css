@@ -1,0 +1,354 @@
+/* ============ CONNECT — dark CTA panel + plain footer ============ */
+
+.connect {
+  position: relative;
+  background: #fff;
+  padding: 64px 0 0;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- dark CTA panel — echoes the Hero's dark green wash ---------- */
+.panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  background: linear-gradient(165deg, #0f1f0d, #0a150a);
+  color: #fff;
+  text-align: center;
+  padding: 72px 32px;
+  isolation: isolate;
+  /* starts small, grows to full size on scroll-in — see Connect.tsx */
+  transform-origin: center center;
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 0.9s var(--ease-out-expo), opacity 0.9s ease;
+  will-change: transform, opacity;
+}
+.panelSmall {
+  transform: scale(0.82);
+  opacity: 0;
+}
+.glow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(60% 65% at 50% 0%, rgba(76, 175, 46, 0.28), transparent 70%);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+.eyebrow span {
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+.h2 {
+  margin-top: 18px;
+  font-weight: 900;
+  font-size: clamp(34px, 5vw, 62px);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+.lede {
+  margin: 16px auto 0;
+  max-width: 460px;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+/* ---------- CTA buttons ---------- */
+.actions {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 14px 26px;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.primaryBtn {
+  background: var(--accent);
+  color: #fff;
+}
+.primaryBtn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+}
+.secondaryBtn {
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+.secondaryBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ---------- quick-contact info row ---------- */
+.infoRow {
+  margin: 44px auto 0;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  text-align: left;
+}
+.infoItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+.infoIcon {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(76, 175, 46, 0.18);
+  color: var(--accent);
+}
+.infoText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.infoLabel {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.infoValue {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #fff;
+}
+a.infoValue:hover {
+  color: var(--accent);
+}
+
+/* ---------- panel's optional social icons (Instagram/Facebook, when real) ---------- */
+.panelSocials {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.panelSocial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #fff;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.panelSocial:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.panelSocial svg {
+  width: 17px;
+  height: 17px;
+}
+
+/* ---------- footer — plain, as it was before ---------- */
+.footer {
+  margin-top: 76px;
+  border-top: 1px solid var(--line);
+  max-width: var(--max);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 54px 44px 0;
+}
+.footGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+  gap: 32px;
+}
+.footCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13.5px;
+  color: var(--ink-3);
+}
+.footCol h5 {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.footCol a {
+  color: var(--ink-2);
+  transition: color 0.2s ease;
+}
+.footCol a:hover {
+  color: var(--accent);
+}
+.footLogo {
+  height: 44px;
+  width: auto;
+  /* .footCol is a column flexbox — without this, its default
+     align-items:stretch overrides "width: auto" and force-stretches the
+     logo full-width while it stays pinned at 22px tall, squashing it flat */
+  align-self: flex-start;
+}
+.footCol p {
+  line-height: 1.6;
+}
+
+/* real social profiles only — appear once set in lib/site.ts */
+.footSocials {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+.footSocial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ph);
+  border: 1px solid var(--line);
+  color: var(--ink-2);
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.footSocial:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.footSocial svg {
+  width: 16px;
+  height: 16px;
+}
+
+.footBottom {
+  margin-top: 44px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 0 30px;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.footBottom b {
+  color: var(--ink);
+}
+.top {
+  font-weight: 800;
+  color: var(--ink-2);
+  transition: color 0.2s ease;
+}
+.top:hover {
+  color: var(--accent);
+}
+.dev {
+  font-weight: 700;
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.dev:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1000px) {
+  .panel {
+    padding: 56px 24px;
+    border-radius: 26px;
+  }
+  .infoRow {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    padding: 44px 24px 0;
+  }
+  .footGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .footBottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .connect {
+    padding-top: 48px;
+  }
+  .wrap {
+    padding: 0 16px;
+  }
+  .panel {
+    padding: 48px 20px;
+  }
+  .footGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* belt-and-braces: Connect.tsx already skips adding .panelSmall under
+   reduced motion, this just guarantees the panel can never get stuck small */
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    transition: none;
+  }
+  .panelSmall {
+    transform: none;
+    opacity: 1;
+  }
+}

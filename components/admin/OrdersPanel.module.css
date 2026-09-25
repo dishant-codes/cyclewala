@@ -1,0 +1,182 @@
+.hint {
+  font-size: 14px;
+  color: var(--ink-3);
+  padding: 40px 0;
+  text-align: center;
+}
+.error {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b3261e;
+  background: #fdecea;
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.count {
+  font-size: 13.5px;
+  color: var(--ink-3);
+}
+.download {
+  font-size: 13px;
+  font-weight: 800;
+  color: #fff;
+  background: var(--accent);
+  padding: 9px 18px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+.download:hover {
+  background: var(--accent-dark);
+}
+
+.searchWrap {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-3);
+  pointer-events: none;
+}
+.searchInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 11px 14px 11px 38px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  transition: border-color 0.2s ease;
+}
+.searchInput::placeholder {
+  color: var(--ink-3);
+}
+.searchInput:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.searchInput::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(20, 20, 20, 0.06);
+  padding: 18px 20px;
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.id {
+  font-size: 14px;
+  font-weight: 800;
+}
+.date {
+  font-size: 11.5px;
+  color: var(--ink-3);
+  margin-top: 2px;
+}
+
+.status,
+.status_new,
+.status_contacted,
+.status_fulfilled,
+.status_cancelled {
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.status_new {
+  color: #b06a00;
+  border-color: #e0a84d;
+  background: #fff3e0;
+}
+.status_contacted {
+  color: #1e6fb0;
+  border-color: #7cb3e0;
+  background: #eaf4fc;
+}
+.status_fulfilled {
+  color: var(--accent-dark);
+  border-color: rgba(76, 175, 46, 0.4);
+  background: rgba(76, 175, 46, 0.1);
+}
+.status_cancelled {
+  color: var(--ink-3);
+  background: var(--ph);
+}
+
+.customer {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.customerName {
+  font-size: 14.5px;
+  font-weight: 800;
+}
+.customerPhone {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+.customerAddress {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+.customerNote {
+  margin-top: 4px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+.items {
+  list-style: none;
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.items li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  font-weight: 800;
+}

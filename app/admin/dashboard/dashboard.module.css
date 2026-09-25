@@ -1,0 +1,311 @@
+.page {
+  min-height: 100svh;
+  background: var(--ph);
+  padding: 48px 24px 80px;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+/* the logo file's "LE WALA" text is near-white on a transparent background —
+   legible on a dark surface, invisible on this page's light one, so it gets
+   a dark chip behind it (same treatment the site nav gives this logo) */
+.headerLogo {
+  display: block;
+  height: 40px;
+  width: auto;
+  background: #0a0a0c;
+  border-radius: 999px;  
+  padding: 10px 18px;
+  padding: 8px 14px;
+  flex: 0 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.tab,
+.tabOn {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-2);
+}
+.tab:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+.tabOn {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+}
+.h1 {
+  margin-top: 6px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.headActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.add {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 13.5px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+.add:hover {
+  background: var(--accent-dark);
+}
+.viewSite {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.viewSite:hover {
+  color: var(--ink);
+}
+.logout {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-3);
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+.logout:hover {
+  color: var(--ink);
+  border-color: var(--ink-3);
+}
+
+.error {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b3261e;
+  background: #fdecea;
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin-bottom: 16px;
+}
+
+.searchWrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+.searchIcon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-3);
+  pointer-events: none;
+}
+.searchInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 11px 14px 11px 38px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  transition: border-color 0.2s ease;
+}
+.searchInput::placeholder {
+  color: var(--ink-3);
+}
+.searchInput:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+/* the native "clear" (x) button webkit adds to type=search inputs */
+.searchInput::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+.hint {
+  font-size: 14px;
+  color: var(--ink-3);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 56px 1fr auto auto auto;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(20, 20, 20, 0.06);
+  padding: 12px 16px;
+}
+.rowPhoto {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--ph);
+}
+.rowPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rowBrand {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.rowModel {
+  font-size: 15px;
+  font-weight: 800;
+}
+.rowMeta {
+  font-size: 12.5px;
+  color: var(--ink-3);
+  margin-top: 2px;
+}
+.rowPrice {
+  font-size: 14px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.stockOk,
+.stockOut {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.stockOk {
+  color: var(--accent-dark);
+  background: rgba(76, 175, 46, 0.12);
+}
+.stockOut {
+  color: #b3261e;
+  background: #fdecea;
+}
+.rowActions {
+  display: flex;
+  gap: 8px;
+}
+.rowActions button {
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.rowActions button:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+.delete:hover {
+  border-color: #b3261e !important;
+  color: #b3261e !important;
+}
+
+.formHead {
+  margin-bottom: 26px;
+}
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-3);
+  transition: color 0.2s ease;
+}
+.backLink:hover {
+  color: var(--accent-dark);
+}
+.formSub {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.formHead .h1 {
+  margin-top: 10px;
+}
+
+.formCard {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px 40px;
+}
+@media (max-width: 560px) {
+  .formCard {
+    padding: 24px 20px;
+    border-radius: 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .row {
+    grid-template-columns: 48px 1fr;
+    grid-template-areas:
+      "photo info"
+      "price price"
+      "actions actions";
+  }
+  .rowPhoto {
+    grid-area: photo;
+  }
+  .rowInfo {
+    grid-area: info;
+  }
+  .rowPrice {
+    grid-area: price;
+  }
+  .stockOk,
+  .stockOut {
+    display: none;
+  }
+  .rowActions {
+    grid-area: actions;
+  }
+}

@@ -1,0 +1,111 @@
+.page {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ph);
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px 32px;
+}
+
+/* the logo file's "LE WALA" text is near-white on a transparent background —
+   legible on a dark surface, invisible on this card's white one, so it gets
+   a dark chip behind it (same treatment the site nav gives this logo) */
+.logo {
+  display: block;
+  height: 40px;
+  width: auto;
+  margin: 0 auto;
+  background: #0a0a0c;
+  border-radius: 999px;
+  padding: 10px 18px;
+  padding: 9px 16px;
+}
+
+.h1 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.sub {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: var(--ink-3);
+}
+
+.form {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-2);
+}
+
+.input {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 13px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--ink);
+}
+.input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.error {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b3261e;
+  background: #fdecea;
+  border-radius: 8px;
+  padding: 9px 12px;
+}
+
+.submit {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+.submit:hover:not(:disabled) {
+  background: var(--accent-dark);
+}
+.submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.back {
+  display: block;
+  margin-top: 22px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+.back:hover {
+  color: var(--accent);
+}

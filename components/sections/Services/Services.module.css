@@ -1,0 +1,160 @@
+/* ============ SERVICES — priced service cards, booking popup ============ */
+
+.services {
+  position: relative;
+  /* opaque: a stacked section must fully cover the one beneath it */
+  background: #f1f8ee;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 96px 44px 110px;
+}
+
+.header {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+.eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  background: rgba(76, 175, 46, 0.15);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+.h2 {
+  margin-top: 16px;
+  font-weight: 900;
+  font-size: clamp(30px, 3.8vw, 46px);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+.lede {
+  margin-top: 14px;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+
+.grid {
+  max-width: 1040px;
+  margin: 52px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 24px 50px -26px rgba(20, 60, 15, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 32px 60px -24px rgba(20, 60, 15, 0.5);
+}
+
+.cardHead {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 30px 22px 28px;
+  background:
+    radial-gradient(90% 80% at 50% 0%, rgba(255, 255, 255, 0.22), transparent 70%),
+    linear-gradient(160deg, var(--accent), var(--accent-dark));
+}
+.iconCircle {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardHead h3 {
+  margin-top: 16px;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.sub {
+  margin-top: 4px;
+  font-size: 13px;
+  opacity: 0.88;
+}
+.price {
+  margin-top: 14px;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.cardBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 24px 24px;
+}
+.list {
+  list-style: none;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.check {
+  flex: 0 0 auto;
+  display: inline-flex;
+  margin-top: 1px;
+  color: var(--accent);
+}
+
+.book {
+  margin-top: 26px;
+  width: 100%;
+  background: var(--ink);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 14px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+.book:hover {
+  background: var(--accent);
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    /* top padding clears the fixed header when a nav click lands here */
+    padding: 88px 20px 84px;
+  }
+}

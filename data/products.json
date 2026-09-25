@@ -1,0 +1,319 @@
+[
+  {
+    "slug": "neufman-annecy",
+    "brand": "Neufman",
+    "model": "Annecy",
+    "category": "kids",
+    "sizes": "Junior frame",
+    "specs": [
+      "TIG-welded frame, rigid fork",
+      "Single-speed, V-brakes with nylon shoes",
+      "Ralson 2.1 tan-wall tyres",
+      "Digital-printed saddle, hand-stitched grips"
+    ],
+    "price": 13990,
+    "rating": 4.2,
+    "image": "/images/shop/uploads/neufman-annecy-1789627693535.webp",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-25T14:40:02.231Z"
+  },
+  {
+    "slug": "oyekid-mermaid",
+    "brand": "Oyekid",
+    "model": "Mermaid",
+    "category": "kids",
+    "sizes": "12T / 14T",
+    "specs": [
+      "Digital-print PU soft seat, back rest",
+      "Full chain cover, attached basket",
+      "Caliper brakes, EVA tyres or tyre-tube",
+      "Quick-release, colour wheel cards"
+    ],
+    "price": 7000,
+    "rating": 4.4,
+    "image": "/images/shop/uploads/oyekid-mermaid-1789627719531.webp",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:48:40.899Z"
+  },
+  {
+    "slug": "oyekid-shark-tank",
+    "brand": "Oyekid",
+    "model": "Shark Tank",
+    "category": "kids",
+    "sizes": "12T / 14T / 16T / 20T",
+    "specs": [
+      "PU soft seat, back rest & side supports",
+      "Full chain cover, attached basket",
+      "Caliper brakes, EVA tyres or tyre-tube",
+      "Water bottle included"
+    ],
+    "price": 12800,
+    "rating": 4.6,
+    "image": "/images/shop/uploads/oyekid-shark-tank-1789627757911.webp",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:49:19.064Z"
+  },
+  {
+    "slug": "oyekid-yuvaa",
+    "brand": "Oyekid",
+    "model": "Yuvaa",
+    "category": "kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Power brake, quick release, inner cable",
+      "Front suspension or rigid fork",
+      "Double-wall or steel rim (size-dependent)",
+      "Water-decal graphics"
+    ],
+    "price": 12800,
+    "rating": 4.3,
+    "image": "/images/shop/oyekid-yuvaa.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:41:52.590Z"
+  },
+  {
+    "slug": "neufman-ace",
+    "brand": "Neufman",
+    "model": "Ace",
+    "category": "mtb",
+    "sizes": "24T / 26T / 27.5T / 29T (S/S, M/S)",
+    "specs": [
+      "21-speed Shimano (TY300 / EF500) gearing",
+      "Dual disc brakes, lockout C.P fork",
+      "Double-wall alloy rims, Ralson 2.4 tan-wall tyres",
+      "TIG-welded frame, threadless alloy stem"
+    ],
+    "price": 11999,
+    "rating": 4.5,
+    "image": "/images/shop/neufman-ace.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:04.654Z"
+  },
+  {
+    "slug": "neufman-mainz",
+    "brand": "Neufman",
+    "model": "Mainz",
+    "category": "mtb",
+    "sizes": "24T / 26T / 27.5T / 29T (S/S, M/S)",
+    "specs": [
+      "21-speed Microshift gearing",
+      "Dual-tone paint, dual disc brakes",
+      "Double-wall alloy rims, Ralson 2.4 tyres",
+      "Threadless fork, high-quality PU saddle"
+    ],
+    "price": 13999,
+    "rating": 4.1,
+    "image": "/images/shop/neufman-mainz.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:12.488Z"
+  },
+  {
+    "slug": "neufman-torino",
+    "brand": "Neufman",
+    "model": "Torino MTB",
+    "category": "mtb",
+    "sizes": "24T / 26T / 27.5T / 29T (S/S, M/S)",
+    "specs": [
+      "21-speed Shimano gearing",
+      "Dual disc brakes, non-lockout threadless fork",
+      "Double-wall alloy rims, Ralson 2.4 tyres",
+      "Dual-tone paint finish"
+    ],
+    "price": 12599,
+    "rating": 3.9,
+    "image": "/images/shop/neufman-torino.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:20.972Z"
+  },
+  {
+    "slug": "neufman-trailblazer",
+    "brand": "Neufman",
+    "model": "Trailblazer",
+    "category": "mtb",
+    "sizes": "20T / 24T / 26T / 27.5T / 29T (S/S, M/S)",
+    "specs": [
+      "21-speed Microshift gearing",
+      "Duel-crown 42mm gold fork, dual disc brakes",
+      "Double-wall alloy rims, Ralson 2.4 tan-wall tyres",
+      "TIG-welded frame"
+    ],
+    "price": 13000,
+    "rating": 4.7,
+    "image": "/images/shop/neufman-trailblazer.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:41:38.635Z"
+  },
+  {
+    "slug": "neufman-venta",
+    "brand": "Neufman",
+    "model": "Venta",
+    "category": "mtb",
+    "sizes": "24T / 26T / 27.5T / 29T (S/S, M/S)",
+    "specs": [
+      "21-speed Shimano (TY300 / EF500) gearing",
+      "Lockout C.P fork, dual disc brakes",
+      "Double-wall alloy rims, Ralson 2.4 tyres",
+      "High-quality PU saddle"
+    ],
+    "price": 13499,
+    "rating": 4.3,
+    "image": "/images/shop/neufman-venta.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:29.322Z"
+  },
+  {
+    "slug": "neufman-tornado",
+    "brand": "Neufman",
+    "model": "Tornado",
+    "category": "mtb",
+    "sizes": "24T / 26T — FSDD, VB, IBC, NIBC",
+    "specs": [
+      "MIG-welded frame, rigid fork (18G butted column)",
+      "V-brakes with nylon shoes",
+      "Metro/GRL 2.4 tyres, black steel rim",
+      "Jambo chainwheel"
+    ],
+    "price": 14399,
+    "rating": 3.8,
+    "image": "/images/shop/neufman-tornado.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:38.482Z"
+  },
+  {
+    "slug": "denvok-pablo",
+    "brand": "Denvok",
+    "model": "Pablo",
+    "category": "hybrid",
+    "sizes": "24 to 29",
+    "specs": [
+      "Robust lightweight alloy frame, suspension fork",
+      "Single-speed, disc brakes (ceramic pad)",
+      "Double-wall alloy rims, steel handlebar",
+      "Side kick-stand included"
+    ],
+    "price": 12000,
+    "rating": 4.2,
+    "image": "/images/shop/denvok-pablo.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:47.343Z"
+  },
+  {
+    "slug": "denvok-oslo",
+    "brand": "Denvok",
+    "model": "Oslo",
+    "category": "hybrid",
+    "sizes": "24 to 29",
+    "specs": [
+      "Alloy frame, suspension fork, Force 1 chainwheel",
+      "Single-speed, disc brakes (ceramic pad)",
+      "Double-wall alloy rims",
+      "Side kick-stand included"
+    ],
+    "price": 12990,
+    "rating": 4,
+    "image": "/images/shop/denvok-oslo.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:42:55.085Z"
+  },
+  {
+    "slug": "schnell-road-20",
+    "brand": "Schnell",
+    "model": "Road 20",
+    "category": "hybrid",
+    "sizes": "700C x 35",
+    "specs": [
+      "Alloy frame, full alloy suspension fork",
+      "Shimano Acera 24-speed gearing",
+      "Hydraulic disc brakes (Shimano), internal cabling",
+      "Anti-puncture tyres, double-wall alloy rims"
+    ],
+    "price": 14999,
+    "rating": 4.5,
+    "image": "/images/shop/schnell-road-20.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:43:06.998Z"
+  },
+  {
+    "slug": "schnell-sierra-1",
+    "brand": "Schnell",
+    "model": "Sierra 1.0",
+    "category": "hybrid",
+    "sizes": "700C x 35",
+    "specs": [
+      "Alloy frame, Zoom suspension fork",
+      "Shimano Acera 24-speed gearing",
+      "Tektro dual disc brakes",
+      "TPI-30 anti-puncture tyres, double-wall alloy rims"
+    ],
+    "price": 15600,
+    "rating": 4.4,
+    "image": "/images/shop/schnell-sierra-1.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:43:16.887Z"
+  },
+  {
+    "slug": "keysto-town-700c",
+    "brand": "Keysto",
+    "model": "Town 700C",
+    "category": "hybrid",
+    "sizes": "700 x 35C",
+    "specs": [
+      "Hi-tensile steel frame, rigid fork",
+      "Shimano Tourney 21-speed gearing",
+      "Double disc brakes, alloy rims",
+      "700x35C nylon tyres"
+    ],
+    "price": 14000,
+    "rating": 4.1,
+    "image": "/images/shop/keysto-town-700c.jpg",
+    "inStock": true,
+    "createdAt": "2026-09-17T05:33:06.289Z",
+    "updatedAt": "2026-09-17T06:41:30.583Z"
+  },
+  {
+    "slug": "test-model1",
+    "brand": "Test",
+    "model": "model1",
+    "category": "kids",
+    "sizes": "24t",
+    "specs": [
+      "21 speend shinabo gearing"
+    ],
+    "price": 8000,
+    "rating": 4.2,
+    "image": "/images/shop/uploads/test-model1-1789627893223.webp",
+    "inStock": true,
+    "createdAt": "2026-09-17T06:24:07.745Z",
+    "updatedAt": "2026-09-17T06:51:34.206Z"
+  },
+  {
+    "slug": "gauryaa-dfasf",
+    "brand": "gauryaa",
+    "model": "dfasf",
+    "category": "mtb",
+    "sizes": "asdf",
+    "specs": [
+      "asdfasfd"
+    ],
+    "price": 20000,
+    "rating": 4.2,
+    "image": "/images/shop/uploads/gauryaa-dfasf-1789628209948.webp",
+    "inStock": true,
+    "createdAt": "2026-09-17T06:56:51.378Z",
+    "updatedAt": "2026-09-17T06:56:51.378Z"
+  }
+]
