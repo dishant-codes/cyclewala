@@ -74,6 +74,7 @@ export async function writeCollection(name: string, data: unknown): Promise<void
     await put(`collections/${name}.json`, JSON.stringify(data), {
       access: "private",
       addRandomSuffix: false,
+      allowOverwrite: true,
       contentType: "application/json",
     });
     return;
@@ -102,6 +103,7 @@ export async function writeUpload(filename: string, bytes: Buffer, contentType: 
     await put(`uploads/${filename}`, bytes, {
       access: "private",
       addRandomSuffix: false,
+      allowOverwrite: true,
       contentType,
     });
     return;
