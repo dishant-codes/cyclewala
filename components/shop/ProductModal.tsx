@@ -74,6 +74,11 @@ export default function ProductModal({
                   Colour: <strong>{shown.color}</strong>
                 </p>
                 <ColorSwatches variants={[...new Map(product.variants.map((v) => [v.color, v])).values()]} selected={shown.color} onSelect={(c) => pick("color", c)} />
+                {shown.photoOf && (
+                  <p className={styles.photoNote}>
+                    The maker hasn&apos;t published a photo for {shown.color} yet — the photo shown is {shown.photoOf}.
+                  </p>
+                )}
               </div>
             )}
 

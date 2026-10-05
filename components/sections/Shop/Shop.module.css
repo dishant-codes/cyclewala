@@ -1056,3 +1056,12 @@
     text-align: center;
   }
 }
+
+/* shown when the maker has no photo of the selected colour */
+.photoNote {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ink-3);
+}

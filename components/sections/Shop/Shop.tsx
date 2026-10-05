@@ -678,6 +678,7 @@ export default function Shop() {
                             <span className={styles.colorName}>{shown.color}</span>
                           </div>
                         )}
+                        {shown.photoOf && <p className={styles.photoNote}>Photo shown: {shown.photoOf}</p>}
                         {multi && (
                           <p className={styles.optionLine}>{[shown.size, shown.type].filter(Boolean).join(" · ")}</p>
                         )}

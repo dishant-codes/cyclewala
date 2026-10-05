@@ -14,6 +14,9 @@ export type Shown = {
   size: string | undefined;
   type: string | undefined;
   image: string;
+  /** set when the photo shown actually depicts a different colour (the maker
+   *  hasn't published a photo for the selected one) */
+  photoOf: string | undefined;
   price: number | null;
   regularPrice: number | null;
   inStock: boolean;
@@ -46,11 +49,13 @@ export function variantFor(product: Product, sel: Selection = {}): ProductVarian
 export function shownFor(product: Product, sel: Selection = {}): Shown {
   const v = variantFor(product, sel);
   if (v) {
+    const owner = (product.variants ?? []).find((x) => x.image === v.image);
     return {
       color: v.color,
       size: v.size,
       type: v.type,
       image: v.image,
+      photoOf: owner && owner.color !== v.color ? owner.color : undefined,
       price: v.price,
       regularPrice: v.regularPrice ?? null,
       inStock: v.inStock,
@@ -61,6 +66,7 @@ export function shownFor(product: Product, sel: Selection = {}): Shown {
     size: undefined,
     type: undefined,
     image: product.image,
+    photoOf: undefined,
     price: product.price,
     regularPrice: product.regularPrice ?? null,
     inStock: product.inStock,

@@ -286,3 +286,11 @@
     flex: 1;
   }
 }
+
+/* shown when the maker has no photo of the selected colour */
+.photoNote {
+  margin-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-3);
+}

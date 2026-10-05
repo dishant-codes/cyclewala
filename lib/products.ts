@@ -68,7 +68,7 @@ export type Product = {
   updatedAt: string;
 };
 
-let catalogChecked = false;
+let catalogChecked = false; // per server instance: the catalogue is checked once, then cached
 
 /** Copies any catalogue product the live collection hasn't seen yet into it,
  *  once. Needed because the live collection (e.g. Vercel Blob) already exists
