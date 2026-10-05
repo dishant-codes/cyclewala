@@ -669,7 +669,7 @@
 .brandsGrid {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 16px;
 }
 .brandCard {
@@ -769,7 +769,7 @@
     border-radius: 24px;
   }
   .brandsGrid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
@@ -777,6 +777,10 @@
   .brandsGrid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+  /* an odd last card spans the row instead of sitting alone */
+  .brandCard:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
   }
   .brandCard {
     padding: 20px 16px 16px;
@@ -1064,4 +1068,17 @@
   font-weight: 600;
   font-style: italic;
   color: var(--ink-3);
+}
+
+/* six brand tabs: keep them on one line and let them scroll sideways if the screen is narrow */
+.browseTabs {
+  grid-auto-columns: minmax(104px, 1fr);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.browseTabs::-webkit-scrollbar {
+  display: none;
+}
+.browseTabHint {
+  display: none;
 }

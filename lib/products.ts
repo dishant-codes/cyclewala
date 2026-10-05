@@ -16,6 +16,8 @@ import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
 import NEUFMAN_CATALOG from "@/data/neufman-catalog.json";
 import SCHNELL_CATALOG from "@/data/schnell-catalog.json";
 import HERO_CATALOG from "@/data/hero-catalog.json";
+import KEYSTO_CATALOG from "@/data/keysto-catalog.json";
+import HERCULES_CATALOG from "@/data/hercules-catalog.json";
 
 const COLLECTION = "products";
 /** slugs of catalogue products already copied into the live collection */
@@ -83,6 +85,8 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
     ...(NEUFMAN_CATALOG as unknown as Entry[]),
     ...(SCHNELL_CATALOG as unknown as Entry[]),
     ...(HERO_CATALOG as unknown as Entry[]),
+    ...(KEYSTO_CATALOG as unknown as Entry[]),
+    ...(HERCULES_CATALOG as unknown as Entry[]),
   ];
   const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {

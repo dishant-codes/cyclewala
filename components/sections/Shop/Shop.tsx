@@ -23,6 +23,8 @@ const BRANDS = [
   { name: "Oyekid", note: "Dedicated kids' cycles, sized to grow with your child.", logo: "/images/logo/oyekidlogo.png" },
   // wordmark from herocycles.com (white on black tile)
   { name: "Hero", note: "Everyday, kids' and sports cycles from a household name.", logo: "/images/logo/herologo.svg" },
+  // logo from hercules.in (white wordmark on a dark tile)
+  { name: "Hercules", note: "Hercules & Roadeo MTBs, geared and single-speed, plus e-bikes.", logo: "/images/logo/herculeslogo.svg" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -60,14 +62,37 @@ const HERO_GROUPS = [
   { id: "Hero Junior", label: "Junior" },
   { id: "Hero MTB", label: "MTB" },
 ];
-const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS, ...SCHNELL_GROUPS, ...HERO_GROUPS];
-const GROUPS_BY_TAB = { oyekid: OYEKID_GROUPS, neufman: NEUFMAN_GROUPS, schnell: SCHNELL_GROUPS, hero: HERO_GROUPS } as const;
+/* Keysto's range types (trinitycyclesindia.com categories). */
+const KEYSTO_GROUPS = [
+  { id: "Keysto MTB", label: "MTB" },
+  { id: "Keysto ATB", label: "ATB" },
+  { id: "Keysto Women", label: "Women" },
+  { id: "Keysto Hybrid", label: "Hybrid" },
+  { id: "Keysto Kids", label: "Kids" },
+];
+/* Hercules' ranges (hercules.in). */
+const HERCULES_GROUPS = [
+  { id: "Hercules MTB", label: "MTB" },
+  { id: "Hercules Roadeo", label: "Roadeo" },
+  { id: "Hercules E-Bike", label: "E-Bike" },
+];
+const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS, ...SCHNELL_GROUPS, ...HERO_GROUPS, ...KEYSTO_GROUPS, ...HERCULES_GROUPS];
+const GROUPS_BY_TAB = {
+  oyekid: OYEKID_GROUPS,
+  neufman: NEUFMAN_GROUPS,
+  schnell: SCHNELL_GROUPS,
+  hero: HERO_GROUPS,
+  keysto: KEYSTO_GROUPS,
+  hercules: HERCULES_GROUPS,
+} as const;
 
 const BROWSE_TABS = [
   { id: "oyekid", name: "Oyekid", hint: "Shop by age", logo: "/images/logo/oyekidlogo.png" },
   { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
   { id: "schnell", name: "Schnell", hint: "Shop by type", logo: "/images/logo/schnelllogo.png" },
   { id: "hero", name: "Hero", hint: "Shop by type", logo: "/images/logo/herologo.svg" },
+  { id: "keysto", name: "Keysto", hint: "Shop by type", logo: "/images/logo/keystologo.png" },
+  { id: "hercules", name: "Hercules", hint: "Shop by type", logo: "/images/logo/herculeslogo.svg" },
 ] as const;
 
 /* "Featured" order: the first screen of the shop is what draws people in, so it leads with
@@ -221,7 +246,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -473,6 +498,38 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
+              <FilterSection icon={Icon.bike} title="Keysto · Shop by Type">
+                <ul className={styles.checkList}>
+                  {KEYSTO_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
+              <FilterSection icon={Icon.bike} title="Hercules · Shop by Type">
+                <ul className={styles.checkList}>
+                  {HERCULES_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -524,7 +581,7 @@ export default function Shop() {
                     </button>
                   ))}
                 </div>
-                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : `${browseTab === "neufman" ? "Neufman" : browseTab === "schnell" ? "Schnell" : "Hero"} by type`}>
+                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : `${BROWSE_TABS.find((t) => t.id === browseTab)?.name ?? ""} by type`}>
                   <button
                     type="button"
                     aria-pressed={selectedGroups.length === 0}
