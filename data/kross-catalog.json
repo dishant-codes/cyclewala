@@ -229,7 +229,7 @@
         "image": "/kross/lope-silver-red.webp",
         "price": 4320,
         "regularPrice": 5400,
-        "inStock": false,
+        "inStock": true,
         "sku": "409113",
         "type": "IBC"
       },
@@ -906,7 +906,7 @@
     "regularPrice": 10000,
     "rating": 0,
     "image": "/kross/v-rock-superstar-cream.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Cream",
@@ -915,7 +915,7 @@
         "image": "/kross/v-rock-superstar-cream.webp",
         "price": 5299,
         "regularPrice": 10000,
-        "inStock": false,
+        "inStock": true,
         "sku": "409475"
       }
     ],
@@ -1174,7 +1174,7 @@
         "image": "/kross/crush-pro-glossy-black.webp",
         "price": 4419,
         "regularPrice": 5500,
-        "inStock": false,
+        "inStock": true,
         "sku": "408313"
       },
       {
@@ -1216,7 +1216,7 @@
         "image": "/kross/maximus-pro-blue.webp",
         "price": 11840,
         "regularPrice": 14800,
-        "inStock": false,
+        "inStock": true,
         "sku": "408582"
       },
       {
@@ -1266,7 +1266,7 @@
         "image": "/kross/maximus-pro-grey-2.webp",
         "price": 11849,
         "regularPrice": 14800,
-        "inStock": false,
+        "inStock": true,
         "sku": "408698"
       },
       {
@@ -1339,7 +1339,7 @@
         "image": "/kross/mtb-steel-frame-black.webp",
         "price": 9499,
         "regularPrice": 16800,
-        "inStock": false,
+        "inStock": true,
         "sku": "409505",
         "type": "21-Speed"
       },
@@ -1372,7 +1372,7 @@
         "image": "/kross/mtb-steel-frame-army-green-2.webp",
         "price": 6999,
         "regularPrice": 10000,
-        "inStock": false,
+        "inStock": true,
         "sku": "409497",
         "type": "Single Speed"
       },

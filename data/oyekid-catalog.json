@@ -333,7 +333,7 @@
         "image": "/oykid/swag-12t-ibc-black-grey.webp",
         "price": 3879,
         "regularPrice": 6299,
-        "inStock": false,
+        "inStock": true,
         "sku": "OK-SWAG-12"
       },
       {

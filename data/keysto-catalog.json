@@ -716,7 +716,7 @@
         "image": "/keysto/cyler-2-0-cs-2026-ms-mtb-silver-orange.webp",
         "price": 17590,
         "regularPrice": 17590,
-        "inStock": false,
+        "inStock": true,
         "sku": "KEYSTO085"
       }
     ],

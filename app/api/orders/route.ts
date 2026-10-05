@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createOrder, type OrderItem } from "@/lib/orders";
 import { getProductBySlug } from "@/lib/products";
-import { rateLimit, tooMany } from "@/lib/rate-limit";
+import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
 import { isValidIndianMobile } from "@/lib/validate";
 
 /* Public endpoint — anyone checking out submits here, no auth (this is the
@@ -13,8 +13,13 @@ import { isValidIndianMobile } from "@/lib/validate";
 const clip = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "");
 
 export async function POST(request: NextRequest) {
-  // 6 orders per hour per address is plenty for a real customer
-  if (!rateLimit(request, "order", 6, 60 * 60_000)) return tooMany();
+  /* Two guards, neither of which can lock out a real customer:
+     - orders actually placed: 30 an hour per address (a household, a shop counter or a mobile
+       carrier sharing one address can order plenty). Only a SUCCESS counts, so a missing option
+       or a typo never uses up an allowance.
+     - raw attempts: a generous burst limit that only a script hammering the endpoint would hit. */
+  if (!rateLimitPeek(request, "order", 30, 60 * 60_000)) return tooMany();
+  if (!rateLimit(request, "order-attempt", 120, 10 * 60_000)) return tooMany();
 
   try {
     const body = await request.json();
@@ -93,6 +98,7 @@ export async function POST(request: NextRequest) {
       items: cleanItems,
     });
 
+    rateLimitRecord(request, "order");
     return NextResponse.json({ id: order.id, total: order.total }, { status: 201 });
   } catch (error) {
     console.error("[orders] Failed to place order", error);

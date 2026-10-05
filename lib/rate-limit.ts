@@ -14,15 +14,17 @@ import type { NextRequest } from "next/server";
 const hits = new Map<string, number[]>();
 let lastSweep = 0;
 
+/* Only enforced in production. While developing (npm run dev) everything comes
+   from the same address, so testing the order flow a few times would lock you
+   out of your own shop. */
+const ENFORCED = process.env.NODE_ENV === "production";
+
 export function clientIp(request: NextRequest): string {
   const fwd = request.headers.get("x-forwarded-for");
   return fwd?.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
 }
 
-/** true = allowed, false = over the limit. */
-export function rateLimit(request: NextRequest, bucket: string, max: number, windowMs: number): boolean {
-  const now = Date.now();
-
+function sweep(now: number) {
   // drop stale keys now and then so the map can't grow forever
   if (now - lastSweep > 60_000) {
     lastSweep = now;
@@ -30,6 +32,33 @@ export function rateLimit(request: NextRequest, bucket: string, max: number, win
       if (!stamps.some((t) => now - t < 3_600_000)) hits.delete(key);
     }
   }
+}
+
+/** Is this address still under `max` events in the window? Records nothing —
+ *  pair with rateLimitRecord() for things that should only count once they
+ *  actually succeed (a placed order), so a typo never uses up an allowance. */
+export function rateLimitPeek(request: NextRequest, bucket: string, max: number, windowMs: number): boolean {
+  if (!ENFORCED) return true;
+  const now = Date.now();
+  sweep(now);
+  const recent = (hits.get(`${bucket}:${clientIp(request)}`) ?? []).filter((t) => now - t < windowMs);
+  return recent.length < max;
+}
+
+export function rateLimitRecord(request: NextRequest, bucket: string): void {
+  if (!ENFORCED) return;
+  const key = `${bucket}:${clientIp(request)}`;
+  const stamps = hits.get(key) ?? [];
+  stamps.push(Date.now());
+  hits.set(key, stamps);
+}
+
+/** true = allowed, false = over the limit. Counts every call. */
+export function rateLimit(request: NextRequest, bucket: string, max: number, windowMs: number): boolean {
+  if (!ENFORCED) return true;
+  const now = Date.now();
+
+  sweep(now);
 
   const key = `${bucket}:${clientIp(request)}`;
   const recent = (hits.get(key) ?? []).filter((t) => now - t < windowMs);
