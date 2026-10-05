@@ -835,3 +835,29 @@
     align-items: flex-start;
   }
 }
+
+/* colourway swatches + MRP on the product cards */
+.cardColors {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.colorName {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.mrp {
+  margin-left: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+.off {
+  margin-left: 6px;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: #1b8a4b;
+}

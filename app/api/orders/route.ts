@@ -38,27 +38,47 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Too many different cycles in one order" }, { status: 400 });
     }
 
-    // merge repeats of the same cycle, then price every line from the catalogue
-    const qtyBySlug = new Map<string, number>();
+    // merge repeats of the same cycle + colour, then price every line from the catalogue
+    const qtyByLine = new Map<string, { slug: string; color: string; qty: number }>();
     for (const i of items) {
       const slug = clip(i?.slug, 80);
+      const color = clip(i?.color, 60);
       const qty = Math.max(1, Math.min(20, Math.floor(Number(i?.qty)) || 1));
-      qtyBySlug.set(slug, Math.min(20, (qtyBySlug.get(slug) ?? 0) + qty));
+      const key = `${slug}|${color}`;
+      const line = qtyByLine.get(key);
+      qtyByLine.set(key, { slug, color, qty: Math.min(20, (line?.qty ?? 0) + qty) });
     }
 
     const cleanItems: OrderItem[] = [];
-    for (const [slug, qty] of qtyBySlug) {
+    for (const { slug, color, qty } of qtyByLine.values()) {
       const product = await getProductBySlug(slug);
       if (!product) {
         return NextResponse.json({ error: "A cycle in your list is no longer available" }, { status: 400 });
       }
-      if (!product.inStock) {
+      // colourway cycles: the colour must be one the product really has, and
+      // that colour's own price/stock apply
+      let price = product.price;
+      let inStock = product.inStock;
+      let chosenColor: string | undefined;
+      if (product.variants?.length) {
+        const variant = product.variants.find((v) => v.color.toLowerCase() === color.toLowerCase());
+        if (!variant) {
+          return NextResponse.json(
+            { error: `Please choose a colour for ${product.brand} ${product.model}` },
+            { status: 400 }
+          );
+        }
+        price = variant.price;
+        inStock = variant.inStock;
+        chosenColor = variant.color;
+      }
+      if (!inStock) {
         return NextResponse.json(
-          { error: `${product.brand} ${product.model} is out of stock right now` },
+          { error: `${product.brand} ${product.model}${chosenColor ? ` (${chosenColor})` : ""} is out of stock right now` },
           { status: 400 }
         );
       }
-      cleanItems.push({ slug: product.slug, brand: product.brand, model: product.model, price: product.price, qty });
+      cleanItems.push({ slug: product.slug, color: chosenColor, brand: product.brand, model: product.model, price, qty });
     }
 
     const order = await createOrder({

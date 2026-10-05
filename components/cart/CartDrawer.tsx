@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useCart } from "@/lib/cart";
+import { cartKey, useCart } from "@/lib/cart";
 import { SHOP } from "@/lib/site";
 import { isValidIndianMobile, PHONE_HINT } from "@/lib/validate";
 import styles from "./CartDrawer.module.css";
@@ -62,7 +62,7 @@ export default function CartDrawer() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           customer: { name, phone, address, note },
-          items: items.map((i) => ({ slug: i.slug, brand: i.brand, model: i.model, price: i.price, qty: i.qty })),
+          items: items.map((i) => ({ slug: i.slug, color: i.color, brand: i.brand, model: i.model, price: i.price, qty: i.qty })),
         }),
       });
       const data = await res.json();
@@ -110,9 +110,10 @@ export default function CartDrawer() {
             <div className={styles.checkoutScroll}>
               <div className={styles.checkoutItems}>
                 {items.map((i) => (
-                  <div className={styles.checkoutItem} key={i.slug}>
+                  <div className={styles.checkoutItem} key={cartKey(i)}>
                     <span>
-                      {i.brand} {i.model} × {i.qty}
+                      {i.brand} {i.model}
+                      {i.color ? ` (${i.color})` : ""} × {i.qty}
                     </span>
                     <span>{i.price === null ? "Add: price" : `₹${(i.price * i.qty).toLocaleString("en-IN")}`}</span>
                   </div>
@@ -169,7 +170,7 @@ export default function CartDrawer() {
           <>
             <div className={styles.items}>
               {items.map((item) => (
-                <div className={styles.item} key={item.slug}>
+                <div className={styles.item} key={cartKey(item)}>
                   <div className={styles.itemPhoto}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={item.image} alt="" />
@@ -177,20 +178,21 @@ export default function CartDrawer() {
                   <div className={styles.itemInfo}>
                     <p className={styles.itemBrand}>{item.brand}</p>
                     <p className={styles.itemModel}>{item.model}</p>
+                    {item.color && <p className={styles.itemBrand}>Colour: {item.color}</p>}
                     <p className={styles.itemPrice}>
                       {item.price === null ? "Add: price" : `₹${item.price.toLocaleString("en-IN")}`}
                     </p>
                   </div>
                   <div className={styles.itemQty}>
-                    <button onClick={() => setQty(item.slug, item.qty - 1)} aria-label="Decrease">
+                    <button onClick={() => setQty(cartKey(item), item.qty - 1)} aria-label="Decrease">
                       −
                     </button>
                     <span>{item.qty}</span>
-                    <button onClick={() => setQty(item.slug, item.qty + 1)} aria-label="Increase">
+                    <button onClick={() => setQty(cartKey(item), item.qty + 1)} aria-label="Increase">
                       +
                     </button>
                   </div>
-                  <button className={styles.remove} onClick={() => removeFromCart(item.slug)} aria-label="Remove">
+                  <button className={styles.remove} onClick={() => removeFromCart(cartKey(item))} aria-label="Remove">
                     ×
                   </button>
                 </div>
