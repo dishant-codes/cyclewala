@@ -171,7 +171,7 @@
   position: relative;
   margin-top: 84px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border-radius: 26px;
   overflow: hidden;
   isolation: isolate;
@@ -614,6 +614,14 @@
   }
   .stats {
     border-radius: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* 2 x 2 tiles: no stray divider at the start of a row, a line between the rows */
+  .stat:nth-child(odd) {
+    border-left: 0;
+  }
+  .stat:nth-child(n + 3) {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
   }
   .stat {
     padding: 26px 6px;

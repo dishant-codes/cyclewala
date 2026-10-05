@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./About.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -82,12 +82,12 @@ const MILESTONES: { year: string; title: string; story: string; icon: keyof type
   },
 ];
 
-/* Real, defensible numbers only — no fabricated customer/repair counts. */
-const STATS = [
-  { value: "2020", label: "Founded in" },
-  { value: "5", label: "Brands stocked" },
-  { value: "3", label: "Cycle categories" },
-];
+/* Real, defensible numbers only — no fabricated customer/repair counts. The brand, category and
+   model counts are read from the live catalogue (below), so they grow by themselves when brands or
+   cycles are added in the admin; these are what shows until it loads. */
+const FALLBACK_COUNTS = { brands: 10, categories: 4, models: "400+" };
+
+type CatalogueRow = { brand: string; category: string };
 
 /* Honest, generic highlights consistent with the shop's own real story
    above — no fabricated certifications or e-commerce features. */
@@ -101,6 +101,28 @@ const HIGHLIGHTS: { title: string; body: string; icon: keyof typeof ICONS }[] = 
 export default function About() {
   const { t } = useLang();
   const zigRef = useRef<HTMLOListElement>(null);
+  const [counts, setCounts] = useState(FALLBACK_COUNTS);
+
+  useEffect(() => {
+    fetch("/api/products")
+      .then((r) => r.json())
+      .then((rows: CatalogueRow[]) => {
+        if (!Array.isArray(rows) || rows.length === 0) return;
+        const brands = new Set(rows.map((p) => p.brand.trim().toLowerCase()).filter(Boolean)).size;
+        const categories = new Set(rows.map((p) => p.category)).size;
+        // "410+" rather than an exact figure that is stale the moment a cycle is added
+        const models = rows.length >= 20 ? `${Math.floor(rows.length / 10) * 10}+` : String(rows.length);
+        setCounts({ brands, categories, models });
+      })
+      .catch(() => {});
+  }, []);
+
+  const STATS = [
+    { value: "2020", label: "Founded in" },
+    { value: String(counts.brands), label: "Brands stocked" },
+    { value: String(counts.models), label: "Cycle models" },
+    { value: String(counts.categories), label: "Cycle categories" },
+  ];
 
   /* The journey draws itself as you reach it: each milestone fades in from its own side, its
      node pops, and the green line grows down to the newest one. One-shot IntersectionObserver

@@ -180,6 +180,7 @@ export default function Connect() {
             <a href="#shop">Kids&apos; Cycles</a>
             <a href="#shop">Mountain Cycles</a>
             <a href="#shop">City & Hybrid</a>
+            <a href="#shop">E-Bikes</a>
           </div>
 
           <div className={styles.footCol}>

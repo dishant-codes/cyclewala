@@ -11,8 +11,7 @@ import { discountPct, needsOptions, selectOption, shownFor, type Selection, type
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
 
-/* The 5 brands behind the models above — real, from the shop's own supplier
-   catalogues (content/catalogues/). */
+/* The brands behind the models above — real, taken from each brand's own catalogue or website. */
 const BRANDS = [
   { name: "Neufman", note: "Mountain cycles — TIG-welded frames, disc brakes.", logo: "/images/logo/NeufmanLogo.png" },
   { name: "Denvok", note: "City, hybrid and kids' cycles for everyday riding.", logo: "/images/logo/denvoklogo.png" },
