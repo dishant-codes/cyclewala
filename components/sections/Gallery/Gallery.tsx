@@ -126,14 +126,20 @@ export default function Gallery() {
 
     /* the Scene holds the wall on screen; this reads progress across its
        runway so the drift is driven by scroll while it is the active frame */
-    const st = ScrollTrigger.create({
-      ...sceneScrub(el),
-      scrub: true,
-      invalidateOnRefresh: true,
-      onUpdate: (self) => {
-        scrollPush = self.progress * LIFT * 8;
-      },
-    });
+    /* phones: the wall just drifts on its own — a scrubbed trigger would add
+       per-scroll-frame work on top of the drift, which is what made touch
+       scrolling stutter there */
+    const compact = window.matchMedia("(max-width: 1000px)").matches;
+    const st = compact
+      ? null
+      : ScrollTrigger.create({
+          ...sceneScrub(el),
+          scrub: true,
+          invalidateOnRefresh: true,
+          onUpdate: (self) => {
+            scrollPush = self.progress * LIFT * 8;
+          },
+        });
 
     /* Pointer parallax — the whole wall leans. Mouse only: on a touch screen
        `pointermove` fires while dragging, so every swipe used to lurch the
@@ -178,7 +184,7 @@ export default function Gallery() {
       if (running) gsap.ticker.remove(tick);
       io.disconnect();
       ro.disconnect();
-      st.kill();
+      st?.kill();
       if (onMove) el.removeEventListener("pointermove", onMove);
     };
   }, [cols]);

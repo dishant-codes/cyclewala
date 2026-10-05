@@ -182,6 +182,9 @@ export default function Shop() {
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman">("oyekid");
+  /* phones: the filter panel is tucked behind a button instead of pushing the
+     cycles ~1500px down the page */
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [picked, setPicked] = useState<Record<string, Selection>>({});
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
@@ -318,7 +321,17 @@ export default function Shop() {
         ) : (
           <div className={styles.layout}>
             {/* ---------- sidebar filters ---------- */}
-            <aside className={styles.sidebar}>
+            <button
+              type="button"
+              className={styles.filterToggle}
+              aria-expanded={filtersOpen}
+              onClick={() => setFiltersOpen((o) => !o)}
+            >
+              <span className={styles.sidebarHeadIcon}>{Icon.sliders}</span>
+              Filters{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
+              <span className={styles.filterToggleChevron}>{filtersOpen ? "▴" : "▾"}</span>
+            </button>
+            <aside className={`${styles.sidebar} ${filtersOpen ? styles.sidebarOpen : ""}`}>
               <div className={styles.sidebarHead}>
                 <h2>
                   <span className={styles.sidebarHeadIcon}>{Icon.sliders}</span> Filters

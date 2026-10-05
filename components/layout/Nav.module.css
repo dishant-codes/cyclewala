@@ -345,3 +345,24 @@
     display: none;
   }
 }
+
+/* phones: no live backdrop blur on the header or sheet — it re-blurs the page
+   behind it on every scroll frame; a firmer white keeps it legible instead */
+@media (max-width: 1000px) {
+  .main {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.96);
+  }
+  .sheet {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* phones: cart icon gets a proper touch target */
+@media (max-width: 1000px) {
+  .cartBtn {
+    padding: 11px;
+  }
+}

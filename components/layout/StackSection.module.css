@@ -23,3 +23,19 @@
     position: static;
   }
 }
+
+/* phones & tablets: ordinary vertical scrolling — no sticky stack, no sideways
+   slide (those re-paint tall sections every scroll frame and made touch
+   scrolling stutter). !important beats the inline values JS sets on desktop. */
+@media (max-width: 1000px) {
+  .stack {
+    position: static !important;
+    top: auto !important;
+  }
+  .fromRight {
+    transform: none !important;
+    box-shadow: none !important;
+    visibility: visible !important;
+    will-change: auto;
+  }
+}

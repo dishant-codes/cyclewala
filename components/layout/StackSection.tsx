@@ -36,6 +36,12 @@ import styles from "./StackSection.module.css";
    below the top) always shows the section fully in place. */
 const SETTLE = 130;
 
+/* Phones and tablets get plain vertical scrolling. The stack (sticky layers)
+   and the sideways slide re-measure and re-paint tall sections on every
+   scroll frame, which is what made touch scrolling stutter. The same
+   breakpoint is used in StackSection.module.css and Scene.module.css. */
+const COMPACT = "(max-width: 1000px)";
+
 export default function StackSection({
   children,
   order,
@@ -54,10 +60,19 @@ export default function StackSection({
   /* undefined until measured, so nothing pins (and nothing flashes) before
      the first measurement */
   const [top, setTop] = useState<number | undefined>(undefined);
+  const [compact, setCompact] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia(COMPACT);
+    const sync = () => setCompact(mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || compact) return;
     const measure = () => setTop(Math.min(0, Math.round(window.innerHeight - el.offsetHeight)));
     measure();
     const ro = new ResizeObserver(measure);
@@ -67,10 +82,10 @@ export default function StackSection({
       ro.disconnect();
       window.removeEventListener("resize", measure);
     };
-  }, []);
+  }, [compact]);
 
   useEffect(() => {
-    if (enter !== "right") return;
+    if (enter !== "right" || compact) return;
     const el = ref.current;
     const anchor = anchorRef.current;
     if (!el || !anchor) return;
@@ -113,7 +128,7 @@ export default function StackSection({
       el.style.boxShadow = "";
       el.style.visibility = "";
     };
-  }, [enter]);
+  }, [enter, compact]);
 
   return (
     <>

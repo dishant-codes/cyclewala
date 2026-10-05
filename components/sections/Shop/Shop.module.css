@@ -793,17 +793,16 @@
   .layout {
     grid-template-columns: minmax(0, 1fr);
   }
+  /* the filter panel opens from a button; the section lists stack in one column */
+  .filterToggle {
+    display: flex;
+  }
   .sidebar {
+    display: none;
     position: static;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
   }
-  .sidebarHead {
-    width: 100%;
-  }
-  .search {
-    flex: 1 1 200px;
+  .sidebarOpen {
+    display: flex;
   }
 }
 
@@ -1011,4 +1010,37 @@
 .browse {
   max-width: 100%;
   min-width: 0;
+}
+
+/* phones: no live backdrop blur — re-blurring on every scroll frame is costly */
+@media (max-width: 1000px) {
+  .brandCard {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* "Filters" button — phones only */
+.filterToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--ink);
+  cursor: pointer;
+}
+.filterToggleChevron {
+  margin-left: auto;
+  color: var(--ink-3);
+}
+@media (min-width: 861px) {
+  .filterToggle {
+    display: none;
+  }
 }
