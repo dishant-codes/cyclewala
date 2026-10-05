@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import type { Product } from "@/lib/products";
 import { adminFetch, adminLogout, hasAdminSession } from "@/lib/admin-client";
 import ProductForm from "@/components/admin/ProductForm";
+import BrandSections from "@/components/admin/BrandSections";
 import OrdersPanel from "@/components/admin/OrdersPanel";
 import BookingsPanel from "@/components/admin/BookingsPanel";
 import styles from "./dashboard.module.css";
@@ -22,6 +23,8 @@ export default function AdminDashboard() {
   const [tab, setTab] = useState<"cycles" | "orders" | "bookings">("cycles");
   const [products, setProducts] = useState<Product[] | null>(null);
   const [editing, setEditing] = useState<Product | "new" | null>(null);
+  /** the brand the "add" form opens with ("" = type a new one) */
+  const [newBrand, setNewBrand] = useState("");
   const [error, setError] = useState("");
   const [search, setSearch] = useState("");
 
@@ -88,6 +91,8 @@ export default function AdminDashboard() {
           <div className={styles.formCard}>
             <ProductForm
               initial={editing === "new" ? undefined : editing}
+              defaultBrand={editing === "new" ? newBrand : undefined}
+              brands={[...new Set((products ?? []).map((p) => p.brand.trim()).filter(Boolean))].sort()}
               onCancel={() => setEditing(null)}
               onSaved={() => {
                 setEditing(null);
@@ -114,7 +119,13 @@ export default function AdminDashboard() {
           </div>
           <div className={styles.headActions}>
             {tab === "cycles" && (
-              <button className={styles.add} onClick={() => setEditing("new")}>
+              <button
+                className={styles.add}
+                onClick={() => {
+                  setNewBrand("");
+                  setEditing("new");
+                }}
+              >
                 + Add Cycle
               </button>
             )}
@@ -150,7 +161,7 @@ export default function AdminDashboard() {
             <input
               type="search"
               className={styles.searchInput}
-              placeholder="Search by brand, model or category…"
+              placeholder="Search all brands by model, size or category…"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               aria-label="Search cycles"
@@ -169,35 +180,16 @@ export default function AdminDashboard() {
         ) : filteredProducts && filteredProducts.length === 0 ? (
           <p className={styles.hint}>No cycles match &quot;{search}&quot;.</p>
         ) : (
-          <div className={styles.table}>
-            {(filteredProducts ?? products).map((p) => (
-              <div className={styles.row} key={p.slug}>
-                <div className={styles.rowPhoto}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.image} alt="" />
-                </div>
-                <div className={styles.rowInfo}>
-                  <p className={styles.rowBrand}>{p.brand}</p>
-                  <p className={styles.rowModel}>{p.model}</p>
-                  <p className={styles.rowMeta}>
-                    {CATEGORY_LABEL[p.category]} · {p.sizes}
-                  </p>
-                </div>
-                <div className={styles.rowPrice}>
-                  {p.price != null ? `₹${p.price.toLocaleString("en-IN")}` : "Add: price"}
-                </div>
-                <div className={p.inStock ? styles.stockOk : styles.stockOut}>
-                  {p.inStock ? "In stock" : "Out of stock"}
-                </div>
-                <div className={styles.rowActions}>
-                  <button onClick={() => setEditing(p)}>Edit</button>
-                  <button className={styles.delete} onClick={() => handleDelete(p.slug)}>
-                    Delete
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
+          <BrandSections
+            products={filteredProducts ?? products}
+            searching={q !== ""}
+            onEdit={setEditing}
+            onDelete={handleDelete}
+            onAdd={(brand) => {
+              setNewBrand(brand);
+              setEditing("new");
+            }}
+          />
         )}
       </div>
     </main>
