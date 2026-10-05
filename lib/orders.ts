@@ -13,8 +13,10 @@ const COLLECTION = "orders";
 
 export type OrderItem = {
   slug: string;
-  /** colourway the customer picked, when the cycle comes in several */
+  /** options the customer picked, when the cycle comes in several */
   color?: string;
+  size?: string;
+  type?: string;
   brand: string;
   model: string;
   price: number | null;

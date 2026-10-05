@@ -10,8 +10,10 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 
 export type CartItem = {
   slug: string;
-  /** chosen colourway, for cycles sold in several */
+  /** chosen colour / wheel size / gear setup, for cycles sold in several */
   color?: string;
+  size?: string;
+  type?: string;
   brand: string;
   model: string;
   image: string;
@@ -20,7 +22,12 @@ export type CartItem = {
 };
 
 /** one cart line per cycle + colour */
-export const cartKey = (i: { slug: string; color?: string }) => `${i.slug}|${i.color ?? ""}`;
+export const cartKey = (i: { slug: string; color?: string; size?: string; type?: string }) =>
+  `${i.slug}|${i.color ?? ""}|${i.size ?? ""}|${i.type ?? ""}`;
+
+/** "Blue · 27.5T · 21SPEED" — the chosen options as one readable line */
+export const optionsLabel = (i: { color?: string; size?: string; type?: string }) =>
+  [i.color, i.size, i.type].filter(Boolean).join(" · ");
 
 type CartCtx = {
   items: CartItem[];

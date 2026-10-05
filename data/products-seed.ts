@@ -274,7 +274,7 @@ export const SEED_PRODUCTS: Omit<Product, "createdAt" | "updatedAt">[] = [
   },
 ];
 
-export const CATEGORY_META: { id: "kids" | "mtb" | "hybrid"; label: string; blurb: string; circleImage: string }[] = [
+export const CATEGORY_META: { id: "kids" | "mtb" | "hybrid" | "ebike"; label: string; blurb: string; circleImage: string }[] = [
   {
     id: "kids",
     label: "Kids' Cycles",
@@ -292,5 +292,11 @@ export const CATEGORY_META: { id: "kids" | "mtb" | "hybrid"; label: string; blur
     label: "City & Hybrid",
     blurb: "Everyday riders built for the commute — alloy frames, disc brakes, geared for the road.",
     circleImage: "/images/shop/schnell-road-20.jpg",
+  },
+  {
+    id: "ebike",
+    label: "E-Bikes",
+    blurb: "Electric-assist cycles — Neufman's Caen and ACE E-Bike range.",
+    circleImage: "/neufman/caen-ss-blue-blue-white-2.jpg",
   },
 ];

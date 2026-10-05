@@ -3,6 +3,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
+  /* phones: the address bar sliding away resizes the viewport mid-swipe; without
+     this every such resize would re-run all trigger maths and stutter the scroll */
+  ScrollTrigger.config({ ignoreMobileResize: true });
 }
 
 /* Shared motion vocabulary — 02_UX_AND_INTERACTIONS.md */

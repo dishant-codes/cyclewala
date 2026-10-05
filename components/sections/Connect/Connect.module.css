@@ -352,3 +352,12 @@ a.infoValue:hover {
     opacity: 1;
   }
 }
+
+/* phones: footer links and the top link get a comfortable (44px) touch target */
+@media (max-width: 1000px) {
+  .footer a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}

@@ -14,6 +14,7 @@ const CATEGORY_LABEL: Record<string, string> = {
   kids: "Kids' Cycles",
   mtb: "Mountain Cycles",
   hybrid: "City & Hybrid",
+  ebike: "E-Bikes",
 };
 
 export default function AdminDashboard() {

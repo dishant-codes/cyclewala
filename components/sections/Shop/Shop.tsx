@@ -7,7 +7,7 @@ import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
 import ColorSwatches from "@/components/shop/ColorSwatches";
-import { discountPct, shownFor } from "@/lib/variants";
+import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -21,6 +21,8 @@ const BRANDS = [
   // confirmed against Oyekid's own 2026 product catalogue cover
   // (content/catalogues/Catalog 2026.pdf) — this circular mark is genuinely theirs
   { name: "Oyekid", note: "Dedicated kids' cycles, sized to grow with your child.", logo: "/images/logo/oyekidlogo.png" },
+  // wordmark from herocycles.com (white on black tile)
+  { name: "Hero", note: "Everyday, kids' and sports cycles from a household name.", logo: "/images/logo/herologo.svg" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -34,6 +36,21 @@ const OYEKID_GROUPS = [
   { id: "24T", label: "10-15 Years (24T)" },
   { id: "26T", label: "15+ Years (26T)" },
 ];
+
+/* Neufman's own range types (neufman.com categories) — `group` on each
+   Neufman product. */
+const NEUFMAN_GROUPS = [
+  { id: "E-Bikes", label: "E-Bikes" },
+  { id: "Mountain", label: "Mountain" },
+  { id: "Women's", label: "Women's" },
+  { id: "Kids", label: "Kids" },
+];
+const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS];
+
+const BROWSE_TABS = [
+  { id: "oyekid", name: "Oyekid", hint: "Shop by age", logo: "/images/logo/oyekidlogo.png" },
+  { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
+] as const;
 
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
 
@@ -164,7 +181,11 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [picked, setPicked] = useState<Record<string, string>>({});
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman">("oyekid");
+  /* phones: the filter panel is tucked behind a button instead of pushing the
+     cycles ~1500px down the page */
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [picked, setPicked] = useState<Record<string, Selection>>({});
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
   const [minPrice, setMinPrice] = useState("");
@@ -207,6 +228,12 @@ export default function Shop() {
 
   const toggleCategory = (c: ProductCategory) => {
     setSelectedCategories((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
+  };
+
+  /** open the popup with the card's current colour / size / setup preselected */
+  const openWithOptions = (item: Product, shown: Shown) => {
+    setPicked((prev) => ({ ...prev, [item.slug]: { color: shown.color, size: shown.size, type: shown.type } }));
+    setSelectedProduct(item);
   };
 
   const toggleGroup = (g: string) => {
@@ -294,7 +321,17 @@ export default function Shop() {
         ) : (
           <div className={styles.layout}>
             {/* ---------- sidebar filters ---------- */}
-            <aside className={styles.sidebar}>
+            <button
+              type="button"
+              className={styles.filterToggle}
+              aria-expanded={filtersOpen}
+              onClick={() => setFiltersOpen((o) => !o)}
+            >
+              <span className={styles.sidebarHeadIcon}>{Icon.sliders}</span>
+              Filters{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
+              <span className={styles.filterToggleChevron}>{filtersOpen ? "▴" : "▾"}</span>
+            </button>
+            <aside className={`${styles.sidebar} ${filtersOpen ? styles.sidebarOpen : ""}`}>
               <div className={styles.sidebarHead}>
                 <h2>
                   <span className={styles.sidebarHeadIcon}>{Icon.sliders}</span> Filters
@@ -347,6 +384,22 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
+              <FilterSection icon={Icon.bike} title="Neufman · Shop by Type">
+                <ul className={styles.checkList}>
+                  {NEUFMAN_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -377,7 +430,55 @@ export default function Shop() {
             </aside>
 
             {/* ---------- results ---------- */}
-            <div>
+            <div className={styles.results}>
+              <div className={styles.browse}>
+                <div className={styles.browseTabs} role="tablist" aria-label="Browse by brand">
+                  {BROWSE_TABS.map((t) => (
+                    <button
+                      key={t.id}
+                      type="button"
+                      role="tab"
+                      aria-selected={browseTab === t.id}
+                      className={browseTab === t.id ? styles.browseTabOn : styles.browseTab}
+                      onClick={() => setBrowseTab(t.id)}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={t.logo} alt="" className={styles.browseTabLogo} />
+                      <span>
+                        <span className={styles.browseTabName}>{t.name}</span>
+                        <span className={styles.browseTabHint}>{t.hint}</span>
+                      </span>
+                    </button>
+                  ))}
+                </div>
+                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : "Neufman by type"}>
+                  <button
+                    type="button"
+                    aria-pressed={selectedGroups.length === 0}
+                    className={selectedGroups.length === 0 ? styles.pillOn : styles.pill}
+                    onClick={() => setSelectedGroups([])}
+                  >
+                    All cycles
+                  </button>
+                  {(browseTab === "oyekid" ? OYEKID_GROUPS : NEUFMAN_GROUPS).map((g) => {
+                    const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <button
+                        key={g.id}
+                        type="button"
+                        aria-pressed={on}
+                        className={on ? styles.pillOn : styles.pill}
+                        onClick={() => setSelectedGroups(on ? [] : [g.id])}
+                      >
+                        {g.label}
+                        <span className={styles.pillCount}>{n}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
               <div className={styles.resultsBar}>
                 <p className={styles.count}>{filtered.length} cycles</p>
                 <div className={styles.resultsActions}>
@@ -416,7 +517,7 @@ export default function Shop() {
                   ))}
                   {selectedGroups.map((g) => (
                     <span className={styles.chip} key={g}>
-                      {OYEKID_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
+                      {ALL_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
                     </span>
                   ))}
                   {query && (
@@ -463,6 +564,7 @@ export default function Shop() {
                   {visible.map((item) => {
                     const shown = shownFor(item, picked[item.slug]);
                     const off = discountPct(shown.price, shown.regularPrice);
+                    const multi = needsOptions(item);
                     return (
                     <article className={view === "grid" ? styles.card : styles.cardList} key={item.slug}>
                       <div className={styles.cardPhoto}>
@@ -486,12 +588,25 @@ export default function Shop() {
                           <div className={styles.cardColors}>
                             <ColorSwatches
                               size="sm"
-                              variants={item.variants}
+                              variants={[...new Map(item.variants.map((v) => [v.color, v])).values()]}
                               selected={shown.color}
-                              onSelect={(c) => setPicked((prev) => ({ ...prev, [item.slug]: c }))}
+                              onSelect={(c) =>
+                                setPicked((prev) => ({
+                                  ...prev,
+                                  [item.slug]: selectOption(
+                                    item,
+                                    { color: shown.color, size: shown.size, type: shown.type },
+                                    "color",
+                                    c
+                                  ),
+                                }))
+                              }
                             />
                             <span className={styles.colorName}>{shown.color}</span>
                           </div>
+                        )}
+                        {multi && (
+                          <p className={styles.optionLine}>{[shown.size, shown.type].filter(Boolean).join(" · ")}</p>
                         )}
                         <div className={styles.foot}>
                           <span className={shown.price === null ? styles.priceTbc : styles.price}>
@@ -509,10 +624,7 @@ export default function Shop() {
                               </>
                             )}
                           </span>
-                          <div className={styles.cardCtas}>
-                            <button className={styles.viewBtn} onClick={() => setSelectedProduct(item)}>
-                              View
-                            </button>
+                          <div className={multi ? styles.cardCtasMulti : styles.cardCtas}>
                             <button
                               className={styles.addBtnSmall}
                               disabled={!shown.inStock}
@@ -520,6 +632,8 @@ export default function Shop() {
                                 addToCart({
                                   slug: item.slug,
                                   color: shown.color,
+                                  size: shown.size,
+                                  type: shown.type,
                                   brand: item.brand,
                                   model: item.model,
                                   image: shown.image,
@@ -528,6 +642,9 @@ export default function Shop() {
                               }
                             >
                               Add to Cart
+                            </button>
+                            <button className={styles.viewBtn} onClick={() => openWithOptions(item, shown)}>
+                              {multi ? "Select options" : "View"}
                             </button>
                           </div>
                         </div>
@@ -562,7 +679,7 @@ export default function Shop() {
             <h3 className={styles.brandsTitle}>
               Brands We <em className={styles.brandsEm}>Carry</em>
             </h3>
-            <p className={styles.brandsLede}>The five makers behind every cycle in the shop.</p>
+            <p className={styles.brandsLede}>The makers behind every cycle in the shop.</p>
           </div>
 
           <div className={styles.brandsGrid}>
@@ -582,7 +699,7 @@ export default function Shop() {
                   <span className={styles.brandNote}>{b.note}</span>
                   <span className={styles.brandFoot}>
                     <span className={styles.brandCount}>
-                      {n === null ? " " : `${n} model${n === 1 ? "" : "s"} in shop`}
+                      {n === null ? " " : n === 0 ? "Coming soon" : `${n} model${n === 1 ? "" : "s"} in shop`}
                     </span>
                     <span className={styles.brandGo} aria-hidden="true">
                       View →
@@ -595,7 +712,7 @@ export default function Shop() {
         </div>
       </div>
 
-      {selectedProduct && <ProductModal product={selectedProduct} initialColor={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
+      {selectedProduct && <ProductModal product={selectedProduct} initialSelection={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
     </section>
   );
 }

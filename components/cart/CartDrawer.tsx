@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { cartKey, useCart } from "@/lib/cart";
+import { cartKey, optionsLabel, useCart } from "@/lib/cart";
 import { SHOP } from "@/lib/site";
 import { isValidIndianMobile, PHONE_HINT } from "@/lib/validate";
 import styles from "./CartDrawer.module.css";
@@ -62,7 +62,16 @@ export default function CartDrawer() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           customer: { name, phone, address, note },
-          items: items.map((i) => ({ slug: i.slug, color: i.color, brand: i.brand, model: i.model, price: i.price, qty: i.qty })),
+          items: items.map((i) => ({
+            slug: i.slug,
+            color: i.color,
+            size: i.size,
+            type: i.type,
+            brand: i.brand,
+            model: i.model,
+            price: i.price,
+            qty: i.qty,
+          })),
         }),
       });
       const data = await res.json();
@@ -113,7 +122,7 @@ export default function CartDrawer() {
                   <div className={styles.checkoutItem} key={cartKey(i)}>
                     <span>
                       {i.brand} {i.model}
-                      {i.color ? ` (${i.color})` : ""} × {i.qty}
+                      {optionsLabel(i) ? ` (${optionsLabel(i)})` : ""} × {i.qty}
                     </span>
                     <span>{i.price === null ? "Add: price" : `₹${(i.price * i.qty).toLocaleString("en-IN")}`}</span>
                   </div>
@@ -178,7 +187,7 @@ export default function CartDrawer() {
                   <div className={styles.itemInfo}>
                     <p className={styles.itemBrand}>{item.brand}</p>
                     <p className={styles.itemModel}>{item.model}</p>
-                    {item.color && <p className={styles.itemBrand}>Colour: {item.color}</p>}
+                    {optionsLabel(item) && <p className={styles.itemBrand}>{optionsLabel(item)}</p>}
                     <p className={styles.itemPrice}>
                       {item.price === null ? "Add: price" : `₹${item.price.toLocaleString("en-IN")}`}
                     </p>

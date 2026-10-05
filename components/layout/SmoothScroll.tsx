@@ -13,7 +13,12 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
     let lenis: Lenis | null = null;
     let raf: ((time: number) => void) | null = null;
 
-    if (!prefersReducedMotion()) {
+    /* Lenis re-implements scrolling in JS; on a phone that fights the browser's
+       own momentum scrolling and is the main source of lag, so touch devices
+       and small screens keep native scrolling. */
+    const nativeOnly = window.matchMedia("(max-width: 1000px), (pointer: coarse)").matches;
+
+    if (!prefersReducedMotion() && !nativeOnly) {
       lenis = new Lenis({ lerp: 0.1, wheelMultiplier: 1 });
       lenis.on("scroll", ScrollTrigger.update);
       raf = (time: number) => lenis!.raf(time * 1000);
