@@ -669,7 +669,7 @@
 .brandsGrid {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 16px;
 }
 .brandCard {

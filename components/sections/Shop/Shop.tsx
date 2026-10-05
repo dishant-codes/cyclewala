@@ -21,6 +21,8 @@ const BRANDS = [
   // confirmed against Oyekid's own 2026 product catalogue cover
   // (content/catalogues/Catalog 2026.pdf) — this circular mark is genuinely theirs
   { name: "Oyekid", note: "Dedicated kids' cycles, sized to grow with your child.", logo: "/images/logo/oyekidlogo.png" },
+  // wordmark from herocycles.com (white on black tile)
+  { name: "Hero", note: "Everyday, kids' and sports cycles from a household name.", logo: "/images/logo/herologo.svg" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -591,7 +593,7 @@ export default function Shop() {
             <h3 className={styles.brandsTitle}>
               Brands We <em className={styles.brandsEm}>Carry</em>
             </h3>
-            <p className={styles.brandsLede}>The five makers behind every cycle in the shop.</p>
+            <p className={styles.brandsLede}>The makers behind every cycle in the shop.</p>
           </div>
 
           <div className={styles.brandsGrid}>
@@ -611,7 +613,7 @@ export default function Shop() {
                   <span className={styles.brandNote}>{b.note}</span>
                   <span className={styles.brandFoot}>
                     <span className={styles.brandCount}>
-                      {n === null ? " " : `${n} model${n === 1 ? "" : "s"} in shop`}
+                      {n === null ? " " : n === 0 ? "Coming soon" : `${n} model${n === 1 ? "" : "s"} in shop`}
                     </span>
                     <span className={styles.brandGo} aria-hidden="true">
                       View →
