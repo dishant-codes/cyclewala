@@ -70,7 +70,7 @@ export default function OrdersPanel() {
   const filtered = !q
     ? orders
     : orders.filter((o) =>
-        [o.id, o.customer.name, o.customer.phone, o.customer.address, o.customer.note, ...o.items.map((i) => `${i.brand} ${i.model}`)]
+        [o.id, o.customer.name, o.customer.phone, o.customer.address, o.customer.note, ...o.items.map((i) => `${i.brand} ${i.model} ${i.color ?? ""}`)]
           .filter(Boolean)
           .join(" ")
           .toLowerCase()
@@ -136,7 +136,8 @@ export default function OrdersPanel() {
             {o.items.map((i) => (
               <li key={i.slug}>
                 <span>
-                  {i.brand} {i.model} × {i.qty}
+                  {i.brand} {i.model}
+                  {i.color ? ` (${i.color})` : ""} × {i.qty}
                 </span>
                 <span>{i.price === null ? "Add: price" : `₹${(i.price * i.qty).toLocaleString("en-IN")}`}</span>
               </li>

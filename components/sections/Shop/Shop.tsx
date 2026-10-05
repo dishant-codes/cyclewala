@@ -6,6 +6,8 @@ import type { Product, ProductCategory } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
+import ColorSwatches from "@/components/shop/ColorSwatches";
+import { discountPct, shownFor } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -19,6 +21,18 @@ const BRANDS = [
   // confirmed against Oyekid's own 2026 product catalogue cover
   // (content/catalogues/Catalog 2026.pdf) — this circular mark is genuinely theirs
   { name: "Oyekid", note: "Dedicated kids' cycles, sized to grow with your child.", logo: "/images/logo/oyekidlogo.png" },
+];
+
+/* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
+   product is the wheel size / balance-bike key on the left. */
+const OYEKID_GROUPS = [
+  { id: "Balance Bike", label: "Balance Bike" },
+  { id: "12T", label: "2-3 Years (12T)" },
+  { id: "14T", label: "3-5 Years (14T)" },
+  { id: "16T", label: "5-7 Years (16T)" },
+  { id: "20T", label: "7-9 Years (20T)" },
+  { id: "24T", label: "10-15 Years (24T)" },
+  { id: "26T", label: "15+ Years (26T)" },
 ];
 
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
@@ -149,6 +163,8 @@ export default function Shop() {
   const { addToCart } = useCart();
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
+  const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
+  const [picked, setPicked] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
   const [minPrice, setMinPrice] = useState("");
@@ -178,12 +194,13 @@ export default function Shop() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- a new filter/search/sort result starts back at the compact preview
     setShowAll(false);
-  }, [selectedCategories, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
+  }, [selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
   const scrollCircles = (dir: 1 | -1) => circlesRef.current?.scrollBy({ left: dir * 180, behavior: "smooth" });
 
   const showBrand = (name: string) => {
     setSelectedCategories((prev) => (prev.length ? [] : prev));
+    setSelectedGroups([]);
     setQuery(name);
     document.getElementById("shop")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -192,10 +209,15 @@ export default function Shop() {
     setSelectedCategories((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
   };
 
+  const toggleGroup = (g: string) => {
+    setSelectedGroups((prev) => (prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]));
+  };
+
   const filtered = useMemo(() => {
     if (!products) return [];
     let list = products;
     if (selectedCategories.length) list = list.filter((p) => selectedCategories.includes(p.category));
+    if (selectedGroups.length) list = list.filter((p) => p.group !== undefined && selectedGroups.includes(p.group));
     if (minPrice) list = list.filter((p) => p.price !== null && p.price >= Number(minPrice));
     if (maxPrice) list = list.filter((p) => p.price !== null && p.price <= Number(maxPrice));
     if (minRating) list = list.filter((p) => p.rating >= minRating);
@@ -211,15 +233,16 @@ export default function Shop() {
     else if (sort === "price-desc") sorted.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
     else if (sort === "rating") sorted.sort((a, b) => b.rating - a.rating);
     return sorted;
-  }, [products, selectedCategories, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
+  }, [products, selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
   const visible = showAll ? filtered : filtered.slice(0, PAGE_SIZE);
   const remaining = filtered.length - visible.length;
 
   const activeFilterCount =
-    selectedCategories.length + (minPrice ? 1 : 0) + (maxPrice ? 1 : 0) + (minRating ? 1 : 0) + (inStockOnly ? 1 : 0) + (query ? 1 : 0);
+    selectedCategories.length + selectedGroups.length + (minPrice ? 1 : 0) + (maxPrice ? 1 : 0) + (minRating ? 1 : 0) + (inStockOnly ? 1 : 0) + (query ? 1 : 0);
   const clearAll = () => {
     setSelectedCategories([]);
+    setSelectedGroups([]);
     setMinPrice("");
     setMaxPrice("");
     setMinRating(0);
@@ -308,6 +331,22 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
+              <FilterSection icon={Icon.bike} title="Oyekid · Shop by Age">
+                <ul className={styles.checkList}>
+                  {OYEKID_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -375,6 +414,11 @@ export default function Shop() {
                       <button onClick={() => toggleCategory(c)}>×</button>
                     </span>
                   ))}
+                  {selectedGroups.map((g) => (
+                    <span className={styles.chip} key={g}>
+                      {OYEKID_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
+                    </span>
+                  ))}
                   {query && (
                     <span className={styles.chip}>
                       &quot;{query}&quot; <button onClick={() => setQuery("")}>×</button>
@@ -416,13 +460,16 @@ export default function Shop() {
                 </div>
               ) : (
                 <div className={view === "grid" ? styles.grid : styles.list}>
-                  {visible.map((item) => (
+                  {visible.map((item) => {
+                    const shown = shownFor(item, picked[item.slug]);
+                    const off = discountPct(shown.price, shown.regularPrice);
+                    return (
                     <article className={view === "grid" ? styles.card : styles.cardList} key={item.slug}>
                       <div className={styles.cardPhoto}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={item.image} alt={`${item.brand} ${item.model}`} loading="lazy" />
-                        <span className={item.inStock ? styles.stockBadge : styles.stockBadgeOut}>
-                          {item.inStock ? "In Stock" : "Out of Stock"}
+                        <img src={shown.image} alt={`${item.brand} ${item.model}${shown.color ? ` – ${shown.color}` : ""}`} loading="lazy" />
+                        <span className={shown.inStock ? styles.stockBadge : styles.stockBadgeOut}>
+                          {shown.inStock ? "In Stock" : "Out of Stock"}
                         </span>
                       </div>
                       <div className={styles.cardBody}>
@@ -430,12 +477,37 @@ export default function Shop() {
                           {item.brand} · {item.sizes}
                         </p>
                         <h4 className={styles.model}>{item.model}</h4>
-                        <div className={styles.rating}>
-                          <StarRating value={item.rating} />
-                        </div>
+                        {item.rating > 0 && (
+                          <div className={styles.rating}>
+                            <StarRating value={item.rating} />
+                          </div>
+                        )}
+                        {item.variants && item.variants.length > 0 && (
+                          <div className={styles.cardColors}>
+                            <ColorSwatches
+                              size="sm"
+                              variants={item.variants}
+                              selected={shown.color}
+                              onSelect={(c) => setPicked((prev) => ({ ...prev, [item.slug]: c }))}
+                            />
+                            <span className={styles.colorName}>{shown.color}</span>
+                          </div>
+                        )}
                         <div className={styles.foot}>
-                          <span className={item.price === null ? styles.priceTbc : styles.price}>
-                            {item.price === null ? t("shop.addPrice") : `₹${item.price.toLocaleString("en-IN")}`}
+                          <span className={shown.price === null ? styles.priceTbc : styles.price}>
+                            {shown.price === null ? (
+                              t("shop.addPrice")
+                            ) : (
+                              <>
+                                ₹{shown.price.toLocaleString("en-IN")}
+                                {off > 0 && shown.regularPrice !== null && (
+                                  <>
+                                    <s className={styles.mrp}>₹{shown.regularPrice.toLocaleString("en-IN")}</s>
+                                    <span className={styles.off}>{off}% off</span>
+                                  </>
+                                )}
+                              </>
+                            )}
                           </span>
                           <div className={styles.cardCtas}>
                             <button className={styles.viewBtn} onClick={() => setSelectedProduct(item)}>
@@ -443,14 +515,15 @@ export default function Shop() {
                             </button>
                             <button
                               className={styles.addBtnSmall}
-                              disabled={!item.inStock}
+                              disabled={!shown.inStock}
                               onClick={() =>
                                 addToCart({
                                   slug: item.slug,
+                                  color: shown.color,
                                   brand: item.brand,
                                   model: item.model,
-                                  image: item.image,
-                                  price: item.price,
+                                  image: shown.image,
+                                  price: shown.price,
                                 })
                               }
                             >
@@ -460,7 +533,8 @@ export default function Shop() {
                         </div>
                       </div>
                     </article>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
 
@@ -521,7 +595,7 @@ export default function Shop() {
         </div>
       </div>
 
-      {selectedProduct && <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />}
+      {selectedProduct && <ProductModal product={selectedProduct} initialColor={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
     </section>
   );
 }

@@ -12,10 +12,28 @@
  */
 import { SEED_PRODUCTS } from "@/data/products-seed";
 import { readCollection, writeCollection } from "@/lib/storage";
+import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
 
 const COLLECTION = "products";
+/** slugs of catalogue products already copied into the live collection */
+const IMPORTS = "catalog-imports";
+/** the hand-made Oyekid placeholders the full Oyekid catalogue supersedes */
+const SUPERSEDED = ["oyekid-mermaid", "oyekid-shark-tank", "oyekid-yuvaa"];
 
 export type ProductCategory = "kids" | "mtb" | "hybrid";
+
+/** One colourway of a cycle — picking it on the shop changes the photo, the
+ *  price and what lands on the order. */
+export type ProductVariant = {
+  color: string;
+  /** CSS background for the swatch dot (a colour or a two-tone gradient) */
+  swatch: string;
+  image: string;
+  price: number | null;
+  regularPrice?: number | null;
+  inStock: boolean;
+  sku?: string;
+};
 
 export type Product = {
   slug: string;
@@ -29,19 +47,53 @@ export type Product = {
   rating: number;
   image: string;
   inStock: boolean;
+  /** shop-by-size group, e.g. "Balance Bike" / "12T" / "20T" */
+  group?: string;
+  tagline?: string;
+  description?: string;
+  /** MRP shown struck-through next to `price` */
+  regularPrice?: number | null;
+  /** colourways; when present, orders must name one of these colours */
+  variants?: ProductVariant[];
+  defaultColor?: string;
   createdAt: string;
   updatedAt: string;
 };
 
+let catalogChecked = false;
+
+/** Copies any catalogue product the live collection hasn't seen yet into it,
+ *  once. Needed because the live collection (e.g. Vercel Blob) already exists
+ *  and is never re-seeded from the repo. After the copy the product is an
+ *  ordinary one: admin edits and deletes stick (it's recorded as imported). */
+async function importCatalog(products: Product[]): Promise<Product[]> {
+  if (catalogChecked) return products;
+  const imported = await readCollection<string[]>(IMPORTS, []);
+  const fresh = (OYEKID_CATALOG as unknown as Omit<Product, "createdAt" | "updatedAt">[]).filter(
+    (c) => !imported.includes(c.slug)
+  );
+  if (fresh.length) {
+    const now = new Date().toISOString();
+    const have = new Set(products.map((p) => p.slug));
+    const next = imported.length ? [...products] : products.filter((p) => !SUPERSEDED.includes(p.slug));
+    for (const c of fresh) if (!have.has(c.slug)) next.push({ ...c, createdAt: now, updatedAt: now });
+    await writeCollection(COLLECTION, next);
+    await writeCollection(IMPORTS, [...imported, ...fresh.map((c) => c.slug)]);
+    products = next;
+  }
+  catalogChecked = true;
+  return products;
+}
+
 export async function getProducts(): Promise<Product[]> {
   const existing = await readCollection<Product[] | null>(COLLECTION, null);
-  if (existing) return existing;
+  if (existing) return importCatalog(existing);
 
   // first run: seed once from the shop's real, verified starting catalogue
   const now = new Date().toISOString();
   const seeded: Product[] = SEED_PRODUCTS.map((p) => ({ ...p, createdAt: now, updatedAt: now }));
   await writeCollection(COLLECTION, seeded);
-  return seeded;
+  return importCatalog(seeded);
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | undefined> {

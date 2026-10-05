@@ -19,63 +19,6 @@
     "updatedAt": "2026-09-25T14:40:02.231Z"
   },
   {
-    "slug": "oyekid-mermaid",
-    "brand": "Oyekid",
-    "model": "Mermaid",
-    "category": "kids",
-    "sizes": "12T / 14T",
-    "specs": [
-      "Digital-print PU soft seat, back rest",
-      "Full chain cover, attached basket",
-      "Caliper brakes, EVA tyres or tyre-tube",
-      "Quick-release, colour wheel cards"
-    ],
-    "price": 7000,
-    "rating": 4.4,
-    "image": "/images/shop/uploads/oyekid-mermaid-1789627719531.webp",
-    "inStock": true,
-    "createdAt": "2026-09-17T05:33:06.289Z",
-    "updatedAt": "2026-09-17T06:48:40.899Z"
-  },
-  {
-    "slug": "oyekid-shark-tank",
-    "brand": "Oyekid",
-    "model": "Shark Tank",
-    "category": "kids",
-    "sizes": "12T / 14T / 16T / 20T",
-    "specs": [
-      "PU soft seat, back rest & side supports",
-      "Full chain cover, attached basket",
-      "Caliper brakes, EVA tyres or tyre-tube",
-      "Water bottle included"
-    ],
-    "price": 12800,
-    "rating": 4.6,
-    "image": "/images/shop/uploads/oyekid-shark-tank-1789627757911.webp",
-    "inStock": true,
-    "createdAt": "2026-09-17T05:33:06.289Z",
-    "updatedAt": "2026-09-17T06:49:19.064Z"
-  },
-  {
-    "slug": "oyekid-yuvaa",
-    "brand": "Oyekid",
-    "model": "Yuvaa",
-    "category": "kids",
-    "sizes": "16T / 20T",
-    "specs": [
-      "Power brake, quick release, inner cable",
-      "Front suspension or rigid fork",
-      "Double-wall or steel rim (size-dependent)",
-      "Water-decal graphics"
-    ],
-    "price": 12800,
-    "rating": 4.3,
-    "image": "/images/shop/oyekid-yuvaa.jpg",
-    "inStock": true,
-    "createdAt": "2026-09-17T05:33:06.289Z",
-    "updatedAt": "2026-09-17T06:41:52.590Z"
-  },
-  {
     "slug": "neufman-ace",
     "brand": "Neufman",
     "model": "Ace",
@@ -315,5 +258,2606 @@
     "inStock": true,
     "createdAt": "2026-09-17T06:56:51.378Z",
     "updatedAt": "2026-09-17T06:56:51.378Z"
+  },
+  {
+    "slug": "oyekid-balance-bike-magwheel",
+    "brand": "Oyekid",
+    "model": "Balance Bike Magwheel",
+    "category": "kids",
+    "group": "Balance Bike",
+    "sizes": "Balance bike",
+    "tagline": "Start Small, Ride Big",
+    "description": "Perfect for beginners, this balance bike encourages outdoor activity, improves motor skills, and boosts self-confidence. Whether it’s in the park, driveway, or backyard, your child will enjoy endless fun while developing essential riding skills.",
+    "specs": [
+      "Wheel size: Balance bike",
+      "3 colours available"
+    ],
+    "price": 2669,
+    "regularPrice": 4299,
+    "rating": 0,
+    "image": "/oykid/balance-bike-magwheel-metallic-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Metallic Green",
+        "swatch": "#388b94",
+        "image": "/oykid/balance-bike-magwheel-metallic-green.webp",
+        "price": 2669,
+        "regularPrice": 4299,
+        "inStock": true,
+        "sku": "OK-BALANCE"
+      },
+      {
+        "color": "Metallic Pink",
+        "swatch": "#fe77b5",
+        "image": "/oykid/balance-bike-magwheel-metallic-pink.webp",
+        "price": 2669,
+        "regularPrice": 4299,
+        "inStock": true,
+        "sku": "OK-BALANCE"
+      },
+      {
+        "color": "Metallic Red",
+        "swatch": "#c61724",
+        "image": "/oykid/balance-bike-magwheel-metallic-red.webp",
+        "price": 2669,
+        "regularPrice": 4299,
+        "inStock": true,
+        "sku": "OK-BALANCE-MR"
+      }
+    ],
+    "defaultColor": "Metallic Green",
+    "source": "oyekidbikes.com sku OK-BALANCE",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-clap-12t",
+    "brand": "Oyekid",
+    "model": "Clap 12T",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Every Ride Deserves a clap!",
+    "description": "A ride so smooth, stylish, and thrilling, it earns applause wherever it goes. Get Both ready to turn heads and steal the spotlight with CLAP!",
+    "specs": [
+      "Wheel size: 12T",
+      "3 colours available"
+    ],
+    "price": 4030,
+    "regularPrice": 6499,
+    "rating": 0,
+    "image": "/oykid/clap-12t-black-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "swatch": "linear-gradient(-45deg, #66d7f4 0%, #66d7f4 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-12t-black-blue.webp",
+        "price": 4030,
+        "regularPrice": 6499,
+        "inStock": true,
+        "sku": "OK-CLAP-12-BL-BK"
+      },
+      {
+        "color": "Black/Green",
+        "swatch": "linear-gradient(-45deg, #95e471 0%, #95e471 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-12t-black-green.webp",
+        "price": 4030,
+        "regularPrice": 6499,
+        "inStock": true,
+        "sku": "OK-CLAP-12-GN-BK"
+      },
+      {
+        "color": "Black/Orange",
+        "swatch": "linear-gradient(-45deg, #e65918 0%, #e65918 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-12t-black-orange.webp",
+        "price": 4030,
+        "regularPrice": 6499,
+        "inStock": true,
+        "sku": "OK-CLAP-12-OG-BK"
+      }
+    ],
+    "defaultColor": "Black/Orange",
+    "source": "oyekidbikes.com sku OK-CLAP-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-draco-12t",
+    "brand": "Oyekid",
+    "model": "Draco 12T",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Built for Fire, Born to Roar!",
+    "description": "Unleash the fire within! Draco is a sleek, fierce ride for kids who love to stand out. With its dragon-inspired frame design, bold colors, and smooth handling, Draco isn’t just a bike—it’s a statement.",
+    "specs": [
+      "Wheel size: 12T",
+      "3 colours available"
+    ],
+    "price": 3510,
+    "regularPrice": 5699,
+    "rating": 0,
+    "image": "/oykid/draco-12t-turquoise.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/draco-12t-burgundy.webp",
+        "price": 3510,
+        "regularPrice": 5699,
+        "inStock": true,
+        "sku": "OK-DRAC-12-BG"
+      },
+      {
+        "color": "Glossy Black",
+        "swatch": "#252324",
+        "image": "/oykid/draco-12t-glossy-black.webp",
+        "price": 3510,
+        "regularPrice": 5699,
+        "inStock": true,
+        "sku": "OK-DRAC-12-GB"
+      },
+      {
+        "color": "Turquoise",
+        "swatch": "#40e0d0",
+        "image": "/oykid/draco-12t-turquoise.webp",
+        "price": 3510,
+        "regularPrice": 5699,
+        "inStock": true,
+        "sku": "OK-DRAC-12-TQ"
+      }
+    ],
+    "defaultColor": "Turquoise",
+    "source": "oyekidbikes.com sku OK-DRAC-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-mermaid-12t",
+    "brand": "Oyekid",
+    "model": "Mermaid 12T",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "A Splash of Fun in Every Ride",
+    "specs": [
+      "Wheel size: 12T",
+      "3 colours available"
+    ],
+    "price": 4089,
+    "regularPrice": 6599,
+    "rating": 0,
+    "image": "/oykid/mermaid-12t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink Yellow",
+        "swatch": "linear-gradient(-45deg, #b726b0 0%, #b726b0 50%, #eeee22 50%, #eeee22 100%)",
+        "image": "/oykid/mermaid-12t-pink-yellow.webp",
+        "price": 4089,
+        "regularPrice": 6599,
+        "inStock": true,
+        "sku": "OK-MERM-12-PN-YL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/mermaid-12t-pink-purple.webp",
+        "price": 4089,
+        "regularPrice": 6599,
+        "inStock": true,
+        "sku": "OK-MERM-12-PN-PU"
+      },
+      {
+        "color": "Sea Green/Pink",
+        "swatch": "linear-gradient(-45deg, #f4228d 0%, #f4228d 50%, #56bcb7 50%, #56bcb7 100%)",
+        "image": "/oykid/mermaid-12t-sea-green-pink.webp",
+        "price": 4089,
+        "regularPrice": 6599,
+        "inStock": true,
+        "sku": "OK-MERM-12-SG-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-MERM-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-shark-tank-12t-ibc",
+    "brand": "Oyekid",
+    "model": "Shark Tank 12T IBC",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Rule the Roads like a Shark!",
+    "description": "The SHARK TANK model is designed for fearless riders who love speed, strength, and style. With its bold design and shark-inspired attitude, this cycle is built to turn heads while delivering a smooth and powerful ride. A Moment They’ll Never Forget Memorable Gifts for Kids Finding the perfect gift for kids means choosing something that creates joy, builds confidence, and lasts beyond the celebration. Our kids’ bicycles are designed to turn birthdays, festivals, and special milestones into unforgettable memories. With child-safe engineering, vibrant designs, and gift-ready packaging, each bike delivers excitement from the very first look and supports active, happy play every day.",
+    "specs": [
+      "Wheel size: 12T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 3850,
+    "regularPrice": 6199,
+    "rating": 0,
+    "image": "/oykid/shark-tank-12t-ibc-yellow-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/shark-tank-12t-ibc-orange-blue.webp",
+        "price": 3850,
+        "regularPrice": 6199,
+        "inStock": true,
+        "sku": "OK-SHTK-12-OG-BL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/shark-tank-12t-ibc-pink-purple.webp",
+        "price": 3850,
+        "regularPrice": 6199,
+        "inStock": true,
+        "sku": "OK-SHTK-12-PN-PU"
+      },
+      {
+        "color": "Yellow/Orange",
+        "swatch": "linear-gradient(-45deg, #f05128 0%, #f05128 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-12t-ibc-yellow-orange.webp",
+        "price": 3850,
+        "regularPrice": 6199,
+        "inStock": true,
+        "sku": "OK-SHTK-12-OG-YL"
+      },
+      {
+        "color": "Yellow/Sea Blue",
+        "swatch": "linear-gradient(-45deg, #35c0cb 0%, #35c0cb 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-12t-ibc-yellow-sea-blue.webp",
+        "price": 3850,
+        "regularPrice": 6199,
+        "inStock": true,
+        "sku": "OK-SHTK-12-YL-SB"
+      }
+    ],
+    "defaultColor": "Yellow/Orange",
+    "source": "oyekidbikes.com sku OK-SHTK-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-slayer-12t",
+    "brand": "Oyekid",
+    "model": "Slayer 12T",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Unleash the Beast",
+    "description": "Tame the streets with Slayer. Designed for young thrill-seekers, this bike delivers power, performance, and total control. Whether it’s fast corners or rugged paths, Slayer handles it all like a champ.",
+    "specs": [
+      "Wheel size: 12T",
+      "3 colours available"
+    ],
+    "price": 3810,
+    "regularPrice": 6099,
+    "rating": 0,
+    "image": "/oykid/slayer-12t-kia-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/slayer-12t-burgundy.webp",
+        "price": 3810,
+        "regularPrice": 6099,
+        "inStock": true,
+        "sku": "OK-SLAY-12-BG"
+      },
+      {
+        "color": "Kia Blue",
+        "swatch": "#22ccd8",
+        "image": "/oykid/slayer-12t-kia-blue.webp",
+        "price": 3810,
+        "regularPrice": 6099,
+        "inStock": true,
+        "sku": "OK-SLAY-12-KB"
+      },
+      {
+        "color": "Metallic Grey",
+        "swatch": "#919191",
+        "image": "/oykid/slayer-12t-metallic-grey.webp",
+        "price": 3810,
+        "regularPrice": 6099,
+        "inStock": true,
+        "sku": "OK-SLAY-12-MT-GY"
+      }
+    ],
+    "defaultColor": "Kia Blue",
+    "source": "oyekidbikes.com sku OK-SLAY-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-swag-12t-ibc",
+    "brand": "Oyekid",
+    "model": "Swag 12T IBC",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Unleash Your Swag!",
+    "specs": [
+      "Wheel size: 12T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 3879,
+    "regularPrice": 6299,
+    "rating": 0,
+    "image": "/oykid/swag-12t-ibc-red-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/swag-12t-ibc-black-grey.webp",
+        "price": 3879,
+        "regularPrice": 6299,
+        "inStock": false,
+        "sku": "OK-SWAG-12"
+      },
+      {
+        "color": "Purple/Blue",
+        "swatch": "linear-gradient(-45deg, #003376 0%, #003376 50%, #8e41c1 50%, #8e41c1 100%)",
+        "image": "/oykid/swag-12t-ibc-purple-blue.webp",
+        "price": 3879,
+        "regularPrice": 6299,
+        "inStock": true,
+        "sku": "OK-SWAG-12"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/swag-12t-ibc-red-blue.webp",
+        "price": 3879,
+        "regularPrice": 6299,
+        "inStock": true,
+        "sku": "OK-SWAG-12"
+      },
+      {
+        "color": "Sky/Blue",
+        "swatch": "linear-gradient(-45deg, #6ec4d9 0%, #6ec4d9 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/swag-12t-ibc-sky-blue.webp",
+        "price": 3879,
+        "regularPrice": 6299,
+        "inStock": true,
+        "sku": "OK-SWAG-12"
+      }
+    ],
+    "defaultColor": "Red/Blue",
+    "source": "oyekidbikes.com sku OK-SWAG-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-wildhop-12t",
+    "brand": "Oyekid",
+    "model": "Wildhop 12T",
+    "category": "kids",
+    "group": "12T",
+    "sizes": "12T",
+    "tagline": "Jump Into Adventure",
+    "description": "WildHop is designed for active kids who love fast fun and fearless play. With a strong frame and easy control, it supports energetic riding while keeping safety and comfort at the core.",
+    "specs": [
+      "Wheel size: 12T",
+      "3 colours available"
+    ],
+    "price": 3949,
+    "regularPrice": 6399,
+    "rating": 0,
+    "image": "/oykid/wildhop-12t-cream-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream Brown",
+        "swatch": "linear-gradient(-45deg, #9b5709 0%, #9b5709 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-12t-cream-brown.webp",
+        "price": 3949,
+        "regularPrice": 6399,
+        "inStock": true,
+        "sku": "OK-WILD-12-CR-BR"
+      },
+      {
+        "color": "Cream Green",
+        "swatch": "linear-gradient(-45deg, #36bcb3 0%, #36bcb3 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-12t-cream-green.webp",
+        "price": 3949,
+        "regularPrice": 6399,
+        "inStock": true,
+        "sku": "OK-WILD-12-CR-GN"
+      },
+      {
+        "color": "Cream Red",
+        "swatch": "linear-gradient(-45deg, #fe2e4d 0%, #fe2e4d 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-12t-cream-red.webp",
+        "price": 3949,
+        "regularPrice": 6399,
+        "inStock": true,
+        "sku": "OK-WILD-12-CR-RD"
+      }
+    ],
+    "defaultColor": "Cream Green",
+    "source": "oyekidbikes.com sku OK-WILD-12",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-be-you-14t",
+    "brand": "Oyekid",
+    "model": "Be You 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Your Ride, Your Rules!",
+    "specs": [
+      "Wheel size: 14T",
+      "2 colours available"
+    ],
+    "price": 4959,
+    "regularPrice": 7999,
+    "rating": 0,
+    "image": "/oykid/be-you-14t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #f91b7e 0%, #f91b7e 50%, #9673c5 50%, #9673c5 100%)",
+        "image": "/oykid/be-you-14t-pink-purple.webp",
+        "price": 4959,
+        "regularPrice": 7999,
+        "inStock": true,
+        "sku": "OK-BEYO-14-PN-PU"
+      },
+      {
+        "color": "Sky Purple",
+        "swatch": "linear-gradient(-45deg, #6ec4d9 0%, #6ec4d9 50%, #9673c5 50%, #9673c5 100%)",
+        "image": "/oykid/be-you-14t-sky-purple.webp",
+        "price": 4959,
+        "regularPrice": 7999,
+        "inStock": true,
+        "sku": "OK-BEYO-14-SK-PU"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-BEYO-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-blox-14t-ibc",
+    "brand": "Oyekid",
+    "model": "Blox 14T IBC",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Block by Block, Ride Non-stop!",
+    "description": "Built for endurance and style, BLOX keeps you moving smoothly, one block at a time. Strong, reliable, and unstoppable—ride without limits!",
+    "specs": [
+      "Wheel size: 14T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 4400,
+    "regularPrice": 7099,
+    "rating": 0,
+    "image": "/oykid/blox-14t-ibc-army-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Army Green",
+        "swatch": "#557b41",
+        "image": "/oykid/blox-14t-ibc-army-green.webp",
+        "price": 4400,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-BLOX-14-AR-GN"
+      },
+      {
+        "color": "Hot Red",
+        "swatch": "#ea0000",
+        "image": "/oykid/blox-14t-ibc-hot-red.webp",
+        "price": 4400,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-BLOX-14-HT-RD"
+      },
+      {
+        "color": "Metallic Grey",
+        "swatch": "#919191",
+        "image": "/oykid/blox-14t-ibc-metallic-grey.webp",
+        "price": 4400,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-BLOX-14-MT-GY"
+      }
+    ],
+    "defaultColor": "Army Green",
+    "source": "oyekidbikes.com sku OK-BLOX-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-clap-14t",
+    "brand": "Oyekid",
+    "model": "Clap 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Every Ride Deserves a clap!",
+    "description": "A ride so smooth, stylish, and thrilling, it earns applause wherever it goes. Get Both ready to turn heads and steal the spotlight with CLAP!",
+    "specs": [
+      "Wheel size: 14T",
+      "3 colours available"
+    ],
+    "price": 4449,
+    "regularPrice": 7199,
+    "rating": 0,
+    "image": "/oykid/clap-14t-black-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "swatch": "linear-gradient(-45deg, #66d7f4 0%, #66d7f4 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-14t-black-blue.webp",
+        "price": 4449,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-CLAP-12-BL-BK-1"
+      },
+      {
+        "color": "Black/Green",
+        "swatch": "linear-gradient(-45deg, #95e471 0%, #95e471 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-14t-black-green.webp",
+        "price": 4449,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-CLAP-12-GN-BK-1"
+      },
+      {
+        "color": "Black/Orange",
+        "swatch": "linear-gradient(-45deg, #e65918 0%, #e65918 50%, #0c0c0c 50%, #0c0c0c 100%)",
+        "image": "/oykid/clap-14t-black-orange.webp",
+        "price": 4449,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-CLAP-12-OG-BK-1"
+      }
+    ],
+    "defaultColor": "Black/Orange",
+    "source": "oyekidbikes.com sku OK-CLAP-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-draco-14t",
+    "brand": "Oyekid",
+    "model": "Draco 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Built for Fire, Born to Roar!",
+    "description": "Unleash the fire within! Draco is a sleek, fierce ride for kids who love to stand out. With its dragon-inspired frame design, bold colors, and smooth handling, Draco isn’t just a bike—it’s a statement.",
+    "specs": [
+      "Wheel size: 14T",
+      "3 colours available"
+    ],
+    "price": 4180,
+    "regularPrice": 6699,
+    "rating": 0,
+    "image": "/oykid/draco-14t-glossy-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/draco-14t-burgundy.webp",
+        "price": 4180,
+        "regularPrice": 6699,
+        "inStock": true,
+        "sku": "OK-DRAC-14-BG"
+      },
+      {
+        "color": "Glossy Black",
+        "swatch": "#252324",
+        "image": "/oykid/draco-14t-glossy-black.webp",
+        "price": 4180,
+        "regularPrice": 6699,
+        "inStock": true,
+        "sku": "OK-DRAC-14-GB"
+      },
+      {
+        "color": "Turquoise",
+        "swatch": "#40e0d0",
+        "image": "/oykid/draco-14t-turquoise.webp",
+        "price": 4180,
+        "regularPrice": 6699,
+        "inStock": true,
+        "sku": "OK-DRAC-14-TQ"
+      }
+    ],
+    "defaultColor": "Glossy Black",
+    "source": "oyekidbikes.com sku OK-DRAC-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-mermaid-14t",
+    "brand": "Oyekid",
+    "model": "Mermaid 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "A Splash of Fun in Every Ride",
+    "specs": [
+      "Wheel size: 14T",
+      "3 colours available"
+    ],
+    "price": 4669,
+    "regularPrice": 7499,
+    "rating": 0,
+    "image": "/oykid/mermaid-14t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink Yellow",
+        "swatch": "linear-gradient(-45deg, #b726b0 0%, #b726b0 50%, #eeee22 50%, #eeee22 100%)",
+        "image": "/oykid/mermaid-14t-pink-yellow.webp",
+        "price": 4669,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-MERM-14-PN-YL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/mermaid-14t-pink-purple.webp",
+        "price": 4669,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-MERM-14-PN-PU"
+      },
+      {
+        "color": "Sea Green/Pink",
+        "swatch": "linear-gradient(-45deg, #f4228d 0%, #f4228d 50%, #56bcb7 50%, #56bcb7 100%)",
+        "image": "/oykid/mermaid-14t-sea-green-pink.webp",
+        "price": 4669,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-MERM-14-SG-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-MERM-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-petal-14t-ibc",
+    "brand": "Oyekid",
+    "model": "Petal 14T IBC",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Bloom Into Every Ride",
+    "specs": [
+      "Wheel size: 14T",
+      "IBC — in-built carrier",
+      "2 colours available"
+    ],
+    "price": 4719,
+    "regularPrice": 7599,
+    "rating": 0,
+    "image": "/oykid/petal-14t-ibc-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/petal-14t-ibc-pink-purple.webp",
+        "price": 4719,
+        "regularPrice": 7599,
+        "inStock": true,
+        "sku": "OK-PETA-14-PN-PU"
+      },
+      {
+        "color": "Sea Green/Pink",
+        "swatch": "linear-gradient(-45deg, #f4228d 0%, #f4228d 50%, #56bcb7 50%, #56bcb7 100%)",
+        "image": "/oykid/petal-14t-ibc-sea-green-pink.webp",
+        "price": 4719,
+        "regularPrice": 7599,
+        "inStock": true,
+        "sku": "OK-PETA-14-SG-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-PETA-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-shark-tank-14t-ibc",
+    "brand": "Oyekid",
+    "model": "Shark Tank 14T IBC",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Rule the Roads like a Shark!",
+    "description": "The SHARK TANK model is designed for fearless riders who love speed, strength, and style. With its bold design and shark-inspired attitude, this cycle is built to turn heads while delivering a smooth and powerful ride. A Moment They’ll Never Forget Memorable Gifts for Kids Finding the perfect gift for kids means choosing something that creates joy, builds confidence, and lasts beyond the celebration. Our kids’ bicycles are designed to turn birthdays, festivals, and special milestones into unforgettable memories. With child-safe engineering, vibrant designs, and gift-ready packaging, each bike delivers excitement from the very first look and supports active, happy play every day.",
+    "specs": [
+      "Wheel size: 14T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 4419,
+    "regularPrice": 7099,
+    "rating": 0,
+    "image": "/oykid/shark-tank-14t-ibc-orange-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/shark-tank-14t-ibc-orange-blue.webp",
+        "price": 4419,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SHTK-14-OG-BL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/shark-tank-14t-ibc-pink-purple.webp",
+        "price": 4419,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SHTK-14-PN-PU"
+      },
+      {
+        "color": "Yellow/Orange",
+        "swatch": "linear-gradient(-45deg, #f05128 0%, #f05128 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-14t-ibc-yellow-orange.webp",
+        "price": 4419,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SHTK-14-OG-YL"
+      },
+      {
+        "color": "Yellow/Sea Blue",
+        "swatch": "linear-gradient(-45deg, #35c0cb 0%, #35c0cb 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-14t-ibc-yellow-sea-blue.webp",
+        "price": 4419,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SHTK-14-YL-SB"
+      }
+    ],
+    "defaultColor": "Orange/Blue",
+    "source": "oyekidbikes.com sku OK-SHTK-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-slayer-14t",
+    "brand": "Oyekid",
+    "model": "Slayer 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Unleash the Beast",
+    "description": "Tame the streets with Slayer. Designed for young thrill-seekers, this bike delivers power, performance, and total control. Whether it’s fast corners or rugged paths, Slayer handles it all like a champ.",
+    "specs": [
+      "Wheel size: 14T",
+      "3 colours available"
+    ],
+    "price": 4420,
+    "regularPrice": 7099,
+    "rating": 0,
+    "image": "/oykid/slayer-14t-kia-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/slayer-14t-burgundy.webp",
+        "price": 4420,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SLAY-14-BG"
+      },
+      {
+        "color": "Kia Blue",
+        "swatch": "#22ccd8",
+        "image": "/oykid/slayer-14t-kia-blue.webp",
+        "price": 4420,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SLAY-14-KB"
+      },
+      {
+        "color": "Sunny Orange",
+        "swatch": "#ff540c",
+        "image": "/oykid/slayer-14t-sunny-orange.webp",
+        "price": 4420,
+        "regularPrice": 7099,
+        "inStock": true,
+        "sku": "OK-SLAY-14-SO"
+      }
+    ],
+    "defaultColor": "Kia Blue",
+    "source": "oyekidbikes.com sku OK-SLAY-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-slime-14t-ibc",
+    "brand": "Oyekid",
+    "model": "Slime 14T IBC",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Stretch your Limits, Ride Slime!",
+    "specs": [
+      "Wheel size: 14T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 4619,
+    "regularPrice": 7399,
+    "rating": 0,
+    "image": "/oykid/slime-14t-ibc-creame-olive-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Creame/Olive Green",
+        "swatch": "linear-gradient(-45deg, #f3ead2 0%, #f3ead2 50%, #6b7a2e 50%, #6b7a2e 100%)",
+        "image": "/oykid/slime-14t-ibc-creame-olive-green.webp",
+        "price": 4619,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-SLIM-14-CR-OG"
+      },
+      {
+        "color": "Purple/Kia Blue",
+        "swatch": "linear-gradient(-45deg, #7b3fa0 0%, #7b3fa0 50%, #1f6fc5 50%, #1f6fc5 100%)",
+        "image": "/oykid/slime-14t-ibc-purple-kia-blue.webp",
+        "price": 4619,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-SLIM-14-PU-KB"
+      },
+      {
+        "color": "Sky Blue/Yellow",
+        "swatch": "linear-gradient(-45deg, #87ceeb 0%, #87ceeb 50%, #f5d90a 50%, #f5d90a 100%)",
+        "image": "/oykid/slime-14t-ibc-sky-blue-yellow.webp",
+        "price": 4619,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-SLIM-14-SB-YL"
+      }
+    ],
+    "defaultColor": "Creame/Olive Green",
+    "source": "oyekidbikes.com sku OK-SLIM-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-swag-14t-ibc",
+    "brand": "Oyekid",
+    "model": "Swag 14T IBC",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Unleash Your Swag!",
+    "specs": [
+      "Wheel size: 14T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 4489,
+    "regularPrice": 7199,
+    "rating": 0,
+    "image": "/oykid/swag-14t-ibc-red-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/swag-14t-ibc-black-grey.webp",
+        "price": 4489,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-SWAG-14-BK-GY"
+      },
+      {
+        "color": "Purple/Blue",
+        "swatch": "linear-gradient(-45deg, #003376 0%, #003376 50%, #8e41c1 50%, #8e41c1 100%)",
+        "image": "/oykid/swag-14t-ibc-purple-blue.webp",
+        "price": 4489,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-SWAG-14-PU-BL"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/swag-14t-ibc-red-blue.webp",
+        "price": 4489,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-SWAG-14-RD-BL"
+      },
+      {
+        "color": "Sky/Blue",
+        "swatch": "linear-gradient(-45deg, #6ec4d9 0%, #6ec4d9 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/swag-14t-ibc-sky-blue.webp",
+        "price": 4489,
+        "regularPrice": 7199,
+        "inStock": true,
+        "sku": "OK-SWAG-14-SK-BL"
+      }
+    ],
+    "defaultColor": "Red/Blue",
+    "source": "oyekidbikes.com sku OK-SWAG-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-wildhop-14t",
+    "brand": "Oyekid",
+    "model": "Wildhop 14T",
+    "category": "kids",
+    "group": "14T",
+    "sizes": "14T",
+    "tagline": "Jump Into Adventure",
+    "description": "WildHop is designed for active kids who love fast fun and fearless play. With a strong frame and easy control, it supports energetic riding while keeping safety and comfort at the core.",
+    "specs": [
+      "Wheel size: 14T",
+      "3 colours available"
+    ],
+    "price": 4610,
+    "regularPrice": 7399,
+    "rating": 0,
+    "image": "/oykid/wildhop-14t-cream-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream Brown",
+        "swatch": "linear-gradient(-45deg, #9b5709 0%, #9b5709 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-14t-cream-brown.webp",
+        "price": 4610,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-WILD-14-CR-BR"
+      },
+      {
+        "color": "Cream Green",
+        "swatch": "linear-gradient(-45deg, #36bcb3 0%, #36bcb3 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-14t-cream-green.webp",
+        "price": 4610,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-WILD-14-CR-GN"
+      },
+      {
+        "color": "Cream Red",
+        "swatch": "linear-gradient(-45deg, #fe2e4d 0%, #fe2e4d 50%, #cdcdb5 50%, #cdcdb5 100%)",
+        "image": "/oykid/wildhop-14t-cream-red.webp",
+        "price": 4610,
+        "regularPrice": 7399,
+        "inStock": true,
+        "sku": "OK-WILD-14-CR-RD"
+      }
+    ],
+    "defaultColor": "Cream Green",
+    "source": "oyekidbikes.com sku OK-WILD-14",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-adventure-16t",
+    "brand": "Oyekid",
+    "model": "Adventure 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Built for the Bold Explorer",
+    "description": "For young riders ready to level up, Adventure is built for bigger goals and bolder paths. It’s the perfect companion for tweens and teens who crave freedom, speed, and style. Whether it’s a ride to school or a weekend spin, Adventure is made for those who never stop exploring.",
+    "specs": [
+      "Wheel size: 16T",
+      "3 colours available"
+    ],
+    "price": 5579,
+    "regularPrice": 8999,
+    "rating": 0,
+    "image": "/oykid/adventure-16t-red-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Golden",
+        "swatch": "linear-gradient(-45deg, #c6b46b 0%, #c6b46b 50%, #808080 50%, #808080 100%)",
+        "image": "/oykid/adventure-16t-grey-golden.webp",
+        "price": 5579,
+        "regularPrice": 8999,
+        "inStock": true,
+        "sku": "OK-ADVE-16-GD-GY"
+      },
+      {
+        "color": "Pink/Sky Blue",
+        "swatch": "linear-gradient(-45deg, #89d2de 0%, #89d2de 50%, #de76ad 50%, #de76ad 100%)",
+        "image": "/oykid/adventure-16t-pink-sky-blue.webp",
+        "price": 5579,
+        "regularPrice": 8999,
+        "inStock": true,
+        "sku": "OK-ADVE-16-PN-SB"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/adventure-16t-red-blue.webp",
+        "price": 5579,
+        "regularPrice": 8999,
+        "inStock": true,
+        "sku": "OK-ADVE-16-RD-BL"
+      }
+    ],
+    "defaultColor": "Red/Blue",
+    "source": "oyekidbikes.com sku OK-ADVE-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-be-you-16t",
+    "brand": "Oyekid",
+    "model": "Be You 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Your Ride, Your Rules!",
+    "description": "Unleash your true self with BE YOU—a ride that’s as unique and bold as you are. Set your own pace, make your own path, and rule the road your way!",
+    "specs": [
+      "Wheel size: 16T",
+      "2 colours available"
+    ],
+    "price": 5429,
+    "regularPrice": 8699,
+    "rating": 0,
+    "image": "/oykid/be-you-16t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #ff0ab9 0%, #ff0ab9 50%, #dfc9ec 50%, #dfc9ec 100%)",
+        "image": "/oykid/be-you-16t-pink-purple.webp",
+        "price": 5429,
+        "regularPrice": 8699,
+        "inStock": true,
+        "sku": "OK-BEYO-16-PN-PU"
+      },
+      {
+        "color": "Sky Purple",
+        "swatch": "linear-gradient(-45deg, #dfc9ec 0%, #dfc9ec 50%, #66d7f4 50%, #66d7f4 100%)",
+        "image": "/oykid/be-you-16t-sky-purple.webp",
+        "price": 5429,
+        "regularPrice": 8699,
+        "inStock": true,
+        "sku": "OK-BEYO-16-SK-PU"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-BEYO-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-blox-16t-ibc",
+    "brand": "Oyekid",
+    "model": "Blox 16T IBC",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Block by Block, Ride Non-stop!",
+    "description": "Built for endurance and style, BLOX keeps you moving smoothly, one block at a time. Strong, reliable, and unstoppable—ride without limits!",
+    "specs": [
+      "Wheel size: 16T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 4769,
+    "regularPrice": 7699,
+    "rating": 0,
+    "image": "/oykid/blox-16t-ibc-army-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Army Green",
+        "swatch": "#557b41",
+        "image": "/oykid/blox-16t-ibc-army-green.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-BLOX-16-AR-GN"
+      },
+      {
+        "color": "Hot Red",
+        "swatch": "#ea0000",
+        "image": "/oykid/blox-16t-ibc-hot-red.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-BLOX-16-HT-RD"
+      },
+      {
+        "color": "Metallic Grey",
+        "swatch": "#919191",
+        "image": "/oykid/blox-16t-ibc-metallic-grey.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-BLOX-16-MT-GY"
+      }
+    ],
+    "defaultColor": "Army Green",
+    "source": "oyekidbikes.com sku OK-BLOX-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-draco-16t-ibc",
+    "brand": "Oyekid",
+    "model": "Draco 16T IBC",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Built for Fire, Born to Roar!",
+    "description": "Unleash the fire within! Draco is a sleek, fierce ride for kids who love to stand out. With its dragon-inspired frame design, bold colors, and smooth handling, Draco isn’t just a bike—it’s a statement.",
+    "specs": [
+      "Wheel size: 16T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 4649,
+    "regularPrice": 7499,
+    "rating": 0,
+    "image": "/oykid/draco-16t-ibc-burgundy.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/draco-16t-ibc-burgundy.webp",
+        "price": 4649,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-DRAC-16-BG"
+      },
+      {
+        "color": "Glossy Black",
+        "swatch": "#252324",
+        "image": "/oykid/draco-16t-ibc-glossy-black.webp",
+        "price": 4649,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-DRAC-16-GB"
+      },
+      {
+        "color": "Turquoise",
+        "swatch": "#40e0d0",
+        "image": "/oykid/draco-16t-ibc-turquoise.webp",
+        "price": 4649,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "OK-DRAC-16-TQ"
+      }
+    ],
+    "defaultColor": "Burgundy",
+    "source": "oyekidbikes.com sku OK-DRAC-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-emma-16t",
+    "brand": "Oyekid",
+    "model": "Emma 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Inspired by Paris, Designed for You",
+    "specs": [
+      "Wheel size: 16T",
+      "3 colours available"
+    ],
+    "price": 5879,
+    "regularPrice": 9499,
+    "rating": 0,
+    "image": "/oykid/emma-16t-dark-pink-pearl-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Baby Pink/Sea Green",
+        "swatch": "linear-gradient(-45deg, #8dced9 0%, #8dced9 50%, #e1a3a8 50%, #e1a3a8 100%)",
+        "image": "/oykid/emma-16t-baby-pink-sea-green.webp",
+        "price": 5879,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-EMMA-16"
+      },
+      {
+        "color": "Dark Pink/Pearl Pink",
+        "swatch": "linear-gradient(-45deg, #dfabbd 0%, #dfabbd 50%, #cb4297 50%, #cb4297 100%)",
+        "image": "/oykid/emma-16t-dark-pink-pearl-pink.webp",
+        "price": 5879,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-EMMA-16"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/emma-16t-pink-purple.webp",
+        "price": 5879,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-EMMA-16"
+      }
+    ],
+    "defaultColor": "Dark Pink/Pearl Pink",
+    "source": "oyekidbikes.com sku OK-EMMA-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-fortride-16t",
+    "brand": "Oyekid",
+    "model": "Fortride 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "specs": [
+      "Wheel size: 16T",
+      "3 colours available"
+    ],
+    "price": 5499,
+    "regularPrice": 8909,
+    "rating": 0,
+    "image": "/oykid/fortride-16t-cream-golden.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream Golden",
+        "swatch": "linear-gradient(-45deg, #956b47 0%, #956b47 50%, #e3e7cf 50%, #e3e7cf 100%)",
+        "image": "/oykid/fortride-16t-cream-golden.webp",
+        "price": 5499,
+        "regularPrice": 8909,
+        "inStock": true,
+        "sku": "OK-FORT-16T-CR-GD"
+      },
+      {
+        "color": "Lemon/Sky Blue",
+        "swatch": "linear-gradient(-45deg, #61b3be 0%, #61b3be 50%, #f4f1b0 50%, #f4f1b0 100%)",
+        "image": "/oykid/fortride-16t-lemon-sky-blue.webp",
+        "price": 5499,
+        "regularPrice": 8909,
+        "inStock": true,
+        "sku": "OK-FORT-16T-LM-SB"
+      },
+      {
+        "color": "Silver/FB Blue",
+        "swatch": "linear-gradient(-45deg, #005093 0%, #005093 50%, #9b9b9b 50%, #9b9b9b 100%)",
+        "image": "/oykid/fortride-16t-silver-fb-blue.webp",
+        "price": 5499,
+        "regularPrice": 8909,
+        "inStock": true,
+        "sku": "OK-FORT-16T-SV-FB"
+      }
+    ],
+    "defaultColor": "Cream Golden",
+    "source": "oyekidbikes.com sku OK-FORT-16T",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-petal-16t-ibc",
+    "brand": "Oyekid",
+    "model": "Petal 16T IBC",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Bloom Into Every Ride",
+    "specs": [
+      "Wheel size: 16T",
+      "IBC — in-built carrier",
+      "2 colours available"
+    ],
+    "price": 5130,
+    "regularPrice": 8299,
+    "rating": 0,
+    "image": "/oykid/petal-16t-ibc-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/petal-16t-ibc-pink-purple.webp",
+        "price": 5130,
+        "regularPrice": 8299,
+        "inStock": true,
+        "sku": "OK-PETA-16-PN-PU"
+      },
+      {
+        "color": "Sea Green/Pink",
+        "swatch": "linear-gradient(-45deg, #f4228d 0%, #f4228d 50%, #56bcb7 50%, #56bcb7 100%)",
+        "image": "/oykid/petal-16t-ibc-sea-green-pink.webp",
+        "price": 5130,
+        "regularPrice": 8299,
+        "inStock": true,
+        "sku": "OK-PETA-16-SG-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-PETA-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-shark-tank-16t-ibc",
+    "brand": "Oyekid",
+    "model": "Shark Tank 16T IBC",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Rule the Roads like a Shark!",
+    "description": "The SHARK TANK model is designed for fearless riders who love speed, strength, and style. With its bold design and shark-inspired attitude, this cycle is built to turn heads while delivering a smooth and powerful ride. A Moment They’ll Never Forget Memorable Gifts for Kids Finding the perfect gift for kids means choosing something that creates joy, builds confidence, and lasts beyond the celebration. Our kids’ bicycles are designed to turn birthdays, festivals, and special milestones into unforgettable memories. With child-safe engineering, vibrant designs, and gift-ready packaging, each bike delivers excitement from the very first look and supports active, happy play every day.",
+    "specs": [
+      "Wheel size: 16T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 4769,
+    "regularPrice": 7699,
+    "rating": 0,
+    "image": "/oykid/shark-tank-16t-ibc-yellow-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/shark-tank-16t-ibc-orange-blue.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SHTK-16-OG-BL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/shark-tank-16t-ibc-pink-purple.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SHTK-16-PN-PU"
+      },
+      {
+        "color": "Yellow/Orange",
+        "swatch": "linear-gradient(-45deg, #f05128 0%, #f05128 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-16t-ibc-yellow-orange.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SHTK-16-OG-YL"
+      },
+      {
+        "color": "Yellow/Sea Blue",
+        "swatch": "linear-gradient(-45deg, #35c0cb 0%, #35c0cb 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-16t-ibc-yellow-sea-blue.webp",
+        "price": 4769,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SHTK-16-YL-SB"
+      }
+    ],
+    "defaultColor": "Yellow/Orange",
+    "source": "oyekidbikes.com sku OK-SHTK-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-slayer-16t",
+    "brand": "Oyekid",
+    "model": "Slayer 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Unleash the Beast",
+    "description": "Tame the streets with Slayer. Designed for young thrill-seekers, this bike delivers power, performance, and total control. Whether it’s fast corners or rugged paths, Slayer handles it all like a champ.",
+    "specs": [
+      "Wheel size: 16T",
+      "3 colours available"
+    ],
+    "price": 4800,
+    "regularPrice": 7699,
+    "rating": 0,
+    "image": "/oykid/slayer-16t-sunny-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/slayer-16t-burgundy.webp",
+        "price": 4800,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SLAY-16-BG"
+      },
+      {
+        "color": "Kia Blue",
+        "swatch": "#22ccd8",
+        "image": "/oykid/slayer-16t-kia-blue.webp",
+        "price": 4800,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SLAY-16-KB"
+      },
+      {
+        "color": "Sunny Orange",
+        "swatch": "#ff540c",
+        "image": "/oykid/slayer-16t-sunny-orange.webp",
+        "price": 4800,
+        "regularPrice": 7699,
+        "inStock": true,
+        "sku": "OK-SLAY-16-OG"
+      }
+    ],
+    "defaultColor": "Sunny Orange",
+    "source": "oyekidbikes.com sku OK-SLAY-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-thunder-16t",
+    "brand": "Oyekid",
+    "model": "Thunder 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Ride the Storm, Rule the Road!",
+    "specs": [
+      "Wheel size: 16T",
+      "3 colours available"
+    ],
+    "price": 5329,
+    "regularPrice": 8599,
+    "rating": 0,
+    "image": "/oykid/thunder-16t-pink-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Black",
+        "swatch": "linear-gradient(-45deg, #0c0c0c 0%, #0c0c0c 50%, #0083ff 50%, #0083ff 100%)",
+        "image": "/oykid/thunder-16t-blue-black.webp",
+        "price": 5329,
+        "regularPrice": 8599,
+        "inStock": true,
+        "sku": "OK-THUN-16-BL-BK"
+      },
+      {
+        "color": "Green Black",
+        "swatch": "linear-gradient(-45deg, #0c0c0c 0%, #0c0c0c 50%, #81d742 50%, #81d742 100%)",
+        "image": "/oykid/thunder-16t-green-black.webp",
+        "price": 5329,
+        "regularPrice": 8599,
+        "inStock": true,
+        "sku": "OK-THUN-16-GN-BK"
+      },
+      {
+        "color": "Pink Black",
+        "swatch": "linear-gradient(-45deg, #0c0c0c 0%, #0c0c0c 50%, #e14aef 50%, #e14aef 100%)",
+        "image": "/oykid/thunder-16t-pink-black.webp",
+        "price": 5329,
+        "regularPrice": 8599,
+        "inStock": true,
+        "sku": "OK-THUN-16-PN-BK"
+      }
+    ],
+    "defaultColor": "Pink Black",
+    "source": "oyekidbikes.com sku OK-THUN-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-vaayu-16t",
+    "brand": "Oyekid",
+    "model": "Vaayu 16T",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "Born to Fly, Built to Ride!",
+    "description": "Its stylish design, ergonomic handlebars, and responsive brakes give young riders the confidence to take on every journey.",
+    "specs": [
+      "Wheel size: 16T",
+      "2 colours available"
+    ],
+    "price": 5609,
+    "regularPrice": 8999,
+    "rating": 0,
+    "image": "/oykid/vaayu-16t-electric-blue-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Electric Blue/Yellow",
+        "swatch": "linear-gradient(-45deg, #fff30f 0%, #fff30f 50%, #0068b7 50%, #0068b7 100%)",
+        "image": "/oykid/vaayu-16t-electric-blue-yellow.webp",
+        "price": 5609,
+        "regularPrice": 8999,
+        "inStock": true,
+        "sku": "OK-VAAY-16-EB-YL"
+      },
+      {
+        "color": "Military Green/Pista Green",
+        "swatch": "linear-gradient(-45deg, #dcf2c4 0%, #dcf2c4 50%, #009353 50%, #009353 100%)",
+        "image": "/oykid/vaayu-16t-military-green-pista-green.webp",
+        "price": 5609,
+        "regularPrice": 8999,
+        "inStock": true,
+        "sku": "OK-VAAY-16-MG-PG"
+      }
+    ],
+    "defaultColor": "Electric Blue/Yellow",
+    "source": "oyekidbikes.com sku OK-VAAY-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-yuvaa-16t-ibc",
+    "brand": "Oyekid",
+    "model": "Yuvaa 16T IBC",
+    "category": "kids",
+    "group": "16T",
+    "sizes": "16T",
+    "tagline": "For the Young at Heart!",
+    "specs": [
+      "Wheel size: 16T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 5929,
+    "regularPrice": 9499,
+    "rating": 0,
+    "image": "/oykid/yuvaa-16t-ibc-orange-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/yuvaa-16t-ibc-black-grey.webp",
+        "price": 5929,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-YUVA-16-BK-GY"
+      },
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-16t-ibc-orange-blue.webp",
+        "price": 5929,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-YUVA-16-OG-BL"
+      },
+      {
+        "color": "Orange/Green",
+        "swatch": "linear-gradient(-45deg, #223a00 0%, #223a00 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-16t-ibc-orange-green.webp",
+        "price": 5929,
+        "regularPrice": 9499,
+        "inStock": true,
+        "sku": "OK-YUVA-16-OG-GN"
+      }
+    ],
+    "defaultColor": "Orange/Blue",
+    "source": "oyekidbikes.com sku OK-YUVA-16",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-adventure-20t",
+    "brand": "Oyekid",
+    "model": "Adventure 20T",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Built for the Bold Explorer",
+    "description": "For young riders ready to level up, Adventure is built for bigger goals and bolder paths. It’s the perfect companion for tweens and teens who crave freedom, speed, and style. Whether it’s a ride to school or a weekend spin, Adventure is made for those who never stop exploring.",
+    "specs": [
+      "Wheel size: 20T",
+      "3 colours available"
+    ],
+    "price": 8359,
+    "regularPrice": 13399,
+    "rating": 0,
+    "image": "/oykid/adventure-20t-pink-sky-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Golden",
+        "swatch": "linear-gradient(-45deg, #c6b46b 0%, #c6b46b 50%, #808080 50%, #808080 100%)",
+        "image": "/oykid/adventure-20t-grey-golden.webp",
+        "price": 8359,
+        "regularPrice": 13399,
+        "inStock": true,
+        "sku": "OK-ADVE-20-GD-GY"
+      },
+      {
+        "color": "Pink/Sky Blue",
+        "swatch": "linear-gradient(-45deg, #89d2de 0%, #89d2de 50%, #de76ad 50%, #de76ad 100%)",
+        "image": "/oykid/adventure-20t-pink-sky-blue.webp",
+        "price": 8359,
+        "regularPrice": 13399,
+        "inStock": true,
+        "sku": "OK-ADVE-20-PN-SB"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/adventure-20t-red-blue.webp",
+        "price": 8359,
+        "regularPrice": 13399,
+        "inStock": true,
+        "sku": "OK-ADVE-20-RD-BL"
+      }
+    ],
+    "defaultColor": "Pink/Sky Blue",
+    "source": "oyekidbikes.com sku OK-ADVE-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-airflex-20t-crownfork",
+    "brand": "Oyekid",
+    "model": "Airflex 20T Crownfork",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "1 colour available"
+    ],
+    "price": 9740,
+    "regularPrice": 15599,
+    "rating": 0,
+    "image": "/oykid/airflex-20t-crownfork-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#111111",
+        "image": "/oykid/airflex-20t-crownfork-black.webp",
+        "price": 9740,
+        "regularPrice": 15599,
+        "inStock": true,
+        "sku": "OK-AF-20-BK"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "oyekidbikes.com sku OK-AF-20-BK",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-be-you-20t",
+    "brand": "Oyekid",
+    "model": "Be You 20T",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Your Ride, Your Rules!",
+    "description": "Unleash your true self with BE YOU—a ride that’s as unique and bold as you are. Set your own pace, make your own path, and rule the road your way!",
+    "specs": [
+      "Wheel size: 20T",
+      "2 colours available"
+    ],
+    "price": 6189,
+    "regularPrice": 9999,
+    "rating": 0,
+    "image": "/oykid/be-you-20t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #ff0ab9 0%, #ff0ab9 50%, #9277ea 50%, #9277ea 100%)",
+        "image": "/oykid/be-you-20t-pink-purple.webp",
+        "price": 6189,
+        "regularPrice": 9999,
+        "inStock": true,
+        "sku": "OK-BEYO-20T-PU-PN"
+      },
+      {
+        "color": "Sky Purple",
+        "swatch": "linear-gradient(-45deg, #9277ea 0%, #9277ea 50%, #66d7f4 50%, #66d7f4 100%)",
+        "image": "/oykid/be-you-20t-sky-purple.webp",
+        "price": 6189,
+        "regularPrice": 9999,
+        "inStock": true,
+        "sku": "OK-BEYO-20T-SK-PU"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-BEYO-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-blox-20t-ibc",
+    "brand": "Oyekid",
+    "model": "Blox 20T IBC",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Block by Block, Ride Non-stop!",
+    "description": "Built for endurance and style, BLOX keeps you moving smoothly, one block at a time. Strong, reliable, and unstoppable—ride without limits!",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "3 colours available"
+    ],
+    "price": 5519,
+    "regularPrice": 8899,
+    "rating": 0,
+    "image": "/oykid/blox-20t-ibc-metallic-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Metallic Grey",
+        "swatch": "#919191",
+        "image": "/oykid/blox-20t-ibc-metallic-grey.webp",
+        "price": 5519,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-BLOX-20-MT-GY"
+      },
+      {
+        "color": "Army Green",
+        "swatch": "#557b41",
+        "image": "/oykid/blox-20t-ibc-army-green.webp",
+        "price": 5519,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-BLOX-20-AR-GN"
+      },
+      {
+        "color": "Hot Red",
+        "swatch": "#ea0000",
+        "image": "/oykid/blox-20t-ibc-hot-red.webp",
+        "price": 5519,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-BLOX-20-HT-RD"
+      }
+    ],
+    "defaultColor": "Metallic Grey",
+    "source": "oyekidbikes.com sku OK-BLOX-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-emma-20t",
+    "brand": "Oyekid",
+    "model": "Emma 20T",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Inspired by Paris, Designed for You",
+    "specs": [
+      "Wheel size: 20T",
+      "3 colours available"
+    ],
+    "price": 6679,
+    "regularPrice": 10699,
+    "rating": 0,
+    "image": "/oykid/emma-20t-dark-pink-pearl-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Baby Pink/Sea Green",
+        "swatch": "linear-gradient(-45deg, #8dced9 0%, #8dced9 50%, #e1a3a8 50%, #e1a3a8 100%)",
+        "image": "/oykid/emma-20t-baby-pink-sea-green.webp",
+        "price": 6679,
+        "regularPrice": 10699,
+        "inStock": true,
+        "sku": "OK-EMMA-20"
+      },
+      {
+        "color": "Dark Pink/Pearl Pink",
+        "swatch": "linear-gradient(-45deg, #dfabbd 0%, #dfabbd 50%, #cb4297 50%, #cb4297 100%)",
+        "image": "/oykid/emma-20t-dark-pink-pearl-pink.webp",
+        "price": 6679,
+        "regularPrice": 10699,
+        "inStock": true,
+        "sku": "OK-EMMA-20"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/emma-20t-pink-purple.webp",
+        "price": 6679,
+        "regularPrice": 10699,
+        "inStock": true,
+        "sku": "OK-EMMA-20"
+      }
+    ],
+    "defaultColor": "Dark Pink/Pearl Pink",
+    "source": "oyekidbikes.com sku OK-EMMA-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-fortride-20t",
+    "brand": "Oyekid",
+    "model": "Fortride 20T",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "3 colours available"
+    ],
+    "price": 6249,
+    "regularPrice": 10119,
+    "rating": 0,
+    "image": "/oykid/fortride-20t-silver-fb-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream Golden",
+        "swatch": "linear-gradient(-45deg, #956b47 0%, #956b47 50%, #e3e7cf 50%, #e3e7cf 100%)",
+        "image": "/oykid/fortride-20t-cream-golden.webp",
+        "price": 6249,
+        "regularPrice": 10119,
+        "inStock": true,
+        "sku": "OK-FORT-20T-CR-GD"
+      },
+      {
+        "color": "Lemon/Sky Blue",
+        "swatch": "linear-gradient(-45deg, #61b3be 0%, #61b3be 50%, #f4f1b0 50%, #f4f1b0 100%)",
+        "image": "/oykid/fortride-20t-lemon-sky-blue.webp",
+        "price": 6249,
+        "regularPrice": 10119,
+        "inStock": true,
+        "sku": "OK-FORT-20T-LM-SB"
+      },
+      {
+        "color": "Silver/FB Blue",
+        "swatch": "linear-gradient(-45deg, #005093 0%, #005093 50%, #9b9b9b 50%, #9b9b9b 100%)",
+        "image": "/oykid/fortride-20t-silver-fb-blue.webp",
+        "price": 6249,
+        "regularPrice": 10119,
+        "inStock": true,
+        "sku": "OK-FORT-20T-SV-FB"
+      }
+    ],
+    "defaultColor": "Silver/FB Blue",
+    "source": "oyekidbikes.com sku OK-FORT-20T",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-petal-20t-ibc",
+    "brand": "Oyekid",
+    "model": "Petal 20T IBC",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Bloom Into Every Ride",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "2 colours available"
+    ],
+    "price": 6009,
+    "regularPrice": 9699,
+    "rating": 0,
+    "image": "/oykid/petal-20t-ibc-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/petal-20t-ibc-pink-purple.webp",
+        "price": 6009,
+        "regularPrice": 9699,
+        "inStock": true,
+        "sku": "OK-PETA-20-PN-PU"
+      },
+      {
+        "color": "Sea Green/Pink",
+        "swatch": "linear-gradient(-45deg, #f4228d 0%, #f4228d 50%, #56bcb7 50%, #56bcb7 100%)",
+        "image": "/oykid/petal-20t-ibc-sea-green-pink.webp",
+        "price": 6009,
+        "regularPrice": 9699,
+        "inStock": true,
+        "sku": "OK-PETA-20-SG-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-PETA-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-shark-tank-20t-ibc",
+    "brand": "Oyekid",
+    "model": "Shark Tank 20T IBC",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Rule the Roads like a Shark!",
+    "description": "The SHARK TANK model is designed for fearless riders who love speed, strength, and style. With its bold design and shark-inspired attitude, this cycle is built to turn heads while delivering a smooth and powerful ride. A Moment They’ll Never Forget Memorable Gifts for Kids Finding the perfect gift for kids means choosing something that creates joy, builds confidence, and lasts beyond the celebration. Our kids’ bicycles are designed to turn birthdays, festivals, and special milestones into unforgettable memories. With child-safe engineering, vibrant designs, and gift-ready packaging, each bike delivers excitement from the very first look and supports active, happy play every day.",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 5439,
+    "regularPrice": 8799,
+    "rating": 0,
+    "image": "/oykid/shark-tank-20t-ibc-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/shark-tank-20t-ibc-orange-blue.webp",
+        "price": 5439,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-SHTK-20-OG-BL"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/shark-tank-20t-ibc-pink-purple.webp",
+        "price": 5439,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-SHTK-20-PN-PU"
+      },
+      {
+        "color": "Yellow/Orange",
+        "swatch": "linear-gradient(-45deg, #f05128 0%, #f05128 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-20t-ibc-yellow-orange.webp",
+        "price": 5439,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-SHTK-20-OG-YL"
+      },
+      {
+        "color": "Yellow/Sea Blue",
+        "swatch": "linear-gradient(-45deg, #35c0cb 0%, #35c0cb 50%, #eae955 50%, #eae955 100%)",
+        "image": "/oykid/shark-tank-20t-ibc-yellow-sea-blue.webp",
+        "price": 5439,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-SHTK-20-YL-SB"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-SHTK-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-slayer-20t",
+    "brand": "Oyekid",
+    "model": "Slayer 20T",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Unleash the Beast",
+    "description": "Tame the streets with Slayer. Designed for young thrill-seekers, this bike delivers power, performance, and total control. Whether it’s fast corners or rugged paths, Slayer handles it all like a champ.",
+    "specs": [
+      "Wheel size: 20T",
+      "3 colours available"
+    ],
+    "price": 5699,
+    "regularPrice": 9199,
+    "rating": 0,
+    "image": "/oykid/slayer-20t-burgundy.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Burgundy",
+        "swatch": "#800020",
+        "image": "/oykid/slayer-20t-burgundy.webp",
+        "price": 5699,
+        "regularPrice": 9199,
+        "inStock": true,
+        "sku": "OK-SLAY-20-BG"
+      },
+      {
+        "color": "Kia Blue",
+        "swatch": "#22ccd8",
+        "image": "/oykid/slayer-20t-kia-blue.webp",
+        "price": 5699,
+        "regularPrice": 9199,
+        "inStock": true,
+        "sku": "OK-SLAY-20-KB"
+      },
+      {
+        "color": "Sunny Orange",
+        "swatch": "#ff540c",
+        "image": "/oykid/slayer-20t-sunny-orange.webp",
+        "price": 5699,
+        "regularPrice": 9199,
+        "inStock": true,
+        "sku": "OK-SLAY-20-SO"
+      }
+    ],
+    "defaultColor": "Burgundy",
+    "source": "oyekidbikes.com sku OK-SLAY-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-swag-20t-ibc",
+    "brand": "Oyekid",
+    "model": "Swag 20T IBC",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Unleash your Swag!",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 5509,
+    "regularPrice": 8899,
+    "rating": 0,
+    "image": "/oykid/swag-20t-ibc-sky-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/swag-20t-ibc-black-grey.webp",
+        "price": 5509,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-SWAG-20-BK-GY"
+      },
+      {
+        "color": "Purple/Blue",
+        "swatch": "linear-gradient(-45deg, #25529c 0%, #25529c 50%, #7a4d9f 50%, #7a4d9f 100%)",
+        "image": "/oykid/swag-20t-ibc-purple-blue.webp",
+        "price": 5509,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-SWAG-20-PU-BL"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/swag-20t-ibc-red-blue.webp",
+        "price": 5509,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-SWAG-20-RD-BL"
+      },
+      {
+        "color": "Sky/Blue",
+        "swatch": "linear-gradient(-45deg, #6ec4d9 0%, #6ec4d9 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/swag-20t-ibc-sky-blue.webp",
+        "price": 5509,
+        "regularPrice": 8899,
+        "inStock": true,
+        "sku": "OK-SWAG-20-SK-BL"
+      }
+    ],
+    "defaultColor": "Sky/Blue",
+    "source": "oyekidbikes.com sku OK-SWAG-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-vaayu-20t-front-suspension",
+    "brand": "Oyekid",
+    "model": "Vaayu 20T Front Suspension",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Born to Fly, Built to Ride!",
+    "description": "Its stylish design, ergonomic handlebars, and responsive brakes give young riders the confidence to take on every journey.",
+    "specs": [
+      "Wheel size: 20T",
+      "Front suspension fork",
+      "2 colours available"
+    ],
+    "price": 6739,
+    "regularPrice": 10799,
+    "rating": 0,
+    "image": "/oykid/vaayu-20t-front-suspension-electric-blue-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Electric Blue/Yellow",
+        "swatch": "linear-gradient(-45deg, #fff30f 0%, #fff30f 50%, #0068b7 50%, #0068b7 100%)",
+        "image": "/oykid/vaayu-20t-front-suspension-electric-blue-yellow.webp",
+        "price": 6739,
+        "regularPrice": 10799,
+        "inStock": true,
+        "sku": "OK-VAAY-20-FS-EB-YL"
+      },
+      {
+        "color": "Military Green/Pista Green",
+        "swatch": "linear-gradient(-45deg, #dcf2c4 0%, #dcf2c4 50%, #009353 50%, #009353 100%)",
+        "image": "/oykid/vaayu-20t-front-suspension-military-green-pista-green.webp",
+        "price": 6739,
+        "regularPrice": 10799,
+        "inStock": true,
+        "sku": "OK-VAAY-20-FS-MG-PG"
+      }
+    ],
+    "defaultColor": "Electric Blue/Yellow",
+    "source": "oyekidbikes.com sku OK-VAAY-20-FS",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-vaayu-20t-rigid",
+    "brand": "Oyekid",
+    "model": "Vaayu 20T Rigid",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Born to Fly, Built to Ride!",
+    "description": "Its stylish design, ergonomic handlebars, and responsive brakes give young riders the confidence to take on every journey.",
+    "specs": [
+      "Wheel size: 20T",
+      "Rigid fork",
+      "2 colours available"
+    ],
+    "price": 6269,
+    "regularPrice": 10099,
+    "rating": 0,
+    "image": "/oykid/vaayu-20t-rigid-military-green-pista-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Electric Blue/Yellow",
+        "swatch": "linear-gradient(-45deg, #fff30f 0%, #fff30f 50%, #0068b7 50%, #0068b7 100%)",
+        "image": "/oykid/vaayu-20t-rigid-electric-blue-yellow.webp",
+        "price": 6269,
+        "regularPrice": 10099,
+        "inStock": true,
+        "sku": "OK-VAAY-20-RG-EB-YL"
+      },
+      {
+        "color": "Military Green/Pista Green",
+        "swatch": "linear-gradient(-45deg, #dcf2c4 0%, #dcf2c4 50%, #009353 50%, #009353 100%)",
+        "image": "/oykid/vaayu-20t-rigid-military-green-pista-green.webp",
+        "price": 6269,
+        "regularPrice": 10099,
+        "inStock": true,
+        "sku": "OK-VAAY-20-RG-MG-PG"
+      }
+    ],
+    "defaultColor": "Military Green/Pista Green",
+    "source": "oyekidbikes.com sku OK-VAAY-20-RG",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-vangers-20t-ibc",
+    "brand": "Oyekid",
+    "model": "Vangers 20T IBC",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "Conquer Every Ride",
+    "description": "Vanger is built for young explorers who love adventure and speed. With a bold design, sturdy frame, and smooth ride control, it’s perfect for everyday fun or weekend trails. Whether cruising the street or powering through the park, Vanger makes every ride a victory.",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "4 colours available"
+    ],
+    "price": 5449,
+    "regularPrice": 8799,
+    "rating": 0,
+    "image": "/oykid/vangers-20t-ibc-rainbow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Olive Green",
+        "swatch": "#9dae11",
+        "image": "/oykid/vangers-20t-ibc-olive-green.webp",
+        "price": 5449,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-VANG-20-OL-GN"
+      },
+      {
+        "color": "Rainbow",
+        "swatch": "#004151",
+        "image": "/oykid/vangers-20t-ibc-rainbow.webp",
+        "price": 5449,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-VANG-20-RB"
+      },
+      {
+        "color": "Blue/Black",
+        "swatch": "linear-gradient(-45deg, #0c0c0c 0%, #0c0c0c 50%, #0083ff 50%, #0083ff 100%)",
+        "image": "/oykid/vangers-20t-ibc-blue-black.webp",
+        "price": 5449,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-VANG-20-BL-BK"
+      },
+      {
+        "color": "Orange/Black",
+        "swatch": "linear-gradient(-45deg, #0a0a0a 0%, #0a0a0a 50%, #ff5200 50%, #ff5200 100%)",
+        "image": "/oykid/vangers-20t-ibc-orange-black.webp",
+        "price": 5449,
+        "regularPrice": 8799,
+        "inStock": true,
+        "sku": "OK-VANG-20-OG-BK"
+      }
+    ],
+    "defaultColor": "Rainbow",
+    "source": "oyekidbikes.com sku OK-VANG-20",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-yuvaa-20t-ibc-rigid",
+    "brand": "Oyekid",
+    "model": "Yuvaa 20T IBC – Rigid",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "For the Young at Heart!",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "Rigid fork",
+      "3 colours available"
+    ],
+    "price": 6579,
+    "regularPrice": 10599,
+    "rating": 0,
+    "image": "/oykid/yuvaa-20t-ibc-rigid-orange-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-rigid-black-grey.webp",
+        "price": 6579,
+        "regularPrice": 10599,
+        "inStock": true,
+        "sku": "OK-YUVA-20-RIG-BK-GY"
+      },
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-rigid-orange-blue.webp",
+        "price": 6579,
+        "regularPrice": 10599,
+        "inStock": true,
+        "sku": "OK-YUVA-20-RIG-OG-BL"
+      },
+      {
+        "color": "Orange/Green",
+        "swatch": "linear-gradient(-45deg, #223a00 0%, #223a00 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-rigid-orange-green.webp",
+        "price": 6579,
+        "regularPrice": 10599,
+        "inStock": true,
+        "sku": "OK-YUVA-20-RIG-OG-GN"
+      }
+    ],
+    "defaultColor": "Orange/Green",
+    "source": "oyekidbikes.com sku OK-YUVA-20-RIG",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-yuvaa-20t-ibc-suspension",
+    "brand": "Oyekid",
+    "model": "Yuvaa 20T IBC – Suspension",
+    "category": "kids",
+    "group": "20T",
+    "sizes": "20T",
+    "tagline": "For the Young at Heart!",
+    "specs": [
+      "Wheel size: 20T",
+      "IBC — in-built carrier",
+      "Front suspension fork",
+      "3 colours available"
+    ],
+    "price": 7059,
+    "regularPrice": 11299,
+    "rating": 0,
+    "image": "/oykid/yuvaa-20t-ibc-suspension-black-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "swatch": "linear-gradient(-45deg, #999999 0%, #999999 50%, #000000 50%, #000000 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-suspension-black-grey.webp",
+        "price": 7059,
+        "regularPrice": 11299,
+        "inStock": true,
+        "sku": "OK-YUVA-20-SUS-BK-GY"
+      },
+      {
+        "color": "Orange/Blue",
+        "swatch": "linear-gradient(-45deg, #25409a 0%, #25409a 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-suspension-orange-blue.webp",
+        "price": 7059,
+        "regularPrice": 11299,
+        "inStock": true,
+        "sku": "OK-YUVA-20-SUS-OG-BL"
+      },
+      {
+        "color": "Orange/Green",
+        "swatch": "linear-gradient(-45deg, #223a00 0%, #223a00 50%, #f05128 50%, #f05128 100%)",
+        "image": "/oykid/yuvaa-20t-ibc-suspension-orange-green.webp",
+        "price": 7059,
+        "regularPrice": 11299,
+        "inStock": true,
+        "sku": "OK-YUVA-20-SUS-OG-GN"
+      }
+    ],
+    "defaultColor": "Black/Grey",
+    "source": "oyekidbikes.com sku OK-YUVA-20-SUS",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-adventure-24t",
+    "brand": "Oyekid",
+    "model": "Adventure 24T",
+    "category": "kids",
+    "group": "24T",
+    "sizes": "24T",
+    "tagline": "Built for the Bold Explorer",
+    "description": "For young riders ready to level up, Adventure is built for bigger goals and bolder paths. It’s the perfect companion for tweens and teens who crave freedom, speed, and style. Whether it’s a ride to school or a weekend spin, Adventure is made for those who never stop exploring.",
+    "specs": [
+      "Wheel size: 24T",
+      "3 colours available"
+    ],
+    "price": 9459,
+    "regularPrice": 15199,
+    "rating": 0,
+    "image": "/oykid/adventure-24t-grey-golden.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Golden",
+        "swatch": "linear-gradient(-45deg, #c6b46b 0%, #c6b46b 50%, #808080 50%, #808080 100%)",
+        "image": "/oykid/adventure-24t-grey-golden.webp",
+        "price": 9459,
+        "regularPrice": 15199,
+        "inStock": true,
+        "sku": "OK-ADVE-24-GD-GY"
+      },
+      {
+        "color": "Pink/Sky Blue",
+        "swatch": "linear-gradient(-45deg, #89d2de 0%, #89d2de 50%, #de76ad 50%, #de76ad 100%)",
+        "image": "/oykid/adventure-24t-pink-sky-blue.webp",
+        "price": 9459,
+        "regularPrice": 15199,
+        "inStock": true,
+        "sku": "OK-ADVE-24-PN-SB"
+      },
+      {
+        "color": "Red/Blue",
+        "swatch": "linear-gradient(-45deg, #1a626e 0%, #1a626e 50%, #5e2028 50%, #5e2028 100%)",
+        "image": "/oykid/adventure-24t-red-blue.webp",
+        "price": 9459,
+        "regularPrice": 15199,
+        "inStock": true,
+        "sku": "OK-ADVE-24-RD-BL"
+      }
+    ],
+    "defaultColor": "Grey/Golden",
+    "source": "oyekidbikes.com sku OK-ADVE-24",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-airflex-24t-front-suspension",
+    "brand": "Oyekid",
+    "model": "Airflex 24T Front Suspension",
+    "category": "kids",
+    "group": "24T",
+    "sizes": "24T",
+    "tagline": "Smooth Rides, Maximum Flex!",
+    "description": "Effortlessly sleek and ultra-flexible, Airflex gives you the smoothest ride with ultimate comfort. Glide through every turn with ease and style!",
+    "specs": [
+      "Wheel size: 24T",
+      "Front suspension fork",
+      "2 colours available"
+    ],
+    "price": 9999,
+    "regularPrice": 15999,
+    "rating": 0,
+    "image": "/oykid/airflex-24t-front-suspension-smoky-golden.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smoky Grey",
+        "swatch": "#bab4b4",
+        "image": "/oykid/airflex-24t-front-suspension-smoky-grey.webp",
+        "price": 9999,
+        "regularPrice": 15999,
+        "inStock": true,
+        "sku": "OK-AIRF-24-FS-SM-GY"
+      },
+      {
+        "color": "Smoky Golden",
+        "swatch": "#b5a182",
+        "image": "/oykid/airflex-24t-front-suspension-smoky-golden.webp",
+        "price": 9999,
+        "regularPrice": 15999,
+        "inStock": true,
+        "sku": "OK-AIRF-24-FS-SM-GD"
+      }
+    ],
+    "defaultColor": "Smoky Golden",
+    "source": "oyekidbikes.com sku OK-AIRF-24-FS",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-emma-24t",
+    "brand": "Oyekid",
+    "model": "Emma 24T",
+    "category": "kids",
+    "group": "24T",
+    "sizes": "24T",
+    "tagline": "Inspired by Paris, Designed for You",
+    "specs": [
+      "Wheel size: 24T",
+      "3 colours available"
+    ],
+    "price": 7079,
+    "regularPrice": 11399,
+    "rating": 0,
+    "image": "/oykid/emma-24t-pink-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Baby Pink/Sea Green",
+        "swatch": "linear-gradient(-45deg, #8dced9 0%, #8dced9 50%, #e1a3a8 50%, #e1a3a8 100%)",
+        "image": "/oykid/emma-24t-baby-pink-sea-green.webp",
+        "price": 7079,
+        "regularPrice": 11399,
+        "inStock": true,
+        "sku": "OK-EMMA-24-BP-SG"
+      },
+      {
+        "color": "Dark Pink/Pearl Pink",
+        "swatch": "linear-gradient(-45deg, #dfabbd 0%, #dfabbd 50%, #cb4297 50%, #cb4297 100%)",
+        "image": "/oykid/emma-24t-dark-pink-pearl-pink.webp",
+        "price": 7079,
+        "regularPrice": 11399,
+        "inStock": true,
+        "sku": "OK-EMMA-24-DP-PP"
+      },
+      {
+        "color": "Pink/Purple",
+        "swatch": "linear-gradient(-45deg, #de6291 0%, #de6291 50%, #6b5ea0 50%, #6b5ea0 100%)",
+        "image": "/oykid/emma-24t-pink-purple.webp",
+        "price": 7079,
+        "regularPrice": 11399,
+        "inStock": true,
+        "sku": "OK-EMMA-24-PU-PN"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "oyekidbikes.com sku OK-EMMA-24",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-vaayu-24t-front-suspension",
+    "brand": "Oyekid",
+    "model": "Vaayu 24T Front Suspension",
+    "category": "kids",
+    "group": "24T",
+    "sizes": "24T",
+    "tagline": "Born to Fly, Built to Ride!",
+    "description": "Its stylish design, ergonomic handlebars, and responsive brakes give young riders the confidence to take on every journey.",
+    "specs": [
+      "Wheel size: 24T",
+      "Front suspension fork",
+      "2 colours available"
+    ],
+    "price": 9229,
+    "regularPrice": 14799,
+    "rating": 0,
+    "image": "/oykid/vaayu-24t-front-suspension-electric-blue-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Electric Blue/Yellow",
+        "swatch": "linear-gradient(-45deg, #fff30f 0%, #fff30f 50%, #0068b7 50%, #0068b7 100%)",
+        "image": "/oykid/vaayu-24t-front-suspension-electric-blue-yellow.webp",
+        "price": 9229,
+        "regularPrice": 14799,
+        "inStock": true,
+        "sku": "OK-VAAY-24-FS-EB-YL"
+      },
+      {
+        "color": "Military Green/Pista Green",
+        "swatch": "linear-gradient(-45deg, #dcf2c4 0%, #dcf2c4 50%, #009353 50%, #009353 100%)",
+        "image": "/oykid/vaayu-24t-front-suspension-military-green-pista-green.webp",
+        "price": 9229,
+        "regularPrice": 14799,
+        "inStock": true,
+        "sku": "OK-VAAY-24-FS-MG-PG"
+      }
+    ],
+    "defaultColor": "Electric Blue/Yellow",
+    "source": "oyekidbikes.com sku OK-VAAY-24-FS",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
+  },
+  {
+    "slug": "oyekid-airflex-26t-rigid",
+    "brand": "Oyekid",
+    "model": "Airflex 26T Rigid",
+    "category": "kids",
+    "group": "26T",
+    "sizes": "26T",
+    "tagline": "Smooth Rides, Maximum Flex!",
+    "description": "Effortlessly sleek and ultra-flexible, Airflex gives you the smoothest ride with ultimate comfort. Glide through every turn with ease and style!",
+    "specs": [
+      "Wheel size: 26T",
+      "Rigid fork",
+      "2 colours available"
+    ],
+    "price": 9369,
+    "regularPrice": 14999,
+    "rating": 0,
+    "image": "/oykid/airflex-26t-rigid-smoky-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smoky Grey",
+        "swatch": "#bab4b4",
+        "image": "/oykid/airflex-26t-rigid-smoky-grey.webp",
+        "price": 9369,
+        "regularPrice": 14999,
+        "inStock": true,
+        "sku": "OK-AIRF-26-RG-SM-GY"
+      },
+      {
+        "color": "Smoky Golden",
+        "swatch": "#b5a182",
+        "image": "/oykid/airflex-26t-rigid-smoky-golden.webp",
+        "price": 9369,
+        "regularPrice": 14999,
+        "inStock": true,
+        "sku": "OK-AIRF-26-RG-SM-GD"
+      }
+    ],
+    "defaultColor": "Smoky Grey",
+    "source": "oyekidbikes.com sku OK-AIRF-26-RG",
+    "createdAt": "2026-10-05T07:43:21.396Z",
+    "updatedAt": "2026-10-05T07:43:21.396Z"
   }
 ]

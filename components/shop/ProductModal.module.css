@@ -194,3 +194,37 @@
     padding: 26px 22px;
   }
 }
+
+/* colourway picker, tagline, description, MRP */
+.tagline {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.colors {
+  margin-top: 14px;
+}
+.colorsLabel {
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.desc {
+  margin-top: 12px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.mrp {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+.off {
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #1b8a4b;
+}
