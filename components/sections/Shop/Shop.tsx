@@ -45,11 +45,22 @@ const NEUFMAN_GROUPS = [
   { id: "Women's", label: "Women's" },
   { id: "Kids", label: "Kids" },
 ];
-const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS];
+/* Schnell's range types (trinitycyclesindia.com categories). Ids are prefixed so
+   they can never collide with another brand's groups. */
+const SCHNELL_GROUPS = [
+  { id: "Schnell MTB", label: "MTB" },
+  { id: "Schnell Hybrid", label: "Hybrid" },
+  { id: "Schnell Road", label: "Road" },
+  { id: "Schnell Kids", label: "Kids" },
+  { id: "Schnell E-Bike", label: "E-Bike" },
+];
+const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS, ...SCHNELL_GROUPS];
+const GROUPS_BY_TAB = { oyekid: OYEKID_GROUPS, neufman: NEUFMAN_GROUPS, schnell: SCHNELL_GROUPS } as const;
 
 const BROWSE_TABS = [
   { id: "oyekid", name: "Oyekid", hint: "Shop by age", logo: "/images/logo/oyekidlogo.png" },
   { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
+  { id: "schnell", name: "Schnell", hint: "Shop by type", logo: "/images/logo/schnelllogo.png" },
 ] as const;
 
 /* "Featured" order: the first screen of the shop is what draws people in, so it leads with
@@ -203,7 +214,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -423,6 +434,22 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
+              <FilterSection icon={Icon.bike} title="Schnell · Shop by Type">
+                <ul className={styles.checkList}>
+                  {SCHNELL_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -474,7 +501,7 @@ export default function Shop() {
                     </button>
                   ))}
                 </div>
-                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : "Neufman by type"}>
+                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : `${browseTab === "neufman" ? "Neufman" : "Schnell"} by type`}>
                   <button
                     type="button"
                     aria-pressed={selectedGroups.length === 0}
@@ -483,7 +510,7 @@ export default function Shop() {
                   >
                     All cycles
                   </button>
-                  {(browseTab === "oyekid" ? OYEKID_GROUPS : NEUFMAN_GROUPS).map((g) => {
+                  {GROUPS_BY_TAB[browseTab].map((g) => {
                     const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
                     const n = products.filter((p) => p.group === g.id).length;
                     return (

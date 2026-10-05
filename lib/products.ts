@@ -14,6 +14,7 @@ import { SEED_PRODUCTS } from "@/data/products-seed";
 import { readCollection, writeCollection } from "@/lib/storage";
 import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
 import NEUFMAN_CATALOG from "@/data/neufman-catalog.json";
+import SCHNELL_CATALOG from "@/data/schnell-catalog.json";
 
 const COLLECTION = "products";
 /** slugs of catalogue products already copied into the live collection */
@@ -76,7 +77,11 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
   if (catalogChecked) return products;
   const imported = await readCollection<string[]>(IMPORTS, []);
   type Entry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
-  const catalog = [...(OYEKID_CATALOG as unknown as Entry[]), ...(NEUFMAN_CATALOG as unknown as Entry[])];
+  const catalog = [
+    ...(OYEKID_CATALOG as unknown as Entry[]),
+    ...(NEUFMAN_CATALOG as unknown as Entry[]),
+    ...(SCHNELL_CATALOG as unknown as Entry[]),
+  ];
   const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {
     const now = new Date().toISOString();

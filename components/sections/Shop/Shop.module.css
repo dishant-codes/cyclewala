@@ -890,7 +890,7 @@
 }
 .browseTabs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   padding: 4px;
   background: #f1f1ee;
@@ -1042,5 +1042,16 @@
 @media (min-width: 861px) {
   .filterToggle {
     display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  /* three tabs on a phone: logo above the name, no hint text */
+  .browseTab,
+  .browseTabOn {
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 6px;
+    text-align: center;
   }
 }

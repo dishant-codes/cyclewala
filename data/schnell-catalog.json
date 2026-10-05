@@ -1,0 +1,3940 @@
+[
+  {
+    "slug": "schnell-speed-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Speed SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "20T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL SPEED SS-KIDS BIKE is a stylish and durable kids’ bicycle designed for fun, confidence, and everyday riding. With its sporty design, sturdy frame, wide tyres, protective mudguards, and training wheels, it offers young riders a comfortable and stable riding experience.",
+    "price": 7190,
+    "rating": 0,
+    "image": "/schnell/speed-ss-kids-bike-blue-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/speed-ss-kids-bike-blue-green.webp",
+        "price": 7190,
+        "regularPrice": 7190,
+        "inStock": true,
+        "sku": "SCHNELL073"
+      }
+    ],
+    "defaultColor": "Blue Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-derby-ms-hybrid",
+    "brand": "Schnell",
+    "model": "Derby MS Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 24 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The SCHNELL DERBY 24 SPEED is a versatile 28-inch hybrid bicycle designed for riders who want a balanced combination of performance, comfort, and everyday practicality. Featuring a 24-speed Shimano drivetrain, 700C tyres, TRIOBLADE disc brakes, an alloy wheelset, and a durable steel frame, it delivers confident control and smooth performance for city rides, fitness, commuting, and recreational cycling.",
+    "price": 21402,
+    "rating": 0,
+    "image": "/schnell/derby-ms-hybrid-light-dark-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Light & Dark Blue",
+        "size": "700C",
+        "swatch": "#16377a",
+        "image": "/schnell/derby-ms-hybrid-light-dark-blue.webp",
+        "price": 21402,
+        "regularPrice": 21402,
+        "inStock": true,
+        "sku": "SCHNELL071"
+      },
+      {
+        "color": "Black Red White",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/derby-ms-hybrid-black-red-white.webp",
+        "price": 21402,
+        "regularPrice": 21402,
+        "inStock": true,
+        "sku": "SCHNELL071"
+      }
+    ],
+    "defaultColor": "Light & Dark Blue",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-sierra-1-0-ms-road",
+    "brand": "Schnell",
+    "model": "Sierra 1.0 MS Road",
+    "category": "hybrid",
+    "group": "Schnell Road",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The SCHNELL SIERRA 1.0 Road Bike is built for smooth, efficient road riding with a lightweight, performance-focused design. Ideal for daily rides, fitness, commuting, and weekend cycling, it delivers responsive handling and a comfortable road-riding experience.",
+    "price": 26790,
+    "rating": 0,
+    "image": "/schnell/sierra-1-0-ms-road-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/sierra-1-0-ms-road-black-red.webp",
+        "price": 26790,
+        "regularPrice": 26790,
+        "inStock": true,
+        "sku": "SCHNELL072"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-paris-ms-mtb",
+    "brand": "Schnell",
+    "model": "Paris MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "SCHNELL PARIS MS-MTB is a versatile mountain bike built for everyday rides, fitness, city commuting, and weekend adventures. With a durable alloy frame, multi-speed Shimano gearing, front suspension, wide MTB tyres, and reliable disc brakes, it delivers a comfortable, controlled, and confident riding experience on both city roads and rough terrain.",
+    "price": 26802,
+    "rating": 0,
+    "image": "/schnell/paris-ms-mtb-blue-orange-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Orange Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/paris-ms-mtb-blue-orange-black.webp",
+        "price": 26802,
+        "regularPrice": 26802,
+        "inStock": true,
+        "sku": "SCHNELL070"
+      }
+    ],
+    "defaultColor": "Blue Orange Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-max-ms-mtb",
+    "brand": "Schnell",
+    "model": "Max MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL MAX MS-MTB is a powerful and versatile mountain bike designed for riders who crave performance, durability, and control on every trail. Built to handle rugged terrains, it’s ideal for both adventure seekers and casual cyclists looking for a dependable MTB.",
+    "price": 16902,
+    "rating": 0,
+    "image": "/schnell/max-ms-mtb-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/max-ms-mtb-black-blue.webp",
+        "price": 16902,
+        "regularPrice": 16902,
+        "inStock": true,
+        "sku": "SCHNELL050"
+      },
+      {
+        "color": "Black Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/max-ms-mtb-black-blue.webp",
+        "price": 16902,
+        "regularPrice": 16902,
+        "inStock": true,
+        "sku": "SCHNELL050"
+      }
+    ],
+    "defaultColor": "Black Blue",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-mag-007-ms-mtb",
+    "brand": "Schnell",
+    "model": "Mag-007 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "Schnell MAG 007 21 Speed is a premium imported mountain bike built for riders who love performance and style. Featuring a lightweight alloy frame, 21-speed gear system, and dual disc brakes, it delivers power, precision, and comfort on any terrain.",
+    "price": 23922,
+    "rating": 0,
+    "image": "/schnell/mag-007-ms-mtb-black-green-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Green Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/mag-007-ms-mtb-black-green-red.webp",
+        "price": 23922,
+        "regularPrice": 23922,
+        "inStock": true,
+        "sku": "SCHNELL049"
+      },
+      {
+        "color": "Black Green Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/mag-007-ms-mtb-black-green-red.webp",
+        "price": 23922,
+        "regularPrice": 23922,
+        "inStock": true,
+        "sku": "SCHNELL049"
+      }
+    ],
+    "defaultColor": "Black Green Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-beluga-ss-mtb",
+    "brand": "Schnell",
+    "model": "Beluga SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Schnell Beluga SS-MTB is a rugged single-speed mountain bike built for everyday riding and weekend adventures. With its strong steel MTB frame, suspension fork and reliable braking system, Beluga offers comfort, control and durability at an affordable price.",
+    "price": 12290,
+    "rating": 0,
+    "image": "/schnell/beluga-ss-mtb-gold-blue-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gold Blue Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/beluga-ss-mtb-gold-blue-red.webp",
+        "price": 12290,
+        "regularPrice": 12290,
+        "inStock": true,
+        "sku": "SCHNELL015"
+      },
+      {
+        "color": "Gold Blue Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/beluga-ss-mtb-gold-blue-red.webp",
+        "price": 12290,
+        "regularPrice": 12290,
+        "inStock": true,
+        "sku": "SCHNELL015"
+      }
+    ],
+    "defaultColor": "Gold Blue Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-c3r-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "C3R SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Durable Frame: Strong, kid-safe construction built to withstand bumps and play.",
+      "Single-Speed System: Simple drivetrain that’s easy for children to pedal and control.",
+      "Comfortable Seat & Handlebars: Designed for a relaxed riding posture.",
+      "Stable Tires: Provide good traction and balance on neighborhood paths and playground surfaces.",
+      "Optional Training Wheels: Often included for beginners learning to balance (varies by seller)."
+    ],
+    "description": "The SCHNELL C3R SS-KIDS BIKE is a fun and reliable children’s bicycle designed to make learning to ride easy and enjoyable. With a sturdy build and kid-friendly features, it’s perfect for young riders gaining confidence and developing cycling skills.",
+    "price": 7938,
+    "rating": 0,
+    "image": "/schnell/c3r-ss-kids-bike-green-yellow-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green Yellow White",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 33.3%, #f2c40f 33.3%, #f2c40f 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/c3r-ss-kids-bike-green-yellow-white.webp",
+        "price": 7938,
+        "regularPrice": 7938,
+        "inStock": true,
+        "sku": "SCHNELL007"
+      },
+      {
+        "color": "Green Yellow White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 33.3%, #f2c40f 33.3%, #f2c40f 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/c3r-ss-kids-bike-green-yellow-white.webp",
+        "price": 7938,
+        "regularPrice": 7938,
+        "inStock": true,
+        "sku": "SCHNELL007"
+      },
+      {
+        "color": "Black Red White",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/c3r-ss-kids-bike-black-red-white.webp",
+        "price": 7938,
+        "regularPrice": 7938,
+        "inStock": true,
+        "sku": "SCHNELL007"
+      },
+      {
+        "color": "Black Red White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/c3r-ss-kids-bike-black-red-white.webp",
+        "price": 7938,
+        "regularPrice": 7938,
+        "inStock": true,
+        "sku": "SCHNELL007"
+      }
+    ],
+    "defaultColor": "Green Yellow White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-tor-1-0-ms-mtb",
+    "brand": "Schnell",
+    "model": "Tor 1.0 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: 24 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "Schnell TOR 1.0 is an high performance MTB built on a super light alloy frame and powered by Shimano Altus 24 Speed gear system. TOR 1.0 also features lock out suspension on the front, Double wall alloy rim and dual disc brakes",
+    "price": 31572,
+    "rating": 0,
+    "image": "/schnell/tor-1-0-ms-mtb-green-black-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green Black Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 33.3%, #161616 33.3%, #161616 66.7%, #8a8f98 66.7%, #8a8f98 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-green-black-grey.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      },
+      {
+        "color": "Green Black Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 33.3%, #161616 33.3%, #161616 66.7%, #8a8f98 66.7%, #8a8f98 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-green-black-grey.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      },
+      {
+        "color": "Blue Green Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-blue-green-black.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      },
+      {
+        "color": "Blue Green Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-blue-green-black.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      },
+      {
+        "color": "Black Red White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-black-red-white.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      },
+      {
+        "color": "Black Red White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/tor-1-0-ms-mtb-black-red-white.webp",
+        "price": 31572,
+        "regularPrice": 31572,
+        "inStock": true,
+        "sku": "SCHNELL068"
+      }
+    ],
+    "defaultColor": "Green Black Grey",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-tall-boy-ss-hybrid",
+    "brand": "Schnell",
+    "model": "Tall Boy SS-Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell Tall Boy SS-Hybrid Bikes is a stylish and reliable single-speed bicycle designed for urban commuting and everyday riding. Built with a durable steel frame, rigid fork, and double-wall alloy rims, it offers a smooth, low-maintenance, and comfortable ride for city streets and fitness enthusiasts.",
+    "price": 13290,
+    "rating": 0,
+    "image": "/schnell/tall-boy-ss-hybrid-black-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Silver",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/tall-boy-ss-hybrid-black-silver.webp",
+        "price": 13290,
+        "regularPrice": 13290,
+        "inStock": true,
+        "sku": "SCHNELL067"
+      }
+    ],
+    "defaultColor": "Black Silver",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-skywalk-ss-mtb",
+    "brand": "Schnell",
+    "model": "Skywalk SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL SKYWALK SS MTB is a rugged single-speed mountain bike built for strength, control and everyday adventure. Designed for tough Indian roads and rough trails, it delivers a bold riding experience with zero compromise on style and durability.",
+    "price": 15642,
+    "rating": 0,
+    "image": "/schnell/skywalk-ss-mtb-purple-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Purple Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/skywalk-ss-mtb-purple-black.webp",
+        "price": 15642,
+        "regularPrice": 15642,
+        "inStock": true,
+        "sku": "SCHNELL066"
+      },
+      {
+        "color": "Purple Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/skywalk-ss-mtb-purple-black.webp",
+        "price": 15642,
+        "regularPrice": 15642,
+        "inStock": true,
+        "sku": "SCHNELL066"
+      },
+      {
+        "color": "Black Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/skywalk-ss-mtb-black-green.webp",
+        "price": 15642,
+        "regularPrice": 15642,
+        "inStock": true,
+        "sku": "SCHNELL066"
+      },
+      {
+        "color": "Black Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/skywalk-ss-mtb-black-green.webp",
+        "price": 15642,
+        "regularPrice": 15642,
+        "inStock": true,
+        "sku": "SCHNELL066"
+      }
+    ],
+    "defaultColor": "Purple Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-scrapper-ms-mtb",
+    "brand": "Schnell",
+    "model": "Scrapper MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Strong & Durable Frame: Built to withstand rough use and challenging surfaces.",
+      "Multi-Speed Gear System: Easy shifting for handling both climbs and flats with confidence.",
+      "Responsive Brakes: Provides reliable stopping power for safer rides.",
+      "Front Suspension Fork: Helps absorb shocks for smoother trail riding.",
+      "Wide MTB Tires: Enhanced traction and stability on uneven ground.",
+      "Ergonomic Design: Comfortable saddle and handlebar positioning for longer rides."
+    ],
+    "description": "The Schnell Scrapper MS-MTB is a rugged mountain bike built for thrill seekers who love rough roads and off-road adventures. With its magnesium frame, wide tyres and sporty design, it delivers durability, comfort and control on every ride.",
+    "price": 24282,
+    "rating": 0,
+    "image": "/schnell/scrapper-ms-mtb-yellow-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-yellow-green.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Yellow Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-yellow-green.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Green Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-green-blue.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Green Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-green-blue.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Blue Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-blue-grey.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Blue Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-blue-grey.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-black-red.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/scrapper-ms-mtb-black-red.webp",
+        "price": 24282,
+        "regularPrice": 24282,
+        "inStock": true,
+        "sku": "SCHNELL064"
+      }
+    ],
+    "defaultColor": "Yellow Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-rover-ss-mtb",
+    "brand": "Schnell",
+    "model": "Rover SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The Schnell Rover Single Speed 24 26 29” Mountain Bike offers durability, comfort, and smooth performance for adventure enthusiasts. Its robust frame and large 29-inch wheels make it ideal for tackling trails, city roads, and rugged terrain with ease.",
+    "price": 17990,
+    "rating": 0,
+    "image": "/schnell/rover-ss-mtb-grey-green-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey Green Silver",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-grey-green-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      },
+      {
+        "color": "Grey Green Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-grey-green-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      },
+      {
+        "color": "Grey Green Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-grey-green-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-black-grey-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-black-grey-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ss-mtb-black-grey-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "SCHNELL063"
+      }
+    ],
+    "defaultColor": "Grey Green Silver",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-rover-ms-mtb",
+    "brand": "Schnell",
+    "model": "Rover MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The Schnell Rover Single Speed 24 26 29” Mountain Bike offers durability, comfort, and smooth performance for adventure enthusiasts. Its robust frame and large 29-inch wheels make it ideal for tackling trails, city roads, and rugged terrain with ease.",
+    "price": 22090,
+    "rating": 0,
+    "image": "/schnell/rover-ms-mtb-grey-green-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey Green Silver",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-grey-green-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      },
+      {
+        "color": "Grey Green Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-grey-green-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      },
+      {
+        "color": "Grey Green Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-grey-green-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-black-grey-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-black-grey-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      },
+      {
+        "color": "Black Grey Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/rover-ms-mtb-black-grey-silver.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL062"
+      }
+    ],
+    "defaultColor": "Grey Green Silver",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-rocco-ss-mtb",
+    "brand": "Schnell",
+    "model": "Rocco SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Frame: Lightweight & durable alloy MTB frame",
+      "Speed: Single-speed for easy, low-maintenance riding",
+      "Brakes: Front & rear disc brakes for reliable stopping",
+      "Suspension: Front suspension fork for smoother control",
+      "Tyres: 24” / 26” / 29” all-terrain tyres for stability and grip",
+      "Rims: Double-wall alloy rims for strength",
+      "Comfort: Ergonomic saddle and handlebar design",
+      "Design: Sleek, sporty graphics with a premium finish"
+    ],
+    "description": "The Schnell ROCCO SS FSDD Alloy MTB blends strength, speed, and style. With its lightweight alloy frame, front suspension, and dual disc brakes, it’s built for all terrains and all riders.",
+    "price": 25362,
+    "rating": 0,
+    "image": "/schnell/rocco-ss-mtb-silver-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Silver Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-silver-black.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Silver Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-silver-black.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Silver Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-silver-black.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Silver Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-silver-black.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-red.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-red.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-red.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-red.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-orange.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-orange.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-orange.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-orange.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-blue.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-blue.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-blue.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      },
+      {
+        "color": "Black Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ss-mtb-black-blue.webp",
+        "price": 25362,
+        "regularPrice": 25362,
+        "inStock": true,
+        "sku": "SCHNELL061"
+      }
+    ],
+    "defaultColor": "Silver Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-rocco-ms-mtb",
+    "brand": "Schnell",
+    "model": "Rocco MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Sturdy Multi-Speed Frame: Built for strength and long-lasting performance, suitable for road and trail use.",
+      "Efficient Gear System: Smooth shifting for tackling climbs, flats, and descents with ease.",
+      "Front Suspension Fork: Absorbs shocks and bumps to enhance ride comfort on rough surfaces.",
+      "Wide MTB Tires: Provide excellent traction and stability on uneven terrain.",
+      "Responsive Brakes: Offer dependable stopping power for safe riding."
+    ],
+    "description": "The Schnell Rocco MS Alloy MTB is a performance-oriented mountain bike built with a lightweight alloy frame, powerful braking, and smooth gearing. Available in 24\", 26\", and 29\" sizes, it delivers comfort, durability, and control for both city rides and off-road trails.",
+    "price": 25390,
+    "rating": 0,
+    "image": "/schnell/rocco-ms-mtb-silver-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Silver Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-silver-black.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Silver Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-silver-black.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Silver Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-silver-black.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-red.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-red.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-red.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-orange.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-orange.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-orange.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-blue.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-blue.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      },
+      {
+        "color": "Black Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/rocco-ms-mtb-black-blue.webp",
+        "price": 25390,
+        "regularPrice": 25390,
+        "inStock": true,
+        "sku": "SCHNELL060"
+      }
+    ],
+    "defaultColor": "Silver Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-road-kill-ss-mtb",
+    "brand": "Schnell",
+    "model": "Road Kill SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Frame: High-tensile steel frame for strength and durability",
+      "Gears: Single Speed – simple, smooth, and low-maintenance",
+      "Brakes: Front & Rear Mechanical Disc Brakes for strong stopping power",
+      "Tires: 27.5” or 29” wide MTB tires for enhanced grip and control",
+      "Rims: Double Wall Alloy Rims for extra stability",
+      "Suspension: Front Suspension Fork for smoother rides on rough roads",
+      "Handlebar: Sporty MTB handlebar for better control and comfort",
+      "Design: Stylish imported design with premium finish",
+      "Suitable For: Adults (Height 5’4” to 6’2”)",
+      "Ideal Use: City rides | Off-road trails | Fitness rides"
+    ],
+    "description": "The SCHNELL ROAD KILL SS-MTB is designed for riders who want a bold, sporty, and performance-focused mountain bike. With its aggressive styling, comfortable riding position, and durable build, it is suitable for everyday city rides, fitness sessions, and adventurous weekend cycling.",
+    "price": 21290,
+    "rating": 0,
+    "image": "/schnell/road-kill-ss-mtb-blue-green-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Green White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/road-kill-ss-mtb-blue-green-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL059"
+      },
+      {
+        "color": "Blue Green White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/road-kill-ss-mtb-blue-green-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL059"
+      },
+      {
+        "color": "Black White Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f5f5f5 33.3%, #f5f5f5 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/road-kill-ss-mtb-black-white-red.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL059"
+      },
+      {
+        "color": "Black White Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f5f5f5 33.3%, #f5f5f5 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/road-kill-ss-mtb-black-white-red.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL059"
+      }
+    ],
+    "defaultColor": "Blue Green White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-possible-ss-mtb",
+    "brand": "Schnell",
+    "model": "Possible SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL POSSIBLE SS-MTB is a strong, stylish, and performance-focused mountain bike built for daily rides and tough terrains. Equipped with a durable steel frame, powerful brakes, and high-grip tyres, it ensures a smooth and confident riding experience for all age groups.",
+    "price": 15822,
+    "rating": 0,
+    "image": "/schnell/possible-ss-mtb-white-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      },
+      {
+        "color": "White Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      },
+      {
+        "color": "White Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      },
+      {
+        "color": "Black Blue Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f08a1c 66.7%, #f08a1c 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      },
+      {
+        "color": "Black Blue Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f08a1c 66.7%, #f08a1c 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      },
+      {
+        "color": "Black Blue Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f08a1c 66.7%, #f08a1c 100.0%)",
+        "image": "/schnell/possible-ss-mtb-white-red.webp",
+        "price": 15822,
+        "regularPrice": 15822,
+        "inStock": true,
+        "sku": "SCHNELL058"
+      }
+    ],
+    "defaultColor": "White Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-paris-2-0-ms-mtb",
+    "brand": "Schnell",
+    "model": "Paris 2.0 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The Schnell Paris 2.0 MS-MTB is a stylish and performance-driven multi-speed mountain bike designed for daily commuting and adventurous trail rides. With its lightweight alloy frame, smooth gear shifting, and powerful braking system, it delivers comfort, control, and confidence on every ride.",
+    "price": 24290,
+    "rating": 0,
+    "image": "/schnell/paris-2-0-ms-mtb-blue-orange-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Orange White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/paris-2-0-ms-mtb-blue-orange-white.webp",
+        "price": 24290,
+        "regularPrice": 24290,
+        "inStock": true,
+        "sku": "SCHNELL057"
+      }
+    ],
+    "defaultColor": "Blue Orange White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-oscar-ss-mtb",
+    "brand": "Schnell",
+    "model": "Oscar SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL OSCAR SS-MTB is a purpose-built single-speed mountain bike crafted for riders who value durability, simplicity, and an authentic trail experience. Designed to handle demanding off-road conditions while maintaining a clean, low-maintenance setup, the OSCAR SS-MTB delivers reliable performance across dirt paths, gravel roads, forest trails, and rugged terrain.",
+    "price": 17190,
+    "rating": 0,
+    "image": "/schnell/oscar-ss-mtb-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-yellow.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      },
+      {
+        "color": "Black Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-yellow.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      },
+      {
+        "color": "Black Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-red.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-red.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      },
+      {
+        "color": "Black Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-blue.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      },
+      {
+        "color": "Black Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/oscar-ss-mtb-black-blue.webp",
+        "price": 17190,
+        "regularPrice": 17190,
+        "inStock": true,
+        "sku": "SCHNELL056"
+      }
+    ],
+    "defaultColor": "Black Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-oscar-ms-mtb",
+    "brand": "Schnell",
+    "model": "Oscar MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The SCHNELL OSCAR MS-MTB offers a harmonious combination of trail capability, rider comfort, and reliable performance—making it an ideal choice for mountain bikers looking to push their limits and embrace every adventure the trail has to offer.",
+    "price": 16690,
+    "rating": 0,
+    "image": "/schnell/oscar-ms-mtb-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/oscar-ms-mtb-black-red.webp",
+        "price": 16690,
+        "regularPrice": 16690,
+        "inStock": true,
+        "sku": "SCHNELL055"
+      },
+      {
+        "color": "Black Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/oscar-ms-mtb-black-blue.webp",
+        "price": 16690,
+        "regularPrice": 16690,
+        "inStock": true,
+        "sku": "SCHNELL055"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-nevado-ms-mtb",
+    "brand": "Schnell",
+    "model": "Nevado MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Robust Construction: The heart of the Nevado is its High Tensile Steel Frame , providing exceptional strength and long-lasting durability to withstand daily wear and tear.",
+      "Smooth Suspension: Equipped with a Front Suspension Fork , it effectively absorbs shocks and vibrations from uneven surfaces, ensuring maximum rider comfort.",
+      "Precision Gearing: Tackle steep climbs and flat stretches with ease using the 21-Speed Shimano Drivetrain (Shimano 7-speed rear derailleur and 3-speed front derailleur), operated by smooth Shimano shifters.",
+      "Superior Braking: Safety is paramount with its mechanical Disc Brake set , offering consistent and powerful stopping performance in all weather conditions.",
+      "Reliable Wheelset: It rolls on sturdy Double Wall Alloy Rims , paired with high-traction tires that provide excellent grip and stability.",
+      "Ergonomic Design: Features a PU comfort saddle and alloy stem/handlebar setup to maintain a comfortable riding posture during long journeys."
+    ],
+    "description": "Schnell Nevado MS-MTB – Built for Endurance The Schnell Nevado MS-MTB is a robust mountain bike designed for versatile performance on both city roads and off-road trails. Built on a durable high-tensile steel frame, it features a responsive front suspension fork, a 21-speed Shimano drivetrain for effortless gear shifting, and powerful mechanical disc brakes for superior stopping power.",
+    "price": 17390,
+    "rating": 0,
+    "image": "/schnell/nevado-ms-mtb-black-white-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black White Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f5f5f5 33.3%, #f5f5f5 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/nevado-ms-mtb-black-white-red.webp",
+        "price": 17390,
+        "regularPrice": 17390,
+        "inStock": true,
+        "sku": "SCHNELL054"
+      }
+    ],
+    "defaultColor": "Black White Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-metta-ss-mtb",
+    "brand": "Schnell",
+    "model": "Metta SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell Meta Single Speed is a high-performance imported adult mountain bike built for adventure and control. Featuring a lightweight frame, single-speed gear system, and dual disc brakes, it’s designed to deliver smooth, stable, and comfortable rides on all terrains.",
+    "price": 16182,
+    "rating": 0,
+    "image": "/schnell/metta-ss-mtb-red-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/metta-ss-mtb-red-green.webp",
+        "price": 16182,
+        "regularPrice": 16182,
+        "inStock": true,
+        "sku": "SCHNELL053"
+      },
+      {
+        "color": "Light Blue Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #6fb4f2 0.0%, #6fb4f2 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/metta-ss-mtb-light-blue-orange.webp",
+        "price": 16182,
+        "regularPrice": 16182,
+        "inStock": true,
+        "sku": "SCHNELL053"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/metta-ss-mtb-green-yellow.webp",
+        "price": 16182,
+        "regularPrice": 16182,
+        "inStock": true,
+        "sku": "SCHNELL053"
+      },
+      {
+        "color": "Dark Blue Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #16377a 0.0%, #16377a 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/metta-ss-mtb-dark-blue-orange.webp",
+        "price": 16182,
+        "regularPrice": 16182,
+        "inStock": true,
+        "sku": "SCHNELL053"
+      }
+    ],
+    "defaultColor": "Red Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-metta-3-0-ss-mtb",
+    "brand": "Schnell",
+    "model": "Metta 3.0 SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The SCHNELL METTA 3.0 SS-MTB combines single-speed purity with trail-focused capability, delivering a direct, responsive, and exciting riding experience. Simple by design, tough by nature — this bike brings out the best in every ride.",
+    "price": 14690,
+    "rating": 0,
+    "image": "/schnell/metta-3-0-ss-mtb-sky-blue-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Sky Blue Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #59b8ee 0.0%, #59b8ee 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/metta-3-0-ss-mtb-sky-blue-yellow.webp",
+        "price": 14690,
+        "regularPrice": 14690,
+        "inStock": true,
+        "sku": "SCHNELL052"
+      },
+      {
+        "color": "Sky Blue Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #59b8ee 0.0%, #59b8ee 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/metta-3-0-ss-mtb-sky-blue-yellow.webp",
+        "price": 14690,
+        "regularPrice": 14690,
+        "inStock": true,
+        "sku": "SCHNELL052"
+      },
+      {
+        "color": "Blue Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/metta-3-0-ss-mtb-blue-orange.webp",
+        "price": 14690,
+        "regularPrice": 14690,
+        "inStock": true,
+        "sku": "SCHNELL052"
+      },
+      {
+        "color": "Blue Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/metta-3-0-ss-mtb-blue-orange.webp",
+        "price": 14690,
+        "regularPrice": 14690,
+        "inStock": true,
+        "sku": "SCHNELL052"
+      }
+    ],
+    "defaultColor": "Sky Blue Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-max-ss-mtb",
+    "brand": "Schnell",
+    "model": "Max SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL MAX SS-MTB is a durable and versatile single-speed mountain bike designed for riders who value simplicity, reliability, and off-road performance. Perfect for beginners and casual MTB enthusiasts, it offers a smooth and controlled ride across a variety of terrains.",
+    "price": 13390,
+    "rating": 0,
+    "image": "/schnell/max-ss-mtb-black-rust-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Rust Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #b7410e 33.3%, #b7410e 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/max-ss-mtb-black-rust-yellow.webp",
+        "price": 13390,
+        "regularPrice": 13390,
+        "inStock": true,
+        "sku": "SCHNELL051"
+      },
+      {
+        "color": "Black Rust Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #b7410e 33.3%, #b7410e 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/max-ss-mtb-black-rust-yellow.webp",
+        "price": 13390,
+        "regularPrice": 13390,
+        "inStock": true,
+        "sku": "SCHNELL051"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/max-ss-mtb-black-red.webp",
+        "price": 13390,
+        "regularPrice": 13390,
+        "inStock": true,
+        "sku": "SCHNELL051"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/max-ss-mtb-black-red.webp",
+        "price": 13390,
+        "regularPrice": 13390,
+        "inStock": true,
+        "sku": "SCHNELL051"
+      }
+    ],
+    "defaultColor": "Black Rust Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-m-500-ms-mtb",
+    "brand": "Schnell",
+    "model": "M-500 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "M-500 MS Alloy MTB – 21 Speed is a durable and stylish mountain bike built with a lightweight alloy frame, 21-speed gearing, and front suspension for smooth and controlled riding on city roads and rough terrains.",
+    "price": 33282,
+    "rating": 0,
+    "image": "/schnell/m-500-ms-mtb-matte-grey-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Grey Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/m-500-ms-mtb-matte-grey-orange.webp",
+        "price": 33282,
+        "regularPrice": 33282,
+        "inStock": true,
+        "sku": "SCHNELL048"
+      },
+      {
+        "color": "Matte Grey Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/m-500-ms-mtb-matte-grey-orange.webp",
+        "price": 33282,
+        "regularPrice": 33282,
+        "inStock": true,
+        "sku": "SCHNELL048"
+      },
+      {
+        "color": "Matte Gold Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/m-500-ms-mtb-matte-gold-green.webp",
+        "price": 33282,
+        "regularPrice": 33282,
+        "inStock": true,
+        "sku": "SCHNELL048"
+      },
+      {
+        "color": "Matte Gold Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/m-500-ms-mtb-matte-gold-green.webp",
+        "price": 33282,
+        "regularPrice": 33282,
+        "inStock": true,
+        "sku": "SCHNELL048"
+      }
+    ],
+    "defaultColor": "Matte Grey Orange",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-hot-salt-ss-mtb",
+    "brand": "Schnell",
+    "model": "Hot Salt SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL HOT SALT SS-MTB is more than just a bike — it’s a statement of pure riding joy. Simple, strong, and ready for adventure, it delivers a truly connected mountain-biking experience that sparks confidence and fun on every trail.",
+    "price": 21312,
+    "rating": 0,
+    "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Blue Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Matt Blue Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Cyan Blue Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #19b6d2 0.0%, #19b6d2 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Cyan Blue Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #19b6d2 0.0%, #19b6d2 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Cyan Blue Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #19b6d2 0.0%, #19b6d2 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Cyan Blue Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #19b6d2 0.0%, #19b6d2 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-blue-yellow.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Matt Black Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-black-red.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Matt Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-matt-black-red.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Black Yellow Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f2c40f 33.3%, #f2c40f 66.7%, #1f5fbf 66.7%, #1f5fbf 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-black-yellow-blue.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      },
+      {
+        "color": "Black Yellow Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f2c40f 33.3%, #f2c40f 66.7%, #1f5fbf 66.7%, #1f5fbf 100.0%)",
+        "image": "/schnell/hot-salt-ss-mtb-black-yellow-blue.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL044"
+      }
+    ],
+    "defaultColor": "Matt Blue Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-holts007-ss-mtb",
+    "brand": "Schnell",
+    "model": "HOLTS007 SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL HOLTS007 SS-MTB embodies the spirit of pure mountain biking: simple, strong, and adventure-ready. It’s a bike that encourages you to embrace every trail with confidence and enjoy every moment of the ride.",
+    "price": 14590,
+    "rating": 0,
+    "image": "/schnell/holts007-ss-mtb-blue-green-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Green White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-blue-green-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      },
+      {
+        "color": "Blue Green White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-blue-green-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      },
+      {
+        "color": "Black Red White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-black-red-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      },
+      {
+        "color": "Black Red White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-black-red-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      },
+      {
+        "color": "Black Orange White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-black-orange-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      },
+      {
+        "color": "Black Orange White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ss-mtb-black-orange-white.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL043"
+      }
+    ],
+    "defaultColor": "Blue Green White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-holts007-ms-mtb",
+    "brand": "Schnell",
+    "model": "HOLTS007 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The Schnell HOLTS 007 is a rugged 29″ mountain bike with 21-speed gearing. Imported components give it reliable performance, perfect for both trail rides and everyday urban cycling.",
+    "price": 17590,
+    "rating": 0,
+    "image": "/schnell/holts007-ms-mtb-yellow-green-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow Green White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts007-ms-mtb-yellow-green-white.webp",
+        "price": 17590,
+        "regularPrice": 17590,
+        "inStock": true,
+        "sku": "SCHNELL042"
+      }
+    ],
+    "defaultColor": "Yellow Green White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-holts006-ss-mtb",
+    "brand": "Schnell",
+    "model": "HOLTS006 SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL HOLTS 006 SS-MTB delivers a pure, engaging mountain-biking experience — strong, simple, and built to perform. Whether you’re exploring local trails or challenging yourself on technical terrain, this bike meets every ride with confidence and rugged fun.",
+    "price": 14590,
+    "rating": 0,
+    "image": "/schnell/holts006-ss-mtb-blue-orange-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Orange Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #8a8f98 66.7%, #8a8f98 100.0%)",
+        "image": "/schnell/holts006-ss-mtb-blue-orange-grey.webp",
+        "price": 14590,
+        "regularPrice": 14590,
+        "inStock": true,
+        "sku": "SCHNELL041"
+      }
+    ],
+    "defaultColor": "Blue Orange Grey",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-holts006-ms-mtb",
+    "brand": "Schnell",
+    "model": "HOLTS006 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "  The Schnell HOLTS 006 MS-MTB is a durable and stylish mountain bike built for everyday riding and light trails. Featuring a high-tensile steel frame with internal cable routing, smooth multi-speed gearing, and reliable braking, it ensures a comfortable and controlled ride across city roads and rough terrains.",
+    "price": 17090,
+    "rating": 0,
+    "image": "/schnell/holts006-ms-mtb-orange-red-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange Red White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 33.3%, #d62828 33.3%, #d62828 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/holts006-ms-mtb-orange-red-white.webp",
+        "price": 17090,
+        "regularPrice": 17090,
+        "inStock": true,
+        "sku": "SCHNELL040"
+      },
+      {
+        "color": "Blue Orange Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #8a8f98 66.7%, #8a8f98 100.0%)",
+        "image": "/schnell/holts006-ms-mtb-blue-orange-grey.webp",
+        "price": 17090,
+        "regularPrice": 17090,
+        "inStock": true,
+        "sku": "SCHNELL040"
+      }
+    ],
+    "defaultColor": "Orange Red White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-gold-ss-mtb",
+    "brand": "Schnell",
+    "model": "Gold SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Built for strength, speed, and adventure. Conquer every trail with confidence and style.",
+    "price": 15838,
+    "rating": 0,
+    "image": "/schnell/gold-ss-mtb-green-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/gold-ss-mtb-green-blue.webp",
+        "price": 15838,
+        "regularPrice": 15838,
+        "inStock": true,
+        "sku": "SCHNELL038"
+      },
+      {
+        "color": "Blue Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/gold-ss-mtb-blue-silver.webp",
+        "price": 15838,
+        "regularPrice": 15838,
+        "inStock": true,
+        "sku": "SCHNELL038"
+      }
+    ],
+    "defaultColor": "Green Blue",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-gold-ms-mtb",
+    "brand": "Schnell",
+    "model": "Gold MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Frame: Mild Steel (MS)",
+      "Fork: Suspension Fork",
+      "Brakes: Disc Brakes",
+      "Gearing: Multi-Speed",
+      "Tyres: Wide MTB Tyres",
+      "Rims: Double Wall Alloy Rims",
+      "Usage: City Ride + Off-Road Trails"
+    ],
+    "description": "The SCHNELL GOLD MS-MTB is engineered for riders who demand durability, control, and a powerful road presence. Crafted with a robust mild steel frame, this mountain bike is ideal for both urban commutes and rugged terrains, delivering a smooth and confident riding experience.",
+    "price": 17090,
+    "rating": 0,
+    "image": "/schnell/gold-ms-mtb-blue-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/gold-ms-mtb-blue-silver.webp",
+        "price": 17090,
+        "regularPrice": 17090,
+        "inStock": true,
+        "sku": "SCHNELL037"
+      },
+      {
+        "color": "Black Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/gold-ms-mtb-black-orange.webp",
+        "price": 17090,
+        "regularPrice": 17090,
+        "inStock": true,
+        "sku": "SCHNELL037"
+      }
+    ],
+    "defaultColor": "Blue Silver",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-fat-bike-ms-mtb",
+    "brand": "Schnell",
+    "model": "Fat Bike MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Experience power and performance with the Schnell FAT BIKE 21 Speed – Mountain Bike . Designed for all terrains, this fat tire cycle offers superior grip, smooth 21-speed gear shifting, and rugged durability — making it the best fat bike in India for off-road and adventure riders.",
+    "price": 26442,
+    "rating": 0,
+    "image": "/schnell/fat-bike-ms-mtb-grey-blue-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey Blue White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/fat-bike-ms-mtb-grey-blue-white.webp",
+        "price": 26442,
+        "regularPrice": 26442,
+        "inStock": true,
+        "sku": "SCHNELL035"
+      },
+      {
+        "color": "Grey Blue White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/fat-bike-ms-mtb-grey-blue-white.webp",
+        "price": 26442,
+        "regularPrice": 26442,
+        "inStock": true,
+        "sku": "SCHNELL035"
+      },
+      {
+        "color": "Black Orange Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #1f5fbf 66.7%, #1f5fbf 100.0%)",
+        "image": "/schnell/fat-bike-ms-mtb-black-orange-blue.webp",
+        "price": 26442,
+        "regularPrice": 26442,
+        "inStock": true,
+        "sku": "SCHNELL035"
+      },
+      {
+        "color": "Black Orange Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #1f5fbf 66.7%, #1f5fbf 100.0%)",
+        "image": "/schnell/fat-bike-ms-mtb-black-orange-blue.webp",
+        "price": 26442,
+        "regularPrice": 26442,
+        "inStock": true,
+        "sku": "SCHNELL035"
+      }
+    ],
+    "defaultColor": "Grey Blue White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-fashion-ms-mtb",
+    "brand": "Schnell",
+    "model": "Fashion MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The Schnell FASHION 21-Speed Imported Adult Mountain Bike is a rugged, multi-gear hardtail MTB built for varied terrain. It features a 21-speed drivetrain (3 × 7), front suspension fork, dual brakes, knobby tyres, and a durable frame, making it a solid choice for both city roads and light off-road trails.",
+    "price": 25830,
+    "rating": 0,
+    "image": "/schnell/fashion-ms-mtb-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/fashion-ms-mtb-black-red.webp",
+        "price": 25830,
+        "regularPrice": 25830,
+        "inStock": true,
+        "sku": "SCHNELL034"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-fang-ms-mtb",
+    "brand": "Schnell",
+    "model": "Fang MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: 24 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The Schnell FANG MS-MTB is a stylish and performance-driven multi-speed mountain bike designed for daily commuting and adventurous trail rides. With its lightweight alloy frame, smooth gear shifting, and powerful braking system, it delivers comfort, control, and confidence on every ride.",
+    "price": 35442,
+    "rating": 0,
+    "image": "/schnell/fang-ms-mtb-green-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/fang-ms-mtb-green-yellow.webp",
+        "price": 35442,
+        "regularPrice": 35442,
+        "inStock": true,
+        "sku": "SCHNELL033"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/fang-ms-mtb-green-yellow.webp",
+        "price": 35442,
+        "regularPrice": 35442,
+        "inStock": true,
+        "sku": "SCHNELL033"
+      },
+      {
+        "color": "Gold Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/fang-ms-mtb-gold-green.webp",
+        "price": 35442,
+        "regularPrice": 35442,
+        "inStock": true,
+        "sku": "SCHNELL033"
+      },
+      {
+        "color": "Gold Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/fang-ms-mtb-gold-green.webp",
+        "price": 35442,
+        "regularPrice": 35442,
+        "inStock": true,
+        "sku": "SCHNELL033"
+      }
+    ],
+    "defaultColor": "Green Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-e-velo-a2-ss-mtb",
+    "brand": "Schnell",
+    "model": "E-Velo A2 SS-MTB",
+    "category": "ebike",
+    "group": "Schnell E-Bike",
+    "sizes": "27.5T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL E-VELO A2 is a smart and stylish electric bicycle designed for effortless city commuting. Powered by a reliable electric assist system, it delivers smooth performance, extended riding range, and unmatched comfort — making every daily ride faster, cleaner, and more enjoyable.",
+    "price": 59760,
+    "rating": 0,
+    "image": "/schnell/e-velo-a2-ss-mtb-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/e-velo-a2-ss-mtb-black-red.webp",
+        "price": 59760,
+        "regularPrice": 59760,
+        "inStock": true,
+        "sku": "SCHNELL032"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-emu-ss-mtb",
+    "brand": "Schnell",
+    "model": "Emu SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Schnell EMU Single Speed is a stylish and sturdy imported mountain bike designed for senior kids. Built with a strong frame, wide tires, and dependable brakes, it offers a smooth, safe, and fun riding experience on every terrain.",
+    "price": 15030,
+    "rating": 0,
+    "image": "/schnell/emu-ss-mtb-grey-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey Green Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/emu-ss-mtb-grey-green-black.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      },
+      {
+        "color": "Grey Green Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/emu-ss-mtb-grey-green-black.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      },
+      {
+        "color": "Grey Green Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/emu-ss-mtb-grey-green-black.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      },
+      {
+        "color": "Black Grey White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/emu-ss-mtb-black-grey-white.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      },
+      {
+        "color": "Black Grey White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/emu-ss-mtb-black-grey-white.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      },
+      {
+        "color": "Black Grey White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #8a8f98 33.3%, #8a8f98 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/emu-ss-mtb-black-grey-white.webp",
+        "price": 15030,
+        "regularPrice": 15030,
+        "inStock": true,
+        "sku": "SCHNELL031"
+      }
+    ],
+    "defaultColor": "Grey Green Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-emu-ms-mtb",
+    "brand": "Schnell",
+    "model": "Emu MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL EMU MS-MTB is a rugged and reliable mountain bike designed for everyday riders and adventure seekers. Built with a strong MS frame, smooth suspension, and durable components, it delivers comfort, control, and confidence on both city roads and rough terrains.",
+    "price": 17790,
+    "rating": 0,
+    "image": "/schnell/emu-ms-mtb-blue-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/emu-ms-mtb-blue-green.webp",
+        "price": 17790,
+        "regularPrice": 17790,
+        "inStock": true,
+        "sku": "SCHNELL030"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/emu-ms-mtb-black-red.webp",
+        "price": 17790,
+        "regularPrice": 17790,
+        "inStock": true,
+        "sku": "SCHNELL030"
+      }
+    ],
+    "defaultColor": "Blue Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-dynamic-ss-mtb",
+    "brand": "Schnell",
+    "model": "Dynamic SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Single-Speed Simplicity : No gear shifting—just hop on and ride.",
+      "29*2.40” Tires : Enhanced grip and shock absorption for smooth rides.",
+      "Durable Steel Frame : Built tough to handle urban and trail conditions.",
+      "Front Suspension Fork : Adds comfort and control on bumpy paths.",
+      "Mechanical Disc Brakes : Reliable stopping power in all weather.",
+      "Sporty Design : Bold graphics and ergonomic styling for standout appeal."
+    ],
+    "description": "Schnell DYNAMIC Single Speed Mountain Bike Minimalist design meets maximum adventure. With a sturdy frame and fat tires, this single-speed mountain bike is built for urban rides and off-road fun—no gears, no fuss",
+    "price": 14890,
+    "rating": 0,
+    "image": "/schnell/dynamic-ss-mtb-brown-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brown Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #6b4423 0.0%, #6b4423 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-brown-black.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      },
+      {
+        "color": "Brown Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #6b4423 0.0%, #6b4423 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-brown-black.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-black-red.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-black-red.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      },
+      {
+        "color": "Black Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-black-orange.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      },
+      {
+        "color": "Black Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/dynamic-ss-mtb-black-orange.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL029"
+      }
+    ],
+    "defaultColor": "Brown Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-dynamic-ms-mtb",
+    "brand": "Schnell",
+    "model": "Dynamic MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Robust Multi-Speed Frame: Built for strength, endurance, and long-lasting performance.",
+      "Smooth Gear System: Multiple speeds allow easy shifting for climbs, flats, and descents.",
+      "Front Suspension Fork: Absorbs bumps and rough terrain for a smoother ride.",
+      "Wide MTB-Style Tires: Enhanced traction and stability on varied surfaces.",
+      "Responsive Brakes: Deliver dependable stopping power in different conditions.",
+      "Ergonomic Comfort Design: Includes a well-padded saddle and rider-friendly geometry."
+    ],
+    "description": "Schnell Dynamic 29 is an high performance MTB Steel frame and powered by Shimano Tourney 21 Speed gear system. Dynamic also features lock out suspension on the front, Trinity disc brakes, Internal cable Routing, 7 Speed Shimano Cassette and Bearing Hubs.",
+    "price": 21790,
+    "rating": 0,
+    "image": "/schnell/dynamic-ms-mtb-brown-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brown Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #6b4423 0.0%, #6b4423 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-brown-black.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      },
+      {
+        "color": "Brown Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #6b4423 0.0%, #6b4423 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-brown-black.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      },
+      {
+        "color": "Brown Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #6b4423 0.0%, #6b4423 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-brown-black.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      },
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-black-red.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-black-red.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/dynamic-ms-mtb-black-red.webp",
+        "price": 21790,
+        "regularPrice": 21790,
+        "inStock": true,
+        "sku": "SCHNELL028"
+      }
+    ],
+    "defaultColor": "Brown Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-damon-ms-mtb",
+    "brand": "Schnell",
+    "model": "Damon MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T",
+    "specs": [
+      "Gears: 24 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "Schnell Damon Multi Speed is a 24-speed Shimano Altus-powered MTB built with a 6061 alloy frame. It features dual disc brakes, a 100mm travel front suspension with lockout, and comes equipped with an 8-speed Shimano cassette.",
+    "price": 29890,
+    "rating": 0,
+    "image": "/schnell/damon-ms-mtb-white-blue-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White Blue Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #8a8f98 66.7%, #8a8f98 100.0%)",
+        "image": "/schnell/damon-ms-mtb-white-blue-grey.webp",
+        "price": 29890,
+        "regularPrice": 29890,
+        "inStock": true,
+        "sku": "SCHNELL027"
+      },
+      {
+        "color": "Blue Orange Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #c4c8ce 66.7%, #c4c8ce 100.0%)",
+        "image": "/schnell/damon-ms-mtb-blue-orange-silver.webp",
+        "price": 29890,
+        "regularPrice": 29890,
+        "inStock": true,
+        "sku": "SCHNELL027"
+      },
+      {
+        "color": "Black Red Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #d62828 33.3%, #d62828 66.7%, #1f5fbf 66.7%, #1f5fbf 100.0%)",
+        "image": "/schnell/damon-ms-mtb-black-red-blue.webp",
+        "price": 29890,
+        "regularPrice": 29890,
+        "inStock": true,
+        "sku": "SCHNELL027"
+      }
+    ],
+    "defaultColor": "White Blue Grey",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-crash-4-0-ms-mtb",
+    "brand": "Schnell",
+    "model": "Crash 4.0 MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: 24 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "A rugged 29″ alloy-frame mountain bike with 24-speed Shimano gears, front suspension with lockout, and reliable disc brakes – designed for adventure, stable trail riding, and all-purpose cycling.",
+    "price": 35790,
+    "rating": 0,
+    "image": "/schnell/crash-4-0-ms-mtb-red-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/crash-4-0-ms-mtb-red-silver.webp",
+        "price": 35790,
+        "regularPrice": 35790,
+        "inStock": true,
+        "sku": "SCHNELL026"
+      },
+      {
+        "color": "Red Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/crash-4-0-ms-mtb-red-silver.webp",
+        "price": 35790,
+        "regularPrice": 35790,
+        "inStock": true,
+        "sku": "SCHNELL026"
+      },
+      {
+        "color": "Black Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/crash-4-0-ms-mtb-red-silver.webp",
+        "price": 35790,
+        "regularPrice": 35790,
+        "inStock": true,
+        "sku": "SCHNELL026"
+      },
+      {
+        "color": "Black Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/crash-4-0-ms-mtb-red-silver.webp",
+        "price": 35790,
+        "regularPrice": 35790,
+        "inStock": true,
+        "sku": "SCHNELL026"
+      }
+    ],
+    "defaultColor": "Red Silver",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-cedar-ss-mtb",
+    "brand": "Schnell",
+    "model": "Cedar SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell CEDAR Single Speed Mountain Bike (29\") – Designed for simplicity and durability, the CEDAR features a robust steel frame, front suspension fork, and wide 29\" Xtra Action 2.40 tires. Ideal for urban commuting and light trail rides, it offers a smooth, maintenance-friendly experience.",
+    "price": 14022,
+    "rating": 0,
+    "image": "/schnell/cedar-ss-mtb-orange-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/cedar-ss-mtb-orange-yellow.webp",
+        "price": 14022,
+        "regularPrice": 14022,
+        "inStock": true,
+        "sku": "SCHNELL025"
+      },
+      {
+        "color": "Blue Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/cedar-ss-mtb-blue-yellow.webp",
+        "price": 14022,
+        "regularPrice": 14022,
+        "inStock": true,
+        "sku": "SCHNELL025"
+      }
+    ],
+    "defaultColor": "Orange Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-cannon-ss-mtb",
+    "brand": "Schnell",
+    "model": "Cannon SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell Cannon 29 is a Single Speed Premium Range full Alloy MTB with Alloy Frame, Alloy Handle Bars,Alloy Seatpost and Double wall Alloy Rims. Light weight bicycle that will not rust like the steel cycles.",
+    "price": 21312,
+    "rating": 0,
+    "image": "/schnell/cannon-ss-mtb-white-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White Green Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-white-green-black.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      },
+      {
+        "color": "White Green Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-white-green-black.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      },
+      {
+        "color": "Blue Green Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-blue-green-black.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      },
+      {
+        "color": "Blue Green Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #2e8b57 33.3%, #2e8b57 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-blue-green-black.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      },
+      {
+        "color": "Blue Black Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #161616 33.3%, #161616 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-blue-black-red.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      },
+      {
+        "color": "Blue Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #161616 33.3%, #161616 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/cannon-ss-mtb-blue-black-red.webp",
+        "price": 21312,
+        "regularPrice": 21312,
+        "inStock": true,
+        "sku": "SCHNELL024"
+      }
+    ],
+    "defaultColor": "White Green Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-calvin-ss-mtb",
+    "brand": "Schnell",
+    "model": "Calvin SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Schnell CALVIN Single Speed Mountain Bike – Built for simplicity and durability, the CALVIN features a robust steel frame, front suspension fork, and reliable wire brakes. Ideal for urban commutes and light trail rides, it offers a smooth, maintenance-friendly experience.",
+    "price": 13122,
+    "rating": 0,
+    "image": "/schnell/calvin-ss-mtb-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ss-mtb-black-red.webp",
+        "price": 13122,
+        "regularPrice": 13122,
+        "inStock": true,
+        "sku": "SCHNELL022"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ss-mtb-black-red.webp",
+        "price": 13122,
+        "regularPrice": 13122,
+        "inStock": true,
+        "sku": "SCHNELL022"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ss-mtb-black-red.webp",
+        "price": 13122,
+        "regularPrice": 13122,
+        "inStock": true,
+        "sku": "SCHNELL022"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-calvin-ms-mtb",
+    "brand": "Schnell",
+    "model": "Calvin MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL CALVIN MS-MTB is a stylish and durable mountain bike designed for everyday rides and light off-road adventures. Built with a strong frame and front suspension for a smoother ride, it offers reliable braking and responsive handling.",
+    "price": 16722,
+    "rating": 0,
+    "image": "/schnell/calvin-ms-mtb-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ms-mtb-black-red.webp",
+        "price": 16722,
+        "regularPrice": 16722,
+        "inStock": true,
+        "sku": "SCHNELL021"
+      },
+      {
+        "color": "Black Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ms-mtb-black-red.webp",
+        "price": 16722,
+        "regularPrice": 16722,
+        "inStock": true,
+        "sku": "SCHNELL021"
+      },
+      {
+        "color": "Black Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/calvin-ms-mtb-black-red.webp",
+        "price": 16722,
+        "regularPrice": 16722,
+        "inStock": true,
+        "sku": "SCHNELL021"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-bullet-proof-ss-mtb",
+    "brand": "Schnell",
+    "model": "Bullet Proof SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell BULLET PROOF Single Speed is a premium imported adult mountain bike built for strength, style, and smooth performance. With its sturdy frame, wide tires, and powerful disc brakes, it’s designed to deliver stability and control on every ride.",
+    "price": 21290,
+    "rating": 0,
+    "image": "/schnell/bullet-proof-ss-mtb-grey-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-grey-black.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Grey Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-grey-black.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-green-yellow.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-green-yellow.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Black Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-black-grey.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Black Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-black-grey.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Black Blue Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f08a1c 66.7%, #f08a1c 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-black-blue-orange.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      },
+      {
+        "color": "Black Blue Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f08a1c 66.7%, #f08a1c 100.0%)",
+        "image": "/schnell/bullet-proof-ss-mtb-black-blue-orange.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL020"
+      }
+    ],
+    "defaultColor": "Grey Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-bull-whip-ss-mtb",
+    "brand": "Schnell",
+    "model": "Bull Whip SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "A rugged, imported adult mountain bike with a single‑speed drivetrain, available in 27.5″ or 29″ wheel sizes. Built on a lightweight alloy frame, it features front suspension, mechanical disc brakes and double‑wall alloy rims — delivering low maintenance and all‑purpose rideability for urban and light off‑road use.",
+    "price": 21290,
+    "rating": 0,
+    "image": "/schnell/bull-whip-ss-mtb-red-gold-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red Gold Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 33.3%, #c9a227 33.3%, #c9a227 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-red-gold-black.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Red Gold Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 33.3%, #c9a227 33.3%, #c9a227 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-red-gold-black.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Red Black White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 33.3%, #161616 33.3%, #161616 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-red-black-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Red Black White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 33.3%, #161616 33.3%, #161616 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-red-black-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-green-yellow.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Green Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-green-yellow.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Black Blue White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-black-blue-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      },
+      {
+        "color": "Black Blue White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #f5f5f5 66.7%, #f5f5f5 100.0%)",
+        "image": "/schnell/bull-whip-ss-mtb-black-blue-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL019"
+      }
+    ],
+    "defaultColor": "Red Gold Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-blues-ss-mtb",
+    "brand": "Schnell",
+    "model": "Blues SS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "Ride with simplicity and style — the Schnell Road Kill SS is a single-speed mountain-style bike built on an alloy frame, available in 29″ wheel sizes. Lightweight, low-maintenance, and ideal for urban cruising or light off-road trails.",
+    "price": 22896,
+    "rating": 0,
+    "image": "/schnell/blues-ss-mtb-blue-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/blues-ss-mtb-blue-orange.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      },
+      {
+        "color": "Blue Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/blues-ss-mtb-blue-orange.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      },
+      {
+        "color": "Blue Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/blues-ss-mtb-blue-orange.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      },
+      {
+        "color": "Black Silver",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/blues-ss-mtb-black-silver.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      },
+      {
+        "color": "Black Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/blues-ss-mtb-black-silver.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      },
+      {
+        "color": "Black Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/blues-ss-mtb-black-silver.webp",
+        "price": 22896,
+        "regularPrice": 22896,
+        "inStock": true,
+        "sku": "SCHNELL017"
+      }
+    ],
+    "defaultColor": "Blue Orange",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-blues-ms-mtb",
+    "brand": "Schnell",
+    "model": "Blues MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "29T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "Take your rides to the next level with the Schnell BLUES 29T 21 Speed Alloy Frame Mountain Bike , designed for smooth shifting, powerful performance, and all-terrain adventure. Its lightweight alloy frame and precision gearing make it perfect for both city roads and rugged trails.",
+    "price": 25190,
+    "rating": 0,
+    "image": "/schnell/blues-ms-mtb-blue-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/blues-ms-mtb-blue-orange.webp",
+        "price": 25190,
+        "regularPrice": 25190,
+        "inStock": true,
+        "sku": "SCHNELL016"
+      },
+      {
+        "color": "Black Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c4c8ce 50.0%, #c4c8ce 100.0%)",
+        "image": "/schnell/blues-ms-mtb-black-silver.webp",
+        "price": 25190,
+        "regularPrice": 25190,
+        "inStock": true,
+        "sku": "SCHNELL016"
+      }
+    ],
+    "defaultColor": "Blue Orange",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-beluga-ms-mtb",
+    "brand": "Schnell",
+    "model": "Beluga MS-MTB",
+    "category": "mtb",
+    "group": "Schnell MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Ride with confidence and style! The Schnell BELUGA 21-Speed Imported Mountain Bike features a lightweight alloy frame, smooth 21-speed gearing, front suspension, and reliable dual disc brakes—perfect for tackling city streets or rugged trails.",
+    "price": 14890,
+    "rating": 0,
+    "image": "/schnell/beluga-ms-mtb-light-gold-blue-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Light Gold Blue Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #e0c46c 0.0%, #e0c46c 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/beluga-ms-mtb-light-gold-blue-red.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL014"
+      },
+      {
+        "color": "Light Gold Blue Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #e0c46c 0.0%, #e0c46c 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #d62828 66.7%, #d62828 100.0%)",
+        "image": "/schnell/beluga-ms-mtb-light-gold-blue-red.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL014"
+      },
+      {
+        "color": "Blue White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/schnell/beluga-ms-mtb-blue-white.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL014"
+      },
+      {
+        "color": "Blue White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/schnell/beluga-ms-mtb-blue-white.webp",
+        "price": 14890,
+        "regularPrice": 14890,
+        "inStock": true,
+        "sku": "SCHNELL014"
+      }
+    ],
+    "defaultColor": "Light Gold Blue Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-snappy-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Snappy SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame: Durable steel construction for strength and stability.",
+      "Gearing: Single-speed drivetrain — simple and easy for kids to ride.",
+      "Braking: Coaster brake for intuitive stopping power.",
+      "Design: Bright and fun colors that appeal to young riders"
+    ],
+    "description": "The SCHNELL SNAPPY SS-Kids Bike is a vibrant, sturdy single-speed bicycle designed for young riders. With a strong steel frame, easy-to-use coaster brake, comfortable saddle, and child-friendly geometry, it’s perfect for fun rides around the neighborhood or park.",
+    "price": 9162,
+    "rating": 0,
+    "image": "/schnell/snappy-ss-kids-bike-pink-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/snappy-ss-kids-bike-pink-blue.webp",
+        "price": 9162,
+        "regularPrice": 9162,
+        "inStock": true,
+        "sku": "SCHNELL013"
+      },
+      {
+        "color": "Pink Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/schnell/snappy-ss-kids-bike-pink-blue.webp",
+        "price": 9162,
+        "regularPrice": 9162,
+        "inStock": true,
+        "sku": "SCHNELL013"
+      },
+      {
+        "color": "Orange",
+        "size": "16T",
+        "swatch": "#f08a1c",
+        "image": "/schnell/snappy-ss-kids-bike-orange.webp",
+        "price": 9162,
+        "regularPrice": 9162,
+        "inStock": true,
+        "sku": "SCHNELL013"
+      },
+      {
+        "color": "Orange",
+        "size": "20T",
+        "swatch": "#f08a1c",
+        "image": "/schnell/snappy-ss-kids-bike-orange.webp",
+        "price": 9162,
+        "regularPrice": 9162,
+        "inStock": true,
+        "sku": "SCHNELL013"
+      }
+    ],
+    "defaultColor": "Pink Blue",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-niko-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Niko SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "The SCHNELL NIKO SS-KIDS BIKE is a stylish and durable bicycle designed for young riders. Featuring a sturdy steel frame, single-speed drivetrain, 16\"/20\" wheel options, front basket, rear child backrest, and full chain cover, it offers a safe, comfortable, and enjoyable riding experience for everyday adventures.",
+    "price": 7182,
+    "rating": 0,
+    "image": "/schnell/niko-ss-kids-bike-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink",
+        "size": "16T",
+        "swatch": "#f06fa4",
+        "image": "/schnell/niko-ss-kids-bike-pink.webp",
+        "price": 7182,
+        "regularPrice": 7182,
+        "inStock": true,
+        "sku": "SCHNELL012"
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "swatch": "#f06fa4",
+        "image": "/schnell/niko-ss-kids-bike-pink.webp",
+        "price": 7182,
+        "regularPrice": 7182,
+        "inStock": true,
+        "sku": "SCHNELL012"
+      }
+    ],
+    "defaultColor": "Pink",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-max-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Max SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Fun, safe, and built for adventure! Designed especially for kids, this bike offers comfort, stability, and a stylish look your child will love.",
+    "price": 7830,
+    "rating": 0,
+    "image": "/schnell/max-ss-kids-bike-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "size": "16T",
+        "swatch": "#2e8b57",
+        "image": "/schnell/max-ss-kids-bike-green.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      },
+      {
+        "color": "Green",
+        "size": "20T",
+        "swatch": "#2e8b57",
+        "image": "/schnell/max-ss-kids-bike-green.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      },
+      {
+        "color": "Black Grey",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/max-ss-kids-bike-black-grey.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      },
+      {
+        "color": "Black Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/schnell/max-ss-kids-bike-black-grey.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      },
+      {
+        "color": "Black",
+        "size": "16T",
+        "swatch": "#161616",
+        "image": "/schnell/max-ss-kids-bike-black-2.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      },
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/schnell/max-ss-kids-bike-black-2.webp",
+        "price": 7830,
+        "regularPrice": 7830,
+        "inStock": true,
+        "sku": "SCHNELL011"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-jeee-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Jeee SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T",
+    "specs": [
+      "Kid-Safe Sturdy Frame: Built strong to handle active play and everyday use.",
+      "Single-Speed Drivetrain: Easy pedaling and low maintenance — great for beginners.",
+      "Wide Tires: Stable and grippy for neighborhood streets and playgrounds.",
+      "Comfortable Seat & Handlebars: Designed for young riders for a confident ride.",
+      "Training Wheels Compatible: Can include extra support for learners (varies by seller)."
+    ],
+    "description": "The SCHNELL JEE SS-KIDS BIKE is a fun, durable, and easy-to-ride cycle designed especially for young riders. With a simple single-speed setup and kid-friendly build, it’s perfect for children learning to ride and enjoying outdoor adventures.",
+    "price": 9702,
+    "rating": 0,
+    "image": "/schnell/jeee-ss-kids-bike-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "16T",
+        "swatch": "#d62828",
+        "image": "/schnell/jeee-ss-kids-bike-red.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL010"
+      },
+      {
+        "color": "Purple",
+        "size": "16T",
+        "swatch": "#6a2c91",
+        "image": "/schnell/jeee-ss-kids-bike-purple.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL010"
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-jeee-mag-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Jeee Mag SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "A fun and sturdy kids’ bicycle designed for everyday rides around the neighbourhood. It features a child-friendly size, durable construction, and easy-to-use components — perfect for young riders starting their cycling journey.",
+    "price": 10990,
+    "rating": 0,
+    "image": "/schnell/jeee-mag-ss-kids-bike-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "size": "16T",
+        "swatch": "#2e8b57",
+        "image": "/schnell/jeee-mag-ss-kids-bike-green.webp",
+        "price": 10990,
+        "regularPrice": 10990,
+        "inStock": true,
+        "sku": "SCHNELL009"
+      },
+      {
+        "color": "Blue",
+        "size": "16T",
+        "swatch": "#1f5fbf",
+        "image": "/schnell/jeee-mag-ss-kids-bike-blue.webp",
+        "price": 10990,
+        "regularPrice": 10990,
+        "inStock": true,
+        "sku": "SCHNELL009"
+      },
+      {
+        "color": "Black Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/jeee-mag-ss-kids-bike-black-red.webp",
+        "price": 10990,
+        "regularPrice": 10990,
+        "inStock": true,
+        "sku": "SCHNELL009"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-holts001-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "HOLTS001 SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "20T",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "HOLTS001 Kids Bike is a strong, stylish and safe bicycle designed especially for young riders. Built with a durable frame, comfortable seating, and smooth braking system, it ensures safety and fun in every ride.",
+    "price": 8622,
+    "rating": 0,
+    "image": "/schnell/holts001-ss-kids-bike-yellow-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/holts001-ss-kids-bike-yellow-black.webp",
+        "price": 8622,
+        "regularPrice": 8622,
+        "inStock": true,
+        "sku": "SCHNELL008"
+      },
+      {
+        "color": "Grey Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/schnell/holts001-ss-kids-bike-grey-black.webp",
+        "price": 8622,
+        "regularPrice": 8622,
+        "inStock": true,
+        "sku": "SCHNELL008"
+      }
+    ],
+    "defaultColor": "Yellow Black",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-bobstar-ss-kids-bike",
+    "brand": "Schnell",
+    "model": "Bobstar SS-Kids Bike",
+    "category": "kids",
+    "group": "Schnell Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Kid-Safe Durable Frame: Strong and reliable build that withstands active use.",
+      "Single-Speed Drivetrain: Smooth and simple pedaling — perfect for beginners.",
+      "Wide, Stable Tires: Better grip and balance on sidewalks, parks, and neighborhood paths.",
+      "Comfortable Seat & Handlebars: Made for young riders’ ergonomics.",
+      "Training Wheels Compatible: Offers extra balance support for those learning to ride (varies by seller)"
+    ],
+    "description": "The SCHNELL BOBSTAR SS-KIDS BIKE is a fun, sturdy, and easy-to-ride bicycle designed especially for children. With its simple single-speed setup and kid-friendly construction, it helps young riders build balance, confidence, and cycling skills while enjoying every ride.",
+    "price": 9702,
+    "rating": 0,
+    "image": "/schnell/bobstar-ss-kids-bike-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White",
+        "size": "16T",
+        "swatch": "#f5f5f5",
+        "image": "/schnell/bobstar-ss-kids-bike-white.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL006"
+      },
+      {
+        "color": "White",
+        "size": "20T",
+        "swatch": "#f5f5f5",
+        "image": "/schnell/bobstar-ss-kids-bike-white.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL006"
+      },
+      {
+        "color": "Orange",
+        "size": "16T",
+        "swatch": "#f08a1c",
+        "image": "/schnell/bobstar-ss-kids-bike-orange.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL006"
+      },
+      {
+        "color": "Orange",
+        "size": "20T",
+        "swatch": "#f08a1c",
+        "image": "/schnell/bobstar-ss-kids-bike-orange.webp",
+        "price": 9702,
+        "regularPrice": 9702,
+        "inStock": true,
+        "sku": "SCHNELL006"
+      }
+    ],
+    "defaultColor": "White",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-tall-boy-ss-mtb",
+    "brand": "Schnell",
+    "model": "Tall Boy SS-MTB",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: Single Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Kids"
+    ],
+    "description": "Schnell Tall Boy SS-Hybrid Bike is a lightweight and durable single-speed hybrid bicycle built for daily commuting, fitness rides, and urban travel. Featuring a high-tensile steel frame, rigid fork, steel wheels, and 24\"/26\" wheel options, it delivers a smooth, efficient, and low-maintenance riding experience.",
+    "price": 13302,
+    "rating": 0,
+    "image": "/schnell/tall-boy-ss-mtb-multi-colour.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Multi Colour",
+        "size": "700C",
+        "swatch": "conic-gradient(#d62828, #f2c40f, #2e8b57, #1f5fbf, #6a2c91, #d62828)",
+        "image": "/schnell/tall-boy-ss-mtb-multi-colour.webp",
+        "price": 13302,
+        "regularPrice": 13302,
+        "inStock": true,
+        "sku": "SCHNELL005"
+      },
+      {
+        "color": "Multi Colour",
+        "size": "700C",
+        "swatch": "conic-gradient(#d62828, #f2c40f, #2e8b57, #1f5fbf, #6a2c91, #d62828)",
+        "image": "/schnell/tall-boy-ss-mtb-multi-colour.webp",
+        "price": 13302,
+        "regularPrice": 13302,
+        "inStock": true,
+        "sku": "SCHNELL005"
+      }
+    ],
+    "defaultColor": "Multi Colour",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-smooth-ms-hybrid",
+    "brand": "Schnell",
+    "model": "Smooth MS-Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL SMOOTH MS Hybrid is designed for riders who want comfort, speed and style in one perfect package. Ideal for city rides, fitness training and light touring, it delivers a smooth, efficient and confident riding experience every day.",
+    "price": 19692,
+    "rating": 0,
+    "image": "/schnell/smooth-ms-hybrid-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black Red",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/schnell/smooth-ms-hybrid-black-red.webp",
+        "price": 19692,
+        "regularPrice": 19692,
+        "inStock": true,
+        "sku": "SCHNELL004"
+      },
+      {
+        "color": "Black Orange",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/schnell/smooth-ms-hybrid-black-orange.webp",
+        "price": 19692,
+        "regularPrice": 19692,
+        "inStock": true,
+        "sku": "SCHNELL004"
+      },
+      {
+        "color": "Black Green",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/schnell/smooth-ms-hybrid-black-green.webp",
+        "price": 19692,
+        "regularPrice": 19692,
+        "inStock": true,
+        "sku": "SCHNELL004"
+      }
+    ],
+    "defaultColor": "Black Red",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-sierra-1-0-ms-hybrid",
+    "brand": "Schnell",
+    "model": "Sierra 1.0 MS-Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Female / Male"
+    ],
+    "description": "The Schnell Sierra 1.0 700C Hybrid Bike is designed for smooth city rides and light adventures. With a strong alloy frame, comfortable riding geometry and reliable components, it offers the perfect blend of performance, durability and style for daily commuters and fitness riders.",
+    "price": 33030,
+    "rating": 0,
+    "image": "/schnell/sierra-1-0-ms-hybrid-matte-black-blue-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black Blue Green",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #2e8b57 66.7%, #2e8b57 100.0%)",
+        "image": "/schnell/sierra-1-0-ms-hybrid-matte-black-blue-green.webp",
+        "price": 33030,
+        "regularPrice": 33030,
+        "inStock": true,
+        "sku": "SCHNELL003"
+      },
+      {
+        "color": "Grey Orange Black",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #f08a1c 33.3%, #f08a1c 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/sierra-1-0-ms-hybrid-grey-orange-black.webp",
+        "price": 33030,
+        "regularPrice": 33030,
+        "inStock": true,
+        "sku": "SCHNELL003"
+      }
+    ],
+    "defaultColor": "Matte Black Blue Green",
+    "replaces": [
+      "schnell-sierra-1"
+    ],
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-road-10-ms-hybrid",
+    "brand": "Schnell",
+    "model": "Road 10 MS-Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "The SCHNELL ROAD 10 MS ALLOY is a versatile 700C road-hybrid bicycle designed for city commuting and light off-road rides. Built on a lightweight alloy frame with a rigid fork and equipped with reliable Shimano multi-speed gearing , this bike delivers smooth performance, efficient pedalling, and confident handling across varied terrain.",
+    "price": 22090,
+    "rating": 0,
+    "image": "/schnell/road-10-ms-hybrid-red-silver-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red Silver Yellow",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 33.3%, #c4c8ce 33.3%, #c4c8ce 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/road-10-ms-hybrid-red-silver-yellow.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL002"
+      },
+      {
+        "color": "Grey Silver Yellow",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 33.3%, #c4c8ce 33.3%, #c4c8ce 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/road-10-ms-hybrid-grey-silver-yellow.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL002"
+      },
+      {
+        "color": "Green Silver Yellow",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 33.3%, #c4c8ce 33.3%, #c4c8ce 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/schnell/road-10-ms-hybrid-green-silver-yellow.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL002"
+      },
+      {
+        "color": "Blue Silver Black",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 33.3%, #c4c8ce 33.3%, #c4c8ce 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/schnell/road-10-ms-hybrid-blue-silver-black.webp",
+        "price": 22090,
+        "regularPrice": 22090,
+        "inStock": true,
+        "sku": "SCHNELL002"
+      }
+    ],
+    "defaultColor": "Red Silver Yellow",
+    "source": "trinitycyclesindia.com"
+  },
+  {
+    "slug": "schnell-crew-ms-hybrid",
+    "brand": "Schnell",
+    "model": "Crew MS-Hybrid",
+    "category": "hybrid",
+    "group": "Schnell Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: 21 Speed",
+      "Purpose: Adventure / All Purpose",
+      "Suited for: Male"
+    ],
+    "description": "Schnell Crew – Hybrid Alloy FSDD is a high-performance hybrid bicycle built with a lightweight alloy frame and front suspension for smooth urban and fitness rides. Designed for comfort, speed, and durability, it’s perfect for city commuting and weekend adventures.",
+    "price": 21290,
+    "rating": 0,
+    "image": "/schnell/crew-ms-hybrid-red-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red White",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/schnell/crew-ms-hybrid-red-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL001"
+      },
+      {
+        "color": "Green White",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/schnell/crew-ms-hybrid-red-white.webp",
+        "price": 21290,
+        "regularPrice": 21290,
+        "inStock": true,
+        "sku": "SCHNELL001"
+      }
+    ],
+    "defaultColor": "Red White",
+    "source": "trinitycyclesindia.com"
+  }
+]
