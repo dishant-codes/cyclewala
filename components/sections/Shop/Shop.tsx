@@ -7,7 +7,7 @@ import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
 import ColorSwatches from "@/components/shop/ColorSwatches";
-import { discountPct, fromPrice, needsOptions, selectOption, shownFor, type Selection } from "@/lib/variants";
+import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -219,6 +219,12 @@ export default function Shop() {
 
   const toggleCategory = (c: ProductCategory) => {
     setSelectedCategories((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
+  };
+
+  /** open the popup with the card's current colour / size / setup preselected */
+  const openWithOptions = (item: Product, shown: Shown) => {
+    setPicked((prev) => ({ ...prev, [item.slug]: { color: shown.color, size: shown.size, type: shown.type } }));
+    setSelectedProduct(item);
   };
 
   const toggleGroup = (g: string) => {
@@ -578,12 +584,13 @@ export default function Shop() {
                             <span className={styles.colorName}>{shown.color}</span>
                           </div>
                         )}
+                        {multi && (
+                          <p className={styles.optionLine}>{[shown.size, shown.type].filter(Boolean).join(" · ")}</p>
+                        )}
                         <div className={styles.foot}>
                           <span className={shown.price === null ? styles.priceTbc : styles.price}>
                             {shown.price === null ? (
                               t("shop.addPrice")
-                            ) : multi ? (
-                              <>From ₹{(fromPrice(item) ?? shown.price).toLocaleString("en-IN")}</>
                             ) : (
                               <>
                                 ₹{shown.price.toLocaleString("en-IN")}
@@ -596,23 +603,11 @@ export default function Shop() {
                               </>
                             )}
                           </span>
-                          <div className={styles.cardCtas}>
-                            <button className={styles.viewBtn} onClick={() => setSelectedProduct(item)}>
-                              View
-                            </button>
+                          <div className={multi ? styles.cardCtasMulti : styles.cardCtas}>
                             <button
                               className={styles.addBtnSmall}
                               disabled={!shown.inStock}
-                              onClick={() => {
-                                if (multi) {
-                                  // size / setup change the price — choose them in the popup
-                                  setPicked((prev) => ({
-                                    ...prev,
-                                    [item.slug]: { color: shown.color, size: shown.size, type: shown.type },
-                                  }));
-                                  setSelectedProduct(item);
-                                  return;
-                                }
+                              onClick={() =>
                                 addToCart({
                                   slug: item.slug,
                                   color: shown.color,
@@ -622,10 +617,13 @@ export default function Shop() {
                                   model: item.model,
                                   image: shown.image,
                                   price: shown.price,
-                                });
-                              }}
+                                })
+                              }
                             >
-                              {multi ? "Select options" : "Add to Cart"}
+                              Add to Cart
+                            </button>
+                            <button className={styles.viewBtn} onClick={() => openWithOptions(item, shown)}>
+                              {multi ? "Select options" : "View"}
                             </button>
                           </div>
                         </div>
