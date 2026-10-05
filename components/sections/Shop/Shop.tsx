@@ -47,6 +47,11 @@ const NEUFMAN_GROUPS = [
 ];
 const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS];
 
+const BROWSE_TABS = [
+  { id: "oyekid", name: "Oyekid", hint: "Shop by age", logo: "/images/logo/oyekidlogo.png" },
+  { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
+] as const;
+
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
 
 /* the home page shows a preview so a big catalogue doesn't turn into an
@@ -176,6 +181,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman">("oyekid");
   const [picked, setPicked] = useState<Record<string, Selection>>({});
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
@@ -412,50 +418,52 @@ export default function Shop() {
 
             {/* ---------- results ---------- */}
             <div>
-              <div className={styles.agePills} role="tablist" aria-label="Shop by age or type">
-                <span className={styles.agePillsLabel}>Oyekid · Shop by age</span>
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={selectedGroups.length === 0}
-                  className={selectedGroups.length === 0 ? styles.agePillOn : styles.agePill}
-                  onClick={() => setSelectedGroups([])}
-                >
-                  All cycles
-                </button>
-                {OYEKID_GROUPS.map((g) => {
-                  const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
-                  const n = products.filter((p) => p.group === g.id).length;
-                  return (
+              <div className={styles.browse}>
+                <div className={styles.browseTabs} role="tablist" aria-label="Browse by brand">
+                  {BROWSE_TABS.map((t) => (
                     <button
-                      key={g.id}
+                      key={t.id}
                       type="button"
                       role="tab"
-                      aria-selected={on}
-                      className={on ? styles.agePillOn : styles.agePill}
-                      onClick={() => setSelectedGroups([g.id])}
+                      aria-selected={browseTab === t.id}
+                      className={browseTab === t.id ? styles.browseTabOn : styles.browseTab}
+                      onClick={() => setBrowseTab(t.id)}
                     >
-                      {g.label} <span className={styles.agePillCount}>{n}</span>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={t.logo} alt="" className={styles.browseTabLogo} />
+                      <span>
+                        <span className={styles.browseTabName}>{t.name}</span>
+                        <span className={styles.browseTabHint}>{t.hint}</span>
+                      </span>
                     </button>
-                  );
-                })}
-                <span className={styles.agePillsLabel}>Neufman · Shop by type</span>
-                {NEUFMAN_GROUPS.map((g) => {
-                  const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
-                  const n = products.filter((p) => p.group === g.id).length;
-                  return (
-                    <button
-                      key={g.id}
-                      type="button"
-                      role="tab"
-                      aria-selected={on}
-                      className={on ? styles.agePillOn : styles.agePill}
-                      onClick={() => setSelectedGroups(on ? [] : [g.id])}
-                    >
-                      {g.label} <span className={styles.agePillCount}>{n}</span>
-                    </button>
-                  );
-                })}
+                  ))}
+                </div>
+                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : "Neufman by type"}>
+                  <button
+                    type="button"
+                    aria-pressed={selectedGroups.length === 0}
+                    className={selectedGroups.length === 0 ? styles.pillOn : styles.pill}
+                    onClick={() => setSelectedGroups([])}
+                  >
+                    All cycles
+                  </button>
+                  {(browseTab === "oyekid" ? OYEKID_GROUPS : NEUFMAN_GROUPS).map((g) => {
+                    const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <button
+                        key={g.id}
+                        type="button"
+                        aria-pressed={on}
+                        className={on ? styles.pillOn : styles.pill}
+                        onClick={() => setSelectedGroups(on ? [] : [g.id])}
+                      >
+                        {g.label}
+                        <span className={styles.pillCount}>{n}</span>
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
 
               <div className={styles.resultsBar}>
