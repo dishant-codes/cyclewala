@@ -307,18 +307,6 @@
   align-items: center;
   gap: 10px;
 }
-.sort {
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 8px 10px;
-  font-size: 13px;
-  font-family: inherit;
-  background: #fff;
-}
-.sort:focus {
-  outline: none;
-  border-color: var(--accent);
-}
 .viewToggle {
   display: flex;
   border: 1px solid var(--line);

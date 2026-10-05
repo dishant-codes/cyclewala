@@ -7,6 +7,7 @@ import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
 import ColorSwatches from "@/components/shop/ColorSwatches";
+import SortMenu, { SORT_ICONS, type SortOption } from "@/components/shop/SortMenu";
 import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
@@ -161,6 +162,13 @@ const featuredRank = (p: Product) => {
 };
 
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
+
+const SORT_OPTIONS: SortOption<SortKey>[] = [
+  { id: "featured", label: "Featured", hint: "Our picks first", icon: SORT_ICONS.featured },
+  { id: "price-asc", label: "Price: Low to High", hint: "Cheapest first", icon: SORT_ICONS.asc },
+  { id: "price-desc", label: "Price: High to Low", hint: "Most expensive first", icon: SORT_ICONS.desc },
+  { id: "rating", label: "Rating", hint: "Best rated first", icon: SORT_ICONS.rating },
+];
 
 /* the home page shows a preview so a big catalogue doesn't turn into an
    endless scroll — "See All Cycles" reveals the rest in place */
@@ -559,12 +567,7 @@ export default function Shop() {
               <div className={styles.resultsBar}>
                 <p className={styles.count}>{filtered.length} cycles</p>
                 <div className={styles.resultsActions}>
-                  <select className={styles.sort} value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
-                    <option value="featured">Sort: Featured</option>
-                    <option value="price-asc">Price: Low to High</option>
-                    <option value="price-desc">Price: High to Low</option>
-                    <option value="rating">Rating</option>
-                  </select>
+                  <SortMenu value={sort} options={SORT_OPTIONS} onChange={setSort} label="Sort by" />
                   <div className={styles.viewToggle}>
                     <button
                       className={view === "grid" ? styles.viewOn : styles.viewOff}
