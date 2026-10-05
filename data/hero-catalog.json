@@ -1,0 +1,5102 @@
+[
+  {
+    "slug": "hero-hero-janhvi",
+    "brand": "Hero",
+    "model": "Hero Janhvi",
+    "category": "kids",
+    "group": "Hero Junior",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Low step-through frame",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Rim Material: Chrome plated steel",
+      "Saddle: Comfortable saddle",
+      "Stand: Full and side stand available",
+      "Front Brake: P/H Type (Push/Hand)",
+      "Rear Brake: P/H Type (Push/Hand)"
+    ],
+    "price": 7315,
+    "rating": 0,
+    "image": "/hero/hero-janhvi-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink",
+        "size": "26T",
+        "swatch": "#f06fa4",
+        "image": "/hero/hero-janhvi-pink.webp",
+        "price": 7315,
+        "regularPrice": 7315,
+        "inStock": true
+      },
+      {
+        "color": "Purple",
+        "size": "26T",
+        "swatch": "#6a2c91",
+        "image": "/hero/hero-janhvi-purple.webp",
+        "price": 7315,
+        "regularPrice": 7315,
+        "inStock": true
+      },
+      {
+        "color": "Turquoise Blue",
+        "size": "26T",
+        "swatch": "#1fb5ad",
+        "image": "/hero/hero-janhvi-turquoise-blue.webp",
+        "price": 7315,
+        "regularPrice": 7315,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Pink",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-fusion",
+    "brand": "Hero",
+    "model": "Fusion",
+    "category": "kids",
+    "group": "Hero Junior",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: S/B heavy duty frame",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Rim Type: BCP rim",
+      "Grips: Finger type with reflector",
+      "Saddle: Comfortable saddle",
+      "Front Brake: P/H Type (Push/Hand)",
+      "Rear Brake: P/H Type (Push/Hand)"
+    ],
+    "price": 7210,
+    "rating": 0,
+    "image": "/hero/fusion-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/fusion-black.webp",
+        "price": 7300,
+        "regularPrice": 7300,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/fusion-black.webp",
+        "price": 7210,
+        "regularPrice": 7210,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-jet-master",
+    "brand": "Hero",
+    "model": "Jet Master",
+    "category": "kids",
+    "group": "Hero Junior",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Diamond frame",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain Wheel: 40T x 6 inch",
+      "Spokes: 14G",
+      "Handlebar: Jet 2001, 50cm",
+      "Saddle: PVC",
+      "Pedals: 3-1/2 inch anti-rotation block with reflector",
+      "Front Brake: P/H Type (Push/Hand)",
+      "Rear Brake: P/H Type (Push/Hand)"
+    ],
+    "price": 7630,
+    "rating": 0,
+    "image": "/hero/jet-master-rich-burgundy.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Rich Burgundy",
+        "size": "26T",
+        "swatch": "#7a1f2b",
+        "image": "/hero/jet-master-rich-burgundy.webp",
+        "price": 7630,
+        "regularPrice": 7630,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Rich Burgundy",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-hero-jiya",
+    "brand": "Hero",
+    "model": "Hero Jiya",
+    "category": "kids",
+    "group": "Hero Junior",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Low step-through frame",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Rim Type: BCP rim",
+      "Grips: Finger molded grip",
+      "Saddle: Comfortable saddle",
+      "Carrier: Integrated carrier",
+      "Front Brake: P/H Type (Push/Hand)",
+      "Rear Brake: P/H Type (Push/Hand)"
+    ],
+    "price": 7465,
+    "rating": 0,
+    "image": "/hero/hero-jiya-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/hero-jiya-blue.webp",
+        "price": 7465,
+        "regularPrice": 7465,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "26T",
+        "swatch": "#2e8b57",
+        "image": "/hero/hero-jiya-blue.webp",
+        "price": 7570,
+        "regularPrice": 7570,
+        "inStock": true
+      },
+      {
+        "color": "Pink",
+        "size": "26T",
+        "swatch": "#f06fa4",
+        "image": "/hero/hero-jiya-blue.webp",
+        "price": 7570,
+        "regularPrice": 7570,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-hero-skylar",
+    "brand": "Hero",
+    "model": "Hero Skylar",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Top-down, rigid or suspension",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid / Suspension (variant dependent)",
+      "Speed: Single Speed",
+      "Pedals: Broader, exclusively designed",
+      "Seat Post: Longer 8-inch seat pillar",
+      "Saddle: PU with embossed graphics",
+      "Front Brake: Caliper Brake",
+      "Rear Brake: Caliper Brake"
+    ],
+    "price": 9700,
+    "rating": 0,
+    "image": "/hero/hero-skylar-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/hero/hero-skylar-red.webp",
+        "price": 9700,
+        "regularPrice": 9700,
+        "inStock": true,
+        "sku": "0"
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-winner",
+    "brand": "Hero",
+    "model": "Winner",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty, top-down type",
+      "Tyre Size: 20T",
+      "Fork Type: Rigid, better control",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid ]",
+      "Stem: Steel stem",
+      "Handlebar: Wide sporty handlebar",
+      "Saddle: PVC, matte finish",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 5620,
+    "rating": 0,
+    "image": "/hero/winner-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/hero/winner-black.webp",
+        "price": 5620,
+        "regularPrice": 5620,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "20T",
+        "swatch": "#d62828",
+        "image": "/hero/winner-red.webp",
+        "price": 5620,
+        "regularPrice": 5620,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-whistle",
+    "brand": "Hero",
+    "model": "Whistle",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty frame with triple shade",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Rim Material: Steel",
+      "Handlebar: Straight handlebar",
+      "Saddle: PU",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 6380,
+    "rating": 0,
+    "image": "/hero/whistle-black-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Pink",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6380,
+        "regularPrice": 6380,
+        "inStock": true
+      },
+      {
+        "color": "Black/Pink",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6730,
+        "regularPrice": 6730,
+        "inStock": true
+      },
+      {
+        "color": "Black/Pink",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 7115,
+        "regularPrice": 7115,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6380,
+        "regularPrice": 6380,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6730,
+        "regularPrice": 6730,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 7115,
+        "regularPrice": 7115,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Black",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6380,
+        "regularPrice": 6380,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Black",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6730,
+        "regularPrice": 6730,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 7115,
+        "regularPrice": 7115,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6380,
+        "regularPrice": 6380,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 6730,
+        "regularPrice": 6730,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/whistle-black-pink.webp",
+        "price": 7115,
+        "regularPrice": 7115,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Pink",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-tango-2-0",
+    "brand": "Hero",
+    "model": "Tango 2.0",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "12T / 14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Top-down, internal cabling",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Bushless",
+      "Pedals: Anti-skid",
+      "Rim Material: Steel",
+      "Handlebar: U-Type with soft grip",
+      "Saddle: PVC cushion",
+      "Stem: Steel stem",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4270,
+    "rating": 0,
+    "image": "/hero/tango-2-0-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "12T",
+        "swatch": "#d62828",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 4270,
+        "regularPrice": 4270,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "14T",
+        "swatch": "#d62828",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 4795,
+        "regularPrice": 4795,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "16T",
+        "swatch": "#d62828",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 5095,
+        "regularPrice": 5095,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "20T",
+        "swatch": "#d62828",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 5445,
+        "regularPrice": 5445,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "12T",
+        "swatch": "#2e8b57",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 4270,
+        "regularPrice": 4270,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "14T",
+        "swatch": "#2e8b57",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 4795,
+        "regularPrice": 4795,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "16T",
+        "swatch": "#2e8b57",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 5095,
+        "regularPrice": 5095,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "20T",
+        "swatch": "#2e8b57",
+        "image": "/hero/tango-2-0-red.webp",
+        "price": 5445,
+        "regularPrice": 5445,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-sting",
+    "brand": "Hero",
+    "model": "Sting",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Dual color finish, wheel disc graphics",
+      "Fork Type: Rigid, with guard",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Handlebar: Straight handlebar, confident riding",
+      "Saddle: PU",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper, full chain cover"
+    ],
+    "price": 6110,
+    "rating": 0,
+    "image": "/hero/sting-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "16T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/sting-blue.webp",
+        "price": 6110,
+        "regularPrice": 6110,
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "size": "20T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/sting-blue.webp",
+        "price": 6365,
+        "regularPrice": 6365,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/sting-black-red.webp",
+        "price": 6110,
+        "regularPrice": 6110,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/sting-black-red.webp",
+        "price": 6365,
+        "regularPrice": 6365,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/sting-blue.webp",
+        "price": 6110,
+        "regularPrice": 6110,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/sting-blue.webp",
+        "price": 6365,
+        "regularPrice": 6365,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-speedo",
+    "brand": "Hero",
+    "model": "Speedo",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Unisex, integrated carrier",
+      "Fork Type: Rigid, with guard",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Stem: Steel stem",
+      "Support Wheels: Colour coordinated",
+      "Saddle: PVC cushioned",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4445,
+    "rating": 0,
+    "image": "/hero/speedo-pink-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Blue",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 4445,
+        "regularPrice": 4445,
+        "inStock": true
+      },
+      {
+        "color": "Pink/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 4910,
+        "regularPrice": 4910,
+        "inStock": true
+      },
+      {
+        "color": "Pink/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 5420,
+        "regularPrice": 5420,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 4445,
+        "regularPrice": 4445,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 4910,
+        "regularPrice": 4910,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/speedo-pink-blue.webp",
+        "price": 5420,
+        "regularPrice": 5420,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Pink/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-sonic",
+    "brand": "Hero",
+    "model": "Sonic",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Dual-color theme inspired frame",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Cotterless, bushless",
+      "Handlebar: U-Type (14T/16T), Straight (20T)",
+      "Saddle: PU with quick release",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 7115,
+    "rating": 0,
+    "image": "/hero/sonic-blue-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/White",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/sonic-blue-white.webp",
+        "price": 7115,
+        "regularPrice": 7115,
+        "inStock": true
+      },
+      {
+        "color": "Blue/White",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/sonic-blue-white.webp",
+        "price": 7640,
+        "regularPrice": 7640,
+        "inStock": true
+      },
+      {
+        "color": "Blue/White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/sonic-blue-white.webp",
+        "price": 8025,
+        "regularPrice": 8025,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/White",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-rush",
+    "brand": "Hero",
+    "model": "Rush",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Performance sports frame",
+      "Tyre Size: 20T",
+      "Fork Type: Front Suspension or Rigid (variant dependent)",
+      "Speed: Single Speed",
+      "Chain: Cotterless chain-wheel",
+      "Seat Post: Alloy quick release",
+      "Tyre Type: Nylon, for better durability",
+      "Saddle: PU cushioned",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 9555,
+    "rating": 0,
+    "image": "/hero/rush-red-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rush-red-green.webp",
+        "price": 9555,
+        "regularPrice": 9555,
+        "inStock": true
+      },
+      {
+        "color": "Turquoise/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1fb5ad 0.0%, #1fb5ad 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rush-turquoise-green.webp",
+        "price": 9555,
+        "regularPrice": 9555,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Gray",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/rush-yellow-gray.webp",
+        "price": 9555,
+        "regularPrice": 9555,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-rotor-bmx",
+    "brand": "Hero",
+    "model": "Rotor BMX",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Unisex sporty BMX frame",
+      "Tyre Size: 20T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Stem: Steel stem",
+      "Handlebar: 360-degree rotor handle",
+      "Saddle: Cushioned, quick release",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 8280,
+    "rating": 0,
+    "image": "/hero/rotor-bmx-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/hero/rotor-bmx-black.webp",
+        "price": 8280,
+        "regularPrice": 8280,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-ride-on",
+    "brand": "Hero",
+    "model": "Ride On",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty, top-down type",
+      "Fork Type: Rigid, with guard",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Stem: Steel stem",
+      "Handlebar: Sporty handle, character grip",
+      "Saddle: PU with quick release",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4980,
+    "rating": 0,
+    "image": "/hero/ride-on-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 4980,
+        "regularPrice": 4980,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5330,
+        "regularPrice": 5330,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5950,
+        "regularPrice": 5950,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 4980,
+        "regularPrice": 4980,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5330,
+        "regularPrice": 5330,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5950,
+        "regularPrice": 5950,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 4980,
+        "regularPrice": 4980,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5330,
+        "regularPrice": 5330,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/ride-on-black-blue.webp",
+        "price": 5950,
+        "regularPrice": 5950,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-pistol",
+    "brand": "Hero",
+    "model": "Pistol",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Unique pistol-shaped frame",
+      "Fork Type: Rigid, better control",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Handlebar: Sporty handlebar",
+      "Saddle: PU, more comfort",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 5445,
+    "rating": 0,
+    "image": "/hero/pistol-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/pistol-black-red.webp",
+        "price": 5445,
+        "regularPrice": 5445,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/pistol-black-red.webp",
+        "price": 5680,
+        "regularPrice": 5680,
+        "inStock": true
+      },
+      {
+        "color": "Green/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/pistol-black-red.webp",
+        "price": 5445,
+        "regularPrice": 5445,
+        "inStock": true
+      },
+      {
+        "color": "Green/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/pistol-black-red.webp",
+        "price": 5680,
+        "regularPrice": 5680,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Red",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-kitty",
+    "brand": "Hero",
+    "model": "Kitty",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Top-down, easy hop-ons",
+      "Fork Type: Rigid, better control",
+      "Speed: Single Speed",
+      "Chain: Bushless",
+      "Pedals: Anti-skid",
+      "Handlebar: U-Type handlebar",
+      "Saddle: PU",
+      "Stem: Steel stem / internal cabling / theme backrest",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4795,
+    "regularPrice": 5340,
+    "rating": 0,
+    "image": "/hero/kitty-cream.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream",
+        "size": "14T",
+        "swatch": "#efe6cc",
+        "image": "/hero/kitty-cream.webp",
+        "price": 5165,
+        "regularPrice": 5165,
+        "inStock": true
+      },
+      {
+        "color": "Cream",
+        "size": "16T",
+        "swatch": "#efe6cc",
+        "image": "/hero/kitty-cream.webp",
+        "price": 4795,
+        "regularPrice": 5340,
+        "inStock": true
+      },
+      {
+        "color": "Cream",
+        "size": "20T",
+        "swatch": "#efe6cc",
+        "image": "/hero/kitty-cream.webp",
+        "price": 4855,
+        "regularPrice": 5690,
+        "inStock": true
+      },
+      {
+        "color": "Pink",
+        "size": "14T",
+        "swatch": "#f06fa4",
+        "image": "/hero/kitty-cream.webp",
+        "price": 5165,
+        "regularPrice": 5165,
+        "inStock": true
+      },
+      {
+        "color": "Pink",
+        "size": "16T",
+        "swatch": "#f06fa4",
+        "image": "/hero/kitty-cream.webp",
+        "price": 4795,
+        "regularPrice": 5340,
+        "inStock": true
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "swatch": "#f06fa4",
+        "image": "/hero/kitty-cream.webp",
+        "price": 4855,
+        "regularPrice": 5690,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Cream",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-jumpshot",
+    "brand": "Hero",
+    "model": "Jumpshot",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Unisex, top-down frame",
+      "Fork Type: Rigid, better control",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Stem: Steel stem / internal cabling",
+      "Handlebar: U-Type handlebar",
+      "Saddle: PU with matte finish",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4605,
+    "rating": 0,
+    "image": "/hero/jumpshot-blue-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Orange",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 5410,
+        "regularPrice": 5410,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 4605,
+        "regularPrice": 4605,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 5845,
+        "regularPrice": 5845,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 5410,
+        "regularPrice": 5410,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 4605,
+        "regularPrice": 4605,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/jumpshot-blue-orange.webp",
+        "price": 5845,
+        "regularPrice": 5845,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Orange",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-galaxy",
+    "brand": "Hero",
+    "model": "Galaxy",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty frame with front basket",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Rim Material: Steel, more durable",
+      "Rim Color: Black",
+      "Handlebar: Sporty handle",
+      "Saddle: PVC cushion",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4640,
+    "rating": 0,
+    "image": "/hero/galaxy-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 4640,
+        "regularPrice": 4640,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 4900,
+        "regularPrice": 4900,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 5250,
+        "regularPrice": 5250,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/galaxy-blue-orange.webp",
+        "price": 4640,
+        "regularPrice": 4640,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/galaxy-blue-orange.webp",
+        "price": 4900,
+        "regularPrice": 4900,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/galaxy-blue-orange.webp",
+        "price": 5250,
+        "regularPrice": 5250,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 4640,
+        "regularPrice": 4640,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 4900,
+        "regularPrice": 4900,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/galaxy-black-green.webp",
+        "price": 5250,
+        "regularPrice": 5250,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-fairy",
+    "brand": "Hero",
+    "model": "Fairy",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Low step-through, comfort",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Handlebar: U-Type, easy riding",
+      "Saddle: PU",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 7010,
+    "rating": 0,
+    "image": "/hero/fairy-purple-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Purple/White",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7010,
+        "regularPrice": 7010,
+        "inStock": true
+      },
+      {
+        "color": "Purple/White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7605,
+        "regularPrice": 7605,
+        "inStock": true
+      },
+      {
+        "color": "Pink/White",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7010,
+        "regularPrice": 7010,
+        "inStock": true
+      },
+      {
+        "color": "Pink/White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7605,
+        "regularPrice": 7605,
+        "inStock": true
+      },
+      {
+        "color": "Purple/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7010,
+        "regularPrice": 7010,
+        "inStock": true
+      },
+      {
+        "color": "Purple/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #6a2c91 0.0%, #6a2c91 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/fairy-purple-white.webp",
+        "price": 7605,
+        "regularPrice": 7605,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Purple/White",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-f11-20t-blue-black-black-white",
+    "brand": "Hero",
+    "model": "F11 (20T · Blue/Black & Black/White)",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Suspension frame with detachable carrier",
+      "Tyre Size: 20T",
+      "Fork Type: Front Suspension",
+      "Speed: Single Speed",
+      "Pedals: Anti-skid",
+      "Rim Material: Steel (Single wall)",
+      "Spokes: Steel, Black",
+      "Handlebar: Straight handlebar",
+      "Saddle: PU with bumper saddle",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 7650,
+    "rating": 0,
+    "image": "/hero/f11-20t-blue-black-black-white-blue-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/f11-20t-blue-black-black-white-blue-black.webp",
+        "price": 7650,
+        "regularPrice": 7650,
+        "inStock": true
+      },
+      {
+        "color": "Black/White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/f11-20t-blue-black-black-white-blue-black.webp",
+        "price": 7650,
+        "regularPrice": 7650,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-boomer-3-0",
+    "brand": "Hero",
+    "model": "Boomer 3.0",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Optimized for safer rides",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Bushless",
+      "Pedals: Anti-skid",
+      "Rim Material: Steel",
+      "Handlebar: U-Type with soft grip",
+      "Saddle: PVC cushion",
+      "Stem: Steel stem with lock nut cap",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 4970,
+    "rating": 0,
+    "image": "/hero/boomer-3-0-red-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Blue",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/boomer-3-0-red-blue.webp",
+        "price": 4970,
+        "regularPrice": 4970,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/boomer-3-0-red-blue.webp",
+        "price": 5050,
+        "regularPrice": 5050,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/boomer-3-0-red-blue.webp",
+        "price": 5420,
+        "regularPrice": 5420,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-blush",
+    "brand": "Hero",
+    "model": "Blush",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Safe Ride",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe for young riders)",
+      "Pedals: Anti-skid with protective cage",
+      "Rim Material: Steel",
+      "Spokes: Steel, standard 13G",
+      "Handlebar: U-Type with color-coordinated grips",
+      "Saddle: PU with bumper design",
+      "Seat Post: Quick-release for easy height adjustment",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 5820,
+    "rating": 0,
+    "image": "/hero/blush-green-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green/Pink",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/blush-green-pink.webp",
+        "price": 5820,
+        "regularPrice": 5820,
+        "inStock": true
+      },
+      {
+        "color": "Green/Pink",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/blush-green-pink.webp",
+        "price": 6110,
+        "regularPrice": 6110,
+        "inStock": true
+      },
+      {
+        "color": "Black/Pink",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/blush-green-pink.webp",
+        "price": 5820,
+        "regularPrice": 5820,
+        "inStock": true
+      },
+      {
+        "color": "Black/Pink",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/blush-green-pink.webp",
+        "price": 5820,
+        "regularPrice": 5820,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Green/Pink",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-aloha-12t-14t",
+    "brand": "Hero",
+    "model": "Aloha (12T / 14T)",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "12T / 14T",
+    "specs": [
+      "Frame Material: Alloy 6061, with water decal",
+      "Frame Geometry: Boutique-style compact frame",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: With transparent chain cover",
+      "Tyre Style: Theme based coloured tyres, Hartex / Ralson / Metro",
+      "Grips: Brown theme based soft grips",
+      "Saddle: PU",
+      "Storage: Knitting basket",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 7005,
+    "rating": 0,
+    "image": "/hero/aloha-12t-14t-cream-beige.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream/Beige",
+        "size": "12T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #d9c6a5 50.0%, #d9c6a5 100.0%)",
+        "image": "/hero/aloha-12t-14t-cream-beige.webp",
+        "price": 7005,
+        "regularPrice": 7005,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Beige",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #d9c6a5 50.0%, #d9c6a5 100.0%)",
+        "image": "/hero/aloha-12t-14t-cream-beige.webp",
+        "price": 9175,
+        "regularPrice": 9175,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Cream/Beige",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-enticer",
+    "brand": "Hero",
+    "model": "Enticer",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: High tensile steel",
+      "Frame Geometry: Sporty hardtail",
+      "Tyre Size: 26T",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Bottom Bracket: Thun BB cartridge",
+      "Rim Material: Double wall alloy",
+      "Stem: Alloy stem with ED coating",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 15410,
+    "rating": 0,
+    "image": "/hero/enticer-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/enticer-blue.webp",
+        "price": 15410,
+        "regularPrice": 15410,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/enticer-blue.webp",
+        "price": 15410,
+        "regularPrice": 15410,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-attitude-24t",
+    "brand": "Hero",
+    "model": "Attitude (24T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T",
+    "specs": [
+      "Frame Material: High tensile steel",
+      "Frame Geometry: Dual shade frame",
+      "Tyre Size: 24T",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Cabling: Internal cabling",
+      "Rim Material: Double wall alloy",
+      "Tyre Brand: Hartex",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Dual Disc / V-Brake",
+      "Rear Brake: Dual Disc / V-Brake"
+    ],
+    "price": 16660,
+    "rating": 0,
+    "image": "/hero/attitude-24t-blue-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/attitude-24t-blue-green.webp",
+        "price": 16660,
+        "regularPrice": 16660,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/attitude-24t-blue-green.webp",
+        "price": 16660,
+        "regularPrice": 16660,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-blunt-gem-26t-27-5t-29t",
+    "brand": "Hero",
+    "model": "Blunt-Gem (26T / 27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Frame Material: High tensile steel",
+      "Frame Geometry: Dual tone with internal cabling",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Bottom Bracket: KENLI BB cartridge",
+      "Rim Material: Double wall alloy",
+      "Stem: Alloy stem with ED coating",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 18185,
+    "rating": 0,
+    "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 18185,
+        "regularPrice": 18185,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 18710,
+        "regularPrice": 18710,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 19060,
+        "regularPrice": 19060,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 18185,
+        "regularPrice": 18185,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 18710,
+        "regularPrice": 18710,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/blunt-gem-26t-27-5t-29t-red-grey.webp",
+        "price": 19060,
+        "regularPrice": 19060,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-enzo-29t",
+    "brand": "Hero",
+    "model": "Enzo (29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "29T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Suspension hardtail",
+      "Tyre Size: 29T",
+      "Fork Type: Front Suspension, high travel lock in/out",
+      "Speed: 21-Speed (Shimano)",
+      "Bottom Bracket: KENLI BB cartridge",
+      "Freewheel: Noiseless",
+      "Rim Material: Double wall alloy",
+      "Tyre Type: Nylon",
+      "Front Wheel: Self removal (Hub QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 21910,
+    "rating": 0,
+    "image": "/hero/enzo-29t-blue-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-29t-blue-grey.webp",
+        "price": 21910,
+        "regularPrice": 21910,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-29t-black-grey.webp",
+        "price": 21910,
+        "regularPrice": 21910,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-29t-blue-grey.webp",
+        "price": 21910,
+        "regularPrice": 21910,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-flanker-gem-27-5t-29t",
+    "brand": "Hero",
+    "model": "Flanker-Gem (27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Wider handlebar trail frame",
+      "Fork Type: Front Suspension, high travel",
+      "Speed: 21-Speed (Shimano)",
+      "Pedaling: Hub bearing",
+      "Freewheel: Noiseless",
+      "Rim Material: Double wall alloy",
+      "Handlebar: Wider handle, 680mm",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 19215,
+    "rating": 0,
+    "image": "/hero/flanker-gem-27-5t-29t-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-black-yellow.webp",
+        "price": 19215,
+        "regularPrice": 19215,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-black-yellow.webp",
+        "price": 19880,
+        "regularPrice": 19880,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-grey-green.webp",
+        "price": 19215,
+        "regularPrice": 19215,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-grey-green.webp",
+        "price": 19880,
+        "regularPrice": 19880,
+        "inStock": true
+      },
+      {
+        "color": "Green/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-black-yellow.webp",
+        "price": 19215,
+        "regularPrice": 19215,
+        "inStock": true
+      },
+      {
+        "color": "Green/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/flanker-gem-27-5t-29t-black-yellow.webp",
+        "price": 19880,
+        "regularPrice": 19880,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Yellow",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-next-sports-t25-24t-26t",
+    "brand": "Hero",
+    "model": "Next Sports T25 (24T / 26T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Wider handlebar trail frame",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Crank: Fish type",
+      "Handlebar: Wider handlebar",
+      "Saddle: PU with quick release",
+      "Cabling: Internal cabling",
+      "Front Brake: Dual Disc / V-Brake, upgraded 3-finger levers",
+      "Rear Brake: Dual Disc / V-Brake, upgraded 3-finger levers"
+    ],
+    "price": 13530,
+    "rating": 0,
+    "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13530,
+        "regularPrice": 13530,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13615,
+        "regularPrice": 13615,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13530,
+        "regularPrice": 13530,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13615,
+        "regularPrice": 13615,
+        "inStock": true
+      },
+      {
+        "color": "Blue/White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13530,
+        "regularPrice": 13530,
+        "inStock": true
+      },
+      {
+        "color": "Blue/White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-black-blue.webp",
+        "price": 13615,
+        "regularPrice": 13615,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-next-t25-24t-26t",
+    "brand": "Hero",
+    "model": "Next T25 (24T / 26T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Top-down, dual color paint",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Cabling: Internal cabling",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Saddle: PU",
+      "Front Brake: Dual Disc / V-Brake",
+      "Rear Brake: Dual Disc / V-Brake"
+    ],
+    "price": 13750,
+    "rating": 0,
+    "image": "/hero/next-t25-24t-26t-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13750,
+        "regularPrice": 13750,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13835,
+        "regularPrice": 13835,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13750,
+        "regularPrice": 13750,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13835,
+        "regularPrice": 13835,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13750,
+        "regularPrice": 13750,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-black-blue.webp",
+        "price": 13835,
+        "regularPrice": 13835,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-slingshot-plus-sports-26t-27-5t-grey-black",
+    "brand": "Hero",
+    "model": "Slingshot Plus Sports (26T / 27.5T · Grey & Black)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Shimano-geared trail frame",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Rim Material: Double wall alloy",
+      "Tyre Brand: Hartex",
+      "Front Wheel: Self removal (Hub QR)",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 14990,
+    "rating": 0,
+    "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 14990,
+        "regularPrice": 14990,
+        "inStock": true
+      },
+      {
+        "color": "Grey",
+        "size": "27.5T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 15690,
+        "regularPrice": 15690,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 14990,
+        "regularPrice": 14990,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 15690,
+        "regularPrice": 15690,
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 14990,
+        "regularPrice": 14990,
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "size": "27.5T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-grey-black-grey.webp",
+        "price": 15690,
+        "regularPrice": 15690,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-slingshot-plus",
+    "brand": "Hero",
+    "model": "Slingshot Plus",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Wider handlebar",
+      "Fork Type: Front Suspension",
+      "Speed: Single Speed",
+      "Tyre Brand: Hartex",
+      "Handlebar: Wider handlebar",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 11315,
+    "rating": 0,
+    "image": "/hero/slingshot-plus-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-blue.webp",
+        "price": 11315,
+        "regularPrice": 11315,
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "size": "27.5T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-blue.webp",
+        "price": 11840,
+        "regularPrice": 11840,
+        "inStock": true
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-grey.webp",
+        "price": 11315,
+        "regularPrice": 11315,
+        "inStock": true
+      },
+      {
+        "color": "Grey",
+        "size": "27.5T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-grey.webp",
+        "price": 11840,
+        "regularPrice": 11840,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-enzo-27-5t-29t",
+    "brand": "Hero",
+    "model": "Enzo (27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Suspension hardtail",
+      "Fork Type: Front Suspension, high travel lock in/out",
+      "Speed: 21-Speed (Shimano)",
+      "Bottom Bracket: KENLI BB cartridge",
+      "Freewheel: Noiseless",
+      "Rim Material: Double wall alloy",
+      "Tyre Type: Nylon",
+      "Front Wheel: Self removal (Hub QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 15690,
+    "rating": 0,
+    "image": "/hero/enzo-27-5t-29t-blue-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-27-5t-29t-blue-grey.webp",
+        "price": 15690,
+        "regularPrice": 15690,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-27-5t-29t-blue-grey.webp",
+        "price": 16040,
+        "regularPrice": 16040,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-27-5t-29t-blue-grey.webp",
+        "price": 15690,
+        "regularPrice": 15690,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/enzo-27-5t-29t-blue-grey.webp",
+        "price": 16040,
+        "regularPrice": 16040,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-yuga",
+    "brand": "Hero",
+    "model": "Yuga",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Unisex step-through frame",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Tyre Brand: Hartex",
+      "Saddle: PU with quick release",
+      "Stem: Stem cover for safety",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 7300,
+    "rating": 0,
+    "image": "/hero/yuga-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hero/yuga-black.webp",
+        "price": 7300,
+        "regularPrice": 7300,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/yuga-black.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true
+      },
+      {
+        "color": "White",
+        "size": "24T",
+        "swatch": "#f5f5f5",
+        "image": "/hero/yuga-white.webp",
+        "price": 7300,
+        "regularPrice": 7300,
+        "inStock": true
+      },
+      {
+        "color": "White",
+        "size": "26T",
+        "swatch": "#f5f5f5",
+        "image": "/hero/yuga-white.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/yuga-red-black.webp",
+        "price": 7300,
+        "regularPrice": 7300,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/yuga-red-black.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Beige",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #d9c6a5 50.0%, #d9c6a5 100.0%)",
+        "image": "/hero/yuga-cream-beige.webp",
+        "price": 7300,
+        "regularPrice": 7300,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Beige",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #d9c6a5 50.0%, #d9c6a5 100.0%)",
+        "image": "/hero/yuga-cream-beige.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-viper",
+    "brand": "Hero",
+    "model": "Viper",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Top-down, dual color paint",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Tyre Brand: Hartex",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Saddle: PU",
+      "Front Brake: Dual Disc / V-Brake",
+      "Rear Brake: Dual Disc / V-Brake"
+    ],
+    "price": 7700,
+    "rating": 0,
+    "image": "/hero/viper-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7700,
+        "regularPrice": 7700,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7790,
+        "regularPrice": 7790,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7700,
+        "regularPrice": 7700,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7790,
+        "regularPrice": 7790,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7700,
+        "regularPrice": 7700,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/viper-black-green.webp",
+        "price": 7790,
+        "regularPrice": 7790,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-typhoon",
+    "brand": "Hero",
+    "model": "Typhoon",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Low step-through frame",
+      "Fork Type: Rigid / Dual Suspension (variant dependent)",
+      "Speed: Single Speed",
+      "Pedals: Broader pedal",
+      "Handlebar: Coloured handle grip",
+      "Stem: Steel stem",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 7445,
+    "rating": 0,
+    "image": "/hero/typhoon-black-pine-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Pine Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5d44 50.0%, #1f5d44 100.0%)",
+        "image": "/hero/typhoon-black-pine-green.webp",
+        "price": 7445,
+        "regularPrice": 7445,
+        "inStock": true
+      },
+      {
+        "color": "Black/Pine Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5d44 50.0%, #1f5d44 100.0%)",
+        "image": "/hero/typhoon-black-pine-green.webp",
+        "price": 7535,
+        "regularPrice": 7535,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/typhoon-blue-red.webp",
+        "price": 7445,
+        "regularPrice": 7445,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/typhoon-blue-red.webp",
+        "price": 7535,
+        "regularPrice": 7535,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/typhoon-grey-orange.webp",
+        "price": 7445,
+        "regularPrice": 7445,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/typhoon-grey-orange.webp",
+        "price": 7535,
+        "regularPrice": 7535,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Pine Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-sniper-24t-26t-orange-black-black-green",
+    "brand": "Hero",
+    "model": "Sniper (24T / 26T · Orange/Black & Black/Green)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Theme-based suspension frame",
+      "Fork Type: Front Suspension, high travel",
+      "Speed: Single Speed",
+      "Bottom Bracket: Thun BB cartridge",
+      "Chain: Bushless",
+      "Freewheel: Noiseless",
+      "Rim Material: Double wall alloy",
+      "Accessories: Theme based frame bag & handle bag",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 12245,
+    "rating": 0,
+    "image": "/hero/sniper-24t-26t-orange-black-black-green-orange-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/sniper-24t-26t-orange-black-black-green-orange-black.webp",
+        "price": 12245,
+        "regularPrice": 12245,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/sniper-24t-26t-orange-black-black-green-orange-black.webp",
+        "price": 12350,
+        "regularPrice": 12350,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/sniper-24t-26t-orange-black-black-green-orange-black.webp",
+        "price": 12245,
+        "regularPrice": 12245,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/sniper-24t-26t-orange-black-black-green-orange-black.webp",
+        "price": 12350,
+        "regularPrice": 12350,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Orange/Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-slingshot",
+    "brand": "Hero",
+    "model": "Slingshot",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Wider handlebar",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Tyre Brand: Hartex",
+      "Handlebar: Wider handlebar",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Cabling: Internal cabling",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 8175,
+    "rating": 0,
+    "image": "/hero/slingshot-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/slingshot-black-green.webp",
+        "price": 8175,
+        "regularPrice": 8175,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/slingshot-black-green.webp",
+        "price": 8350,
+        "regularPrice": 8350,
+        "inStock": true
+      },
+      {
+        "color": "Black/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/slingshot-black-green.webp",
+        "price": 8525,
+        "regularPrice": 8525,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/slingshot-blue-orange.webp",
+        "price": 8175,
+        "regularPrice": 8175,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/slingshot-blue-orange.webp",
+        "price": 8350,
+        "regularPrice": 8350,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/slingshot-blue-orange.webp",
+        "price": 8525,
+        "regularPrice": 8525,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/slingshot-grey-blue.webp",
+        "price": 8175,
+        "regularPrice": 8175,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/slingshot-grey-blue.webp",
+        "price": 8350,
+        "regularPrice": 8350,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/slingshot-grey-blue.webp",
+        "price": 8525,
+        "regularPrice": 8525,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-neo",
+    "brand": "Hero",
+    "model": "Neo",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Integrated carrier frame",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain Wheel: Better finish type crank",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Saddle: PU cushioned",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 7325,
+    "rating": 0,
+    "image": "/hero/neo-red-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/neo-red-grey.webp",
+        "price": 7325,
+        "regularPrice": 7325,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/neo-red-grey.webp",
+        "price": 7430,
+        "regularPrice": 7430,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/neo-red-grey.webp",
+        "price": 7325,
+        "regularPrice": 7325,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/neo-red-grey.webp",
+        "price": 7430,
+        "regularPrice": 7430,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-colt",
+    "brand": "Hero",
+    "model": "Colt",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Internal cabling, coloured grip",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Rim Material: Double wall alloy",
+      "Tyre Type: Nylon",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Grips: Coloured handle grip",
+      "Front Brake: Double Disc / V-Brake",
+      "Rear Brake: Double Disc / V-Brake"
+    ],
+    "price": 10895,
+    "rating": 0,
+    "image": "/hero/colt-blue-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 11070,
+        "regularPrice": 11070,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 11070,
+        "regularPrice": 11070,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/colt-blue-red.webp",
+        "price": 11070,
+        "regularPrice": 11070,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Red",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-colt-sports",
+    "brand": "Hero",
+    "model": "Colt Sports",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Internal cabling, coloured grip",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Rim Material: Double wall alloy",
+      "Tyre Type: Nylon",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Grips: Coloured handle grip",
+      "Front Brake: Double Disc / V-Brake",
+      "Rear Brake: Double Disc / V-Brake"
+    ],
+    "price": 8915,
+    "rating": 0,
+    "image": "/hero/colt-sports-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/colt-sports-black-blue.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/colt-sports-black-blue.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/colt-sports-blue-red.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/colt-sports-blue-red.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/colt-sports-black-blue.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/colt-sports-black-blue.webp",
+        "price": 8915,
+        "regularPrice": 8915,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-bonfire-refresh",
+    "brand": "Hero",
+    "model": "Bonfire Refresh",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Top-down, rigid or suspension",
+      "Fork Type: Rigid / Suspension (variant dependent)",
+      "Speed: Single Speed",
+      "Pedals: Broader, exclusively designed",
+      "Seat Post: Longer 8-inch seat pillar",
+      "Saddle: PU with embossed graphics",
+      "Front Brake: Caliper / V-Brake",
+      "Rear Brake: Caliper / V-Brake"
+    ],
+    "price": 6940,
+    "rating": 0,
+    "image": "/hero/bonfire-refresh-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6940,
+        "regularPrice": 6940,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6990,
+        "regularPrice": 6990,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "24T",
+        "swatch": "#d62828",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6940,
+        "regularPrice": 6940,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6990,
+        "regularPrice": 6990,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "24T",
+        "swatch": "#2e8b57",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6940,
+        "regularPrice": 6940,
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "size": "26T",
+        "swatch": "#2e8b57",
+        "image": "/hero/bonfire-refresh-black.webp",
+        "price": 6990,
+        "regularPrice": 6990,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-alpine-sports",
+    "brand": "Hero",
+    "model": "Alpine Sports",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty hardtail",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Pedaling: Hub bearing for smoother pedaling",
+      "Bottom Bracket: B.B cartridge",
+      "Rim Material: Double wall alloy",
+      "Tyre Brand: Hartex",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Wheel: Self removal (Hub QR)",
+      "Front Brake: Double Disc / V-Brake",
+      "Rear Brake: Double Disc / V-Brake"
+    ],
+    "price": 10720,
+    "rating": 0,
+    "image": "/hero/alpine-sports-blue-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/alpine-sports-blue-green.webp",
+        "price": 10720,
+        "regularPrice": 10720,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/alpine-sports-blue-green.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/alpine-sports-red-black.webp",
+        "price": 10720,
+        "regularPrice": 10720,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/alpine-sports-red-black.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      },
+      {
+        "color": "Black/White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/alpine-sports-black-white.webp",
+        "price": 10720,
+        "regularPrice": 10720,
+        "inStock": true
+      },
+      {
+        "color": "Black/White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/alpine-sports-black-white.webp",
+        "price": 10895,
+        "regularPrice": 10895,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-slingshot-plus-sports-26t-27-5t-blue-grey",
+    "brand": "Hero",
+    "model": "Slingshot Plus Sports (26T / 27.5T · Blue & Grey)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Shimano-geared trail frame",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Rim Material: Double wall alloy",
+      "Tyre Brand: Hartex",
+      "Front Wheel: Self removal (Hub QR)",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 11020,
+    "rating": 0,
+    "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11020,
+        "regularPrice": 11020,
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "size": "27.5T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11545,
+        "regularPrice": 11545,
+        "inStock": true
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11020,
+        "regularPrice": 11020,
+        "inStock": true
+      },
+      {
+        "color": "Grey",
+        "size": "27.5T",
+        "swatch": "#8a8f98",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11545,
+        "regularPrice": 11545,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11020,
+        "regularPrice": 11020,
+        "inStock": true
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hero/slingshot-plus-sports-26t-27-5t-blue-grey-blue.webp",
+        "price": 11545,
+        "regularPrice": 11545,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-next-t25-24t-26t-27-5t-29t",
+    "brand": "Hero",
+    "model": "Next T25 (24T / 26T / 27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Wider handlebar trail frame",
+      "Fork Type: Rigid",
+      "Speed: 21-Speed (Shimano)",
+      "Crank: Fish type",
+      "Handlebar: Wider handlebar",
+      "Saddle: PU with quick release",
+      "Cabling: Internal cabling",
+      "Front Brake: Dual Disc / V-Brake, upgraded 3-finger levers",
+      "Rear Brake: Dual Disc / V-Brake, upgraded 3-finger levers"
+    ],
+    "price": 7255,
+    "rating": 0,
+    "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7255,
+        "regularPrice": 7255,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7885,
+        "regularPrice": 7885,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 8410,
+        "regularPrice": 8410,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-grey-red.webp",
+        "price": 7255,
+        "regularPrice": 7255,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-grey-red.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-grey-red.webp",
+        "price": 7885,
+        "regularPrice": 7885,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-grey-red.webp",
+        "price": 8410,
+        "regularPrice": 8410,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7255,
+        "regularPrice": 7255,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7885,
+        "regularPrice": 7885,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 8410,
+        "regularPrice": 8410,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "White/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-next-sports-t25-24t-26t-27-5t-29t",
+    "brand": "Hero",
+    "model": "Next Sports T25 (24T / 26T / 27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Frame Material: Hardtail steel",
+      "Frame Geometry: Wider handlebar trail frame",
+      "Fork Type: Rigid",
+      "Speed: 21-Speed (Shimano)",
+      "Crank: Fish type",
+      "Handlebar: Wider handlebar",
+      "Saddle: PU with quick release",
+      "Cabling: Internal cabling",
+      "Front Brake: Dual Disc / V-Brake, upgraded 3-finger levers",
+      "Rear Brake: Dual Disc / V-Brake, upgraded 3-finger levers"
+    ],
+    "price": 7035,
+    "rating": 0,
+    "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7035,
+        "regularPrice": 7035,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7125,
+        "regularPrice": 7125,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9370,
+        "regularPrice": 9370,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9895,
+        "regularPrice": 9895,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7035,
+        "regularPrice": 7035,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7125,
+        "regularPrice": 7125,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9370,
+        "regularPrice": 9370,
+        "inStock": true
+      },
+      {
+        "color": "Black/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9895,
+        "regularPrice": 9895,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7035,
+        "regularPrice": 7035,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 7125,
+        "regularPrice": 7125,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9370,
+        "regularPrice": 9370,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/next-sports-t25-24t-26t-27-5t-29t-white-blue.webp",
+        "price": 9895,
+        "regularPrice": 9895,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "White/Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-flanker-gem-26t-27-5t-29t",
+    "brand": "Hero",
+    "model": "Flanker-Gem (26T / 27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Wider handlebar trail frame",
+      "Fork Type: Front Suspension, high travel",
+      "Speed: Single Speed",
+      "Pedaling: Hub bearing",
+      "Freewheel: Noiseless",
+      "Rim Material: Double wall alloy",
+      "Handlebar: Wider handle, 680mm",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc",
+      "Rear Brake: Double Disc"
+    ],
+    "price": 13590,
+    "rating": 0,
+    "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 13590,
+        "regularPrice": 13590,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 14115,
+        "regularPrice": 14115,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 14640,
+        "regularPrice": 14640,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-grey-green.webp",
+        "price": 13590,
+        "regularPrice": 13590,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-grey-green.webp",
+        "price": 14115,
+        "regularPrice": 14115,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-grey-green.webp",
+        "price": 14640,
+        "regularPrice": 14640,
+        "inStock": true
+      },
+      {
+        "color": "Green/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 14115,
+        "regularPrice": 14115,
+        "inStock": true
+      },
+      {
+        "color": "Green/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 14640,
+        "regularPrice": 14640,
+        "inStock": true
+      },
+      {
+        "color": "Green/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/flanker-gem-26t-27-5t-29t-black-yellow.webp",
+        "price": 13590,
+        "regularPrice": 13590,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Yellow",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-blunt-gem-27-5t-29t",
+    "brand": "Hero",
+    "model": "Blunt-Gem (27.5T / 29T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Frame Material: High tensile steel",
+      "Frame Geometry: Dual tone with internal cabling",
+      "Fork Type: Front Suspension",
+      "Speed: 21-Speed (Shimano)",
+      "Bottom Bracket: KENLI BB cartridge",
+      "Rim Material: Double wall alloy",
+      "Stem: Alloy stem with ED coating",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 14585,
+    "rating": 0,
+    "image": "/hero/blunt-gem-27-5t-29t-red-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-red-grey.webp",
+        "price": 14585,
+        "regularPrice": 14585,
+        "inStock": true
+      },
+      {
+        "color": "Red/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-red-grey.webp",
+        "price": 14935,
+        "regularPrice": 14935,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-yellow-red.webp",
+        "price": 14585,
+        "regularPrice": 14585,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-yellow-red.webp",
+        "price": 14935,
+        "regularPrice": 14935,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-red-grey.webp",
+        "price": 14585,
+        "regularPrice": 14585,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hero/blunt-gem-27-5t-29t-red-grey.webp",
+        "price": 14935,
+        "regularPrice": 14935,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Grey",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-attitude-24t-26t",
+    "brand": "Hero",
+    "model": "Attitude (24T / 26T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: High tensile steel",
+      "Frame Geometry: Dual shade frame",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Cabling: Internal cabling",
+      "Rim Material: Double wall alloy",
+      "Tyre Brand: Hartex",
+      "Seat Post: Self height adjustment (Seat-QR)",
+      "Front Brake: Double Disc / V-Brake",
+      "Rear Brake: Double Disc / V-Brake"
+    ],
+    "price": 10160,
+    "rating": 0,
+    "image": "/hero/attitude-24t-26t-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10160,
+        "regularPrice": 10160,
+        "inStock": true
+      },
+      {
+        "color": "Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10880,
+        "regularPrice": 10880,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10160,
+        "regularPrice": 10160,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10880,
+        "regularPrice": 10880,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10160,
+        "regularPrice": 10160,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/hero/attitude-24t-26t-green-black.webp",
+        "price": 10880,
+        "regularPrice": 10880,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Green/Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-bloom",
+    "brand": "Hero",
+    "model": "Bloom",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "12T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Low balance-to-pedal geometry",
+      "Tyre Size: 12T",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic",
+      "Rim Material: Mag wheel",
+      "Spokes: Mag wheel (spokeless)",
+      "Handlebar: 360mm, vertically expanded",
+      "Saddle: Cushioned saddle",
+      "Seat Post: Steel",
+      "Front Brake: Coaster with drum brake",
+      "Rear Brake: Coaster with drum brake"
+    ],
+    "price": 7515,
+    "rating": 0,
+    "image": "/hero/bloom-cream.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream",
+        "size": "12T",
+        "swatch": "#efe6cc",
+        "image": "/hero/bloom-cream.webp",
+        "price": 7515,
+        "regularPrice": 7515,
+        "inStock": true,
+        "sku": "BSBLM12CRBN001"
+      }
+    ],
+    "defaultColor": "Cream",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-boomer",
+    "brand": "Hero",
+    "model": "Boomer",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [],
+    "price": 4805,
+    "rating": 0,
+    "image": "/hero/boomer-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "14T",
+        "type": "Non Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 4805,
+        "regularPrice": 4805,
+        "inStock": true,
+        "sku": "BCBMR14BLGN002"
+      },
+      {
+        "color": "Blue",
+        "size": "14T",
+        "type": "Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 5095,
+        "regularPrice": 5095,
+        "inStock": true,
+        "sku": "BCBMR14BLGN001"
+      },
+      {
+        "color": "Blue",
+        "size": "16T",
+        "type": "Non Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 5140,
+        "regularPrice": 5140,
+        "inStock": true,
+        "sku": "BCBMR16BKGN001"
+      },
+      {
+        "color": "Blue",
+        "size": "16T",
+        "type": "Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 5425,
+        "regularPrice": 5425,
+        "inStock": true,
+        "sku": "BCBMR16BLGN001"
+      },
+      {
+        "color": "Blue",
+        "size": "20T",
+        "type": "Non Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 5455,
+        "regularPrice": 5455,
+        "inStock": true,
+        "sku": "BCBMR20BLGN002"
+      },
+      {
+        "color": "Blue",
+        "size": "20T",
+        "type": "Brake",
+        "swatch": "#1f5fbf",
+        "image": "/hero/boomer-blue.webp",
+        "price": 5655,
+        "regularPrice": 5655,
+        "inStock": true,
+        "sku": "BCBMR20BKGN010"
+      },
+      {
+        "color": "Red",
+        "size": "14T",
+        "type": "Non Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 4805,
+        "regularPrice": 4805,
+        "inStock": true,
+        "sku": "BCBMR14RDBL002"
+      },
+      {
+        "color": "Red",
+        "size": "14T",
+        "type": "Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 5095,
+        "regularPrice": 5095,
+        "inStock": true,
+        "sku": "BCBMR14RDBL001"
+      },
+      {
+        "color": "Red",
+        "size": "16T",
+        "type": "Non Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 5140,
+        "regularPrice": 5140,
+        "inStock": true,
+        "sku": "BCBMR16RDBL002"
+      },
+      {
+        "color": "Red",
+        "size": "16T",
+        "type": "Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 5425,
+        "regularPrice": 5425,
+        "inStock": true,
+        "sku": "BCBMR16RDBL001"
+      },
+      {
+        "color": "Red",
+        "size": "20T",
+        "type": "Non Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 5455,
+        "regularPrice": 5455,
+        "inStock": true,
+        "sku": "BCBMR20RDBL002"
+      },
+      {
+        "color": "Red",
+        "size": "20T",
+        "type": "Brake",
+        "swatch": "#d62828",
+        "image": "/hero/boomer-red.webp",
+        "price": 5775,
+        "regularPrice": 5775,
+        "inStock": true,
+        "sku": "BCBMR20RDBL001"
+      },
+      {
+        "color": "Pink",
+        "size": "14T",
+        "type": "Non Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 4895,
+        "regularPrice": 4895,
+        "inStock": true,
+        "sku": "BCBMR14BKPK001"
+      },
+      {
+        "color": "Pink",
+        "size": "14T",
+        "type": "Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 5095,
+        "regularPrice": 5095,
+        "inStock": true,
+        "sku": "BCBMR14PKBK001"
+      },
+      {
+        "color": "Pink",
+        "size": "16T",
+        "type": "Non Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 5305,
+        "regularPrice": 5305,
+        "inStock": true,
+        "sku": "BCBMR16BKPK007"
+      },
+      {
+        "color": "Pink",
+        "size": "16T",
+        "type": "Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 5050,
+        "regularPrice": 5050,
+        "inStock": true,
+        "sku": "BCBMR16BKPK001"
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "type": "Non Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 5420,
+        "regularPrice": 5420,
+        "inStock": true,
+        "sku": "BCBMR20BKPK001"
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "type": "Brake",
+        "swatch": "#f06fa4",
+        "image": "/hero/boomer-pink.webp",
+        "price": 5655,
+        "regularPrice": 5655,
+        "inStock": true,
+        "sku": "BCBMR20BKPK010"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-jumpshot-plus",
+    "brand": "Hero",
+    "model": "Jumpshot Plus",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [],
+    "price": 9485,
+    "rating": 0,
+    "image": "/hero/jumpshot-plus-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Purple",
+        "size": "20T",
+        "swatch": "#6a2c91",
+        "image": "/hero/jumpshot-plus-purple.webp",
+        "price": 9485,
+        "regularPrice": 9485,
+        "inStock": true,
+        "sku": "BSJUM20GNPU002"
+      },
+      {
+        "color": "Yellow",
+        "size": "20T",
+        "swatch": "#f2c40f",
+        "image": "/hero/jumpshot-plus-yellow.webp",
+        "price": 9485,
+        "regularPrice": 9485,
+        "inStock": true,
+        "sku": "BSJUM20BLYL002"
+      },
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/hero/jumpshot-plus-black.webp",
+        "price": 9485,
+        "regularPrice": 9485,
+        "inStock": true,
+        "sku": "BSJUM20GNPU002"
+      }
+    ],
+    "defaultColor": "Purple",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-lilstar",
+    "brand": "Hero",
+    "model": "Lilstar",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T",
+    "specs": [],
+    "price": 4245,
+    "rating": 0,
+    "image": "/hero/lilstar-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "16T",
+        "swatch": "#161616",
+        "image": "/hero/lilstar-black.webp",
+        "price": 4245,
+        "regularPrice": 4245,
+        "inStock": true,
+        "sku": "BCLLS16BK00001"
+      },
+      {
+        "color": "Red",
+        "size": "16T",
+        "swatch": "#d62828",
+        "image": "/hero/lilstar-red.webp",
+        "price": 4245,
+        "regularPrice": 4245,
+        "inStock": true,
+        "sku": "BCLLS16RD00001"
+      },
+      {
+        "color": "Blue",
+        "size": "16T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/lilstar-blue.webp",
+        "price": 4245,
+        "regularPrice": 4245,
+        "inStock": true,
+        "sku": "BCLLS16BL00001"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-starborn",
+    "brand": "Hero",
+    "model": "Starborn",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Sporty, stable kids geometry",
+      "Fork Type: Rigid",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic",
+      "Rim Material: Steel",
+      "Spokes: Steel, 14G",
+      "Handlebar: 485mm, U-turn (U-type)",
+      "Saddle: PU saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 7140,
+    "rating": 0,
+    "image": "/hero/starborn-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "16T",
+        "swatch": "#161616",
+        "image": "/hero/starborn-black.webp",
+        "price": 7140,
+        "regularPrice": 7140,
+        "inStock": true,
+        "sku": "BSSTB16BK00001"
+      },
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/hero/starborn-black.webp",
+        "price": 7595,
+        "regularPrice": 7595,
+        "inStock": true,
+        "sku": "BSSTB20BK00001"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-ninjato",
+    "brand": "Hero",
+    "model": "Ninjato",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Roomy hardtail geometry, 16.9\" frame",
+      "Tyre Size: 26T",
+      "Fork Type: Front Suspension",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Double-wall alloy",
+      "Spokes: Steel, 14G",
+      "Handlebar: 660mm, threadless with alloy stem",
+      "Saddle: PU saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 11769,
+    "regularPrice": 12390,
+    "rating": 0,
+    "image": "/hero/ninjato-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/hero/ninjato-orange.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSNIN26OR00002"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/ninjato-blue.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSNIN26GYBK002"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/hero/ninjato-grey.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSNIN26GYRD002"
+      }
+    ],
+    "defaultColor": "Orange",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-aloha-26t",
+    "brand": "Hero",
+    "model": "Aloha (26T)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Upright teen MTB geometry",
+      "Tyre Size: 26T",
+      "Fork Type: Suspension",
+      "Speed: Single Speed",
+      "Chain: Bush chain",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Steel",
+      "Spokes: Steel, 14G",
+      "Handlebar: 660mm, threadless with alloy stem",
+      "Saddle: PU saddle",
+      "Seat Post: Steel",
+      "Front Brake: Disc",
+      "Rear Brake: Disc"
+    ],
+    "price": 13170,
+    "rating": 0,
+    "image": "/hero/aloha-26t-cream.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream",
+        "swatch": "#efe6cc",
+        "image": "/hero/aloha-26t-cream.webp",
+        "price": 13170,
+        "regularPrice": 13170,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Cream",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-katana",
+    "brand": "Hero",
+    "model": "Katana",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Confident hardtail geometry, 14.2\" frame",
+      "Tyre Size: 26T",
+      "Fork Type: Front Suspension",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Double-wall alloy",
+      "Spokes: Steel, 14G",
+      "Handlebar: 660mm, threadless with alloy stem",
+      "Saddle: PU saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 11769,
+    "regularPrice": 12390,
+    "rating": 0,
+    "image": "/hero/katana-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/katana-blue.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSKAT26BLGY002"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/hero/katana-green.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSKAT26GNGY002"
+      },
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/hero/katana-red.webp",
+        "price": 11769,
+        "regularPrice": 12390,
+        "inStock": true,
+        "sku": "BSKAT26RDBG002"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-sniper-24t-26t-green-yellow",
+    "brand": "Hero",
+    "model": "Sniper (24T / 26T · Green & Yellow)",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Sporty hardtail geometry (12.2\" / 15.3\")",
+      "Fork Type: Suspension",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Double-wall alloy",
+      "Spokes: Steel, 14G",
+      "Handlebar: 660mm, matte-black finish, threadless",
+      "Saddle: Wide, comfortable saddle",
+      "Seat Post: Steel",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 12455,
+    "rating": 0,
+    "image": "/hero/sniper-24t-26t-green-yellow-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "size": "24T",
+        "swatch": "#2e8b57",
+        "image": "/hero/sniper-24t-26t-green-yellow-green.webp",
+        "price": 12455,
+        "regularPrice": 12455,
+        "inStock": true,
+        "sku": "BSSNI24GN00001"
+      },
+      {
+        "color": "Green",
+        "size": "26T",
+        "swatch": "#2e8b57",
+        "image": "/hero/sniper-24t-26t-green-yellow-green.webp",
+        "price": 12560,
+        "regularPrice": 12560,
+        "inStock": true,
+        "sku": "BSSNI26GN00001"
+      },
+      {
+        "color": "Yellow",
+        "size": "24T",
+        "swatch": "#f2c40f",
+        "image": "/hero/sniper-24t-26t-green-yellow-yellow.webp",
+        "price": 12455,
+        "regularPrice": 12455,
+        "inStock": true,
+        "sku": "BSSNI24BG00001"
+      },
+      {
+        "color": "Yellow",
+        "size": "26T",
+        "swatch": "#f2c40f",
+        "image": "/hero/sniper-24t-26t-green-yellow-yellow.webp",
+        "price": 12560,
+        "regularPrice": 12560,
+        "inStock": true,
+        "sku": "BSSNI26BG00001"
+      },
+      {
+        "color": "Blue",
+        "size": "24T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/sniper-24t-26t-green-yellow-blue.webp",
+        "price": 12455,
+        "regularPrice": 12455,
+        "inStock": true,
+        "sku": "BSSNI24BL00001"
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/sniper-24t-26t-green-yellow-blue.webp",
+        "price": 12560,
+        "regularPrice": 12560,
+        "inStock": true,
+        "sku": "BSSNI26BL00001"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-toki",
+    "brand": "Hero",
+    "model": "Toki",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Tall hardtail geometry, 18.1\" frame",
+      "Tyre Size: 26T",
+      "Fork Type: Rigid (suspension-style)",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Steel",
+      "Spokes: Steel, 14G",
+      "Handlebar: 620mm, threaded",
+      "Saddle: PU saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: V-Brake",
+      "Rear Brake: V-Brake"
+    ],
+    "price": 9219,
+    "regularPrice": 9705,
+    "rating": 0,
+    "image": "/hero/toki-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/toki-blue.webp",
+        "price": 9219,
+        "regularPrice": 9705,
+        "inStock": true,
+        "sku": "BSTOK26BL00002"
+      },
+      {
+        "color": "Blue/Pink",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/hero/toki-blue-pink.webp",
+        "price": 9219,
+        "regularPrice": 9705,
+        "inStock": true,
+        "sku": "BSTOK26PK00002"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/hero/toki-green.webp",
+        "price": 9219,
+        "regularPrice": 9705,
+        "inStock": true,
+        "sku": "BSTOK26GN00002"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-shin",
+    "brand": "Hero",
+    "model": "Shin",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "Frame Material: Steel (hardtail)",
+      "Frame Geometry: Unisex step-through geometry, 13.2\" frame",
+      "Tyre Size: 26T",
+      "Fork Type: Front Suspension",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic with reflector",
+      "Rim Material: Double-wall alloy",
+      "Spokes: Steel, 14G",
+      "Handlebar: 660mm, threadless with alloy stem",
+      "Saddle: PU saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: Dual Disc",
+      "Rear Brake: Dual Disc"
+    ],
+    "price": 11655,
+    "rating": 0,
+    "image": "/hero/shin-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/shin-blue.webp",
+        "price": 11655,
+        "regularPrice": 11655,
+        "inStock": true,
+        "sku": "BSSHI26PUBL001"
+      },
+      {
+        "color": "Beige",
+        "swatch": "#d9c6a5",
+        "image": "/hero/shin-beige.webp",
+        "price": 11655,
+        "regularPrice": 11655,
+        "inStock": true,
+        "sku": "BSSHI26BGBN001"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/hero/shin-green.webp",
+        "price": 11655,
+        "regularPrice": 11655,
+        "inStock": true,
+        "sku": "BSSHI26BGGN001"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-stonefang",
+    "brand": "Hero",
+    "model": "Stonefang",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Material: Steel",
+      "Frame Geometry: Compact BMX geometry",
+      "Tyre Size: 20T",
+      "Fork Type: Rigid with suspension styling",
+      "Speed: Single Speed",
+      "Chain: Bushless (safe, low-maintenance)",
+      "Pedals: Anti-skid plastic",
+      "Rim Material: Steel",
+      "Spokes: Steel, 14G",
+      "Handlebar: 525mm BMX rotor with crash pads",
+      "Saddle: Wide, comfortable saddle",
+      "Seat Post: Steel, quick-release for easy height adjustment",
+      "Front Brake: Caliper",
+      "Rear Brake: Caliper"
+    ],
+    "price": 8700,
+    "rating": 0,
+    "image": "/hero/stonefang-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow",
+        "swatch": "#f2c40f",
+        "image": "/hero/stonefang-yellow.webp",
+        "price": 8700,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "BSSTO20BKYL001"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/stonefang-blue.webp",
+        "price": 8700,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "BSSTO20BKGN001"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/hero/stonefang-orange.webp",
+        "price": 8700,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "BSSTO20BKOR001"
+      }
+    ],
+    "defaultColor": "Yellow",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-massive",
+    "brand": "Hero",
+    "model": "Massive",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "—",
+    "specs": [],
+    "price": 12355,
+    "rating": 0,
+    "image": "/hero/massive-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/hero/massive-blue.webp",
+        "price": 12355,
+        "regularPrice": 12355,
+        "inStock": true,
+        "sku": "BSMAS26BLBG001"
+      },
+      {
+        "color": "Purple",
+        "swatch": "#6a2c91",
+        "image": "/hero/massive-purple.webp",
+        "price": 12355,
+        "regularPrice": 12355,
+        "inStock": true,
+        "sku": "BSMAS26PUGN001"
+      },
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/hero/massive-red.webp",
+        "price": 12355,
+        "regularPrice": 12355,
+        "inStock": true,
+        "sku": "BSMAS26RDGN001"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-blast",
+    "brand": "Hero",
+    "model": "Blast",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Frame Size: NaN cms (225MM Inches)",
+      "Frame Material: Steel",
+      "Frame Geometry: Safe Ride",
+      "Fork: Rigid",
+      "Chain: Bushless",
+      "Speed: Single Speed",
+      "Chain Wheel: 26T",
+      "Rim: Black Steel",
+      "Type Size Designation: 2.0 Inches",
+      "Mention: Support wheels not included for 20T variant",
+      "Seat Post: ED Black",
+      "Saddle: PU",
+      "Saddle Adjustment/Seat Clamp: Quick Release"
+    ],
+    "price": 4400,
+    "regularPrice": 4762,
+    "rating": 0,
+    "image": "/hero/blast-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow",
+        "size": "16T",
+        "swatch": "#f2c40f",
+        "image": "/hero/blast-yellow.webp",
+        "price": 4400,
+        "regularPrice": 4762,
+        "inStock": true,
+        "sku": "BSBLA16YL00002"
+      },
+      {
+        "color": "Yellow",
+        "size": "20T",
+        "swatch": "#f2c40f",
+        "image": "/hero/blast-yellow-2.webp",
+        "price": 5207,
+        "regularPrice": 5207,
+        "inStock": true,
+        "sku": "BSBLA20YL00002"
+      },
+      {
+        "color": "Black",
+        "size": "16T",
+        "swatch": "#161616",
+        "image": "/hero/blast-black.webp",
+        "price": 4400,
+        "regularPrice": 4762,
+        "inStock": true,
+        "sku": "BSBLA16BK00002"
+      },
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/hero/blast-black-2.webp",
+        "price": 5207,
+        "regularPrice": 5207,
+        "inStock": true,
+        "sku": "BSBLA20BK00002"
+      }
+    ],
+    "defaultColor": "Yellow",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-rove",
+    "brand": "Hero",
+    "model": "Rove",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Frame Material: Mild Steel",
+      "Fork: Front",
+      "Suspension: Rigid",
+      "Chain Wheel: 40T",
+      "Speed: Single Speed",
+      "Rim: Black Steel",
+      "Tyre Width: 2.40 Inches",
+      "Saddle: PU",
+      "Handle Bar: 580 mm",
+      "Front Brake: V Brake",
+      "Rear Brake: V Brake",
+      "Brake: Wire Brake"
+    ],
+    "price": 5795,
+    "regularPrice": 8045,
+    "rating": 0,
+    "image": "/hero/rove-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-black-green.webp",
+        "price": 5795,
+        "regularPrice": 8045,
+        "inStock": true,
+        "sku": "BSROV24BKGN002"
+      },
+      {
+        "color": "Black/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-black-green.webp",
+        "price": 5975,
+        "regularPrice": 9920,
+        "inStock": true,
+        "sku": "BSROV27BKGN002"
+      },
+      {
+        "color": "Grey/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-grey-green.webp",
+        "price": 5964,
+        "regularPrice": 8513,
+        "inStock": true,
+        "sku": "BSROV26GYGN002"
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-rove-ic",
+    "brand": "Hero",
+    "model": "Rove IC",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Fork: Front",
+      "Suspension: Rigid",
+      "Speed: Single Speed"
+    ],
+    "price": 5895,
+    "regularPrice": 8513,
+    "rating": 0,
+    "image": "/hero/rove-ic-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-ic-black-green.webp",
+        "price": 5895,
+        "regularPrice": 8513,
+        "inStock": true,
+        "sku": "BSROV24BKGN001"
+      },
+      {
+        "color": "Black/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-ic-black-green.webp",
+        "price": 6448,
+        "regularPrice": 10388,
+        "inStock": true,
+        "sku": "BSROV27BKGN001"
+      },
+      {
+        "color": "Grey/Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/hero/rove-ic-grey-green.webp",
+        "price": 6269,
+        "regularPrice": 8982,
+        "inStock": true,
+        "sku": "BSROV26GYGN001"
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-riot",
+    "brand": "Hero",
+    "model": "Riot",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Frame Size: 42 cms (16.5 inches)",
+      "Frame Material: Hi-Tensile Steel",
+      "Frame Geometry: Optimised",
+      "Fork: Front Suspension",
+      "Front Derailleur: YES",
+      "Rear Derailleur: YES",
+      "Chain: 98 Links",
+      "Speed: Single Speed",
+      "Chain Wheel: 40T",
+      "Wheelset Width: 2.4 inches",
+      "Rim: Double Alloy",
+      "Seat Post: ED",
+      "Saddle: PU",
+      "Saddle Adjustment/Seat Clamp: Alloy Quick Release"
+    ],
+    "price": 7469,
+    "regularPrice": 14782,
+    "rating": 0,
+    "image": "/hero/riot-brown.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brown",
+        "size": "26T",
+        "swatch": "#6b4423",
+        "image": "/hero/riot-brown.webp",
+        "price": 7469,
+        "regularPrice": 14782,
+        "inStock": true,
+        "sku": "BSRIO26BW00002"
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/riot-grey-black.webp",
+        "price": 9900,
+        "regularPrice": 19730,
+        "inStock": true,
+        "sku": "BSRIO26GYBK001"
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hero/riot-grey-2.webp",
+        "price": 7469,
+        "regularPrice": 14782,
+        "inStock": true,
+        "sku": "BSRIO26GY00004"
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/riot-blue.webp",
+        "price": 9480,
+        "regularPrice": 19730,
+        "inStock": true,
+        "sku": "BSRIO26BL00002"
+      },
+      {
+        "color": "Black/White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/riot-black-white.webp",
+        "price": 10931,
+        "regularPrice": 21605,
+        "inStock": true,
+        "sku": "BSRIO27BKWH001"
+      }
+    ],
+    "defaultColor": "Brown",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-next",
+    "brand": "Hero",
+    "model": "Next",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Frame Size: 40 cms (15.55 inches)",
+      "Frame Material: Hardtail Steel",
+      "Frame Geometry: Optimised",
+      "Fork: Rigid",
+      "Chain: 100 Links",
+      "Speed: Single Speed",
+      "Chain Wheel: 40T",
+      "Seat Post: BPC",
+      "Saddle: PU",
+      "Saddle Adjustment/Seat Clamp: Alloy Quick Release",
+      "Handle Bar: 580 mm"
+    ],
+    "price": 6593,
+    "regularPrice": 7255,
+    "rating": 0,
+    "image": "/hero/next-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hero/next-black.webp",
+        "price": 6593,
+        "regularPrice": 7255,
+        "inStock": true,
+        "sku": "BSNXT24BKBL003"
+      },
+      {
+        "color": "Red",
+        "size": "24T",
+        "swatch": "#d62828",
+        "image": "/hero/next-red.webp",
+        "price": 6593,
+        "regularPrice": 7255,
+        "inStock": true,
+        "sku": "BSNXT24RDBK008"
+      },
+      {
+        "color": "Grey",
+        "size": "24T",
+        "swatch": "#8a8f98",
+        "image": "/hero/next-grey.webp",
+        "price": 6593,
+        "regularPrice": 7255,
+        "inStock": true,
+        "sku": "BSNXT24GYRD003"
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hero/next-grey.webp",
+        "price": 6673,
+        "regularPrice": 7340,
+        "inStock": true,
+        "sku": "BSNXT26GYRD003"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-f11-20t-blue-orange-blue-black",
+    "brand": "Hero",
+    "model": "F11 (20T · Blue/Orange & Blue/Black)",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Size: 36 cms (14 inches)",
+      "Frame Material: Suspension frame with sturdy detachable carrier",
+      "Frame Geometry: Safe Ride",
+      "Fork: Dual Suspension",
+      "Mention: Support wheels not included for 20T variant",
+      "Chain: Bush Type",
+      "Speed: Single Speed",
+      "Chain Wheel: 28 T",
+      "Seat Post: 200mm",
+      "Saddle: Theme-based PU with Bumper",
+      "Saddle Adjustment/Seat Clamp: Bolted",
+      "Handle Bar: Straight with Soft Grips",
+      "Front Brake: V Brake",
+      "Rear Brake: V Brake"
+    ],
+    "price": 6680,
+    "regularPrice": 7650,
+    "rating": 0,
+    "image": "/hero/f11-20t-blue-orange-blue-black-blue-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/hero/f11-20t-blue-orange-blue-black-blue-orange.webp",
+        "price": 6680,
+        "regularPrice": 7650,
+        "inStock": true,
+        "sku": "BSF1120BLBK001"
+      },
+      {
+        "color": "Blue/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/f11-20t-blue-orange-blue-black-blue-black.webp",
+        "price": 6680,
+        "regularPrice": 7650,
+        "inStock": true,
+        "sku": "BSF1120BLBK002"
+      },
+      {
+        "color": "Black/White",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hero/f11-20t-blue-orange-blue-black-black-white.webp",
+        "price": 6680,
+        "regularPrice": 7650,
+        "inStock": true,
+        "sku": "BSF1120WHBK001"
+      }
+    ],
+    "defaultColor": "Blue/Orange",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-emerald",
+    "brand": "Hero",
+    "model": "Emerald",
+    "category": "mtb",
+    "group": "Hero MTB",
+    "sizes": "26T",
+    "specs": [
+      "--> Correct Frame Size: 16 Inches",
+      "Chain: Bush Type",
+      "Speed: Single Speed",
+      "Chain Wheel: 40T",
+      "Rim: Steel",
+      "Tyre Size: 26T*1.75",
+      "Seat Post: PU",
+      "Saddle: Bolted",
+      "Saddle Adjustment/Seat Clamp: CP Finish",
+      "Stem: V Brake",
+      "Handle Bar: V Brake",
+      "Front Brake: V Brake",
+      "Rear Brake: V Brake"
+    ],
+    "price": 7294,
+    "regularPrice": 8435,
+    "rating": 0,
+    "image": "/hero/emerald-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/hero/emerald-blue.webp",
+        "price": 7294,
+        "regularPrice": 8435,
+        "inStock": true,
+        "sku": "BSEMD26BL00001"
+      },
+      {
+        "color": "Pink",
+        "size": "26T",
+        "swatch": "#f06fa4",
+        "image": "/hero/emerald-pink.webp",
+        "price": 7294,
+        "regularPrice": 8435,
+        "inStock": true,
+        "sku": "BSEMD26SLPK001"
+      },
+      {
+        "color": "Peach",
+        "size": "26T",
+        "swatch": "#f6b99a",
+        "image": "/hero/emerald-peach.webp",
+        "price": 7294,
+        "regularPrice": 8435,
+        "inStock": true,
+        "sku": "BSEMD26SLPH001"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "herocycles.com"
+  },
+  {
+    "slug": "hero-hero-blast",
+    "brand": "Hero",
+    "model": "Hero Blast",
+    "category": "kids",
+    "group": "Hero Kids",
+    "sizes": "20T",
+    "specs": [
+      "Frame Size: 25 cms (9.5 inches)",
+      "Frame Material: Steel",
+      "Frame Geometry: Safe Ride",
+      "Frok: Rigid.",
+      "Chain: Bushless",
+      "Speed: Single Speed",
+      "Chain Wheel: One piece crank",
+      "Seat Post: ZP",
+      "Saddle: PU",
+      "Saddle Adjustment/Seat Clamp: Seat Clamp",
+      "Handle Bar: Straight"
+    ],
+    "price": 5700,
+    "regularPrice": 6805,
+    "rating": 0,
+    "image": "/hero/hero-blast-orange-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hero/hero-blast-orange-black.webp",
+        "price": 5700,
+        "regularPrice": 6805,
+        "inStock": true,
+        "sku": "BSBLA20BKOR001"
+      }
+    ],
+    "defaultColor": "Orange/Black",
+    "source": "herocycles.com"
+  }
+]
