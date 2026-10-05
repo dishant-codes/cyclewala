@@ -28,15 +28,21 @@ const UploadIcon = () => (
 
 export default function ProductForm({
   initial,
+  defaultBrand,
+  brands,
   onSaved,
   onCancel,
 }: {
   initial?: Product;
+  /** pre-fills the brand when adding from a brand's own section */
+  defaultBrand?: string;
+  /** existing brand names, offered as suggestions so spellings stay consistent */
+  brands?: string[];
   onSaved: () => void;
   onCancel: () => void;
 }) {
   const isEdit = !!initial;
-  const [brand, setBrand] = useState(initial?.brand ?? "");
+  const [brand, setBrand] = useState(initial?.brand ?? defaultBrand ?? "");
   const [model, setModel] = useState(initial?.model ?? "");
   const [category, setCategory] = useState<ProductCategory>(initial?.category ?? "mtb");
   const [sizes, setSizes] = useState(initial?.sizes ?? "");
@@ -119,7 +125,19 @@ export default function ProductForm({
         <div className={styles.grid}>
           <label className={styles.field}>
             Brand
-            <input value={brand} onChange={(e) => setBrand(e.target.value)} placeholder="e.g. Neufman" required />
+            <input
+              value={brand}
+              onChange={(e) => setBrand(e.target.value)}
+              placeholder="e.g. Neufman"
+              list="admin-brand-list"
+              autoFocus={!initial && !defaultBrand}
+              required
+            />
+            <datalist id="admin-brand-list">
+              {(brands ?? []).map((b) => (
+                <option value={b} key={b} />
+              ))}
+            </datalist>
           </label>
           <label className={styles.field}>
             Model

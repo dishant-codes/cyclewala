@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import styles from "./About.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -99,6 +100,58 @@ const HIGHLIGHTS: { title: string; body: string; icon: keyof typeof ICONS }[] = 
 
 export default function About() {
   const { t } = useLang();
+  const zigRef = useRef<HTMLOListElement>(null);
+
+  /* The journey draws itself as you reach it: each milestone fades in from its own side, its
+     node pops, and the green line grows down to the newest one. One-shot IntersectionObserver
+     (no scroll handler), transforms/opacity only, and nothing is hidden unless this ran. */
+  useEffect(() => {
+    const ol = zigRef.current;
+    if (!ol) return;
+    const items = [...ol.children].filter((c): c is HTMLElement => c instanceof HTMLElement && c.tagName === "LI");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || typeof IntersectionObserver === "undefined") {
+      items.forEach((el) => el.classList.add(styles.on));
+      ol.style.setProperty("--fill", "100%");
+      ol.classList.add(styles.done);
+      return;
+    }
+
+    const growLine = () => {
+      const lit = items.filter((el) => el.classList.contains(styles.on));
+      const last = lit[lit.length - 1];
+      if (!last) return;
+      const node = last.querySelector<HTMLElement>(`.${styles.node}`);
+      const y = last.offsetTop + (node ? node.offsetTop + node.offsetHeight / 2 : 40);
+      const all = lit.length === items.length;
+      // once the last milestone is reached the line runs on to the end cap
+      ol.style.setProperty("--fill", all ? "100%" : `${Math.min(100, (y / ol.offsetHeight) * 100)}%`);
+      if (all) ol.classList.add(styles.done);
+    };
+
+    // anything already on screen when the page loads is simply shown; the rest waits to be reached
+    items.forEach((el) => {
+      if (el.getBoundingClientRect().top < window.innerHeight * 0.85) el.classList.add(styles.on);
+    });
+    ol.classList.add(styles.armed);
+    growLine();
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        let changed = false;
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add(styles.on);
+            io.unobserve(e.target);
+            changed = true;
+          }
+        }
+        if (changed) growLine();
+      },
+      { threshold: 0.35, rootMargin: "0px 0px -8% 0px" }
+    );
+    items.filter((el) => !el.classList.contains(styles.on)).forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
 
   return (
     <section className={styles.about}>
@@ -159,10 +212,10 @@ export default function About() {
             a store, an accessories wall and a service counter.
           </p>
 
-          <ol className={styles.zig}>
+          <ol className={styles.zig} ref={zigRef}>
             {MILESTONES.map((m, i) => (
               <li className={`${styles.zigItem} ${i % 2 === 0 ? styles.left : styles.right}`} key={m.year}>
-                <div className={styles.zigCard}>
+                <div className={styles.zigCard} data-year={m.year}>
                   <div className={styles.zigHead}>
                     <span className={styles.zigBadge}>{ICONS[m.icon]}</span>
                     <span className={styles.zigYear}>{m.year}</span>
@@ -173,6 +226,7 @@ export default function About() {
                 <span className={styles.node}>{ICONS[m.icon]}</span>
               </li>
             ))}
+            <span className={styles.endCap} aria-hidden="true" />
           </ol>
 
           <div className={styles.cta}>
