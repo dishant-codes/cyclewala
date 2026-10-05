@@ -1072,7 +1072,7 @@
 
 /* six brand tabs: keep them on one line and let them scroll sideways if the screen is narrow */
 .browseTabs {
-  grid-auto-columns: minmax(92px, 1fr);
+  grid-auto-columns: minmax(84px, 1fr);
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -1081,4 +1081,16 @@
 }
 .browseTabHint {
   display: none;
+}
+
+/* nine brand tabs: logo above the name so they all fit on one line */
+.browseTab,
+.browseTabOn {
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 6px;
+  text-align: center;
+}
+.browseTabName {
+  font-size: 12.5px;
 }

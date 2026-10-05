@@ -29,6 +29,8 @@ const BRANDS = [
   { name: "Radiant", note: "Kids' and teens' cycles, plus first tricycles for toddlers.", logo: "/images/logo/radiantlogo.png" },
   // crest from bsa.in
   { name: "BSA", note: "Kids' cycles, Ladybird bikes for girls, and e-bikes.", logo: "/images/logo/bsalogo.png" },
+  // shield from krossbikes.in
+  { name: "Kross", note: "Kids' cycles and mountain bikes — V Rock, Preteen and Premium ranges.", logo: "/images/logo/krosslogo.png" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -92,6 +94,16 @@ const BSA_GROUPS = [
   { id: "BSA Ladybird", label: "Ladybird" },
   { id: "BSA E-Bike", label: "E-Bike" },
 ];
+/* Kross's ranges (krossbikes.in). */
+const KROSS_GROUPS = [
+  { id: "Kross Kids", label: "Kids" },
+  { id: "Kross Preteen", label: "Preteen" },
+  { id: "Kross MTB", label: "MTB" },
+  { id: "Kross Premium", label: "Premium" },
+  { id: "Kross V Rock", label: "V Rock" },
+  { id: "Kross Women", label: "Women" },
+  { id: "Kross Hybrid", label: "Hybrid" },
+];
 const ALL_GROUPS = [
   ...OYEKID_GROUPS,
   ...NEUFMAN_GROUPS,
@@ -101,6 +113,7 @@ const ALL_GROUPS = [
   ...HERCULES_GROUPS,
   ...RADIANT_GROUPS,
   ...BSA_GROUPS,
+  ...KROSS_GROUPS,
 ];
 const GROUPS_BY_TAB = {
   oyekid: OYEKID_GROUPS,
@@ -111,6 +124,7 @@ const GROUPS_BY_TAB = {
   hercules: HERCULES_GROUPS,
   radiant: RADIANT_GROUPS,
   bsa: BSA_GROUPS,
+  kross: KROSS_GROUPS,
 } as const;
 
 const BROWSE_TABS = [
@@ -122,6 +136,7 @@ const BROWSE_TABS = [
   { id: "hercules", name: "Hercules", hint: "Shop by type", logo: "/images/logo/herculeslogo.svg" },
   { id: "radiant", name: "Radiant", hint: "Shop by type", logo: "/images/logo/radiantlogo.png" },
   { id: "bsa", name: "BSA", hint: "Shop by type", logo: "/images/logo/bsalogo.png" },
+  { id: "kross", name: "Kross", hint: "Shop by type", logo: "/images/logo/krosslogo.png" },
 ] as const;
 
 /* "Featured" order: the first screen of the shop is what draws people in, so it leads with
@@ -275,7 +290,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -578,6 +593,22 @@ export default function Shop() {
               <FilterSection icon={Icon.bike} title="BSA · Shop by Type">
                 <ul className={styles.checkList}>
                   {BSA_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
+              <FilterSection icon={Icon.bike} title="Kross · Shop by Type">
+                <ul className={styles.checkList}>
+                  {KROSS_GROUPS.map((g) => {
                     const n = products.filter((p) => p.group === g.id).length;
                     return (
                       <li key={g.id}>

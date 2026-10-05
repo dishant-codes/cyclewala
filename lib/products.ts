@@ -20,6 +20,7 @@ import KEYSTO_CATALOG from "@/data/keysto-catalog.json";
 import HERCULES_CATALOG from "@/data/hercules-catalog.json";
 import RADIANT_CATALOG from "@/data/radiant-catalog.json";
 import BSA_CATALOG from "@/data/bsa-catalog.json";
+import KROSS_CATALOG from "@/data/kross-catalog.json";
 
 const COLLECTION = "products";
 /** slugs of catalogue products already copied into the live collection */
@@ -91,6 +92,7 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
     ...(HERCULES_CATALOG as unknown as Entry[]),
     ...(RADIANT_CATALOG as unknown as Entry[]),
     ...(BSA_CATALOG as unknown as Entry[]),
+    ...(KROSS_CATALOG as unknown as Entry[]),
   ];
   const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {
