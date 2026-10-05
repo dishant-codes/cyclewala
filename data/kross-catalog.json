@@ -1,0 +1,1946 @@
+[
+  {
+    "slug": "kross-aviator",
+    "brand": "Kross",
+    "model": "Aviator",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Single Speed",
+      "16×2.40 Tyres",
+      "Caliper Brakes",
+      "Training Wheels",
+      "Side Supporter"
+    ],
+    "description": "The Kross Aviator 16T is a stylish kids' bicycle designed for young riders who are learning to balance, pedal and build confidence on two wheels. Finished in an attractive Grey & Pink combination, it features a sturdy steel frame, 16-inch wheels with wide 2.40-inch tyres , and supportive training wheels for added stability during the learning stage.",
+    "price": 5520,
+    "regularPrice": 7100,
+    "rating": 0,
+    "image": "/kross/aviator-grey-pink-3.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Pink",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/kross/aviator-grey-pink-3.webp",
+        "price": 5520,
+        "regularPrice": 7100,
+        "inStock": true,
+        "sku": "408542"
+      },
+      {
+        "color": "Grey/Pink",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/kross/aviator-grey-pink.webp",
+        "price": 6559,
+        "regularPrice": 8200,
+        "inStock": true,
+        "sku": "408545"
+      },
+      {
+        "color": "Grey/Pink",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/kross/aviator-grey-pink-2.webp",
+        "price": 6320,
+        "regularPrice": 8500,
+        "inStock": true,
+        "sku": "408591"
+      },
+      {
+        "color": "Grey/Green",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/kross/aviator-grey-green-2.webp",
+        "price": 6569,
+        "regularPrice": 8200,
+        "inStock": true,
+        "sku": "408544"
+      },
+      {
+        "color": "Grey/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/kross/aviator-grey-green.webp",
+        "price": 6879,
+        "regularPrice": 8600,
+        "inStock": true,
+        "sku": "408590"
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/aviator-grey-orange-2.webp",
+        "price": 5520,
+        "regularPrice": 7600,
+        "inStock": true,
+        "sku": "408541"
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/aviator-grey-orange.webp",
+        "price": 6499,
+        "regularPrice": 8100,
+        "inStock": true,
+        "sku": "408543"
+      },
+      {
+        "color": "Green/Grey",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/kross/aviator-green-grey.webp",
+        "price": 5520,
+        "regularPrice": 7600,
+        "inStock": true,
+        "sku": "408540"
+      }
+    ],
+    "defaultColor": "Grey/Pink",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-blue-bell",
+    "brand": "Kross",
+    "model": "Blue Bell",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Gears: Single Speed"
+    ],
+    "description": "Make every ride fun, comfortable and confidence-building with the Kross Blue Bell 20T Kids Bicycle . Designed around a sturdy steel frame and 20-inch wheels, this bicycle combines practical safety features with child-friendly accessories.",
+    "price": 6320,
+    "regularPrice": 7900,
+    "rating": 0,
+    "image": "/kross/blue-bell-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "size": "20T",
+        "swatch": "#2e8b57",
+        "image": "/kross/blue-bell-green.webp",
+        "price": 6320,
+        "regularPrice": 7900,
+        "inStock": true,
+        "sku": "409085"
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "swatch": "#f06fa4",
+        "image": "/kross/blue-bell-pink.webp",
+        "price": 7849,
+        "regularPrice": 9800,
+        "inStock": true,
+        "sku": "404231"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-v-rock-slugger",
+    "brand": "Kross",
+    "model": "V Rock Slugger",
+    "category": "mtb",
+    "group": "Kross V Rock",
+    "sizes": "26T",
+    "specs": [],
+    "description": "Experience confident and versatile riding with the KROSS Slugger V-Rock 26T 7-Speed MTB Bicycle , designed with a glossy black steel frame and a suspension fork for a comfortable ride across everyday roads and varied riding conditions. The bicycle features 26 × 2.40 inch tyres , front and rear disc brakes, and a 7-speed drivetrain with Sunrun thumb shifter and rear derailleur.",
+    "price": 5999,
+    "regularPrice": 14999,
+    "rating": 0,
+    "image": "/kross/v-rock-slugger-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/kross/v-rock-slugger-black.webp",
+        "price": 7999,
+        "regularPrice": 18749,
+        "inStock": true,
+        "sku": "409714",
+        "type": "7-Speed"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/kross/v-rock-slugger-black-2.webp",
+        "price": 5999,
+        "regularPrice": 14999,
+        "inStock": true,
+        "sku": "408792",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/kross/v-rock-slugger-grey.webp",
+        "price": 7999,
+        "regularPrice": 16000,
+        "inStock": true,
+        "sku": "409715",
+        "type": "7-Speed"
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/v-rock-slugger-blue.webp",
+        "price": 5999,
+        "regularPrice": 14999,
+        "inStock": true,
+        "sku": "409385",
+        "type": "Single Speed"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-lope",
+    "brand": "Kross",
+    "model": "Lope",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "14T / 16T",
+    "specs": [],
+    "price": 4320,
+    "regularPrice": 5400,
+    "rating": 0,
+    "image": "/kross/lope-silver-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Silver/Red",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/kross/lope-silver-red.webp",
+        "price": 4320,
+        "regularPrice": 5400,
+        "inStock": true,
+        "sku": "409113",
+        "type": "IBC"
+      },
+      {
+        "color": "Silver/Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/kross/lope-silver-red-2.webp",
+        "price": 4969,
+        "regularPrice": 6200,
+        "inStock": true,
+        "sku": "409109",
+        "type": "Standard"
+      },
+      {
+        "color": "Green/Yellow",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/kross/lope-green-yellow.webp",
+        "price": 4969,
+        "regularPrice": 6200,
+        "inStock": true,
+        "sku": "409111",
+        "type": "Standard"
+      }
+    ],
+    "defaultColor": "Silver/Red",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-hitter",
+    "brand": "Kross",
+    "model": "Hitter",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Brakes: Dual disc brakes"
+    ],
+    "description": "The Kross Hitter 24T MTB is built for young riders and teens who crave adventure, durability, and control. Designed with a rugged steel frame and powerful dual disc brakes, this bike ensures superior stopping power and stability across terrains.",
+    "price": 9289,
+    "regularPrice": 11600,
+    "rating": 0,
+    "image": "/kross/hitter-matte-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/kross/hitter-matte-black.webp",
+        "price": 9689,
+        "regularPrice": 12100,
+        "inStock": true,
+        "sku": "408993",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Matte Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/kross/hitter-matte-black-2.webp",
+        "price": 12880,
+        "regularPrice": 16100,
+        "inStock": true,
+        "sku": "409254",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Blue",
+        "size": "24T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/hitter-blue-2.webp",
+        "price": 9299,
+        "regularPrice": 12100,
+        "inStock": true,
+        "sku": "408992",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/hitter-blue.webp",
+        "price": 9289,
+        "regularPrice": 11600,
+        "inStock": true,
+        "sku": "408764",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Grey",
+        "size": "29T",
+        "swatch": "#8a8f98",
+        "image": "/kross/hitter-grey.webp",
+        "price": 10719,
+        "regularPrice": 13400,
+        "inStock": true,
+        "sku": "409159",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Black",
+        "size": "29T",
+        "swatch": "#161616",
+        "image": "/kross/hitter-black.webp",
+        "price": 10729,
+        "regularPrice": 13400,
+        "inStock": true,
+        "sku": "409158",
+        "type": "Single Speed"
+      }
+    ],
+    "defaultColor": "Matte Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-xcool",
+    "brand": "Kross",
+    "model": "Xcool",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake",
+      "Gears: Single Speed"
+    ],
+    "description": "The Kross XCool 26T is a stylish and durable MTB-style bicycle designed for teenagers and adults seeking comfort, stability, and everyday riding performance. Built with an ergonomically designed MIG-welded IBC steel frame featuring shaped tubes and internal cable routing, it offers a clean premium look while protecting cables from external damage.",
+    "price": 7529,
+    "regularPrice": 9400,
+    "rating": 0,
+    "image": "/kross/xcool-aqua-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Aqua Blue",
+        "size": "26T",
+        "swatch": "#2fb6d6",
+        "image": "/kross/xcool-aqua-blue.webp",
+        "price": 7529,
+        "regularPrice": 9400,
+        "inStock": true,
+        "sku": "409532"
+      }
+    ],
+    "defaultColor": "Aqua Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-xceed",
+    "brand": "Kross",
+    "model": "Xceed",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Brakes: Front & rear disc brakes"
+    ],
+    "description": "The KROSS Xceed 26T is a performance-oriented mountain bike designed for riders seeking adventure, daily fitness, and urban commuting in one package. Built around a durable steel frame with sporty geometry, the bike delivers excellent stability, control, and riding comfort across city roads, rough trails, and uneven terrain.",
+    "price": 11679,
+    "regularPrice": 14600,
+    "rating": 0,
+    "image": "/kross/xceed-metallic-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Metallic Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/kross/xceed-metallic-green-black.webp",
+        "price": 14439,
+        "regularPrice": 18000,
+        "inStock": true,
+        "sku": "407750",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/kross/xceed-grey-black.webp",
+        "price": 11679,
+        "regularPrice": 14600,
+        "inStock": true,
+        "sku": "407843",
+        "type": "Single Speed"
+      }
+    ],
+    "defaultColor": "Metallic Green/Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-spider",
+    "brand": "Kross",
+    "model": "Spider",
+    "category": "mtb",
+    "group": "Kross Preteen",
+    "sizes": "20T / 24T",
+    "specs": [
+      "Blue",
+      "Brakes: Front disc, rear V-brake",
+      "Gears: Single Speed"
+    ],
+    "description": "he KROSS Spider 24T is a stylish and durable mountain-style bicycle designed for growing riders seeking comfort, stability, and everyday performance. Built around a strong steel frame with premium metallic blue finish, this bike features lightweight alloy rims, wide 24 x 2.35-inch tyres, reliable front and rear V-brakes, and ergonomic MTB handlebars for confident riding on roads, parks, and light trails.",
+    "price": 6889,
+    "regularPrice": 8600,
+    "rating": 0,
+    "image": "/kross/spider-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "24T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/spider-blue.webp",
+        "price": 9600,
+        "regularPrice": 9600,
+        "inStock": true
+      },
+      {
+        "color": "Pink",
+        "size": "20T",
+        "swatch": "#f06fa4",
+        "image": "/kross/spider-pink-2.webp",
+        "price": 7369,
+        "regularPrice": 9200,
+        "inStock": true,
+        "sku": "404952"
+      },
+      {
+        "color": "Pink",
+        "size": "24T",
+        "swatch": "#f06fa4",
+        "image": "/kross/spider-pink.webp",
+        "price": 8399,
+        "regularPrice": 10500,
+        "inStock": true,
+        "sku": "403854"
+      },
+      {
+        "color": "Matt Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/kross/spider-matt-black.webp",
+        "price": 6889,
+        "regularPrice": 8600,
+        "inStock": true,
+        "sku": "407660"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-turbo-pro",
+    "brand": "Kross",
+    "model": "Turbo Pro",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Alloy Double Wall Rims",
+      "Single Speed",
+      "Black & Yellow",
+      "Brakes: Front & rear disc brakes"
+    ],
+    "description": "Experience rugged performance and aggressive trail styling with the KROSS Turbo Pro 26T MTB . Built on a durable mild steel mountain bike frame with sporty geometry, this bicycle is designed for riders who want stability, comfort, and confident control on city roads as well as rough terrain.",
+    "price": 10959,
+    "regularPrice": 13700,
+    "rating": 0,
+    "image": "/kross/turbo-pro-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/kross/turbo-pro-black-yellow.webp",
+        "price": 10959,
+        "regularPrice": 13700,
+        "inStock": true,
+        "sku": "409310"
+      },
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/kross/turbo-pro-red.webp",
+        "price": 10969,
+        "regularPrice": 13700,
+        "inStock": true,
+        "sku": "409311"
+      }
+    ],
+    "defaultColor": "Black/Yellow",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-rock",
+    "brand": "Kross",
+    "model": "Rock",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Steel Frame",
+      "V-Brakes",
+      "Black & Blue",
+      "26 x 2.10 Tyres",
+      "Gears: Single Speed"
+    ],
+    "description": "Experience everyday adventure with the KROSS Rock 26T Single Speed MTB Bicycle. Built on a durable Hi-Tensile Steel MTB frame, this bicycle is designed for riders seeking reliability, comfort, and control on city roads, village routes, and light off-road trails.",
+    "price": 6479,
+    "regularPrice": 8100,
+    "rating": 0,
+    "image": "/kross/rock-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/rock-black-blue.webp",
+        "price": 7289,
+        "regularPrice": 9100,
+        "inStock": true,
+        "sku": "407895"
+      },
+      {
+        "color": "Abby Grey",
+        "size": "26T",
+        "swatch": "#6f7882",
+        "image": "/kross/rock-abby-grey.webp",
+        "price": 6479,
+        "regularPrice": 8100,
+        "inStock": true,
+        "sku": "407896"
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-bolt",
+    "brand": "Kross",
+    "model": "Bolt",
+    "category": "hybrid",
+    "group": "Kross Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Brakes: Front disc, rear V-brake"
+    ],
+    "description": "The Kross Bolt 28T Single Speed Hybrid Bicycle combines urban road efficiency with everyday commuting durability. Built around a robust, precision-welded steel frame and matching rigid steel fork finished in a premium matte black and orange scheme, this cycle is engineered for smooth rolling across city roads and paved paths.",
+    "price": 9849,
+    "regularPrice": 12300,
+    "rating": 0,
+    "image": "/kross/bolt-matt-black-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Black/Orange",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/bolt-matt-black-orange.webp",
+        "price": 9849,
+        "regularPrice": 12300,
+        "inStock": true,
+        "sku": "403776",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Matt Black",
+        "size": "700C",
+        "swatch": "#161616",
+        "image": "/kross/bolt-matt-black-2.webp",
+        "price": 13779,
+        "regularPrice": 17200,
+        "inStock": true,
+        "sku": "406657",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Matt Black/Orange",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-kidjoy-ss-100-tricycle",
+    "brand": "Kross",
+    "model": "Kidjoy SS-100 Tricycle",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "—",
+    "specs": [],
+    "description": "Give your child the perfect blend of comfort, safety, and fun with the Kidjoy SS-100 Kids Tricycle . Designed with a sturdy MIG welded steel frame, this tricycle ensures durability while maintaining a lightweight structure for easy handling.",
+    "price": 3499,
+    "regularPrice": 4999,
+    "rating": 0,
+    "image": "/kross/kidjoy-ss-100-tricycle-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/kross/kidjoy-ss-100-tricycle-green.webp",
+        "price": 3499,
+        "regularPrice": 4999,
+        "inStock": true,
+        "sku": "409492"
+      },
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/kross/kidjoy-ss-100-tricycle-red.webp",
+        "price": 3499,
+        "regularPrice": 4999,
+        "inStock": true,
+        "sku": "409462"
+      },
+      {
+        "color": "Brown",
+        "swatch": "#6b4423",
+        "image": "/kross/kidjoy-ss-100-tricycle-brown.webp",
+        "price": 3499,
+        "regularPrice": 4999,
+        "inStock": true,
+        "sku": "409461"
+      },
+      {
+        "color": "Pink",
+        "swatch": "#f06fa4",
+        "image": "/kross/kidjoy-ss-100-tricycle-pink.webp",
+        "price": 3499,
+        "regularPrice": 4999,
+        "inStock": true,
+        "sku": "409680"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-hyrox",
+    "brand": "Kross",
+    "model": "Hyrox",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Brakes: Dual disc brakes"
+    ],
+    "description": "Experience a confident and comfortable ride with the Kross Hyrox 26T Mountain Bicycle , designed with an ergonomically shaped MIG-welded steel frame and internal cable routing for a clean, sporty appearance. The 37.7 cm (14.8\") frame is paired with a double-crown threadless suspension fork to provide better comfort over uneven surfaces.",
+    "price": 12329,
+    "regularPrice": 15400,
+    "rating": 0,
+    "image": "/kross/hyrox-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/hyrox-blue.webp",
+        "price": 12329,
+        "regularPrice": 15400,
+        "inStock": true,
+        "sku": "409539"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-tronin",
+    "brand": "Kross",
+    "model": "Tronin",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Brakes: Mechanical dual disc brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "The Kross Tronin 20T is a premium kids’ MTB engineered for stability, strength and style. Designed with a rugged steel frame, powerful dual disc brakes , and oversized 20×2.40” fat tyres , this bicycle offers exceptional grip and confidence on all terrains.",
+    "price": 8959,
+    "regularPrice": 11200,
+    "rating": 0,
+    "image": "/kross/tronin-grey-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Red",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/kross/tronin-grey-red.webp",
+        "price": 8959,
+        "regularPrice": 11200,
+        "inStock": true,
+        "sku": "408911"
+      }
+    ],
+    "defaultColor": "Grey/Red",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-oddy",
+    "brand": "Kross",
+    "model": "Oddy",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake"
+    ],
+    "description": "The Kross Oddy 20T Kids Bicycle is designed for young riders seeking a safe, durable, and stylish riding experience. Built on a strong steel frame with an attractive Blue Grey finish, this bicycle ensures long-lasting performance and stability.",
+    "price": 6569,
+    "regularPrice": 8200,
+    "rating": 0,
+    "image": "/kross/oddy-blue-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/kross/oddy-blue-grey.webp",
+        "price": 6569,
+        "regularPrice": 8200,
+        "inStock": true,
+        "sku": "409425"
+      },
+      {
+        "color": "Aqua Blue/Green",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2fb6d6 0.0%, #2fb6d6 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/kross/oddy-aqua-blue-green.webp",
+        "price": 6569,
+        "regularPrice": 8200,
+        "inStock": true,
+        "sku": "409424"
+      },
+      {
+        "color": "Green/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/kross/oddy-green-grey.webp",
+        "price": 6569,
+        "regularPrice": 8200,
+        "inStock": true,
+        "sku": "409426"
+      }
+    ],
+    "defaultColor": "Blue/Grey",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-gauzy",
+    "brand": "Kross",
+    "model": "Gauzy",
+    "category": "hybrid",
+    "group": "Kross Women",
+    "sizes": "26T",
+    "specs": [
+      "Brakes: Caliper brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "The Kross Gauzy 26T is designed for effortless city commuting and everyday rides. Its ergonomically designed steel frame with shaped tubes ensures both durability and comfort.",
+    "price": 7999,
+    "regularPrice": 10000,
+    "rating": 0,
+    "image": "/kross/gauzy-cream-brown.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream/Brown",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #6b4423 50.0%, #6b4423 100.0%)",
+        "image": "/kross/gauzy-cream-brown.webp",
+        "price": 7999,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "402184"
+      },
+      {
+        "color": "Pink",
+        "size": "26T",
+        "swatch": "#f06fa4",
+        "image": "/kross/gauzy-pink.webp",
+        "price": 7999,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "402235"
+      }
+    ],
+    "defaultColor": "Cream/Brown",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-megan",
+    "brand": "Kross",
+    "model": "Megan",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "12T / 14T / 16T / 20T",
+    "specs": [
+      "Pink Purple",
+      "Cycle for Girls Age 4-7 Years",
+      "Brakes: Caliper brakes"
+    ],
+    "description": "The stylish and comfortable KROSS Megan 16T is specially designed for young riders who love colorful adventures and safe riding experiences. Built with a durable MIG welded steel frame and attractive Pink-Purple finish, this kids bicycle offers stability, comfort, and confidence for beginners.",
+    "price": 6089,
+    "regularPrice": 7600,
+    "rating": 0,
+    "image": "/kross/megan-pink-purple-2.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink/Purple",
+        "size": "12T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/kross/megan-pink-purple-2.webp",
+        "price": 6089,
+        "regularPrice": 7600,
+        "inStock": true,
+        "sku": "409530"
+      },
+      {
+        "color": "Pink/Purple",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/kross/megan-pink-purple-4.webp",
+        "price": 6249,
+        "regularPrice": 7800,
+        "inStock": true,
+        "sku": "409529"
+      },
+      {
+        "color": "Pink/Purple",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/kross/megan-pink-purple.webp",
+        "price": 6399,
+        "regularPrice": 8000,
+        "inStock": true,
+        "sku": "409528"
+      },
+      {
+        "color": "Pink/Purple",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/kross/megan-pink-purple-3.webp",
+        "price": 6729,
+        "regularPrice": 8400,
+        "inStock": true,
+        "sku": "409520"
+      }
+    ],
+    "defaultColor": "Pink/Purple",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-v-rock-superstar",
+    "brand": "Kross",
+    "model": "V Rock Superstar",
+    "category": "kids",
+    "group": "Kross V Rock",
+    "sizes": "16T",
+    "specs": [
+      "Training Wheels",
+      "Basket",
+      "Steel Frame"
+    ],
+    "description": "The V-Rock Superstar 16T Kids Bicycle is thoughtfully designed to provide young riders with a safe, stable, and fun cycling experience. Built using a strong steel frame , this bike ensures durability and reliability for everyday use.",
+    "price": 5299,
+    "regularPrice": 10000,
+    "rating": 0,
+    "image": "/kross/v-rock-superstar-cream.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cream",
+        "size": "16T",
+        "swatch": "#efe6cc",
+        "image": "/kross/v-rock-superstar-cream.webp",
+        "price": 5299,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "409475"
+      }
+    ],
+    "defaultColor": "Cream",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-v-rock-2cool",
+    "brand": "Kross",
+    "model": "V Rock 2Cool",
+    "category": "kids",
+    "group": "Kross V Rock",
+    "sizes": "14T",
+    "specs": [],
+    "description": "The V-Rock 14T 2Cool Kids Bicycle is designed to deliver a safe, comfortable, and exciting riding experience for young riders. Built on a durable high-strength steel frame , the bike provides excellent stability and balance for beginners learning to ride.",
+    "price": 4799,
+    "regularPrice": 8300,
+    "rating": 0,
+    "image": "/kross/v-rock-2cool-matt-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Black",
+        "size": "14T",
+        "swatch": "#161616",
+        "image": "/kross/v-rock-2cool-matt-black.webp",
+        "price": 4799,
+        "regularPrice": 8300,
+        "inStock": true,
+        "sku": "409474"
+      }
+    ],
+    "defaultColor": "Matt Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-ex-1",
+    "brand": "Kross",
+    "model": "EX-1",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "29T",
+    "specs": [
+      "Brakes: Dual disc brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "Experience a smooth and confident ride with the KROSS EX-1 29T , designed with a strong steel frame, large 29-inch tyres, suspension fork and dual disc brakes. The bicycle features a single-speed drivetrain with a 40T chain wheel and 18T freewheel , making it simple and easy to maintain.",
+    "price": 12479,
+    "regularPrice": 15600,
+    "rating": 0,
+    "image": "/kross/ex-1-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green",
+        "size": "29T",
+        "swatch": "#2e8b57",
+        "image": "/kross/ex-1-green.webp",
+        "price": 12889,
+        "regularPrice": 16100,
+        "inStock": true,
+        "sku": "408899"
+      },
+      {
+        "color": "Blue",
+        "size": "29T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/ex-1-blue.webp",
+        "price": 12479,
+        "regularPrice": 15600,
+        "inStock": true,
+        "sku": "409220"
+      },
+      {
+        "color": "Grey/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/kross/ex-1-grey-black.webp",
+        "price": 12479,
+        "regularPrice": 15600,
+        "inStock": true,
+        "sku": "409221"
+      }
+    ],
+    "defaultColor": "Green",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-colombia",
+    "brand": "Kross",
+    "model": "Colombia",
+    "category": "mtb",
+    "group": "Kross Preteen",
+    "sizes": "24T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake"
+    ],
+    "description": "Built for growing riders who want confidence, control and everyday durability, the KROSS Colombia 24T is a strong and stylish kids’ bicycle designed for performance and comfort. Its robust IBC steel frame ensures stability while the wide 24 x 2.40 tyres deliver superior grip on varied terrain.",
+    "price": 6949,
+    "regularPrice": 9400,
+    "rating": 0,
+    "image": "/kross/colombia-gold-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gold/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9a227 0.0%, #c9a227 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/kross/colombia-gold-black.webp",
+        "price": 7519,
+        "regularPrice": 9400,
+        "inStock": true,
+        "sku": "409433"
+      },
+      {
+        "color": "Red/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/kross/colombia-red-black.webp",
+        "price": 6949,
+        "regularPrice": 9400,
+        "inStock": true,
+        "sku": "409432"
+      }
+    ],
+    "defaultColor": "Gold/Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-extreme",
+    "brand": "Kross",
+    "model": "Extreme",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Brakes: V-brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "Meet the Kross Extreme 20T Single Speed , a stylish and comfortable kids' bicycle designed for everyday riding, outdoor fun and developing cycling confidence. It features an ergonomically designed steel frame with shaped tubes measuring 33 cm (13 inches) , providing a sturdy platform for young riders.",
+    "price": 6969,
+    "regularPrice": 8700,
+    "rating": 0,
+    "image": "/kross/extreme-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White",
+        "size": "20T",
+        "swatch": "#f5f5f5",
+        "image": "/kross/extreme-white.webp",
+        "price": 6969,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "407823"
+      },
+      {
+        "color": "Aqua Blue",
+        "size": "20T",
+        "swatch": "#2fb6d6",
+        "image": "/kross/extreme-aqua-blue.webp",
+        "price": 7360,
+        "regularPrice": 9200,
+        "inStock": true,
+        "sku": "408726"
+      }
+    ],
+    "defaultColor": "White",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-gravity",
+    "brand": "Kross",
+    "model": "Gravity",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Brakes: V-brakes",
+      "Gears: Single Speed"
+    ],
+    "price": 4599,
+    "regularPrice": 7499,
+    "rating": 0,
+    "image": "/kross/gravity-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/kross/gravity-black.webp",
+        "price": 4599,
+        "regularPrice": 7499,
+        "inStock": true,
+        "sku": "404887"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-chase",
+    "brand": "Kross",
+    "model": "Chase",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "16T",
+    "specs": [
+      "Brakes: Caliper brakes"
+    ],
+    "description": "Fuel your little champion’s everyday adventures with the vibrant and rugged Kross Chase 16T Kids Bicycle. Thoughtfully engineered for young explorers aged 4 to 6 years, this cycle combines eye-catching sporty graphics with heavy-duty safety features.",
+    "price": 5099,
+    "regularPrice": 7200,
+    "rating": 0,
+    "image": "/kross/chase-red-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Yellow",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/kross/chase-red-yellow.webp",
+        "price": 5099,
+        "regularPrice": 7200,
+        "inStock": true,
+        "sku": "404279"
+      }
+    ],
+    "defaultColor": "Red/Yellow",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-crush-pro",
+    "brand": "Kross",
+    "model": "Crush Pro",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "12T",
+    "specs": [
+      "Height 85–105 cm",
+      "Single Speed",
+      "Glossy Black"
+    ],
+    "description": "The KROSS Crush Pro 12T is a safe, sturdy, and stylish kids’ bicycle designed for early riders. Built on a high-strength steel frame with a glossy black finish , this cycle ensures durability while keeping the ride smooth and stable.",
+    "price": 4419,
+    "regularPrice": 5500,
+    "rating": 0,
+    "image": "/kross/crush-pro-glossy-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Glossy Black",
+        "size": "12T",
+        "swatch": "#161616",
+        "image": "/kross/crush-pro-glossy-black.webp",
+        "price": 4419,
+        "regularPrice": 5500,
+        "inStock": true,
+        "sku": "408313"
+      },
+      {
+        "color": "Red",
+        "size": "12T",
+        "swatch": "#d62828",
+        "image": "/kross/crush-pro-red.webp",
+        "price": 4489,
+        "regularPrice": 5600,
+        "inStock": true,
+        "sku": "408342"
+      }
+    ],
+    "defaultColor": "Glossy Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-maximus-pro",
+    "brand": "Kross",
+    "model": "Maximus Pro",
+    "category": "mtb",
+    "group": "Kross Preteen",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Brakes: Dual disc brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "The MAXIMUS PRO 26T SS DD is a rugged and stylish mountain bike designed for young riders and adults seeking comfort, durability, and control. Built on an ergonomically designed MTB steel frame with shaped tubes and a premium metallic finish water-transfer decal, it offers both strength and visual appeal.",
+    "price": 11040,
+    "regularPrice": 13800,
+    "rating": 0,
+    "image": "/kross/maximus-pro-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/maximus-pro-blue.webp",
+        "price": 11840,
+        "regularPrice": 14800,
+        "inStock": true,
+        "sku": "408582"
+      },
+      {
+        "color": "Matte Blue",
+        "size": "24T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/maximus-pro-matte-blue.webp",
+        "price": 11040,
+        "regularPrice": 13800,
+        "inStock": true,
+        "sku": "408583"
+      },
+      {
+        "color": "Matte White",
+        "size": "24T",
+        "swatch": "#f5f5f5",
+        "image": "/kross/maximus-pro-matte-white.webp",
+        "price": 11040,
+        "regularPrice": 13800,
+        "inStock": true,
+        "sku": "408350"
+      },
+      {
+        "color": "Black/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/maximus-pro-black-blue.webp",
+        "price": 11120,
+        "regularPrice": 13900,
+        "inStock": true,
+        "sku": "407587"
+      },
+      {
+        "color": "Grey",
+        "size": "24T",
+        "swatch": "#8a8f98",
+        "image": "/kross/maximus-pro-grey.webp",
+        "price": 11049,
+        "regularPrice": 13800,
+        "inStock": true,
+        "sku": "408699"
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/kross/maximus-pro-grey-2.webp",
+        "price": 11849,
+        "regularPrice": 14800,
+        "inStock": true,
+        "sku": "408698"
+      },
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/kross/maximus-pro-black-2.webp",
+        "price": 11040,
+        "regularPrice": 13800,
+        "inStock": true,
+        "sku": "408703"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-marina",
+    "brand": "Kross",
+    "model": "Marina",
+    "category": "hybrid",
+    "group": "Kross Hybrid",
+    "sizes": "24T",
+    "specs": [
+      "Brakes: V-brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "The KROSS Marina 24T is a stylish and comfortable city hybrid bicycle designed especially for growing riders and urban commuters. Built on a durable TIG-welded step-through steel frame, it offers easy mounting, upright riding posture, and smooth handling.",
+    "price": 9689,
+    "regularPrice": 12100,
+    "rating": 0,
+    "image": "/kross/marina-white.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White",
+        "size": "24T",
+        "swatch": "#f5f5f5",
+        "image": "/kross/marina-white.webp",
+        "price": 9689,
+        "regularPrice": 12100,
+        "inStock": true,
+        "sku": "408103"
+      }
+    ],
+    "defaultColor": "White",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-mtb-steel-frame",
+    "brand": "Kross",
+    "model": "MTB (Steel Frame)",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake"
+    ],
+    "description": "Experience power, control, and style with the Kross 26T MTB. Built for riders who demand performance on both city roads and rugged terrains, this bike features a strong steel frame paired with a front suspension fork to absorb shocks effortlessly.",
+    "price": 6999,
+    "regularPrice": 10000,
+    "rating": 0,
+    "image": "/kross/mtb-steel-frame-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/kross/mtb-steel-frame-black.webp",
+        "price": 9499,
+        "regularPrice": 16800,
+        "inStock": true,
+        "sku": "409505",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/kross/mtb-steel-frame-black-3.webp",
+        "price": 7199,
+        "regularPrice": 11500,
+        "inStock": true,
+        "sku": "409494",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/kross/mtb-steel-frame-black-2.webp",
+        "price": 7399,
+        "regularPrice": 12800,
+        "inStock": true,
+        "sku": "409502",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Army Green",
+        "size": "24T",
+        "swatch": "#4b5d3a",
+        "image": "/kross/mtb-steel-frame-army-green-2.webp",
+        "price": 6999,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "409497",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Army Green",
+        "size": "26T",
+        "swatch": "#4b5d3a",
+        "image": "/kross/mtb-steel-frame-army-green-3.webp",
+        "price": 7199,
+        "regularPrice": 11500,
+        "inStock": true,
+        "sku": "409493",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Army Green",
+        "size": "27.5T",
+        "swatch": "#4b5d3a",
+        "image": "/kross/mtb-steel-frame-army-green.webp",
+        "price": 7399,
+        "regularPrice": 12800,
+        "inStock": true,
+        "sku": "409501",
+        "type": "Single Speed"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-xavier",
+    "brand": "Kross",
+    "model": "Xavier",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Dual V-Brake",
+      "Steel Frame",
+      "5–8 Years",
+      "Blue"
+    ],
+    "description": "The Kross Xavier 20T Bicycle is designed for growing kids who need a strong, safe, and stylish ride. Built with a durable steel frame and finished in an attractive green and black color , this bicycle is perfect for everyday outdoor fun.",
+    "price": 6419,
+    "regularPrice": 8000,
+    "rating": 0,
+    "image": "/kross/xavier-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "20T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/xavier-blue.webp",
+        "price": 6419,
+        "regularPrice": 8000,
+        "inStock": true,
+        "sku": "409438"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-gt-100",
+    "brand": "Kross",
+    "model": "GT-100",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "20T",
+    "specs": [
+      "Green-Orange",
+      "Single Speed",
+      "V-Brake"
+    ],
+    "description": "The Kross GT-100 20T is a durable and stylish kids’ bicycle built for everyday riding and outdoor fun. Designed with a strong steel frame and finished in an attractive green-orange combination, it offers both strength and visual appeal.",
+    "price": 7849,
+    "regularPrice": 9800,
+    "rating": 0,
+    "image": "/kross/gt-100-green-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/gt-100-green-orange.webp",
+        "price": 7849,
+        "regularPrice": 9800,
+        "inStock": true,
+        "sku": "409439"
+      }
+    ],
+    "defaultColor": "Green/Orange",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-benzen",
+    "brand": "Kross",
+    "model": "Benzen",
+    "category": "kids",
+    "group": "Kross Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Single Speed",
+      "20 x 2.40 Tyres",
+      "Dual Caliper Brakes",
+      "Red"
+    ],
+    "description": "Make every ride exciting with the stylish and durable Kross Benzen 20T Kids Bicycle. Designed specially for growing riders, this bicycle combines attractive sporty styling with dependable safety features and comfortable riding geometry.",
+    "price": 4099,
+    "regularPrice": 7900,
+    "rating": 0,
+    "image": "/kross/benzen-red-2.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "14T",
+        "swatch": "#d62828",
+        "image": "/kross/benzen-red-2.webp",
+        "price": 4099,
+        "regularPrice": 7900,
+        "inStock": true,
+        "sku": "409509"
+      },
+      {
+        "color": "Red",
+        "size": "20T",
+        "swatch": "#d62828",
+        "image": "/kross/benzen-red.webp",
+        "price": 4499,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "409513"
+      },
+      {
+        "color": "Black",
+        "size": "14T",
+        "swatch": "#161616",
+        "image": "/kross/benzen-black-3.webp",
+        "price": 4099,
+        "regularPrice": 7900,
+        "inStock": true,
+        "sku": "409510"
+      },
+      {
+        "color": "Black",
+        "size": "16T",
+        "swatch": "#161616",
+        "image": "/kross/benzen-black-2.webp",
+        "price": 4299,
+        "regularPrice": 8400,
+        "inStock": true,
+        "sku": "409512"
+      },
+      {
+        "color": "Black",
+        "size": "20T",
+        "swatch": "#161616",
+        "image": "/kross/benzen-black.webp",
+        "price": 4499,
+        "regularPrice": 8700,
+        "inStock": true,
+        "sku": "409514"
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-kids-bicycle-steel-frame",
+    "brand": "Kross",
+    "model": "Kids Bicycle (Steel Frame)",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "24T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake"
+    ],
+    "description": "The Kross 24T is a perfect blend of durability, comfort, and everyday performance designed for growing riders. Built on a high-strength MIG welded steel frame , this bicycle ensures stability and long-lasting reliability on all types of terrain.",
+    "price": 6999,
+    "regularPrice": 10000,
+    "rating": 0,
+    "image": "/kross/kids-bicycle-steel-frame-army-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Army Green",
+        "size": "24T",
+        "swatch": "#4b5d3a",
+        "image": "/kross/kids-bicycle-steel-frame-army-green.webp",
+        "price": 7049,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "409499",
+        "type": "IBC"
+      },
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/kross/kids-bicycle-steel-frame-black.webp",
+        "price": 6999,
+        "regularPrice": 10000,
+        "inStock": true,
+        "sku": "409498",
+        "type": "Standard"
+      }
+    ],
+    "defaultColor": "Army Green",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-berlin",
+    "brand": "Kross",
+    "model": "Berlin",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "27.5T",
+    "specs": [
+      "Suspension Fork",
+      "Dual Disc",
+      "Single Speed",
+      "Red",
+      "Brakes: Mechanical dual disc brakes"
+    ],
+    "description": "The KROSS Berlin 27.5T is a rugged mountain bike engineered for riders who want strength, stability, and control on Indian roads and light trails. Built on a durable steel MTB hybrid frame and paired with a front suspension fork , the Berlin ensures a smooth ride over bumps and uneven terrain.",
+    "price": 11520,
+    "regularPrice": 14400,
+    "rating": 0,
+    "image": "/kross/berlin-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "27.5T",
+        "swatch": "#d62828",
+        "image": "/kross/berlin-red.webp",
+        "price": 12560,
+        "regularPrice": 14700,
+        "inStock": true,
+        "sku": "407703"
+      },
+      {
+        "color": "Grey",
+        "size": "27.5T",
+        "swatch": "#8a8f98",
+        "image": "/kross/berlin-grey.webp",
+        "price": 12560,
+        "regularPrice": 14700,
+        "inStock": true,
+        "sku": "407744"
+      },
+      {
+        "color": "Smart Red",
+        "size": "27.5T",
+        "swatch": "#d62839",
+        "image": "/kross/berlin-smart-red.webp",
+        "price": 11520,
+        "regularPrice": 14400,
+        "inStock": true,
+        "sku": "408154"
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-cubic",
+    "brand": "Kross",
+    "model": "Cubic",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "21 Speed",
+      "Dual Disc",
+      "Suspension Fork",
+      "Alloy Rims"
+    ],
+    "description": "The KROSS Cubic 26T is a rugged, performance-oriented mountain bike designed for daily rides, rough city roads, and light trail adventures. Built on a TIG-welded steel frame with a suspension fork featuring lockout , this cycle delivers durability, comfort, and control in every ride.",
+    "price": 14649,
+    "regularPrice": 18300,
+    "rating": 0,
+    "image": "/kross/cubic-grey-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/cubic-grey-blue.webp",
+        "price": 14649,
+        "regularPrice": 18300,
+        "inStock": true,
+        "sku": "408100"
+      }
+    ],
+    "defaultColor": "Grey/Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-maximus-plus",
+    "brand": "Kross",
+    "model": "Maximus Plus",
+    "category": "mtb",
+    "group": "Kross MTB",
+    "sizes": "26T",
+    "specs": [
+      "Brakes: Front & rear disc brakes",
+      "Gears: Single Speed"
+    ],
+    "description": "Experience comfort, control, and confidence on every ride with the Kross Maximus Plus 26T . Designed with an ergonomically shaped MIG-welded steel frame and advanced suspension fork, this MTB ensures stability and smooth handling on all terrains.",
+    "price": 10579,
+    "regularPrice": 13200,
+    "rating": 0,
+    "image": "/kross/maximus-plus-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/maximus-plus-blue.webp",
+        "price": 10579,
+        "regularPrice": 13200,
+        "inStock": true,
+        "sku": "409276"
+      },
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/kross/maximus-plus-red.webp",
+        "price": 10579,
+        "regularPrice": 13200,
+        "inStock": true,
+        "sku": "409274"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-xpert",
+    "brand": "Kross",
+    "model": "Xpert",
+    "category": "mtb",
+    "group": "Kross Premium",
+    "sizes": "27.5T",
+    "specs": [
+      "Brakes: Dual disc brakes",
+      "Gears: 24-Speed"
+    ],
+    "description": "27.5T (40.64 cm) MTB frame",
+    "price": 23289,
+    "regularPrice": 29200,
+    "rating": 0,
+    "image": "/kross/xpert-black-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #2e8b57 50.0%, #2e8b57 100.0%)",
+        "image": "/kross/xpert-black-green.webp",
+        "price": 23289,
+        "regularPrice": 29200,
+        "inStock": true,
+        "sku": "404584"
+      },
+      {
+        "color": "Black/Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/xpert-black-orange.webp",
+        "price": 23369,
+        "regularPrice": 29200,
+        "inStock": true,
+        "sku": "404583"
+      }
+    ],
+    "defaultColor": "Black/Green",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-v-rock-storm",
+    "brand": "Kross",
+    "model": "V Rock Storm",
+    "category": "mtb",
+    "group": "Kross V Rock",
+    "sizes": "26T",
+    "specs": [
+      "Gears: Single Speed"
+    ],
+    "description": "Built for everyday durability and confident urban riding, the V-Rock Storm 26T is designed with a strong steel frame and stable geometry that ensures comfort, control, and long life. The single-speed drivetrain keeps riding simple and low-maintenance, while steel side-pull caliper brakes provide dependable stopping power.",
+    "price": 5249,
+    "regularPrice": 13124,
+    "rating": 0,
+    "image": "/kross/v-rock-storm-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/kross/v-rock-storm-black.webp",
+        "price": 5249,
+        "regularPrice": 13124,
+        "inStock": true,
+        "sku": "408567"
+      },
+      {
+        "color": "Blue",
+        "size": "26T",
+        "swatch": "#1f5fbf",
+        "image": "/kross/v-rock-storm-blue.webp",
+        "price": 5249,
+        "regularPrice": 13124,
+        "inStock": true,
+        "sku": "408569"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-encod",
+    "brand": "Kross",
+    "model": "Encod",
+    "category": "mtb",
+    "group": "Kross Premium",
+    "sizes": "27.5T",
+    "specs": [
+      "Brakes: Front disc, rear V-brake",
+      "Gears: 21-Speed"
+    ],
+    "price": 17120,
+    "regularPrice": 21700,
+    "rating": 0,
+    "image": "/kross/encod-black-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/kross/encod-black-orange.webp",
+        "price": 17120,
+        "regularPrice": 21700,
+        "inStock": true,
+        "sku": "404521"
+      },
+      {
+        "color": "Matt Black/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/kross/encod-matt-black-yellow.webp",
+        "price": 17369,
+        "regularPrice": 21700,
+        "inStock": true,
+        "sku": "404520"
+      }
+    ],
+    "defaultColor": "Black/Orange",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-haste",
+    "brand": "Kross",
+    "model": "Haste",
+    "category": "mtb",
+    "group": "Kross Premium",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Brakes: Dual disc brakes",
+      "Gears: 24-Speed"
+    ],
+    "price": 27769,
+    "regularPrice": 34700,
+    "rating": 0,
+    "image": "/kross/haste-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/haste-black-blue.webp",
+        "price": 27769,
+        "regularPrice": 34700,
+        "inStock": true,
+        "sku": "404545"
+      },
+      {
+        "color": "Black/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/haste-black-blue.webp",
+        "price": 27919,
+        "regularPrice": 34900,
+        "inStock": true,
+        "sku": "404547"
+      },
+      {
+        "color": "Black/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/kross/haste-black-red.webp",
+        "price": 27769,
+        "regularPrice": 34700,
+        "inStock": true,
+        "sku": "404546"
+      },
+      {
+        "color": "Black/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/kross/haste-black-red.webp",
+        "price": 27919,
+        "regularPrice": 34900,
+        "inStock": true,
+        "sku": "404548"
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "krossbikes.in"
+  },
+  {
+    "slug": "kross-hexa",
+    "brand": "Kross",
+    "model": "Hexa",
+    "category": "mtb",
+    "group": "Kross Premium",
+    "sizes": "27.5T",
+    "specs": [
+      "Brakes: Dual disc brakes",
+      "Gears: 24-Speed"
+    ],
+    "price": 32319,
+    "regularPrice": 40400,
+    "rating": 0,
+    "image": "/kross/hexa-black-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/kross/hexa-black-blue.webp",
+        "price": 32329,
+        "regularPrice": 40400,
+        "inStock": true,
+        "sku": "404541"
+      },
+      {
+        "color": "Black/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/kross/hexa-black-grey.webp",
+        "price": 32319,
+        "regularPrice": 40400,
+        "inStock": true,
+        "sku": "404542"
+      }
+    ],
+    "defaultColor": "Black/Blue",
+    "source": "krossbikes.in"
+  }
+]

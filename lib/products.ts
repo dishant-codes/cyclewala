@@ -14,6 +14,13 @@ import { SEED_PRODUCTS } from "@/data/products-seed";
 import { readCollection, writeCollection } from "@/lib/storage";
 import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
 import NEUFMAN_CATALOG from "@/data/neufman-catalog.json";
+import SCHNELL_CATALOG from "@/data/schnell-catalog.json";
+import HERO_CATALOG from "@/data/hero-catalog.json";
+import KEYSTO_CATALOG from "@/data/keysto-catalog.json";
+import HERCULES_CATALOG from "@/data/hercules-catalog.json";
+import RADIANT_CATALOG from "@/data/radiant-catalog.json";
+import BSA_CATALOG from "@/data/bsa-catalog.json";
+import KROSS_CATALOG from "@/data/kross-catalog.json";
 
 const COLLECTION = "products";
 /** slugs of catalogue products already copied into the live collection */
@@ -66,7 +73,7 @@ export type Product = {
   updatedAt: string;
 };
 
-let catalogChecked = false;
+let catalogChecked = false; // per server instance: the catalogue is checked once, then cached
 
 /** Copies any catalogue product the live collection hasn't seen yet into it,
  *  once. Needed because the live collection (e.g. Vercel Blob) already exists
@@ -76,7 +83,17 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
   if (catalogChecked) return products;
   const imported = await readCollection<string[]>(IMPORTS, []);
   type Entry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
-  const catalog = [...(OYEKID_CATALOG as unknown as Entry[]), ...(NEUFMAN_CATALOG as unknown as Entry[])];
+  const catalog = [
+    ...(OYEKID_CATALOG as unknown as Entry[]),
+    ...(NEUFMAN_CATALOG as unknown as Entry[]),
+    ...(SCHNELL_CATALOG as unknown as Entry[]),
+    ...(HERO_CATALOG as unknown as Entry[]),
+    ...(KEYSTO_CATALOG as unknown as Entry[]),
+    ...(HERCULES_CATALOG as unknown as Entry[]),
+    ...(RADIANT_CATALOG as unknown as Entry[]),
+    ...(BSA_CATALOG as unknown as Entry[]),
+    ...(KROSS_CATALOG as unknown as Entry[]),
+  ];
   const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {
     const now = new Date().toISOString();

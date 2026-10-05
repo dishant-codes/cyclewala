@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createBooking } from "@/lib/bookings";
 import { getService } from "@/data/services";
-import { rateLimit, tooMany } from "@/lib/rate-limit";
+import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
 import { isValidIndianMobile } from "@/lib/validate";
 
 /* Public endpoint — a customer requesting a service, no auth (same trust
@@ -11,7 +11,9 @@ import { isValidIndianMobile } from "@/lib/validate";
 const clip = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "");
 
 export async function POST(request: NextRequest) {
-  if (!rateLimit(request, "booking", 6, 60 * 60_000)) return tooMany();
+  // same idea as orders: only completed requests count, plus a generous burst guard
+  if (!rateLimitPeek(request, "booking", 30, 60 * 60_000)) return tooMany();
+  if (!rateLimit(request, "booking-attempt", 120, 10 * 60_000)) return tooMany();
 
   try {
     const body = await request.json();
@@ -47,6 +49,7 @@ export async function POST(request: NextRequest) {
       },
     });
 
+    rateLimitRecord(request, "booking");
     return NextResponse.json({ id: booking.id }, { status: 201 });
   } catch {
     return NextResponse.json({ error: "Couldn't send the request — try again" }, { status: 400 });

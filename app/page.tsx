@@ -12,9 +12,9 @@ import Connect from "@/components/sections/Connect/Connect";
 /*
  * Every section stacks: each one scrolls up, pins, and the next section
  * slides up over it (see components/layout/StackSection.tsx). Sections must
- * have an opaque background so the one beneath never shows through. Services
- * and Support are the exception to "up": they slide in from the right
- * (enter="right").
+ * have an opaque background so the one beneath never shows through. Every
+ * section rises vertically over the previous one (Services and Support used to
+ * slide in from the right; they now rise like the rest).
  *
  * The Gallery keeps its own full-screen Scene (drift wall), and Connect
  * closes the page and rises over it. Paint order runs 1 → 6 → Connect.
@@ -33,10 +33,10 @@ export default function Home() {
         <StackSection order={3} id="about">
           <About />
         </StackSection>
-        <StackSection order={4} id="services" enter="right">
+        <StackSection order={4} id="services">
           <Services />
         </StackSection>
-        <StackSection order={5} id="support" enter="right">
+        <StackSection order={5} id="support">
           <Support />
         </StackSection>
 

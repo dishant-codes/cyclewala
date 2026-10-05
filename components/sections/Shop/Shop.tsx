@@ -23,6 +23,14 @@ const BRANDS = [
   { name: "Oyekid", note: "Dedicated kids' cycles, sized to grow with your child.", logo: "/images/logo/oyekidlogo.png" },
   // wordmark from herocycles.com (white on black tile)
   { name: "Hero", note: "Everyday, kids' and sports cycles from a household name.", logo: "/images/logo/herologo.svg" },
+  // logo from hercules.in (white wordmark on a dark tile)
+  { name: "Hercules", note: "Hercules & Roadeo MTBs, geared and single-speed, plus e-bikes.", logo: "/images/logo/herculeslogo.svg" },
+  // logo from radiantcpl.com
+  { name: "Radiant", note: "Kids' and teens' cycles, plus first tricycles for toddlers.", logo: "/images/logo/radiantlogo.png" },
+  // crest from bsa.in
+  { name: "BSA", note: "Kids' cycles, Ladybird bikes for girls, and e-bikes.", logo: "/images/logo/bsalogo.png" },
+  // shield from krossbikes.in
+  { name: "Kross", note: "Kids' cycles and mountain bikes — V Rock, Preteen and Premium ranges.", logo: "/images/logo/krosslogo.png" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -45,18 +53,119 @@ const NEUFMAN_GROUPS = [
   { id: "Women's", label: "Women's" },
   { id: "Kids", label: "Kids" },
 ];
-const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS];
+/* Schnell's range types (trinitycyclesindia.com categories). Ids are prefixed so
+   they can never collide with another brand's groups. */
+const SCHNELL_GROUPS = [
+  { id: "Schnell MTB", label: "MTB" },
+  { id: "Schnell Hybrid", label: "Hybrid" },
+  { id: "Schnell Road", label: "Road" },
+  { id: "Schnell Kids", label: "Kids" },
+  { id: "Schnell E-Bike", label: "E-Bike" },
+];
+/* Hero's range types (herocycles.com). Ids are prefixed so they can never collide. */
+const HERO_GROUPS = [
+  { id: "Hero Kids", label: "Kids" },
+  { id: "Hero Junior", label: "Junior" },
+  { id: "Hero MTB", label: "MTB" },
+];
+/* Keysto's range types (trinitycyclesindia.com categories). */
+const KEYSTO_GROUPS = [
+  { id: "Keysto MTB", label: "MTB" },
+  { id: "Keysto ATB", label: "ATB" },
+  { id: "Keysto Women", label: "Women" },
+  { id: "Keysto Hybrid", label: "Hybrid" },
+  { id: "Keysto Kids", label: "Kids" },
+];
+/* Hercules' ranges (hercules.in). */
+const HERCULES_GROUPS = [
+  { id: "Hercules MTB", label: "MTB" },
+  { id: "Hercules Roadeo", label: "Roadeo" },
+  { id: "Hercules E-Bike", label: "E-Bike" },
+];
+/* Radiant's ranges (radiantcpl.com). */
+const RADIANT_GROUPS = [
+  { id: "Radiant Kids", label: "Kids" },
+  { id: "Radiant Teen", label: "Teens" },
+  { id: "Radiant Adult", label: "Adults" },
+];
+/* BSA's ranges (bsa.in). */
+const BSA_GROUPS = [
+  { id: "BSA Kids", label: "Kids" },
+  { id: "BSA Ladybird", label: "Ladybird" },
+  { id: "BSA E-Bike", label: "E-Bike" },
+];
+/* Kross's ranges (krossbikes.in). */
+const KROSS_GROUPS = [
+  { id: "Kross Kids", label: "Kids" },
+  { id: "Kross Preteen", label: "Preteen" },
+  { id: "Kross MTB", label: "MTB" },
+  { id: "Kross Premium", label: "Premium" },
+  { id: "Kross V Rock", label: "V Rock" },
+  { id: "Kross Women", label: "Women" },
+  { id: "Kross Hybrid", label: "Hybrid" },
+];
+const ALL_GROUPS = [
+  ...OYEKID_GROUPS,
+  ...NEUFMAN_GROUPS,
+  ...SCHNELL_GROUPS,
+  ...HERO_GROUPS,
+  ...KEYSTO_GROUPS,
+  ...HERCULES_GROUPS,
+  ...RADIANT_GROUPS,
+  ...BSA_GROUPS,
+  ...KROSS_GROUPS,
+];
+const GROUPS_BY_TAB = {
+  oyekid: OYEKID_GROUPS,
+  neufman: NEUFMAN_GROUPS,
+  schnell: SCHNELL_GROUPS,
+  hero: HERO_GROUPS,
+  keysto: KEYSTO_GROUPS,
+  hercules: HERCULES_GROUPS,
+  radiant: RADIANT_GROUPS,
+  bsa: BSA_GROUPS,
+  kross: KROSS_GROUPS,
+} as const;
 
 const BROWSE_TABS = [
   { id: "oyekid", name: "Oyekid", hint: "Shop by age", logo: "/images/logo/oyekidlogo.png" },
   { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
+  { id: "schnell", name: "Schnell", hint: "Shop by type", logo: "/images/logo/schnelllogo.png" },
+  { id: "hero", name: "Hero", hint: "Shop by type", logo: "/images/logo/herologo.svg" },
+  { id: "keysto", name: "Keysto", hint: "Shop by type", logo: "/images/logo/keystologo.png" },
+  { id: "hercules", name: "Hercules", hint: "Shop by type", logo: "/images/logo/herculeslogo.svg" },
+  { id: "radiant", name: "Radiant", hint: "Shop by type", logo: "/images/logo/radiantlogo.png" },
+  { id: "bsa", name: "BSA", hint: "Shop by type", logo: "/images/logo/bsalogo.png" },
+  { id: "kross", name: "Kross", hint: "Shop by type", logo: "/images/logo/krosslogo.png" },
 ] as const;
+
+/* "Featured" order: the first screen of the shop is what draws people in, so it leads with
+   a hand-picked spread of Oyekid cycles (clean studio photos, real colour options, visible
+   discounts) across the age groups, then the rest of Oyekid, then the other brands that
+   have full catalogue photos, then everything else. */
+const FEATURED_SLUGS = [
+  "oyekid-wildhop-12t",
+  "oyekid-mermaid-14t",
+  "oyekid-shark-tank-14t-ibc",
+  "oyekid-slayer-16t",
+  "oyekid-emma-16t",
+  "oyekid-yuvaa-20t-ibc-suspension",
+  "oyekid-vangers-20t-ibc",
+  "oyekid-balance-bike-magwheel",
+];
+const featuredRank = (p: Product) => {
+  const i = FEATURED_SLUGS.indexOf(p.slug);
+  if (i >= 0) return i;
+  if (p.brand === "Oyekid") return 100;
+  if (p.variants?.length) return 200;
+  return 300;
+};
 
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
 
 /* the home page shows a preview so a big catalogue doesn't turn into an
    endless scroll — "See All Cycles" reveals the rest in place */
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 12;
 
 const CIRCLES: { id: "all" | ProductCategory; label: string; image: string }[] = [
   { id: "all", label: "All Cycles", image: "/images/hero-cycle.jpg" },
@@ -181,7 +290,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -259,6 +368,7 @@ export default function Shop() {
     if (sort === "price-asc") sorted.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
     else if (sort === "price-desc") sorted.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
     else if (sort === "rating") sorted.sort((a, b) => b.rating - a.rating);
+    else sorted.sort((a, b) => featuredRank(a) - featuredRank(b)); // "featured" — stable, so ties keep catalogue order
     return sorted;
   }, [products, selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
@@ -368,38 +478,6 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
-              <FilterSection icon={Icon.bike} title="Oyekid · Shop by Age">
-                <ul className={styles.checkList}>
-                  {OYEKID_GROUPS.map((g) => {
-                    const n = products.filter((p) => p.group === g.id).length;
-                    return (
-                      <li key={g.id}>
-                        <label className={styles.checkRow}>
-                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
-                          {g.label} <span className={styles.andUp}>({n})</span>
-                        </label>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </FilterSection>
-
-              <FilterSection icon={Icon.bike} title="Neufman · Shop by Type">
-                <ul className={styles.checkList}>
-                  {NEUFMAN_GROUPS.map((g) => {
-                    const n = products.filter((p) => p.group === g.id).length;
-                    return (
-                      <li key={g.id}>
-                        <label className={styles.checkRow}>
-                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
-                          {g.label} <span className={styles.andUp}>({n})</span>
-                        </label>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </FilterSection>
-
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -451,7 +529,7 @@ export default function Shop() {
                     </button>
                   ))}
                 </div>
-                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : "Neufman by type"}>
+                <div className={styles.browsePills} role="group" aria-label={browseTab === "oyekid" ? "Oyekid by age" : `${BROWSE_TABS.find((t) => t.id === browseTab)?.name ?? ""} by type`}>
                   <button
                     type="button"
                     aria-pressed={selectedGroups.length === 0}
@@ -460,7 +538,7 @@ export default function Shop() {
                   >
                     All cycles
                   </button>
-                  {(browseTab === "oyekid" ? OYEKID_GROUPS : NEUFMAN_GROUPS).map((g) => {
+                  {GROUPS_BY_TAB[browseTab].map((g) => {
                     const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
                     const n = products.filter((p) => p.group === g.id).length;
                     return (
@@ -605,6 +683,7 @@ export default function Shop() {
                             <span className={styles.colorName}>{shown.color}</span>
                           </div>
                         )}
+                        {shown.photoOf && <p className={styles.photoNote}>Photo shown: {shown.photoOf}</p>}
                         {multi && (
                           <p className={styles.optionLine}>{[shown.size, shown.type].filter(Boolean).join(" · ")}</p>
                         )}

@@ -1,0 +1,4303 @@
+[
+  {
+    "slug": "hercules-roadeo-gider-ss",
+    "brand": "Hercules",
+    "model": "Roadeo Gider SS",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Lightweight Alloy 6061 Frame",
+      "Fork: Lock-In/Lock-Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Hartex Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Glow in the Dark Heat Sealed Water Decal Sticker",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 20424,
+    "rating": 0,
+    "image": "/hercules/roadeo-gider-ss-forest-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Forest-Green",
+        "size": "27.5T",
+        "swatch": "#228b22",
+        "image": "/hercules/roadeo-gider-ss-forest-green.webp",
+        "price": 20424,
+        "regularPrice": 20424,
+        "inStock": true,
+        "sku": "Gider"
+      },
+      {
+        "color": "Forest-Green",
+        "size": "29T",
+        "swatch": "#228b22",
+        "image": "/hercules/roadeo-gider-ss-forest-green.webp",
+        "price": 20780,
+        "regularPrice": 20780,
+        "inStock": true,
+        "sku": "Gider"
+      },
+      {
+        "color": "Black Semi Matt/White",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hercules/roadeo-gider-ss-black-semi-matt-white.webp",
+        "price": 20424,
+        "regularPrice": 20424,
+        "inStock": true,
+        "sku": "Gider"
+      },
+      {
+        "color": "Black Semi Matt/White",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/hercules/roadeo-gider-ss-black-semi-matt-white.webp",
+        "price": 20780,
+        "regularPrice": 20780,
+        "inStock": true,
+        "sku": "Gider"
+      }
+    ],
+    "defaultColor": "Forest-Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-yuvolt-sr",
+    "brand": "Hercules",
+    "model": "Yuvolt Sr",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "28T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Durable Steel Frame",
+      "Fork: Rigid Fork",
+      "Tires: 28T × 1.5T Nylon Tyres",
+      "Brakes: Rod Brakes",
+      "Chain Cover: Steel Chain Cover",
+      "Battery: 8Ah Removable LFP Battery",
+      "Mileage/Charge: Travel Range Up to 35 km on a single charge",
+      "Max Speed: Top Speed up to 25 km/h",
+      "Motor: 36V 250W Rear Hub Motor",
+      "Light & Horn: Integrated Front Light & Horn",
+      "Display: Kinga Handlebar with Throttle Display",
+      "Mudguard: Steel Mudguards"
+    ],
+    "price": 27999,
+    "rating": 0,
+    "image": "/hercules/yuvolt-sr-black-stark-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Stark Red",
+        "size": "28T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c1121f 50.0%, #c1121f 100.0%)",
+        "image": "/hercules/yuvolt-sr-black-stark-red.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": true,
+        "sku": "Yuvolt Sr"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "28T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/yuvolt-sr-frost-grey.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": true,
+        "sku": "Yuvolt Sr"
+      }
+    ],
+    "defaultColor": "Black/Stark Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-knighter-fx-dd",
+    "brand": "Hercules",
+    "model": "Knighter FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc (DD Model)",
+      "Stickering: Waterdecals",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 11040,
+    "rating": 0,
+    "image": "/hercules/knighter-fx-dd-trooper-grey-arowana-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Trooper Grey/Arowana Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/knighter-fx-dd-trooper-grey-arowana-silver.webp",
+        "price": 11040,
+        "regularPrice": 11040,
+        "inStock": true,
+        "sku": "Knighter FX DD"
+      },
+      {
+        "color": "Trooper Grey/Arowana Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/knighter-fx-dd-trooper-grey-arowana-silver.webp",
+        "price": 11218,
+        "regularPrice": 11218,
+        "inStock": true,
+        "sku": "Knighter FX DD"
+      },
+      {
+        "color": "Trooper Grey/Teal Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/hercules/knighter-fx-dd-trooper-grey-teal-blue.webp",
+        "price": 11040,
+        "regularPrice": 11040,
+        "inStock": true,
+        "sku": "Knighter FX DD"
+      },
+      {
+        "color": "Trooper Grey/Teal Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/hercules/knighter-fx-dd-trooper-grey-teal-blue.webp",
+        "price": 11218,
+        "regularPrice": 11218,
+        "inStock": true,
+        "sku": "Knighter FX DD"
+      }
+    ],
+    "defaultColor": "Trooper Grey/Arowana Silver",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-knighter-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Knighter IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc (DD Model)",
+      "Carrier: Yes (IC Model)",
+      "Stickering: Waterdecals",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 11040,
+    "rating": 0,
+    "image": "/hercules/knighter-ic-fx-dd-trooper-grey-aqua-haze.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Trooper Grey/Aqua Haze",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #e3eef0 50.0%, #e3eef0 100.0%)",
+        "image": "/hercules/knighter-ic-fx-dd-trooper-grey-aqua-haze.webp",
+        "price": 11040,
+        "regularPrice": 11040,
+        "inStock": true,
+        "sku": "Knighter IC FX DD"
+      },
+      {
+        "color": "Trooper Grey/Arowana Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/knighter-ic-fx-dd-trooper-grey-arowana-silver.webp",
+        "price": 11307,
+        "regularPrice": 11307,
+        "inStock": true,
+        "sku": "Knighter IC FX DD"
+      },
+      {
+        "color": "Trooper Grey/Arowana Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/knighter-ic-fx-dd-trooper-grey-arowana-silver.webp",
+        "price": 11485,
+        "regularPrice": 11485,
+        "inStock": true,
+        "sku": "Knighter IC FX DD"
+      },
+      {
+        "color": "Trooper Grey/Teal Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/hercules/knighter-ic-fx-dd-trooper-grey-teal-blue.webp",
+        "price": 11307,
+        "regularPrice": 11307,
+        "inStock": true,
+        "sku": "Knighter IC FX DD"
+      },
+      {
+        "color": "Trooper Grey/Teal Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/hercules/knighter-ic-fx-dd-trooper-grey-teal-blue.webp",
+        "price": 11485,
+        "regularPrice": 11485,
+        "inStock": true,
+        "sku": "Knighter IC FX DD"
+      }
+    ],
+    "defaultColor": "Trooper Grey/Aqua Haze",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-knighter-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "Knighter IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: V-Brake (VB Model)",
+      "Carrier: Yes (IC Model)",
+      "Stickering: Waterdecals",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 9438,
+    "rating": 0,
+    "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Trooper Grey/Aqua Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #4fc3a1 50.0%, #4fc3a1 100.0%)",
+        "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-green.webp",
+        "price": 9438,
+        "regularPrice": 9438,
+        "inStock": true,
+        "sku": "Knighter IC RF VB"
+      },
+      {
+        "color": "Trooper Grey/Aqua Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #4fc3a1 50.0%, #4fc3a1 100.0%)",
+        "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-green-2.webp",
+        "price": 9616,
+        "regularPrice": 9616,
+        "inStock": true,
+        "sku": "Knighter IC RF VB"
+      },
+      {
+        "color": "Trooper Grey/Aqua Haze",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #e3eef0 50.0%, #e3eef0 100.0%)",
+        "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-haze.webp",
+        "price": 9438,
+        "regularPrice": 9438,
+        "inStock": true,
+        "sku": "Knighter IC RF VB"
+      },
+      {
+        "color": "Trooper Grey/Aqua Haze",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #e3eef0 50.0%, #e3eef0 100.0%)",
+        "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-haze.webp",
+        "price": 9616,
+        "regularPrice": 9616,
+        "inStock": true,
+        "sku": "Knighter IC RF VB"
+      },
+      {
+        "color": "Trooper Grey/Arowana Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/knighter-ic-rf-vb-trooper-grey-aqua-green-2.webp",
+        "price": 9883,
+        "regularPrice": 9883,
+        "inStock": true,
+        "sku": "Knighter IC RF VB"
+      }
+    ],
+    "defaultColor": "Trooper Grey/Aqua Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-beast-21sp",
+    "brand": "Hercules",
+    "model": "Roadeo Beast - 21SP",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sporty Hardtail Frame with IBR",
+      "Fork: Lock-In/Lock-Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Stem: 4 Pin Alloy Threadless Stem",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Premium Multi-cut Finish with Waterdecal Stickering",
+      "Gear: 21SP Shimano Tourney with Altus EF500 Shifters",
+      "Saddle: Comfortable PU Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 18505,
+    "rating": 0,
+    "image": "/hercules/roadeo-beast-21sp-black-stark-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Stark Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c1121f 50.0%, #c1121f 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-black-stark-red.webp",
+        "price": 19039,
+        "regularPrice": 19039,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      },
+      {
+        "color": "Black/Stark Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c1121f 50.0%, #c1121f 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-black-stark-red.webp",
+        "price": 19573,
+        "regularPrice": 19573,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      },
+      {
+        "color": "Lead Grey/Moss Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #5d636b 0.0%, #5d636b 50.0%, #6b7a3a 50.0%, #6b7a3a 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-lead-grey-moss-green.webp",
+        "price": 19039,
+        "regularPrice": 19039,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      },
+      {
+        "color": "Lead Grey/Moss Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #5d636b 0.0%, #5d636b 50.0%, #6b7a3a 50.0%, #6b7a3a 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-lead-grey-moss-green.webp",
+        "price": 19573,
+        "regularPrice": 19573,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      },
+      {
+        "color": "Black/Titanium",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8c8f93 50.0%, #8c8f93 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-black-titanium.webp",
+        "price": 18505,
+        "regularPrice": 18505,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      },
+      {
+        "color": "Lead Grey/Arabian Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #5d636b 0.0%, #5d636b 50.0%, #1f6f5a 50.0%, #1f6f5a 100.0%)",
+        "image": "/hercules/roadeo-beast-21sp-lead-grey-arabian-green.webp",
+        "price": 18505,
+        "regularPrice": 18505,
+        "inStock": true,
+        "sku": "Beast 21SP"
+      }
+    ],
+    "defaultColor": "Black/Stark Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-beast-ss",
+    "brand": "Hercules",
+    "model": "Roadeo Beast - SS",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sporty Hardtail Frame with IBR",
+      "Fork: CP Finish Suspension Fork",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Stem: 4 Pin Alloy Threadless Stem",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Premium Multi-cut Finish with Waterdecal Stickering",
+      "Saddle: Comfortable PU Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 14007,
+    "rating": 0,
+    "image": "/hercules/roadeo-beast-ss-black-titanium.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Titanium",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8c8f93 50.0%, #8c8f93 100.0%)",
+        "image": "/hercules/roadeo-beast-ss-black-titanium.webp",
+        "price": 14007,
+        "regularPrice": 14007,
+        "inStock": true,
+        "sku": "Beast SS"
+      },
+      {
+        "color": "Lead Grey/Arabian Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #5d636b 0.0%, #5d636b 50.0%, #1f6f5a 50.0%, #1f6f5a 100.0%)",
+        "image": "/hercules/roadeo-beast-ss-lead-grey-arabian-green.webp",
+        "price": 14007,
+        "regularPrice": 14007,
+        "inStock": true,
+        "sku": "Beast SS"
+      },
+      {
+        "color": "Black/Stark Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c1121f 50.0%, #c1121f 100.0%)",
+        "image": "/hercules/roadeo-beast-ss-black-stark-red.webp",
+        "price": 14363,
+        "regularPrice": 14363,
+        "inStock": true,
+        "sku": "Beast SS"
+      },
+      {
+        "color": "Lead Grey/Moss Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #5d636b 0.0%, #5d636b 50.0%, #6b7a3a 50.0%, #6b7a3a 100.0%)",
+        "image": "/hercules/roadeo-beast-ss-lead-grey-moss-green.webp",
+        "price": 14363,
+        "regularPrice": 14363,
+        "inStock": true,
+        "sku": "Beast SS"
+      }
+    ],
+    "defaultColor": "Black/Titanium",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-draugr-21sp",
+    "brand": "Hercules",
+    "model": "Roadeo Draugr 21SP",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: High Tensile Steel Frame",
+      "Fork: Lock-In/Lock-Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Hartex Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Gear: 21SP Shimano Tourney with Altus EF500 Shifters (Only in 21SP Variant)",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 18256,
+    "rating": 0,
+    "image": "/hercules/roadeo-draugr-21sp-matt-military-green-lead-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Military Green/Lead Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #4b5d3a 0.0%, #4b5d3a 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-21sp-matt-military-green-lead-grey.webp",
+        "price": 18256,
+        "regularPrice": 18256,
+        "inStock": true,
+        "sku": "Draugr 21SP"
+      },
+      {
+        "color": "Matt Military Green/Lead Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #4b5d3a 0.0%, #4b5d3a 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-21sp-matt-military-green-lead-grey.webp",
+        "price": 18790,
+        "regularPrice": 18790,
+        "inStock": true,
+        "sku": "Draugr 21SP"
+      },
+      {
+        "color": "Desert Yellow/Lead Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d9b866 0.0%, #d9b866 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-21sp-desert-yellow-lead-grey.webp",
+        "price": 18256,
+        "regularPrice": 18256,
+        "inStock": true,
+        "sku": "Draugr 21SP"
+      },
+      {
+        "color": "Desert Yellow/Lead Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d9b866 0.0%, #d9b866 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-21sp-desert-yellow-lead-grey.webp",
+        "price": 18790,
+        "regularPrice": 18790,
+        "inStock": true,
+        "sku": "Draugr 21SP"
+      }
+    ],
+    "defaultColor": "Matt Military Green/Lead Grey",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-draugr-ss",
+    "brand": "Hercules",
+    "model": "Roadeo Draugr SS",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: High Tensile Steel Frame",
+      "Fork: Lock-In/Lock-Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Hartex Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Gear: 21SP Shimano Tourney with Altus EF500 Shifters (Only in 21SP Variant)",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 14452,
+    "rating": 0,
+    "image": "/hercules/roadeo-draugr-ss-matt-military-green-lead-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Military Green/Lead Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #4b5d3a 0.0%, #4b5d3a 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-ss-matt-military-green-lead-grey.webp",
+        "price": 14452,
+        "regularPrice": 14452,
+        "inStock": true,
+        "sku": "Draugr SS"
+      },
+      {
+        "color": "Matt Military Green/Lead Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #4b5d3a 0.0%, #4b5d3a 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-ss-matt-military-green-lead-grey.webp",
+        "price": 14808,
+        "regularPrice": 14808,
+        "inStock": true,
+        "sku": "Draugr SS"
+      },
+      {
+        "color": "Desert Yellow/Lead Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d9b866 0.0%, #d9b866 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-ss-desert-yellow-lead-grey.webp",
+        "price": 14452,
+        "regularPrice": 14452,
+        "inStock": true,
+        "sku": "Draugr SS"
+      },
+      {
+        "color": "Desert Yellow/Lead Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d9b866 0.0%, #d9b866 50.0%, #5d636b 50.0%, #5d636b 100.0%)",
+        "image": "/hercules/roadeo-draugr-ss-desert-yellow-lead-grey.webp",
+        "price": 14808,
+        "regularPrice": 14808,
+        "inStock": true,
+        "sku": "Draugr SS"
+      }
+    ],
+    "defaultColor": "Matt Military Green/Lead Grey",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-3t-fx-dd",
+    "brand": "Hercules",
+    "model": "Redeem XR 3T FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 3T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc Brake",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 9780,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-3t-fx-dd-twitter-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Twitter Blue",
+        "size": "26T",
+        "swatch": "#1da1f2",
+        "image": "/hercules/redeem-xr-3t-fx-dd-twitter-blue.webp",
+        "price": 9780,
+        "regularPrice": 9780,
+        "inStock": true,
+        "sku": "Redeem XR 3T FX DD"
+      }
+    ],
+    "defaultColor": "Twitter Blue",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-top-gear-rift-24sp-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Top Gear Rift 24SP IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Gear: 24SP Gear Set",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 13573,
+    "rating": 0,
+    "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-black-acid-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-black-acid-green.webp",
+        "price": 13573,
+        "regularPrice": 13573,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-black-acid-green.webp",
+        "price": 14018,
+        "regularPrice": 14018,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-black-acid-green.webp",
+        "price": 14374,
+        "regularPrice": 14374,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-ice-grey-with-red.webp",
+        "price": 13573,
+        "regularPrice": 13573,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-ice-grey-with-red.webp",
+        "price": 14018,
+        "regularPrice": 14018,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-ic-fx-dd-ice-grey-with-red.webp",
+        "price": 14374,
+        "regularPrice": 14374,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP-1"
+      }
+    ],
+    "defaultColor": "Black & Acid Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-top-gear-rift-24sp-fx-dd",
+    "brand": "Hercules",
+    "model": "Top Gear Rift 24SP FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Gear: 24SP Gear Set",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 13306,
+    "rating": 0,
+    "image": "/hercules/top-gear-rift-24sp-fx-dd-black-acid-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-black-acid-green.webp",
+        "price": 13306,
+        "regularPrice": 13306,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-black-acid-green.webp",
+        "price": 13751,
+        "regularPrice": 13751,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-black-acid-green.webp",
+        "price": 14107,
+        "regularPrice": 14107,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-ice-grey-with-red.webp",
+        "price": 13306,
+        "regularPrice": 13306,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-ice-grey-with-red.webp",
+        "price": 13751,
+        "regularPrice": 13751,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/top-gear-rift-24sp-fx-dd-ice-grey-with-red.webp",
+        "price": 14107,
+        "regularPrice": 14107,
+        "inStock": true,
+        "sku": "Top Gear Rift 24SP"
+      }
+    ],
+    "defaultColor": "Black & Acid Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-top-gear-the-defender-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Top Gear The Defender IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Carrier: No /Yes (IC Model)",
+      "Gear: 21SP Shimano Gear Set",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 16810,
+    "rating": 0,
+    "image": "/hercules/top-gear-the-defender-ic-fx-dd-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/top-gear-the-defender-ic-fx-dd-black.webp",
+        "price": 16810,
+        "regularPrice": 16810,
+        "inStock": true,
+        "sku": "Top Gear The Defender IC FX DD"
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hercules/top-gear-the-defender-ic-fx-dd-black.webp",
+        "price": 17255,
+        "regularPrice": 17255,
+        "inStock": true,
+        "sku": "Top Gear The Defender IC FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/top-gear-the-defender-ic-fx-dd-mist-green-black.webp",
+        "price": 16810,
+        "regularPrice": 16810,
+        "inStock": true,
+        "sku": "Top Gear The Defender IC FX DD"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-top-gear-the-defender-fx-dd",
+    "brand": "Hercules",
+    "model": "Top Gear The Defender FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Tires: 2.4T MTB Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Carrier: No /Yes (IC Model)",
+      "Gear: 21SP Shimano Gear Set",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 16543,
+    "rating": 0,
+    "image": "/hercules/top-gear-the-defender-fx-dd-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/top-gear-the-defender-fx-dd-black.webp",
+        "price": 16543,
+        "regularPrice": 16543,
+        "inStock": true,
+        "sku": "Top Gear The Defender FX DD"
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hercules/top-gear-the-defender-fx-dd-black.webp",
+        "price": 16988,
+        "regularPrice": 16988,
+        "inStock": true,
+        "sku": "Top Gear The Defender FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/top-gear-the-defender-fx-dd-mist-green-black.webp",
+        "price": 16543,
+        "regularPrice": 16543,
+        "inStock": true,
+        "sku": "Top Gear The Defender FX DD"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "27.5T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/top-gear-the-defender-fx-dd-frost-grey.webp",
+        "price": 16988,
+        "regularPrice": 16988,
+        "inStock": true,
+        "sku": "Top Gear The Defender FX DD"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-grunge-fx-dd",
+    "brand": "Hercules",
+    "model": "Grunge FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Hi-Tensile Steel Frame",
+      "Fork: CP Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Tires: 2.4T Nylon Tan Wall Tyres",
+      "Pedals: Plastic",
+      "Stickering: Waterdecal",
+      "Saddle: Sleek PU Comfort Saddle"
+    ],
+    "price": 13199,
+    "rating": 0,
+    "image": "/hercules/grunge-fx-dd-black-titanium.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Titanium",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8c8f93 50.0%, #8c8f93 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-titanium.webp",
+        "price": 13199,
+        "regularPrice": 13199,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      },
+      {
+        "color": "Black/Titanium",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8c8f93 50.0%, #8c8f93 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-titanium.webp",
+        "price": 13555,
+        "regularPrice": 13555,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      },
+      {
+        "color": "Black/Titanium",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8c8f93 50.0%, #8c8f93 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-titanium.webp",
+        "price": 13911,
+        "regularPrice": 13911,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      },
+      {
+        "color": "Black/Arabian Green with Yellow Graphics",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f6f5a 33.3%, #1f6f5a 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-arabian-green-with-yellow-graphics.webp",
+        "price": 13199,
+        "regularPrice": 13199,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      },
+      {
+        "color": "Black/Arabian Green with Yellow Graphics",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f6f5a 33.3%, #1f6f5a 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-arabian-green-with-yellow-graphics.webp",
+        "price": 13555,
+        "regularPrice": 13555,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      },
+      {
+        "color": "Black/Arabian Green with Yellow Graphics",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 33.3%, #1f6f5a 33.3%, #1f6f5a 66.7%, #f2c40f 66.7%, #f2c40f 100.0%)",
+        "image": "/hercules/grunge-fx-dd-black-arabian-green-with-yellow-graphics.webp",
+        "price": 13911,
+        "regularPrice": 13911,
+        "inStock": true,
+        "sku": "Grunge FX DD"
+      }
+    ],
+    "defaultColor": "Black/Titanium",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-hardstyle-fx",
+    "brand": "Hercules",
+    "model": "Hardstyle FX",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Strong Steel Frame",
+      "Fork: Front Suspension Fork",
+      "Tires: 27.5T x 2.1T Nylon Tires",
+      "Brakes: Dual Disc Brakes",
+      "Battery: Removable 8Ah LFP Battery",
+      "Mileage/Charge: Up to 35 km Travel Range",
+      "Max Speed: Top Speed of 25 km/h",
+      "Motor: 36V 250W Rear Hub Motor",
+      "Display: Battery Indicator on Throttle"
+    ],
+    "price": 27999,
+    "rating": 0,
+    "image": "/hercules/hardstyle-fx-cosmo-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cosmo Silver",
+        "size": "27.5T",
+        "swatch": "#b9bdc2",
+        "image": "/hercules/hardstyle-fx-cosmo-silver.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": true,
+        "sku": "Hardstyle FX"
+      },
+      {
+        "color": "Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hercules/hardstyle-fx-black.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": true,
+        "sku": "Hardstyle FX"
+      },
+      {
+        "color": "Autumn Gold",
+        "size": "27.5T",
+        "swatch": "#c58b2e",
+        "image": "/hercules/hardstyle-fx-autumn-gold.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": true,
+        "sku": "Hardstyle FX"
+      }
+    ],
+    "defaultColor": "Cosmo Silver",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-3t-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Redeem XR 3T IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 3T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc Brake",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 10118,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-3t-ic-fx-dd-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-3t-ic-fx-dd-acid-green-black.webp",
+        "price": 10118,
+        "regularPrice": 10118,
+        "inStock": true,
+        "sku": "Redeem XR 3T IC FX DD"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-3t-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "Redeem XR 3T IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork",
+      "Rims: BPC",
+      "Tires: 3T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Brakes: V-Brake",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 8682,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-3t-ic-rf-vb-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-3t-ic-rf-vb-acid-green-black.webp",
+        "price": 8682,
+        "regularPrice": 8682,
+        "inStock": true,
+        "sku": "Redeem XR 3T IC RF VB"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-ryken-ss",
+    "brand": "Hercules",
+    "model": "Roadeo Ryken SS",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: 6061 Alloy Frame - Light Weight & Durable",
+      "Fork: 38 CP - Finish Lock-In/Lock-Out Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Hartex Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Gear: 21Sp Shimano Gear",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 20112,
+    "rating": 0,
+    "image": "/hercules/roadeo-ryken-ss-mist-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mist Green",
+        "size": "27.5T",
+        "swatch": "#b5d1b4",
+        "image": "/hercules/roadeo-ryken-ss-mist-green.webp",
+        "price": 20112,
+        "regularPrice": 20112,
+        "inStock": true,
+        "sku": "Ryken SS"
+      },
+      {
+        "color": "Mist Green",
+        "size": "29T",
+        "swatch": "#b5d1b4",
+        "image": "/hercules/roadeo-ryken-ss-mist-green.webp",
+        "price": 20468,
+        "regularPrice": 20468,
+        "inStock": true,
+        "sku": "Ryken SS"
+      },
+      {
+        "color": "Aqua Haze/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #e3eef0 0.0%, #e3eef0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-ryken-ss-aqua-haze-black.webp",
+        "price": 20112,
+        "regularPrice": 20112,
+        "inStock": true,
+        "sku": "Ryken SS"
+      },
+      {
+        "color": "Aqua Haze/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #e3eef0 0.0%, #e3eef0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-ryken-ss-aqua-haze-black.webp",
+        "price": 20468,
+        "regularPrice": 20468,
+        "inStock": true,
+        "sku": "Ryken SS"
+      }
+    ],
+    "defaultColor": "Mist Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Redeem XR IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 9033,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-ic-fx-dd-twitter-blue-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Twitter Blue/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-twitter-blue-black.webp",
+        "price": 9033,
+        "regularPrice": 9033,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-twitter-blue-black.webp",
+        "price": 9118,
+        "regularPrice": 9118,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-twitter-blue-black.webp",
+        "price": 9565,
+        "regularPrice": 9565,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-twitter-blue-black.webp",
+        "price": 9946,
+        "regularPrice": 9946,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-acid-green-black.webp",
+        "price": 9033,
+        "regularPrice": 9033,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-fx-dd-acid-green-black.webp",
+        "price": 9118,
+        "regularPrice": 9118,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Trooper Grey",
+        "size": "27.5T",
+        "swatch": "#7d8a8f",
+        "image": "/hercules/redeem-xr-ic-fx-dd-trooper-grey.webp",
+        "price": 9565,
+        "regularPrice": 9565,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      },
+      {
+        "color": "Trooper Grey",
+        "size": "29T",
+        "swatch": "#7d8a8f",
+        "image": "/hercules/redeem-xr-ic-fx-dd-trooper-grey.webp",
+        "price": 9946,
+        "regularPrice": 9946,
+        "inStock": true,
+        "sku": "Redeem XR IC FX DD"
+      }
+    ],
+    "defaultColor": "Twitter Blue/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-fx-dd",
+    "brand": "Hercules",
+    "model": "Redeem XR FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 8813,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-fx-dd-twitter-blue-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Twitter Blue/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-twitter-blue-black.webp",
+        "price": 8813,
+        "regularPrice": 8813,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-twitter-blue-black.webp",
+        "price": 8898,
+        "regularPrice": 8898,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-twitter-blue-black.webp",
+        "price": 9346,
+        "regularPrice": 9346,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-twitter-blue-black.webp",
+        "price": 9726,
+        "regularPrice": 9726,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-acid-green-black.webp",
+        "price": 8813,
+        "regularPrice": 8813,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-fx-dd-acid-green-black.webp",
+        "price": 8898,
+        "regularPrice": 8898,
+        "inStock": true,
+        "sku": "Redeem XR FX DD"
+      }
+    ],
+    "defaultColor": "Twitter Blue/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "Redeem XR IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7470,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-ic-rf-vb-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-acid-green-black.webp",
+        "price": 7470,
+        "regularPrice": 7470,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-acid-green-black.webp",
+        "price": 7554,
+        "regularPrice": 7554,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-twitter-blue-black.webp",
+        "price": 7470,
+        "regularPrice": 7470,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-twitter-blue-black.webp",
+        "price": 7554,
+        "regularPrice": 7554,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-twitter-blue-black.webp",
+        "price": 8120,
+        "regularPrice": 8120,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Twitter Blue/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1da1f2 0.0%, #1da1f2 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-ic-rf-vb-twitter-blue-black.webp",
+        "price": 8458,
+        "regularPrice": 8458,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Trooper Grey",
+        "size": "27.5T",
+        "swatch": "#7d8a8f",
+        "image": "/hercules/redeem-xr-ic-rf-vb-trooper-grey.webp",
+        "price": 8120,
+        "regularPrice": 8120,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      },
+      {
+        "color": "Trooper Grey",
+        "size": "29T",
+        "swatch": "#7d8a8f",
+        "image": "/hercules/redeem-xr-ic-rf-vb-trooper-grey.webp",
+        "price": 8458,
+        "regularPrice": 8458,
+        "inStock": true,
+        "sku": "Redeem XR IC RF VB"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-redeem-xr-rf-vb",
+    "brand": "Hercules",
+    "model": "Redeem XR RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7335,
+    "rating": 0,
+    "image": "/hercules/redeem-xr-rf-vb-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/redeem-xr-rf-vb-acid-green-black.webp",
+        "price": 7335,
+        "regularPrice": 7335,
+        "inStock": true,
+        "sku": "Redeem XR RF VB"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-the-defender-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "The Defender IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Grips: Soft PVC Grip",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 12143,
+    "rating": 0,
+    "image": "/hercules/the-defender-ic-fx-dd-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/the-defender-ic-fx-dd-black.webp",
+        "price": 12143,
+        "regularPrice": 12143,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/the-defender-ic-fx-dd-black.webp",
+        "price": 12232,
+        "regularPrice": 12232,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-ic-fx-dd-mist-green-black.webp",
+        "price": 12143,
+        "regularPrice": 12143,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-ic-fx-dd-mist-green-black.webp",
+        "price": 12232,
+        "regularPrice": 12232,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-ic-fx-dd-mist-green-black.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "27.5T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/the-defender-ic-fx-dd-frost-grey.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true,
+        "sku": "Defender IC FX DD"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-the-defender-fx-dd",
+    "brand": "Hercules",
+    "model": "The Defender FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Grips: Soft PVC Grip",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 11965,
+    "rating": 0,
+    "image": "/hercules/the-defender-fx-dd-frost-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Frost Grey",
+        "size": "27.5T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/the-defender-fx-dd-frost-grey.webp",
+        "price": 12232,
+        "regularPrice": 12232,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "29T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/the-defender-fx-dd-frost-grey.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-fx-dd-mist-green-black.webp",
+        "price": 11965,
+        "regularPrice": 11965,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-fx-dd-mist-green-black.webp",
+        "price": 12232,
+        "regularPrice": 12232,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      },
+      {
+        "color": "Mist Green/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-fx-dd-mist-green-black.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/the-defender-fx-dd-black.webp",
+        "price": 11965,
+        "regularPrice": 11965,
+        "inStock": true,
+        "sku": "Defender FX DD"
+      }
+    ],
+    "defaultColor": "Frost Grey",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-the-defender-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "The Defender IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Grips: Soft PVC Grip",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 10502,
+    "rating": 0,
+    "image": "/hercules/the-defender-ic-rf-vb-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/the-defender-ic-rf-vb-black.webp",
+        "price": 10502,
+        "regularPrice": 10502,
+        "inStock": true,
+        "sku": "Defender IC RF VB"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/the-defender-ic-rf-vb-black.webp",
+        "price": 10591,
+        "regularPrice": 10591,
+        "inStock": true,
+        "sku": "Defender IC RF VB"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-the-defender-rf-vb",
+    "brand": "Hercules",
+    "model": "The Defender RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BPC Finish Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Grips: Soft PVC Grip",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 10324,
+    "rating": 0,
+    "image": "/hercules/the-defender-rf-vb-mist-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mist Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b5d1b4 0.0%, #b5d1b4 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/the-defender-rf-vb-mist-green-black.webp",
+        "price": 10324,
+        "regularPrice": 10324,
+        "inStock": true,
+        "sku": "Defender RF VB"
+      }
+    ],
+    "defaultColor": "Mist Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-top-gear-redeem-xr-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Roadeo Top Gear Redeem XR IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: BPC finish Threaded Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: BPC Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Brakes: Dual Disc Brake",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Grips: TPE Grip",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Gear: 21 Sp Shimano Gear",
+      "Saddle: PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 14511,
+    "rating": 0,
+    "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-acid-green-black.webp",
+        "price": 14511,
+        "regularPrice": 14511,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-acid-green-black.webp",
+        "price": 14600,
+        "regularPrice": 14600,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-ivory-white-black.webp",
+        "price": 14511,
+        "regularPrice": 14511,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-ivory-white-black.webp",
+        "price": 14600,
+        "regularPrice": 14600,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-ivory-white-black.webp",
+        "price": 15045,
+        "regularPrice": 15045,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      },
+      {
+        "color": "Twitter Blue",
+        "size": "27.5T",
+        "swatch": "#1da1f2",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-ic-fx-dd-twitter-blue.webp",
+        "price": 15045,
+        "regularPrice": 15045,
+        "inStock": true,
+        "sku": "Top Gear Redeem IC FX DD"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-top-gear-redeem-xr-fx-dd",
+    "brand": "Hercules",
+    "model": "Roadeo Top Gear Redeem XR FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: BPC finish Threaded Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: BPC Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Brakes: Dual Disc Brake",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Grips: TPE Grip",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Gear: 21 Sp Shimano Gear",
+      "Saddle: PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 14244,
+    "rating": 0,
+    "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-acid-green-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-acid-green-black.webp",
+        "price": 14244,
+        "regularPrice": 14244,
+        "inStock": true,
+        "sku": "Top Gear Redeem FX DD-1"
+      },
+      {
+        "color": "Acid Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-acid-green-black.webp",
+        "price": 14333,
+        "regularPrice": 14333,
+        "inStock": true,
+        "sku": "Top Gear Redeem FX DD-1"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-ivory-white-black.webp",
+        "price": 14244,
+        "regularPrice": 14244,
+        "inStock": true,
+        "sku": "Top Gear Redeem FX DD-1"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-ivory-white-black.webp",
+        "price": 14333,
+        "regularPrice": 14333,
+        "inStock": true,
+        "sku": "Top Gear Redeem FX DD-1"
+      },
+      {
+        "color": "Ivory White/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f3efe0 0.0%, #f3efe0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-top-gear-redeem-xr-fx-dd-ivory-white-black.webp",
+        "price": 14778,
+        "regularPrice": 14778,
+        "inStock": true,
+        "sku": "Top Gear Redeem FX DD-1"
+      }
+    ],
+    "defaultColor": "Acid Green/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-slasher-ic-rf-cb-smg",
+    "brand": "Hercules",
+    "model": "Slasher IC RF CB SMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: High Tensil Steel Frame",
+      "Fork: BMX Planished Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Tyres",
+      "Pedals: Plastic",
+      "Brakes: C-Brake",
+      "Stem: MTB Threaded Broader Stem",
+      "Grips: TPE Grip",
+      "Mudguard: Plastic/Steel",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7289,
+    "rating": 0,
+    "image": "/hercules/slasher-ic-rf-cb-smg-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-cb-smg-black.webp",
+        "price": 7289,
+        "regularPrice": 7289,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF CB SMG"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-cb-smg-black.webp",
+        "price": 7373,
+        "regularPrice": 7373,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF CB SMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "24T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-cb-smg-slash-green.webp",
+        "price": 7289,
+        "regularPrice": 7289,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF CB SMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "26T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-cb-smg-slash-green.webp",
+        "price": 7373,
+        "regularPrice": 7373,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF CB SMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-cb-smg-space-grey.webp",
+        "price": 7289,
+        "regularPrice": 7289,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF CB SMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-cb-smg-space-grey.webp",
+        "price": 7373,
+        "regularPrice": 7373,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-3-1-1"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-slasher-ic-rf-vb-smg",
+    "brand": "Hercules",
+    "model": "Slasher IC RF VB SMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: High Tensil Steel Frame",
+      "Fork: BMX Planished Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Tyres",
+      "Pedals: Plastic",
+      "Brakes: V Brake",
+      "Stem: MTB Threaded Broader Stem",
+      "Grips: TPE Grip",
+      "Mudguard: Plastic/Steel",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7340,
+    "rating": 0,
+    "image": "/hercules/slasher-ic-rf-vb-smg-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-vb-smg-black.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB SMG"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-vb-smg-black.webp",
+        "price": 7424,
+        "regularPrice": 7424,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB SMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "24T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-vb-smg-slash-green.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB SMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "26T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-vb-smg-slash-green.webp",
+        "price": 7424,
+        "regularPrice": 7424,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB SMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-vb-smg-space-grey.webp",
+        "price": 7340,
+        "regularPrice": 7340,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB SMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-vb-smg-space-grey.webp",
+        "price": 7424,
+        "regularPrice": 7424,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-3-1"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-slasher-ic-rf-vb-pmg",
+    "brand": "Hercules",
+    "model": "Slasher IC RF VB PMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: High Tensil Steel Frame",
+      "Fork: BMX Planished Fork",
+      "Rims: BPC Rim",
+      "Tires: 2.4T MTB Tyres",
+      "Pedals: Plastic",
+      "Brakes: V Brake",
+      "Stem: MTB Threaded Broader Stem",
+      "Grips: TPE Grip",
+      "Mudguard: Plastic/Steel",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7221,
+    "rating": 0,
+    "image": "/hercules/slasher-ic-rf-vb-pmg-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-black.webp",
+        "price": 7221,
+        "regularPrice": 7221,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB  PMG"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-black.webp",
+        "price": 7306,
+        "regularPrice": 7306,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB  PMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "24T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-slash-green.webp",
+        "price": 7221,
+        "regularPrice": 7221,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB  PMG"
+      },
+      {
+        "color": "Slash Green",
+        "size": "26T",
+        "swatch": "#7ac142",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-slash-green.webp",
+        "price": 7306,
+        "regularPrice": 7306,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB  PMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-space-grey.webp",
+        "price": 7221,
+        "regularPrice": 7221,
+        "inStock": true,
+        "sku": "Hercules Slasher  IC RF VB  PMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/slasher-ic-rf-vb-pmg-space-grey.webp",
+        "price": 7306,
+        "regularPrice": 7306,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-3"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-ravager",
+    "brand": "Hercules",
+    "model": "Roadeo Ravager",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: High Tensile Steel Frame",
+      "Fork: 38 CP - Finish Lock-In/Lock-Out Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tan Wall Reflective Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 16214,
+    "rating": 0,
+    "image": "/hercules/roadeo-ravager-stark-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Stark Red",
+        "size": "27.5T",
+        "swatch": "#c1121f",
+        "image": "/hercules/roadeo-ravager-stark-red.webp",
+        "price": 16214,
+        "regularPrice": 16214,
+        "inStock": true,
+        "sku": "Roadeo Ravager"
+      },
+      {
+        "color": "Stark Red",
+        "size": "29T",
+        "swatch": "#c1121f",
+        "image": "/hercules/roadeo-ravager-stark-red.webp",
+        "price": 16570,
+        "regularPrice": 16570,
+        "inStock": true,
+        "sku": "Roadeo Ravager"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "27.5T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/roadeo-ravager-frost-grey.webp",
+        "price": 16214,
+        "regularPrice": 16214,
+        "inStock": true,
+        "sku": "Roadeo Ravager"
+      },
+      {
+        "color": "Frost Grey",
+        "size": "29T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/roadeo-ravager-frost-grey.webp",
+        "price": 16570,
+        "regularPrice": 16570,
+        "inStock": true,
+        "sku": "Roadeo Ravager"
+      }
+    ],
+    "defaultColor": "Stark Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-brute",
+    "brand": "Hercules",
+    "model": "Brute",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel Frame",
+      "Fork: Suspension Fork with MLO",
+      "Rims: Double Wall Alloy Rims",
+      "Tires: 29T x 2.4 MTB Tan Wall Tires",
+      "Brakes: Dual Disc Brakes",
+      "Battery: 8Ah LFP Removable Battery",
+      "Motor: 36V 250W Rear Hub Motor",
+      "Light & Horn: Integrated Light & Horn",
+      "Display: Integrated Throttle Display"
+    ],
+    "price": 30499,
+    "rating": 0,
+    "image": "/hercules/brute-aqua-haze-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Aqua Haze/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #e3eef0 0.0%, #e3eef0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/brute-aqua-haze-black.webp",
+        "price": 30499,
+        "regularPrice": 30499,
+        "inStock": true,
+        "sku": "Brute"
+      },
+      {
+        "color": "Sparkle Silver",
+        "size": "29T",
+        "swatch": "#cfd3d8",
+        "image": "/hercules/brute-sparkle-silver.webp",
+        "price": 30499,
+        "regularPrice": 30499,
+        "inStock": true,
+        "sku": "Brute"
+      }
+    ],
+    "defaultColor": "Aqua Haze/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-rift-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Rift IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 8949,
+    "rating": 0,
+    "image": "/hercules/rift-ic-fx-dd-ice-grey-with-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Ice Grey with Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-ic-fx-dd-ice-grey-with-red.webp",
+        "price": 8949,
+        "regularPrice": 8949,
+        "inStock": true,
+        "sku": "Hercules Rift IC FX DD"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-ic-fx-dd-ice-grey-with-red.webp",
+        "price": 9033,
+        "regularPrice": 9033,
+        "inStock": true,
+        "sku": "Hercules Rift IC FX DD"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-ic-fx-dd-black-acid-green.webp",
+        "price": 8949,
+        "regularPrice": 8949,
+        "inStock": true,
+        "sku": "Hercules Rift IC FX DD"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-ic-fx-dd-black-acid-green.webp",
+        "price": 9033,
+        "regularPrice": 9033,
+        "inStock": true,
+        "sku": "Hercules Rift IC FX DD"
+      }
+    ],
+    "defaultColor": "Ice Grey with Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-rift-fx-dd",
+    "brand": "Hercules",
+    "model": "Rift FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 8729,
+    "rating": 0,
+    "image": "/hercules/rift-fx-dd-ice-grey-with-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Ice Grey with Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-fx-dd-ice-grey-with-red.webp",
+        "price": 8729,
+        "regularPrice": 8729,
+        "inStock": true,
+        "sku": "Hercules Rift FX DD"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-fx-dd-ice-grey-with-red.webp",
+        "price": 8813,
+        "regularPrice": 8813,
+        "inStock": true,
+        "sku": "Hercules Rift FX DD"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-fx-dd-black-acid-green.webp",
+        "price": 8729,
+        "regularPrice": 8729,
+        "inStock": true,
+        "sku": "Hercules Rift FX DD"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-fx-dd-black-acid-green.webp",
+        "price": 8813,
+        "regularPrice": 8813,
+        "inStock": true,
+        "sku": "Hercules Rift FX DD"
+      }
+    ],
+    "defaultColor": "Ice Grey with Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-rift-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "Rift IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7385,
+    "rating": 0,
+    "image": "/hercules/rift-ic-rf-vb-ice-grey-with-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Ice Grey with Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-ic-rf-vb-ice-grey-with-red.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true,
+        "sku": "Hercules Rift IC RF VB"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-ic-rf-vb-ice-grey-with-red.webp",
+        "price": 7470,
+        "regularPrice": 7470,
+        "inStock": true,
+        "sku": "Hercules Rift IC RF VB"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-ic-rf-vb-black-acid-green.webp",
+        "price": 7385,
+        "regularPrice": 7385,
+        "inStock": true,
+        "sku": "Hercules Rift IC RF VB"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-ic-rf-vb-black-acid-green.webp",
+        "price": 7470,
+        "regularPrice": 7470,
+        "inStock": true,
+        "sku": "Hercules Rift IC RF VB"
+      }
+    ],
+    "defaultColor": "Ice Grey with Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-rift-rf-vb",
+    "brand": "Hercules",
+    "model": "Rift RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: BMX Planished Rigid Fork/BPC Finish Suspension Fork",
+      "Rims: BPC",
+      "Tires: 2.4T MTB Cotton Tyres",
+      "Pedals: Plastic",
+      "Carrier: Yes for IC Variants/ No for Non-IC Variants",
+      "Mudguard: Plastic",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 7166,
+    "rating": 0,
+    "image": "/hercules/rift-rf-vb-ice-grey-with-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Ice Grey with Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-rf-vb-ice-grey-with-red.webp",
+        "price": 7166,
+        "regularPrice": 7166,
+        "inStock": true,
+        "sku": "Hercules Rift RF VB"
+      },
+      {
+        "color": "Ice Grey with Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c9d2d8 0.0%, #c9d2d8 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/rift-rf-vb-ice-grey-with-red.webp",
+        "price": 7250,
+        "regularPrice": 7250,
+        "inStock": true,
+        "sku": "Hercules Rift RF VB"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-rf-vb-black-acid-green.webp",
+        "price": 7166,
+        "regularPrice": 7166,
+        "inStock": true,
+        "sku": "Hercules Rift RF VB"
+      },
+      {
+        "color": "Black & Acid Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/rift-rf-vb-black-acid-green.webp",
+        "price": 7250,
+        "regularPrice": 7250,
+        "inStock": true,
+        "sku": "Hercules Rift RF VB"
+      }
+    ],
+    "defaultColor": "Ice Grey with Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-yuvolt",
+    "brand": "Hercules",
+    "model": "Yuvolt",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel Frame",
+      "Fork: Rigid Fork",
+      "Tires: 26T X 1.5T Cotton",
+      "Brakes: Rod Brakes",
+      "Carrier: Steel",
+      "Chain Cover: Steel",
+      "Battery: 6AH LFP Removable",
+      "Motor: 36V 250W Rear Hub Motor",
+      "Throttle: Throttle with Battery Indicator",
+      "Mudguard: Steel"
+    ],
+    "price": 24299,
+    "rating": 0,
+    "image": "/hercules/yuvolt-desert-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Desert Grey",
+        "size": "26T",
+        "swatch": "#b8ad9e",
+        "image": "/hercules/yuvolt-desert-grey.webp",
+        "price": 24299,
+        "regularPrice": 24299,
+        "inStock": true,
+        "sku": "Yuvolt"
+      },
+      {
+        "color": "Black/Stark Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #c1121f 50.0%, #c1121f 100.0%)",
+        "image": "/hercules/yuvolt-black-stark-red.webp",
+        "price": 24299,
+        "regularPrice": 24299,
+        "inStock": true,
+        "sku": "Yuvolt"
+      }
+    ],
+    "defaultColor": "Desert Grey",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-hank-21-speed",
+    "brand": "Hercules",
+    "model": "Hank 21 Speed",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: BPC finish Threaded Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: BPC Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Brakes: Dual Disc Brake",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Grips: TPE Grip",
+      "Saddle: PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 11249,
+    "regularPrice": 14999,
+    "rating": 0,
+    "image": "/hercules/hank-21-speed-trooper-grey-with-acid-green-graphics.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Trooper Grey with Acid Green Graphics",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/hank-21-speed-trooper-grey-with-acid-green-graphics.webp",
+        "price": 11249,
+        "regularPrice": 14999,
+        "inStock": true,
+        "sku": "Hank 21 Speed"
+      }
+    ],
+    "defaultColor": "Trooper Grey with Acid Green Graphics",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-ryken-21sp",
+    "brand": "Hercules",
+    "model": "Roadeo Ryken 21SP",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: 6061 Alloy Frame - Light Weight & Durable",
+      "Fork: 38 CP - Finish Lock-In/Lock-Out Suspension",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Hartex Nylon Tyres",
+      "Pedals: Alloy Pedal",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Gear: 21Sp Shimano Gear",
+      "Saddle: Sleek PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 23156,
+    "rating": 0,
+    "image": "/hercules/roadeo-ryken-21sp-mist-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mist Green",
+        "size": "27.5T",
+        "swatch": "#b5d1b4",
+        "image": "/hercules/roadeo-ryken-21sp-mist-green.webp",
+        "price": 23156,
+        "regularPrice": 23156,
+        "inStock": true,
+        "sku": "Ryken"
+      },
+      {
+        "color": "Mist Green",
+        "size": "29T",
+        "swatch": "#b5d1b4",
+        "image": "/hercules/roadeo-ryken-21sp-mist-green.webp",
+        "price": 23512,
+        "regularPrice": 23512,
+        "inStock": true,
+        "sku": "Ryken"
+      },
+      {
+        "color": "Aqua Haze/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #e3eef0 0.0%, #e3eef0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-ryken-21sp-aqua-haze-black.webp",
+        "price": 23156,
+        "regularPrice": 23156,
+        "inStock": true,
+        "sku": "Ryken"
+      },
+      {
+        "color": "Aqua Haze/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #e3eef0 0.0%, #e3eef0 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/hercules/roadeo-ryken-21sp-aqua-haze-black.webp",
+        "price": 23512,
+        "regularPrice": 23512,
+        "inStock": true,
+        "sku": "Ryken"
+      }
+    ],
+    "defaultColor": "Mist Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-geolander",
+    "brand": "Hercules",
+    "model": "Geolander",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Premium Low Step Through MTB Frame",
+      "Fork: 38 CP - Threadless Suspension Fork",
+      "Rims: Double Wall Alloy Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc with Premium 2 Finger Brake Lever",
+      "Stem: 4 Pin Alloy Threadless",
+      "Grips: Enhanced soft PVC Grip",
+      "Saddle: PU Comfort Saddle"
+    ],
+    "price": 12399,
+    "rating": 0,
+    "image": "/hercules/geolander-trooper-grey-with-acid-green-graphics.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Trooper Grey with Acid Green Graphics",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-acid-green-graphics.webp",
+        "price": 12399,
+        "regularPrice": 12399,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Acid Green Graphics",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-acid-green-graphics.webp",
+        "price": 12488,
+        "regularPrice": 12488,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Acid Green Graphics",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-acid-green-graphics.webp",
+        "price": 12844,
+        "regularPrice": 12844,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Acid Green Graphics",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #a6d608 50.0%, #a6d608 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-acid-green-graphics.webp",
+        "price": 13245,
+        "regularPrice": 13245,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Burnt Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #cc5500 50.0%, #cc5500 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-burnt-orange.webp",
+        "price": 12399,
+        "regularPrice": 12399,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Burnt Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #cc5500 50.0%, #cc5500 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-burnt-orange.webp",
+        "price": 12488,
+        "regularPrice": 12488,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Burnt Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #cc5500 50.0%, #cc5500 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-burnt-orange.webp",
+        "price": 12844,
+        "regularPrice": 12844,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      },
+      {
+        "color": "Trooper Grey with Burnt Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #7d8a8f 0.0%, #7d8a8f 50.0%, #cc5500 50.0%, #cc5500 100.0%)",
+        "image": "/hercules/geolander-trooper-grey-with-burnt-orange.webp",
+        "price": 13245,
+        "regularPrice": 13245,
+        "inStock": true,
+        "sku": "Hercules Geolander"
+      }
+    ],
+    "defaultColor": "Trooper Grey with Acid Green Graphics",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-havoc-ic-fx-dd",
+    "brand": "Hercules",
+    "model": "Havoc IC FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Low Step Through Frame",
+      "Fork: Suspension Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Plastic Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 9689,
+    "rating": 0,
+    "image": "/hercules/havoc-ic-fx-dd-teal-verzasca-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-ic-fx-dd-teal-verzasca-blue.webp",
+        "price": 9689,
+        "regularPrice": 9689,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      },
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-ic-fx-dd-teal-verzasca-blue.webp",
+        "price": 9778,
+        "regularPrice": 9778,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "24T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-ic-fx-dd-ferrari-red.webp",
+        "price": 9689,
+        "regularPrice": 9689,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "26T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-ic-fx-dd-ferrari-red.webp",
+        "price": 9778,
+        "regularPrice": 9778,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "24T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-ic-fx-dd-cactus-green.webp",
+        "price": 9689,
+        "regularPrice": 9689,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "26T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-ic-fx-dd-cactus-green.webp",
+        "price": 9778,
+        "regularPrice": 9778,
+        "inStock": true,
+        "sku": "Hercules Havoc IC FX"
+      }
+    ],
+    "defaultColor": "Teal/Verzasca Blue",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-storm-zx",
+    "brand": "Hercules",
+    "model": "Storm ZX",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Sporty Suspension Frame",
+      "Fork: Suspension Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic",
+      "Brakes: V Brake",
+      "Mudguard: Plastic",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 7941,
+    "rating": 0,
+    "image": "/hercules/storm-zx-smart-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smart Red",
+        "size": "24T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-zx-smart-red.webp",
+        "price": 7941,
+        "regularPrice": 7941,
+        "inStock": true,
+        "sku": "Hercules Storm ZX"
+      },
+      {
+        "color": "Smart Red",
+        "size": "26T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-zx-smart-red.webp",
+        "price": 8026,
+        "regularPrice": 8026,
+        "inStock": true,
+        "sku": "Hercules Storm ZX"
+      },
+      {
+        "color": "Space Grey with Yellow Graphics",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #4a4f57 0.0%, #4a4f57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hercules/storm-zx-space-grey-with-yellow-graphics.webp",
+        "price": 7941,
+        "regularPrice": 7941,
+        "inStock": true,
+        "sku": "Hercules Storm ZX"
+      },
+      {
+        "color": "Space Grey with Yellow Graphics",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #4a4f57 0.0%, #4a4f57 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/hercules/storm-zx-space-grey-with-yellow-graphics.webp",
+        "price": 8026,
+        "regularPrice": 8026,
+        "inStock": true,
+        "sku": "Hercules Storm ZX"
+      },
+      {
+        "color": "Black with Red Graphics",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/storm-zx-black-with-red-graphics.webp",
+        "price": 7941,
+        "regularPrice": 7941,
+        "inStock": true,
+        "sku": "Hercules Storm ZX"
+      },
+      {
+        "color": "Black with Red Graphics",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/storm-zx-black-with-red-graphics.webp",
+        "price": 8026,
+        "regularPrice": 8026,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-2"
+      }
+    ],
+    "defaultColor": "Smart Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-griffin",
+    "brand": "Hercules",
+    "model": "Griffin",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: 38 CP - Threadless Suspension Fork",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Plastic",
+      "Brakes: Dual Disc",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Stem: 4 Pin Alloy Threadless",
+      "Headset: Oversized threadless with spacers",
+      "Grips: Enhanced soft PVC Grip",
+      "Saddle: PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 12843,
+    "rating": 0,
+    "image": "/hercules/griffin-cosmic-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Cosmic Green",
+        "size": "26T",
+        "swatch": "#2e6b57",
+        "image": "/hercules/griffin-cosmic-green.webp",
+        "price": 12843,
+        "regularPrice": 12843,
+        "inStock": true,
+        "sku": "Griffin"
+      },
+      {
+        "color": "Cosmic Green",
+        "size": "27.5T",
+        "swatch": "#2e6b57",
+        "image": "/hercules/griffin-cosmic-green.webp",
+        "price": 13199,
+        "regularPrice": 13199,
+        "inStock": true,
+        "sku": "Griffin"
+      },
+      {
+        "color": "Cosmic Green",
+        "size": "29T",
+        "swatch": "#2e6b57",
+        "image": "/hercules/griffin-cosmic-green.webp",
+        "price": 13555,
+        "regularPrice": 13555,
+        "inStock": true,
+        "sku": "Griffin"
+      },
+      {
+        "color": "Grey",
+        "size": "26T",
+        "swatch": "#8a8f98",
+        "image": "/hercules/griffin-grey.webp",
+        "price": 12843,
+        "regularPrice": 12843,
+        "inStock": true,
+        "sku": "Griffin"
+      },
+      {
+        "color": "Grey",
+        "size": "27.5T",
+        "swatch": "#8a8f98",
+        "image": "/hercules/griffin-grey.webp",
+        "price": 13199,
+        "regularPrice": 13199,
+        "inStock": true,
+        "sku": "Griffin"
+      },
+      {
+        "color": "Grey",
+        "size": "29T",
+        "swatch": "#8a8f98",
+        "image": "/hercules/griffin-grey.webp",
+        "price": 13555,
+        "regularPrice": 13555,
+        "inStock": true,
+        "sku": "Griffin"
+      }
+    ],
+    "defaultColor": "Cosmic Green",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-rogue",
+    "brand": "Hercules",
+    "model": "Rogue",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "24T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: Front Suspension",
+      "Rims: Double Wall Alloy",
+      "Tires: 24T Nylon",
+      "Brakes: Dual Disc Brake",
+      "Battery: Removable 6Ah LFP",
+      "Mileage/Charge: Upto 25+kms on Throttle Mode & 30+kms on Pedal Assist",
+      "Max Speed: Upto 25kms/hr",
+      "Motor: 36V 2S0W",
+      "Display: Throttle Display on Handlebar",
+      "Speed: Single"
+    ],
+    "price": 26999,
+    "rating": 0,
+    "image": "/hercules/rogue-frost-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Frost Grey",
+        "size": "24T",
+        "swatch": "#aab4bb",
+        "image": "/hercules/rogue-frost-grey.webp",
+        "price": 26999,
+        "regularPrice": 26999,
+        "inStock": true,
+        "sku": "Rogue"
+      },
+      {
+        "color": "Burnt Orange",
+        "size": "24T",
+        "swatch": "#cc5500",
+        "image": "/hercules/rogue-burnt-orange.webp",
+        "price": 26999,
+        "regularPrice": 26999,
+        "inStock": true,
+        "sku": "Rogue"
+      },
+      {
+        "color": "Aquatic",
+        "size": "24T",
+        "swatch": "#2a9fb0",
+        "image": "/hercules/rogue-aquatic.webp",
+        "price": 26999,
+        "regularPrice": 26999,
+        "inStock": true,
+        "sku": "Rogue"
+      }
+    ],
+    "defaultColor": "Frost Grey",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-fugitive-ss",
+    "brand": "Hercules",
+    "model": "Roadeo Fugitive SS",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: Lock In/ Lock Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Chain Wheel: 165mm cotterless plastic coated steel crank",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Alloy Pedals",
+      "Brakes: Dual-disc 160mm rotor plates",
+      "Brake Levers: Shimano Integrated BL",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Stem: XMR alloy stem",
+      "Headset: Oversized threadless with spacers",
+      "Grips: Transparent Grips",
+      "Gear: Non Geared",
+      "Saddle: PU with cushion",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 14879,
+    "rating": 0,
+    "image": "/hercules/roadeo-fugitive-ss-acid-green-with-blue-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green with Blue/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/hercules/roadeo-fugitive-ss-acid-green-with-blue-black.webp",
+        "price": 14879,
+        "regularPrice": 14879,
+        "inStock": true,
+        "sku": "Fugitive"
+      },
+      {
+        "color": "Acid Green with Blue/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/hercules/roadeo-fugitive-ss-acid-green-with-blue-black.webp",
+        "price": 15235,
+        "regularPrice": 15235,
+        "inStock": true,
+        "sku": "Fugitive"
+      },
+      {
+        "color": "Silver with Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/roadeo-fugitive-ss-silver-with-red.webp",
+        "price": 14879,
+        "regularPrice": 14879,
+        "inStock": true,
+        "sku": "Fugitive"
+      },
+      {
+        "color": "Silver with Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/roadeo-fugitive-ss-silver-with-red.webp",
+        "price": 15235,
+        "regularPrice": 15235,
+        "inStock": true,
+        "sku": "Fugitive"
+      }
+    ],
+    "defaultColor": "Acid Green with Blue/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-mayhem",
+    "brand": "Hercules",
+    "model": "Roadeo Mayhem",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: CP Finish Suspension Fork",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Plastic",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Headset: Oversized threadless with spacers",
+      "Stickering: Waterdecal",
+      "Gear: 21SP Shimano Gears with Altus EF 500 Shifters",
+      "Saddle: PU Comfort Saddle",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 17567,
+    "rating": 0,
+    "image": "/hercules/roadeo-mayhem-royal-red-arowana-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Royal Red/Arowana Silver",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #9b111e 0.0%, #9b111e 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/roadeo-mayhem-royal-red-arowana-silver.webp",
+        "price": 17567,
+        "regularPrice": 17567,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      },
+      {
+        "color": "Royal Red/Arowana Silver",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #9b111e 0.0%, #9b111e 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/roadeo-mayhem-royal-red-arowana-silver.webp",
+        "price": 18101,
+        "regularPrice": 18101,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      },
+      {
+        "color": "Royal Grey/Montreal Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7b8794 0.0%, #7b8794 50.0%, #2f6db5 50.0%, #2f6db5 100.0%)",
+        "image": "/hercules/roadeo-mayhem-royal-grey-montreal-blue.webp",
+        "price": 17567,
+        "regularPrice": 17567,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      },
+      {
+        "color": "Royal Grey/Montreal Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #7b8794 0.0%, #7b8794 50.0%, #2f6db5 50.0%, #2f6db5 100.0%)",
+        "image": "/hercules/roadeo-mayhem-royal-grey-montreal-blue.webp",
+        "price": 18101,
+        "regularPrice": 18101,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      },
+      {
+        "color": "Raw Copper/Autumn Gold",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #b06a3b 0.0%, #b06a3b 50.0%, #c58b2e 50.0%, #c58b2e 100.0%)",
+        "image": "/hercules/roadeo-mayhem-raw-copper-autumn-gold.webp",
+        "price": 18635,
+        "regularPrice": 18635,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      },
+      {
+        "color": "Moss Green/Arowana Silver",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #6b7a3a 0.0%, #6b7a3a 50.0%, #c2c6ca 50.0%, #c2c6ca 100.0%)",
+        "image": "/hercules/roadeo-mayhem-moss-green-arowana-silver.webp",
+        "price": 18635,
+        "regularPrice": 18635,
+        "inStock": true,
+        "sku": "Mayhem HT"
+      }
+    ],
+    "defaultColor": "Royal Red/Arowana Silver",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-roadeo-fugitive-21sp",
+    "brand": "Hercules",
+    "model": "Roadeo Fugitive 21SP",
+    "category": "mtb",
+    "group": "Hercules Roadeo",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Riders age: 12+",
+      "Frame: Sturdy Steel Frame",
+      "Fork: Lock In/ Lock Out Suspension with CP Finish",
+      "Crank: 3spd 24TX34TX42T 170mm cotterless with deflector plate",
+      "Bottom Bracket: Cotterless BB cartridge",
+      "Cog Set: 7spd 14T-28T free wheel",
+      "Chain Wheel: 165mm cotterless plastic coated steel crank",
+      "Front Derailleur: Microshift FD-M20, 3spd",
+      "Rear Derailleur: Microshift RD-M21L, 7spd",
+      "Rims: Double Wall Alloy Rim",
+      "Hubs: ED black hub",
+      "Tires: 2.4T Nylon Tyres",
+      "Pedals: Alloy Pedals",
+      "Brakes: Dual-disc 160mm rotor plates",
+      "Brake Levers: Shimano Integrated BL",
+      "Handlebar: Oversized 580mm XMR handlebar",
+      "Stem: XMR alloy stem",
+      "Headset: Oversized threadless with spacers",
+      "Grips: Transparent Grips",
+      "Gear: Non Geared",
+      "Saddle: PU with cushion",
+      "Seat Post: 300mm ED black seat post"
+    ],
+    "price": 20032,
+    "rating": 0,
+    "image": "/hercules/roadeo-fugitive-21sp-acid-green-with-blue-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Acid Green with Blue/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/hercules/roadeo-fugitive-21sp-acid-green-with-blue-black.webp",
+        "price": 20032,
+        "regularPrice": 20032,
+        "inStock": true,
+        "sku": "Fugitive 21sp"
+      },
+      {
+        "color": "Acid Green with Blue/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #a6d608 0.0%, #a6d608 33.3%, #1f5fbf 33.3%, #1f5fbf 66.7%, #161616 66.7%, #161616 100.0%)",
+        "image": "/hercules/roadeo-fugitive-21sp-acid-green-with-blue-black.webp",
+        "price": 20566,
+        "regularPrice": 20566,
+        "inStock": true,
+        "sku": "Fugitive 21sp"
+      },
+      {
+        "color": "Silver with Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/roadeo-fugitive-21sp-silver-with-red.webp",
+        "price": 20032,
+        "regularPrice": 20032,
+        "inStock": true,
+        "sku": "Fugitive 21sp"
+      },
+      {
+        "color": "Silver with Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/hercules/roadeo-fugitive-21sp-silver-with-red.webp",
+        "price": 20566,
+        "regularPrice": 20566,
+        "inStock": true,
+        "sku": "Fugitive 21sp"
+      }
+    ],
+    "defaultColor": "Acid Green with Blue/Black",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-havoc-fx-dd",
+    "brand": "Hercules",
+    "model": "Havoc FX DD",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Low Step Through Frame",
+      "Fork: Suspension Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Plastic Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 9422,
+    "rating": 0,
+    "image": "/hercules/havoc-fx-dd-teal-verzasca-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-fx-dd-teal-verzasca-blue.webp",
+        "price": 9422,
+        "regularPrice": 9422,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      },
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-fx-dd-teal-verzasca-blue.webp",
+        "price": 9511,
+        "regularPrice": 9511,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "24T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-fx-dd-ferrari-red.webp",
+        "price": 9422,
+        "regularPrice": 9422,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "26T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-fx-dd-ferrari-red.webp",
+        "price": 9511,
+        "regularPrice": 9511,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "24T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-fx-dd-cactus-green.webp",
+        "price": 9422,
+        "regularPrice": 9422,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "26T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-fx-dd-cactus-green.webp",
+        "price": 9511,
+        "regularPrice": 9511,
+        "inStock": true,
+        "sku": "Hercules Havoc Dx2"
+      }
+    ],
+    "defaultColor": "Teal/Verzasca Blue",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-havoc-ic-rf-vb",
+    "brand": "Hercules",
+    "model": "Havoc IC RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Fork: Rigid Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Plastic Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 8176,
+    "rating": 0,
+    "image": "/hercules/havoc-ic-rf-vb-teal-verzasca-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-ic-rf-vb-teal-verzasca-blue.webp",
+        "price": 8176,
+        "regularPrice": 8176,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      },
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-ic-rf-vb-teal-verzasca-blue.webp",
+        "price": 8265,
+        "regularPrice": 8265,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "24T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-ic-rf-vb-ferrari-red.webp",
+        "price": 8176,
+        "regularPrice": 8176,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "26T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-ic-rf-vb-ferrari-red.webp",
+        "price": 8265,
+        "regularPrice": 8265,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "24T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-ic-rf-vb-cactus-green.webp",
+        "price": 8176,
+        "regularPrice": 8176,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "26T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-ic-rf-vb-cactus-green.webp",
+        "price": 8265,
+        "regularPrice": 8265,
+        "inStock": true,
+        "sku": "Hercules Havoc IC VB"
+      }
+    ],
+    "defaultColor": "Teal/Verzasca Blue",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-havoc-rf-vb",
+    "brand": "Hercules",
+    "model": "Havoc RF VB",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Low Step Through Frame",
+      "Fork: Rigid Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Plastic Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 7909,
+    "rating": 0,
+    "image": "/hercules/havoc-rf-vb-teal-verzasca-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-rf-vb-teal-verzasca-blue.webp",
+        "price": 7909,
+        "regularPrice": 7909,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      },
+      {
+        "color": "Teal/Verzasca Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #1b6ca8 50.0%, #1b6ca8 100.0%)",
+        "image": "/hercules/havoc-rf-vb-teal-verzasca-blue.webp",
+        "price": 7998,
+        "regularPrice": 7998,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "24T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-rf-vb-ferrari-red.webp",
+        "price": 7909,
+        "regularPrice": 7909,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      },
+      {
+        "color": "Ferrari Red",
+        "size": "26T",
+        "swatch": "#c8102e",
+        "image": "/hercules/havoc-rf-vb-ferrari-red.webp",
+        "price": 7998,
+        "regularPrice": 7998,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "24T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-rf-vb-cactus-green.webp",
+        "price": 7909,
+        "regularPrice": 7909,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      },
+      {
+        "color": "Cactus Green",
+        "size": "26T",
+        "swatch": "#5a7d4a",
+        "image": "/hercules/havoc-rf-vb-cactus-green.webp",
+        "price": 7998,
+        "regularPrice": 7998,
+        "inStock": true,
+        "sku": "Hercules Havoc VB"
+      }
+    ],
+    "defaultColor": "Teal/Verzasca Blue",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-storm-ic-rf-vb-pmg",
+    "brand": "Hercules",
+    "model": "Storm IC RF VB PMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Unisex Frame",
+      "Fork: Rigid Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Plastic Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 7017,
+    "rating": 0,
+    "image": "/hercules/storm-ic-rf-vb-pmg-smart-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smart Red",
+        "size": "24T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-vb-pmg-smart-red.webp",
+        "price": 7017,
+        "regularPrice": 7017,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF VB PMG"
+      },
+      {
+        "color": "Smart Red",
+        "size": "26T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-vb-pmg-smart-red.webp",
+        "price": 7101,
+        "regularPrice": 7101,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF VB PMG"
+      },
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-vb-pmg-black.webp",
+        "price": 7017,
+        "regularPrice": 7017,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF VB PMG"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-vb-pmg-black.webp",
+        "price": 7101,
+        "regularPrice": 7101,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF VB PMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-vb-pmg-space-grey.webp",
+        "price": 7017,
+        "regularPrice": 7017,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-1-1"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-vb-pmg-space-grey.webp",
+        "price": 7101,
+        "regularPrice": 7101,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF VB PMG"
+      }
+    ],
+    "defaultColor": "Smart Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-storm-ic-rf-vb-smg",
+    "brand": "Hercules",
+    "model": "Storm IC RF VB SMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Unisex Frame",
+      "Fork: Rigid Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Steel Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 7135,
+    "rating": 0,
+    "image": "/hercules/storm-ic-rf-vb-smg-smart-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smart Red",
+        "size": "24T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-vb-smg-smart-red.webp",
+        "price": 7135,
+        "regularPrice": 7135,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG-1"
+      },
+      {
+        "color": "Smart Red",
+        "size": "26T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-vb-smg-smart-red.webp",
+        "price": 7220,
+        "regularPrice": 7220,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG-1"
+      },
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-vb-smg-black.webp",
+        "price": 7135,
+        "regularPrice": 7135,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG-1"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-vb-smg-black.webp",
+        "price": 7220,
+        "regularPrice": 7220,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG-1"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-vb-smg-space-grey.webp",
+        "price": 7135,
+        "regularPrice": 7135,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1-1"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-vb-smg-space-grey.webp",
+        "price": 7220,
+        "regularPrice": 7220,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG-1"
+      }
+    ],
+    "defaultColor": "Smart Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-storm-ic-rf-cb-smg",
+    "brand": "Hercules",
+    "model": "Storm IC RF CB SMG",
+    "category": "mtb",
+    "group": "Hercules MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: MTB Sporty Unisex Frame",
+      "Fork: Rigid Fork",
+      "Rims: Black Powder Coated Rim",
+      "Tires: 2.4T Cotton Tyres",
+      "Pedals: Plastic Pedal",
+      "Mudguard: Steel Mudguard",
+      "Saddle: Comfortable PU Saddle"
+    ],
+    "price": 7084,
+    "rating": 0,
+    "image": "/hercules/storm-ic-rf-cb-smg-smart-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Smart Red",
+        "size": "24T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-cb-smg-smart-red.webp",
+        "price": 7084,
+        "regularPrice": 7084,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG"
+      },
+      {
+        "color": "Smart Red",
+        "size": "26T",
+        "swatch": "#d62839",
+        "image": "/hercules/storm-ic-rf-cb-smg-smart-red.webp",
+        "price": 7169,
+        "regularPrice": 7169,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG"
+      },
+      {
+        "color": "Black",
+        "size": "24T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-cb-smg-black.webp",
+        "price": 7084,
+        "regularPrice": 7084,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG"
+      },
+      {
+        "color": "Black",
+        "size": "26T",
+        "swatch": "#161616",
+        "image": "/hercules/storm-ic-rf-cb-smg-black.webp",
+        "price": 7169,
+        "regularPrice": 7169,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG"
+      },
+      {
+        "color": "Space Grey",
+        "size": "24T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-cb-smg-space-grey.webp",
+        "price": 7084,
+        "regularPrice": 7084,
+        "inStock": true,
+        "sku": "Streetcat Pro HT IC DX2-26T-1-1-1-1-1-1-1-1"
+      },
+      {
+        "color": "Space Grey",
+        "size": "26T",
+        "swatch": "#4a4f57",
+        "image": "/hercules/storm-ic-rf-cb-smg-space-grey.webp",
+        "price": 7169,
+        "regularPrice": 7169,
+        "inStock": true,
+        "sku": "Hercules Storm IC RF CB SMG"
+      }
+    ],
+    "defaultColor": "Smart Red",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-shurveer",
+    "brand": "Hercules",
+    "model": "Shurveer",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "28T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel - Welded",
+      "Fork: Rigid Fork - Welded",
+      "Rims: Steel",
+      "Tires: 28T x 1.5T - Nylon Tires",
+      "Pedals: Rubber Pedal with Anti Rotation Arrestor",
+      "Brakes: Rod Brakes (Integral with Handlebar)",
+      "Chain Cover: Steel",
+      "Battery: Removable - 6 Ah LFP Battery",
+      "Mileage/Charge: Upto 25+kms on Throttle Mode & 30+kms on Pedal Assist",
+      "Max Speed: Upto 25kms/hr",
+      "Motor: 36V /250W-Rear Hub Motor",
+      "Display: Throttle Display with Kinga Handlebar",
+      "Speed: Single",
+      "Mudguard: Steel"
+    ],
+    "price": 23499,
+    "rating": 0,
+    "image": "/hercules/shurveer-green-gloss.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green Gloss",
+        "size": "28T",
+        "swatch": "#2e8b57",
+        "image": "/hercules/shurveer-green-gloss.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true,
+        "sku": "Hercules Shurveer"
+      },
+      {
+        "color": "Black",
+        "size": "28T",
+        "swatch": "#161616",
+        "image": "/hercules/shurveer-black.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true,
+        "sku": "Hercules Shurveer"
+      }
+    ],
+    "defaultColor": "Green Gloss",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-hardstyle-pro",
+    "brand": "Hercules",
+    "model": "Hardstyle Pro",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Steel",
+      "Fork: Front Suspension",
+      "Rims: Double Wall Alloy",
+      "Tires: 27.5T x 2.1T Nylon",
+      "Brakes: Dual Disc Brake",
+      "Battery: 8Ah Removable LFP Battery",
+      "Mileage/Charge: Upto 30+kms on Throttle Mode & 35+kms on Pedal Assist",
+      "Max Speed: Upto 25kms/hr",
+      "Motor: 36V-250W - BLDC",
+      "Display: Battery Indicator on Throttle",
+      "Speed: Single"
+    ],
+    "price": 28499,
+    "rating": 0,
+    "image": "/hercules/hardstyle-pro-royal-red-gloss.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Royal Red Gloss",
+        "size": "27.5T",
+        "swatch": "#9b111e",
+        "image": "/hercules/hardstyle-pro-royal-red-gloss.webp",
+        "price": 28499,
+        "regularPrice": 28499,
+        "inStock": true,
+        "sku": "Hardstyle-1"
+      },
+      {
+        "color": "Pacific Blue Matte",
+        "size": "27.5T",
+        "swatch": "#1d6fa5",
+        "image": "/hercules/hardstyle-pro-pacific-blue-matte.webp",
+        "price": 28499,
+        "regularPrice": 28499,
+        "inStock": true,
+        "sku": "Hardstyle-1"
+      },
+      {
+        "color": "Lead Grey Gloss",
+        "size": "27.5T",
+        "swatch": "#5d636b",
+        "image": "/hercules/hardstyle-pro-lead-grey-gloss.webp",
+        "price": 28499,
+        "regularPrice": 28499,
+        "inStock": true,
+        "sku": "Hardstyle-1"
+      }
+    ],
+    "defaultColor": "Royal Red Gloss",
+    "source": "hercules.in"
+  },
+  {
+    "slug": "hercules-hardstyle",
+    "brand": "Hercules",
+    "model": "Hardstyle",
+    "category": "ebike",
+    "group": "Hercules E-Bike",
+    "sizes": "27.5T",
+    "specs": [
+      "Riders age: 13+",
+      "Frame: Rigid",
+      "Fork: 6 AH",
+      "Rims: Steel",
+      "Tires: Dual Disc Brake",
+      "Pedals: Battery Indicator on Throttle",
+      "Brakes: 36V 250W Speevo Peak Torque 40NM",
+      "Battery: 25/35 kms",
+      "Mileage/Charge: Upto 25+kms on Throttle Mode & 30+kms on Pedal Assist",
+      "Max Speed: Upto 25kms/hr",
+      "Motor: Anti Skid Plastic Pedal",
+      "Display: Single",
+      "Speed: Detachable Battery"
+    ],
+    "price": 23499,
+    "rating": 0,
+    "image": "/hercules/hardstyle-glossy-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Glossy Black",
+        "size": "27.5T",
+        "swatch": "#161616",
+        "image": "/hercules/hardstyle-glossy-black.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true,
+        "sku": "Hardstyle"
+      },
+      {
+        "color": "Forest-Green",
+        "size": "27.5T",
+        "swatch": "#228b22",
+        "image": "/hercules/hardstyle-forest-green.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true,
+        "sku": "Hardstyle"
+      },
+      {
+        "color": "Stark Red",
+        "size": "27.5T",
+        "swatch": "#c1121f",
+        "image": "/hercules/hardstyle-stark-red.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true,
+        "sku": "Hardstyle"
+      }
+    ],
+    "defaultColor": "Glossy Black",
+    "source": "hercules.in"
+  }
+]

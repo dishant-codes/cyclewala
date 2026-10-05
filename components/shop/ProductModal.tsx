@@ -74,6 +74,11 @@ export default function ProductModal({
                   Colour: <strong>{shown.color}</strong>
                 </p>
                 <ColorSwatches variants={[...new Map(product.variants.map((v) => [v.color, v])).values()]} selected={shown.color} onSelect={(c) => pick("color", c)} />
+                {shown.photoOf && (
+                  <p className={styles.photoNote}>
+                    The maker hasn&apos;t published a photo for {shown.color} yet — the photo shown is {shown.photoOf}.
+                  </p>
+                )}
               </div>
             )}
 
@@ -111,48 +116,48 @@ export default function ProductModal({
               ))}
             </ul>
 
-            <div className={styles.foot}>
-              <span className={shown.price === null ? styles.priceTbc : styles.price}>
-                {shown.price === null ? (
-                  "Add: price"
-                ) : (
-                  <>
-                    ₹{shown.price.toLocaleString("en-IN")}
-                    {off > 0 && shown.regularPrice !== null && (
-                      <>
-                        <s className={styles.mrp}>₹{shown.regularPrice.toLocaleString("en-IN")}</s>
-                        <span className={styles.off}>{off}% off</span>
-                      </>
-                    )}
-                  </>
-                )}
-              </span>
-              <div className={styles.ctaRow}>
-                <button
-                  className={styles.addBtn}
-                  disabled={!shown.inStock}
-                  onClick={() =>
-                    addToCart({
-                      slug: product.slug,
-                      color: shown.color,
-                      size: shown.size,
-                      type: shown.type,
-                      brand: product.brand,
-                      model: product.model,
-                      image: shown.image,
-                      price: shown.price,
-                    })
-                  }
-                >
-                  Add to Cart
-                </button>
-                <a className={styles.askBtn} href={SHOP.phoneHref}>
-                  Ask about this →
-                </a>
-              </div>
-            </div>
           </div>
         </div>
+          <div className={styles.foot}>
+            <span className={shown.price === null ? styles.priceTbc : styles.price}>
+              {shown.price === null ? (
+                "Add: price"
+              ) : (
+                <>
+                  ₹{shown.price.toLocaleString("en-IN")}
+                  {off > 0 && shown.regularPrice !== null && (
+                    <>
+                      <s className={styles.mrp}>₹{shown.regularPrice.toLocaleString("en-IN")}</s>
+                      <span className={styles.off}>{off}% off</span>
+                    </>
+                  )}
+                </>
+              )}
+            </span>
+            <div className={styles.ctaRow}>
+              <button
+                className={styles.addBtn}
+                disabled={!shown.inStock}
+                onClick={() =>
+                  addToCart({
+                    slug: product.slug,
+                    color: shown.color,
+                    size: shown.size,
+                    type: shown.type,
+                    brand: product.brand,
+                    model: product.model,
+                    image: shown.image,
+                    price: shown.price,
+                  })
+                }
+              >
+                Add to Cart
+              </button>
+              <a className={styles.askBtn} href={SHOP.phoneHref}>
+                Ask about this →
+              </a>
+            </div>
+          </div>
       </div>
     </>,
     document.body
