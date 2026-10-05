@@ -209,11 +209,16 @@
 
 /* ---------- journey: zig-zag timeline + banner ---------- */
 .journey {
+  position: relative;
   margin-top: 64px;
-  background: rgba(76, 175, 46, 0.07);
+  background:
+    radial-gradient(520px 260px at 12% 0%, rgba(76, 175, 46, 0.16), transparent 70%),
+    radial-gradient(480px 300px at 92% 38%, rgba(76, 175, 46, 0.1), transparent 70%),
+    rgba(76, 175, 46, 0.06);
   border-radius: var(--radius);
   padding: 56px 40px 40px;
   text-align: center;
+  overflow: hidden;
 }
 .pill {
   display: inline-flex;
@@ -254,16 +259,32 @@
   max-width: 900px;
   margin: 48px auto 0;
 }
+.zig {
+  --fill: 100%;
+}
 .zig::before {
   content: "";
   position: absolute;
   left: 50%;
   top: 22px;
   bottom: 22px;
-  width: 2px;
-  background: var(--accent);
-  opacity: 0.7;
+  width: 3px;
+  border-radius: 3px;
+  background: rgba(76, 175, 46, 0.18);
   transform: translateX(-50%);
+}
+.zig::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 22px;
+  height: calc(var(--fill) - 22px);
+  max-height: calc(100% - 44px);
+  width: 3px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #8fe06b, var(--accent) 40%, var(--accent-dark));
+  transform: translateX(-50%);
+  transition: height 0.9s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .zigItem {
   position: relative;
@@ -284,10 +305,55 @@
   text-align: right;
 }
 .zigCard {
+  position: relative;
+  overflow: hidden;
   background: #fff;
-  border-radius: 14px;
+  border: 1px solid rgba(76, 175, 46, 0.12);
+  border-radius: 16px;
   box-shadow: var(--shadow);
   padding: 20px 22px;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+/* a big faint year behind the words */
+.zigCard::after {
+  content: attr(data-year);
+  position: absolute;
+  top: -8px;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: rgba(76, 175, 46, 0.06);
+  pointer-events: none;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), color 0.35s ease;
+}
+.left .zigCard::after {
+  right: 10px;
+}
+.right .zigCard::after {
+  left: 10px;
+}
+/* accent bar on the edge that faces the line */
+.zigCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #8fe06b, var(--accent-dark));
+  transform: scaleY(0.25);
+  transform-origin: top;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.left .zigCard::before {
+  right: 0;
+}
+.right .zigCard::before {
+  left: 0;
+}
+.zigCard > * {
+  position: relative;
+  z-index: 1;
 }
 .zigHead {
   display: flex;
@@ -301,16 +367,22 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 9px;
-  background: var(--accent);
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #5fcf3d, var(--accent-dark));
   color: #fff;
+  box-shadow: 0 6px 14px -6px rgba(46, 125, 24, 0.6);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .zigYear {
-  font-size: 18px;
-  font-weight: 800;
-  color: var(--accent-dark);
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, var(--accent-dark), #5fcf3d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .zigCard h4 {
   margin-top: 10px;
@@ -327,18 +399,155 @@
   position: absolute;
   left: 50%;
   top: 22px;
-  transform: translateX(-50%);
-  z-index: 1;
+  translate: -50% 0;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: #fff;
   border: 2px solid var(--accent);
   color: var(--accent-dark);
   box-shadow: 0 0 0 5px rgba(76, 175, 46, 0.12);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+/* a soft ring that pulses out of the node when its milestone arrives */
+.node::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  opacity: 0;
+  pointer-events: none;
+}
+/* the arm that joins the card to the line */
+.zigItem::before {
+  content: "";
+  position: absolute;
+  top: 38px;
+  width: 36px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), rgba(76, 175, 46, 0.2));
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+  opacity: 0.55;
+}
+.left::before {
+  left: calc(50% - 48px);
+  background: linear-gradient(90deg, rgba(76, 175, 46, 0.2), var(--accent));
+}
+.right::before {
+  left: 50%;
+}
+
+.endCap {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  translate: -50% 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px rgba(76, 175, 46, 0.18);
+  opacity: 0.35;
+  transition: opacity 0.5s ease 0.6s, transform 0.5s ease 0.6s;
+}
+.done .endCap {
+  opacity: 1;
+  animation: endPulse 2.4s ease-in-out infinite 1.4s;
+}
+@keyframes endPulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(76, 175, 46, 0.22); }
+  50% { box-shadow: 0 0 0 11px rgba(76, 175, 46, 0); }
+}
+
+/* ---- reveal: each milestone drifts in from its own side, then the node pops ---- */
+.armed .zigItem {
+  opacity: 0;
+  transition: opacity 0.7s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.armed .left {
+  transform: translateX(-36px);
+}
+.armed .right {
+  transform: translateX(36px);
+}
+.armed .zigItem.on {
+  opacity: 1;
+  transform: none;
+}
+.armed .zigItem .node {
+  transform: scale(0.4);
+  opacity: 0;
+}
+.armed .zigItem.on .node {
+  transform: scale(1);
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+.armed .zigItem.on .node::after {
+  animation: nodePing 1.1s ease-out 0.25s 1;
+}
+@keyframes nodePing {
+  0% { transform: scale(1); opacity: 0.7; }
+  100% { transform: scale(2.1); opacity: 0; }
+}
+
+/* ---- hover (mouse only): the card lifts, its line arm reaches out, the node lights up ---- */
+@media (hover: hover) {
+  .zigCard:hover {
+    transform: translateY(-6px);
+    border-color: rgba(76, 175, 46, 0.4);
+    box-shadow: 0 22px 44px -16px rgba(46, 125, 24, 0.38), 0 6px 14px -8px rgba(0, 0, 0, 0.12);
+  }
+  .zigCard:hover::before {
+    transform: scaleY(1);
+  }
+  .zigCard:hover::after {
+    color: rgba(76, 175, 46, 0.15);
+  }
+  .left .zigCard:hover::after {
+    transform: translateX(-6px) scale(1.06);
+  }
+  .right .zigCard:hover::after {
+    transform: translateX(6px) scale(1.06);
+  }
+  .zigCard:hover .zigBadge {
+    transform: rotate(-8deg) scale(1.12);
+  }
+  .zigItem:hover::before {
+    width: 48px;
+    opacity: 1;
+  }
+  .left:hover::before {
+    left: calc(50% - 60px);
+  }
+  .zigItem:hover .node {
+    transform: scale(1.18);
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 0 7px rgba(76, 175, 46, 0.22), 0 10px 20px -6px rgba(46, 125, 24, 0.55);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zig::after,
+  .zigCard,
+  .zigCard::before,
+  .zigCard::after,
+  .zigBadge,
+  .node,
+  .zigItem::before,
+  .endCap {
+    transition: none;
+  }
+  .done .endCap,
+  .armed .zigItem.on .node::after {
+    animation: none;
+  }
 }
 
 .cta {
@@ -423,8 +632,32 @@
   .journey {
     padding: 40px 18px 28px;
   }
-  .zig::before {
+  .zig::before,
+  .zig::after {
     left: 17px;
+  }
+  .endCap {
+    left: 17px;
+  }
+  .zigItem::before {
+    left: 17px !important;
+    width: 31px;
+    top: 38px;
+  }
+  .armed .left,
+  .armed .right {
+    transform: translateY(22px);
+  }
+  .zigCard::after {
+    font-size: 58px;
+  }
+  .zigCard::before {
+    left: 0 !important;
+    right: auto !important;
+  }
+  .right .zigCard::after {
+    left: auto;
+    right: 10px;
   }
   .zigItem {
     grid-template-columns: 1fr;
