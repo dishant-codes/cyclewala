@@ -24,18 +24,8 @@
   }
 }
 
-/* phones & tablets: ordinary vertical scrolling — no sticky stack, no sideways
-   slide (those re-paint tall sections every scroll frame and made touch
-   scrolling stutter). !important beats the inline values JS sets on desktop. */
-@media (max-width: 1000px) {
-  .stack {
-    position: static !important;
-    top: auto !important;
-  }
-  .fromRight {
-    transform: none !important;
-    box-shadow: none !important;
-    visibility: visible !important;
-    will-change: auto;
-  }
+/* edge shadow while the section travels in from the right, so it reads as a
+   layer sliding over — a static class toggled once, never repainted per frame */
+.sliding {
+  box-shadow: -28px 0 60px -20px rgba(20, 40, 10, 0.35);
 }
