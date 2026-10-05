@@ -52,6 +52,28 @@ const BROWSE_TABS = [
   { id: "neufman", name: "Neufman", hint: "Shop by type", logo: "/images/logo/NeufmanLogo.png" },
 ] as const;
 
+/* "Featured" order: the first screen of the shop is what draws people in, so it leads with
+   a hand-picked spread of Oyekid cycles (clean studio photos, real colour options, visible
+   discounts) across the age groups, then the rest of Oyekid, then the other brands that
+   have full catalogue photos, then everything else. */
+const FEATURED_SLUGS = [
+  "oyekid-wildhop-12t",
+  "oyekid-mermaid-14t",
+  "oyekid-shark-tank-14t-ibc",
+  "oyekid-slayer-16t",
+  "oyekid-emma-16t",
+  "oyekid-yuvaa-20t-ibc-suspension",
+  "oyekid-vangers-20t-ibc",
+  "oyekid-balance-bike-magwheel",
+];
+const featuredRank = (p: Product) => {
+  const i = FEATURED_SLUGS.indexOf(p.slug);
+  if (i >= 0) return i;
+  if (p.brand === "Oyekid") return 100;
+  if (p.variants?.length) return 200;
+  return 300;
+};
+
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
 
 /* the home page shows a preview so a big catalogue doesn't turn into an
@@ -259,6 +281,7 @@ export default function Shop() {
     if (sort === "price-asc") sorted.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
     else if (sort === "price-desc") sorted.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
     else if (sort === "rating") sorted.sort((a, b) => b.rating - a.rating);
+    else sorted.sort((a, b) => featuredRank(a) - featuredRank(b)); // "featured" — stable, so ties keep catalogue order
     return sorted;
   }, [products, selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
