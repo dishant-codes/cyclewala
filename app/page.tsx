@@ -8,6 +8,7 @@ import Services from "@/components/sections/Services/Services";
 import Support from "@/components/sections/Support/Support";
 import Gallery from "@/components/sections/Gallery/Gallery";
 import Connect from "@/components/sections/Connect/Connect";
+import SiteFooter from "@/components/layout/SiteFooter";
 
 /*
  * Every section stacks: each one scrolls up, pins, and the next section
@@ -46,6 +47,7 @@ export default function Home() {
 
         <div className="finalFrame">
           <Connect />
+          <SiteFooter />
         </div>
       </main>
     </>

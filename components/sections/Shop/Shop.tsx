@@ -314,6 +314,21 @@ export default function Shop() {
   const [showAll, setShowAll] = useState(false);
   const circlesRef = useRef<HTMLDivElement>(null);
 
+  /* footer links: /?brand=Kross#shop opens that brand's tab; /?cat=kids#shop filters a category */
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const brand = params.get("brand")?.toLowerCase();
+    const cat = params.get("cat");
+    if (brand && BROWSE_TABS.some((t) => t.id === brand)) {
+      const name = BROWSE_TABS.find((t) => t.id === brand)?.name ?? "";
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of the URL on arrival
+      setBrowseTab(brand as (typeof BROWSE_TABS)[number]["id"]);
+      setQuery(name);
+    } else if (cat && CATEGORY_META.some((c) => c.id === cat)) {
+      setSelectedCategories([cat as ProductCategory]);
+    }
+  }, []);
+
   useEffect(() => {
     fetch("/api/products")
       .then((r) => r.json())
