@@ -7,7 +7,7 @@ import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
 import ColorSwatches from "@/components/shop/ColorSwatches";
-import { discountPct, shownFor } from "@/lib/variants";
+import { discountPct, fromPrice, needsOptions, selectOption, shownFor, type Selection } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { useLang } from "@/lib/i18n";
 
@@ -36,6 +36,16 @@ const OYEKID_GROUPS = [
   { id: "24T", label: "10-15 Years (24T)" },
   { id: "26T", label: "15+ Years (26T)" },
 ];
+
+/* Neufman's own range types (neufman.com categories) — `group` on each
+   Neufman product. */
+const NEUFMAN_GROUPS = [
+  { id: "E-Bikes", label: "E-Bikes" },
+  { id: "Mountain", label: "Mountain" },
+  { id: "Women's", label: "Women's" },
+  { id: "Kids", label: "Kids" },
+];
+const ALL_GROUPS = [...OYEKID_GROUPS, ...NEUFMAN_GROUPS];
 
 type SortKey = "featured" | "price-asc" | "price-desc" | "rating";
 
@@ -166,7 +176,7 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
-  const [picked, setPicked] = useState<Record<string, string>>({});
+  const [picked, setPicked] = useState<Record<string, Selection>>({});
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
   const [minPrice, setMinPrice] = useState("");
@@ -349,6 +359,22 @@ export default function Shop() {
                 </ul>
               </FilterSection>
 
+              <FilterSection icon={Icon.bike} title="Neufman · Shop by Type">
+                <ul className={styles.checkList}>
+                  {NEUFMAN_GROUPS.map((g) => {
+                    const n = products.filter((p) => p.group === g.id).length;
+                    return (
+                      <li key={g.id}>
+                        <label className={styles.checkRow}>
+                          <input type="checkbox" checked={selectedGroups.includes(g.id)} onChange={() => toggleGroup(g.id)} />
+                          {g.label} <span className={styles.andUp}>({n})</span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </FilterSection>
+
               <FilterSection icon={Icon.target} title="Price Range">
                 <div className={styles.priceRow}>
                   <input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
@@ -380,7 +406,7 @@ export default function Shop() {
 
             {/* ---------- results ---------- */}
             <div>
-              <div className={styles.agePills} role="tablist" aria-label="Oyekid cycles by age">
+              <div className={styles.agePills} role="tablist" aria-label="Shop by age or type">
                 <span className={styles.agePillsLabel}>Oyekid · Shop by age</span>
                 <button
                   type="button"
@@ -389,7 +415,7 @@ export default function Shop() {
                   className={selectedGroups.length === 0 ? styles.agePillOn : styles.agePill}
                   onClick={() => setSelectedGroups([])}
                 >
-                  All ages
+                  All cycles
                 </button>
                 {OYEKID_GROUPS.map((g) => {
                   const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
@@ -402,6 +428,23 @@ export default function Shop() {
                       aria-selected={on}
                       className={on ? styles.agePillOn : styles.agePill}
                       onClick={() => setSelectedGroups([g.id])}
+                    >
+                      {g.label} <span className={styles.agePillCount}>{n}</span>
+                    </button>
+                  );
+                })}
+                <span className={styles.agePillsLabel}>Neufman · Shop by type</span>
+                {NEUFMAN_GROUPS.map((g) => {
+                  const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
+                  const n = products.filter((p) => p.group === g.id).length;
+                  return (
+                    <button
+                      key={g.id}
+                      type="button"
+                      role="tab"
+                      aria-selected={on}
+                      className={on ? styles.agePillOn : styles.agePill}
+                      onClick={() => setSelectedGroups(on ? [] : [g.id])}
                     >
                       {g.label} <span className={styles.agePillCount}>{n}</span>
                     </button>
@@ -447,7 +490,7 @@ export default function Shop() {
                   ))}
                   {selectedGroups.map((g) => (
                     <span className={styles.chip} key={g}>
-                      {OYEKID_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
+                      {ALL_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
                     </span>
                   ))}
                   {query && (
@@ -494,6 +537,7 @@ export default function Shop() {
                   {visible.map((item) => {
                     const shown = shownFor(item, picked[item.slug]);
                     const off = discountPct(shown.price, shown.regularPrice);
+                    const multi = needsOptions(item);
                     return (
                     <article className={view === "grid" ? styles.card : styles.cardList} key={item.slug}>
                       <div className={styles.cardPhoto}>
@@ -517,9 +561,19 @@ export default function Shop() {
                           <div className={styles.cardColors}>
                             <ColorSwatches
                               size="sm"
-                              variants={item.variants}
+                              variants={[...new Map(item.variants.map((v) => [v.color, v])).values()]}
                               selected={shown.color}
-                              onSelect={(c) => setPicked((prev) => ({ ...prev, [item.slug]: c }))}
+                              onSelect={(c) =>
+                                setPicked((prev) => ({
+                                  ...prev,
+                                  [item.slug]: selectOption(
+                                    item,
+                                    { color: shown.color, size: shown.size, type: shown.type },
+                                    "color",
+                                    c
+                                  ),
+                                }))
+                              }
                             />
                             <span className={styles.colorName}>{shown.color}</span>
                           </div>
@@ -528,6 +582,8 @@ export default function Shop() {
                           <span className={shown.price === null ? styles.priceTbc : styles.price}>
                             {shown.price === null ? (
                               t("shop.addPrice")
+                            ) : multi ? (
+                              <>From ₹{(fromPrice(item) ?? shown.price).toLocaleString("en-IN")}</>
                             ) : (
                               <>
                                 ₹{shown.price.toLocaleString("en-IN")}
@@ -547,18 +603,29 @@ export default function Shop() {
                             <button
                               className={styles.addBtnSmall}
                               disabled={!shown.inStock}
-                              onClick={() =>
+                              onClick={() => {
+                                if (multi) {
+                                  // size / setup change the price — choose them in the popup
+                                  setPicked((prev) => ({
+                                    ...prev,
+                                    [item.slug]: { color: shown.color, size: shown.size, type: shown.type },
+                                  }));
+                                  setSelectedProduct(item);
+                                  return;
+                                }
                                 addToCart({
                                   slug: item.slug,
                                   color: shown.color,
+                                  size: shown.size,
+                                  type: shown.type,
                                   brand: item.brand,
                                   model: item.model,
                                   image: shown.image,
                                   price: shown.price,
-                                })
-                              }
+                                });
+                              }}
                             >
-                              Add to Cart
+                              {multi ? "Select options" : "Add to Cart"}
                             </button>
                           </div>
                         </div>
@@ -626,7 +693,7 @@ export default function Shop() {
         </div>
       </div>
 
-      {selectedProduct && <ProductModal product={selectedProduct} initialColor={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
+      {selectedProduct && <ProductModal product={selectedProduct} initialSelection={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
     </section>
   );
 }

@@ -35,6 +35,8 @@ export async function GET(request: NextRequest) {
     { header: "Brand", key: "brand", width: 14 },
     { header: "Model", key: "model", width: 18 },
     { header: "Colour", key: "color", width: 18 },
+    { header: "Size", key: "size", width: 10 },
+    { header: "Setup", key: "type", width: 16 },
     { header: "Qty", key: "qty", width: 6 },
     { header: "Unit price (₹)", key: "price", width: 14 },
     { header: "Line total (₹)", key: "line", width: 14 },
@@ -49,7 +51,10 @@ export async function GET(request: NextRequest) {
       phone: o.customer.phone,
       address: o.customer.address,
       note: o.customer.note ?? "",
-      items: o.items.map((i) => `${i.brand} ${i.model}${i.color ? ` (${i.color})` : ""} x${i.qty}`).join(", "),
+      items: o.items.map((i) => {
+        const opts = [i.color, i.size, i.type].filter(Boolean).join(" · ");
+        return `${i.brand} ${i.model}${opts ? ` (${opts})` : ""} x${i.qty}`;
+      }).join(", "),
       total: o.total,
     });
     for (const i of o.items) {
@@ -59,6 +64,8 @@ export async function GET(request: NextRequest) {
         brand: i.brand,
         model: i.model,
         color: i.color ?? "",
+        size: i.size ?? "",
+        type: i.type ?? "",
         qty: i.qty,
         price: i.price ?? "",
         line: i.price === null ? "" : i.price * i.qty,

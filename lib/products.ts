@@ -13,6 +13,7 @@
 import { SEED_PRODUCTS } from "@/data/products-seed";
 import { readCollection, writeCollection } from "@/lib/storage";
 import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
+import NEUFMAN_CATALOG from "@/data/neufman-catalog.json";
 
 const COLLECTION = "products";
 /** slugs of catalogue products already copied into the live collection */
@@ -20,12 +21,17 @@ const IMPORTS = "catalog-imports";
 /** the hand-made Oyekid placeholders the full Oyekid catalogue supersedes */
 const SUPERSEDED = ["oyekid-mermaid", "oyekid-shark-tank", "oyekid-yuvaa"];
 
-export type ProductCategory = "kids" | "mtb" | "hybrid";
+export type ProductCategory = "kids" | "mtb" | "hybrid" | "ebike";
 
-/** One colourway of a cycle — picking it on the shop changes the photo, the
- *  price and what lands on the order. */
+/** One purchasable combination of a cycle — colour, and for some models wheel
+ *  size and gear/brake setup too. Picking it on the shop changes the photo and
+ *  the price and decides exactly what lands on the order. */
 export type ProductVariant = {
   color: string;
+  /** wheel size, e.g. "27.5T" (only on models sold in several sizes) */
+  size?: string;
+  /** gear / setup, e.g. "21SPEED", "SINGLE SPEED", "IBC FSDD" */
+  type?: string;
   /** CSS background for the swatch dot (a colour or a two-tone gradient) */
   swatch: string;
   image: string;
@@ -53,7 +59,7 @@ export type Product = {
   description?: string;
   /** MRP shown struck-through next to `price` */
   regularPrice?: number | null;
-  /** colourways; when present, orders must name one of these colours */
+  /** variants; when present, orders must name one of these exact combinations */
   variants?: ProductVariant[];
   defaultColor?: string;
   createdAt: string;
@@ -69,14 +75,17 @@ let catalogChecked = false;
 async function importCatalog(products: Product[]): Promise<Product[]> {
   if (catalogChecked) return products;
   const imported = await readCollection<string[]>(IMPORTS, []);
-  const fresh = (OYEKID_CATALOG as unknown as Omit<Product, "createdAt" | "updatedAt">[]).filter(
-    (c) => !imported.includes(c.slug)
-  );
+  type Entry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
+  const catalog = [...(OYEKID_CATALOG as unknown as Entry[]), ...(NEUFMAN_CATALOG as unknown as Entry[])];
+  const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {
     const now = new Date().toISOString();
-    const have = new Set(products.map((p) => p.slug));
-    const next = imported.length ? [...products] : products.filter((p) => !SUPERSEDED.includes(p.slug));
-    for (const c of fresh) if (!have.has(c.slug)) next.push({ ...c, createdAt: now, updatedAt: now });
+    let next = imported.length ? [...products] : products.filter((p) => !SUPERSEDED.includes(p.slug));
+    for (const { replaces, ...c } of fresh) {
+      // a catalogue entry can supersede an older hand-made one (same cycle, real data now)
+      if (replaces?.length) next = next.filter((p) => !replaces.includes(p.slug));
+      if (!next.some((p) => p.slug === c.slug)) next.push({ ...c, createdAt: now, updatedAt: now });
+    }
     await writeCollection(COLLECTION, next);
     await writeCollection(IMPORTS, [...imported, ...fresh.map((c) => c.slug)]);
     products = next;
@@ -136,7 +145,7 @@ export async function deleteProduct(slug: string): Promise<boolean> {
 
 /* ---------- input validation for the admin API ---------- */
 
-const CATEGORIES: ProductCategory[] = ["kids", "mtb", "hybrid"];
+const CATEGORIES: ProductCategory[] = ["kids", "mtb", "hybrid", "ebike"];
 const text = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max + 1) : "");
 
 export type ProductFields = Partial<Omit<Product, "createdAt" | "updatedAt">>;
@@ -166,7 +175,7 @@ export function parseProductFields(
   }
   if (has("category") || need("category")) {
     if (!CATEGORIES.includes(body.category as ProductCategory)) {
-      return { error: "category must be kids, mtb or hybrid" };
+      return { error: "category must be kids, mtb, hybrid or ebike" };
     }
     out.category = body.category as ProductCategory;
   }

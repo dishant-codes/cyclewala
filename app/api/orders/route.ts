@@ -39,46 +39,53 @@ export async function POST(request: NextRequest) {
     }
 
     // merge repeats of the same cycle + colour, then price every line from the catalogue
-    const qtyByLine = new Map<string, { slug: string; color: string; qty: number }>();
+    const qtyByLine = new Map<string, { slug: string; color: string; size: string; type: string; qty: number }>();
     for (const i of items) {
       const slug = clip(i?.slug, 80);
       const color = clip(i?.color, 60);
+      const size = clip(i?.size, 20);
+      const type = clip(i?.type, 40);
       const qty = Math.max(1, Math.min(20, Math.floor(Number(i?.qty)) || 1));
-      const key = `${slug}|${color}`;
+      const key = `${slug}|${color}|${size}|${type}`;
       const line = qtyByLine.get(key);
-      qtyByLine.set(key, { slug, color, qty: Math.min(20, (line?.qty ?? 0) + qty) });
+      qtyByLine.set(key, { slug, color, size, type, qty: Math.min(20, (line?.qty ?? 0) + qty) });
     }
 
     const cleanItems: OrderItem[] = [];
-    for (const { slug, color, qty } of qtyByLine.values()) {
+    for (const { slug, color, size, type, qty } of qtyByLine.values()) {
       const product = await getProductBySlug(slug);
       if (!product) {
         return NextResponse.json({ error: "A cycle in your list is no longer available" }, { status: 400 });
       }
-      // colourway cycles: the colour must be one the product really has, and
-      // that colour's own price/stock apply
+      // cycles sold in several options: the colour / size / gear must be a
+      // combination the product really has, and that combination's own
+      // price and stock apply
       let price = product.price;
       let inStock = product.inStock;
-      let chosenColor: string | undefined;
+      let chosen: { color?: string; size?: string; type?: string } = {};
       if (product.variants?.length) {
-        const variant = product.variants.find((v) => v.color.toLowerCase() === color.toLowerCase());
+        const same = (a: string | undefined, b: string) => (a ?? "").toLowerCase() === b.toLowerCase();
+        const variant = product.variants.find(
+          (v) => same(v.color, color) && same(v.size, size) && same(v.type, type)
+        );
         if (!variant) {
           return NextResponse.json(
-            { error: `Please choose a colour for ${product.brand} ${product.model}` },
+            { error: `Please choose the colour, size and setup for ${product.brand} ${product.model}` },
             { status: 400 }
           );
         }
         price = variant.price;
         inStock = variant.inStock;
-        chosenColor = variant.color;
+        chosen = { color: variant.color, size: variant.size, type: variant.type };
       }
       if (!inStock) {
+        const label = [chosen.color, chosen.size, chosen.type].filter(Boolean).join(" · ");
         return NextResponse.json(
-          { error: `${product.brand} ${product.model}${chosenColor ? ` (${chosenColor})` : ""} is out of stock right now` },
+          { error: `${product.brand} ${product.model}${label ? ` (${label})` : ""} is out of stock right now` },
           { status: 400 }
         );
       }
-      cleanItems.push({ slug: product.slug, color: chosenColor, brand: product.brand, model: product.model, price, qty });
+      cleanItems.push({ slug: product.slug, ...chosen, brand: product.brand, model: product.model, price, qty });
     }
 
     const order = await createOrder({

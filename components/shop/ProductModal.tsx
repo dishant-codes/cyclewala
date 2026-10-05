@@ -7,28 +7,33 @@ import { useCart } from "@/lib/cart";
 import { SHOP } from "@/lib/site";
 import StarRating from "@/components/ui/StarRating";
 import ColorSwatches from "@/components/shop/ColorSwatches";
-import { discountPct, shownFor } from "@/lib/variants";
+import { discountPct, optionValues, selectOption, shownFor, type OptionKey, type Selection } from "@/lib/variants";
 import styles from "./ProductModal.module.css";
 
 const CATEGORY_LABEL: Record<string, string> = {
   kids: "Kids' Cycles",
   mtb: "Mountain Cycles",
   hybrid: "City & Hybrid",
+  ebike: "E-Bikes",
 };
+
+const OPTION_LABEL: Record<"size" | "type", string> = { size: "Wheel size", type: "Setup" };
 
 export default function ProductModal({
   product,
-  initialColor,
+  initialSelection,
   onClose,
 }: {
   product: Product;
-  initialColor?: string;
+  initialSelection?: Selection;
   onClose: () => void;
 }) {
   const { addToCart } = useCart();
-  const [color, setColor] = useState(initialColor);
-  const shown = shownFor(product, color);
+  const [sel, setSel] = useState<Selection>(initialSelection ?? {});
+  const shown = shownFor(product, sel);
   const off = discountPct(shown.price, shown.regularPrice);
+  const current: Selection = { color: shown.color, size: shown.size, type: shown.type };
+  const pick = (key: OptionKey, value: string) => setSel(selectOption(product, current, key, value));
 
   /* Rendered into <body>, not inside the shop section: a stacked section is
      its own layer, so a modal left inside it could be painted over by the
@@ -68,9 +73,35 @@ export default function ProductModal({
                 <p className={styles.colorsLabel}>
                   Colour: <strong>{shown.color}</strong>
                 </p>
-                <ColorSwatches variants={product.variants} selected={shown.color} onSelect={setColor} />
+                <ColorSwatches variants={[...new Map(product.variants.map((v) => [v.color, v])).values()]} selected={shown.color} onSelect={(c) => pick("color", c)} />
               </div>
             )}
+
+            {(["size", "type"] as const).map((key) => {
+              const values = optionValues(product, key);
+              if (values.length < 2) return null;
+              return (
+                <div className={styles.colors} key={key}>
+                  <p className={styles.colorsLabel}>
+                    {OPTION_LABEL[key]}: <strong>{shown[key]}</strong>
+                  </p>
+                  <div className={styles.chips} role="radiogroup" aria-label={OPTION_LABEL[key]}>
+                    {values.map((v) => (
+                      <button
+                        key={v}
+                        type="button"
+                        role="radio"
+                        aria-checked={v === shown[key]}
+                        className={v === shown[key] ? styles.chipOn : styles.chip}
+                        onClick={() => pick(key, v)}
+                      >
+                        {v}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
 
             {product.description && <p className={styles.desc}>{product.description}</p>}
 
@@ -104,6 +135,8 @@ export default function ProductModal({
                     addToCart({
                       slug: product.slug,
                       color: shown.color,
+                      size: shown.size,
+                      type: shown.type,
                       brand: product.brand,
                       model: product.model,
                       image: shown.image,

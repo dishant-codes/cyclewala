@@ -9,6 +9,7 @@ const CATEGORIES: { id: ProductCategory; label: string }[] = [
   { id: "kids", label: "Kids' Cycles" },
   { id: "mtb", label: "Mountain Cycles" },
   { id: "hybrid", label: "City & Hybrid" },
+  { id: "ebike", label: "E-Bikes" },
 ];
 
 const slugify = (s: string) =>
