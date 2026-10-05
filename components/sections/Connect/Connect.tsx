@@ -147,65 +147,6 @@ export default function Connect() {
           )}
         </div>
       </div>
-
-      {/* ---------- footer — plain, as it was before ---------- */}
-      <footer className={styles.footer}>
-        <div className={styles.footGrid}>
-          <div className={styles.footCol}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/cyclewala-logo.png" alt={SHOP.name} className={styles.footLogo} />
-            <p>{SHOP.description}</p>
-            {SOCIALS.length > 0 && (
-              <div className={styles.footSocials}>
-                {SOCIALS.map((s) => (
-                  <a key={s.name} href={s.href} className={styles.footSocial} target="_blank" rel="noreferrer" aria-label={s.name}>
-                    {MARKS[s.mark]}
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className={styles.footCol}>
-            <h5>{t("connect.navHeading")}</h5>
-            <a href="#home">{t("nav.home")}</a>
-            <a href="#about">{t("nav.about")}</a>
-            <a href="#shop">{t("nav.shop")}</a>
-            <a href="#services">{t("nav.services")}</a>
-            <a href="#gallery">{t("nav.gallery")}</a>
-          </div>
-
-          <div className={styles.footCol}>
-            <h5>{t("connect.categoriesHeading")}</h5>
-            <a href="#shop">Kids&apos; Cycles</a>
-            <a href="#shop">Mountain Cycles</a>
-            <a href="#shop">City & Hybrid</a>
-            <a href="#shop">E-Bikes</a>
-          </div>
-
-          <div className={styles.footCol}>
-            <h5>{t("connect.contactHeading")}</h5>
-            <p>{SHOP.address}</p>
-            <a href={SHOP.phoneHref}>{SHOP.phone}</a>
-            <p>{SHOP.hours}</p>
-          </div>
-        </div>
-
-        <div className={styles.footBottom}>
-          <span>
-            {t("connect.credit")} <b>{SHOP.name}</b>
-          </span>
-          <a href="#home" className={styles.top}>
-            {t("connect.top")}
-          </a>
-          <span>
-            © 2026 {SHOP.name} · Developed by{" "}
-            <a href="https://adipagare-portfolio.netlify.app/" target="_blank" rel="noreferrer" className={styles.dev}>
-              Aditya Pagare
-            </a>
-          </span>
-        </div>
-      </footer>
     </section>
   );
 }

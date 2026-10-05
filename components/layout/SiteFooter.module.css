@@ -1,0 +1,283 @@
+.footer {
+  position: relative;
+  margin-top: 76px;
+  color: #dfe8da;
+  background:
+    radial-gradient(60% 120% at 0% 0%, rgba(76, 175, 46, 0.22), transparent 70%),
+    radial-gradient(50% 100% at 100% 100%, rgba(76, 175, 46, 0.12), transparent 70%),
+    linear-gradient(160deg, #0d1a0b 0%, #14240f 100%);
+}
+
+/* ---- trust strip ---- */
+.trust {
+  list-style: none;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 34px 44px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.trust li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.trustIcon {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #8fe06b;
+  background: rgba(143, 224, 107, 0.1);
+  border: 1px solid rgba(143, 224, 107, 0.22);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.25s ease;
+}
+.trust li:hover .trustIcon {
+  transform: translateY(-3px) rotate(-6deg);
+  background: rgba(143, 224, 107, 0.2);
+}
+.trust b {
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.trust small {
+  display: block;
+  margin-top: 5px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #aab8a4;
+}
+
+/* ---- columns ---- */
+.main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 56px 44px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.85fr 1fr 0.9fr 1.3fr;
+  gap: 36px;
+}
+.about p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #aab8a4;
+  max-width: 340px;
+}
+.logo {
+  height: 46px;
+  width: auto;
+  display: block;
+  /* the logo is dark-on-light artwork; sit it on a white pill so it reads on the green */
+  background: #fff;
+  padding: 7px 12px;
+  border-radius: 12px;
+}
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.callBtn,
+.dirBtn {
+  font-size: 13px;
+  font-weight: 800;
+  padding: 10px 16px;
+  border-radius: 999px;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+.callBtn {
+  background: var(--accent);
+  color: #fff;
+}
+.callBtn:hover {
+  background: #5fcf3d;
+  transform: translateY(-2px);
+}
+.dirBtn {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #fff;
+}
+.dirBtn:hover {
+  border-color: #8fe06b;
+  color: #8fe06b;
+  transform: translateY(-2px);
+}
+.social {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #dfe8da;
+  transition: color 0.2s ease;
+}
+.social svg {
+  width: 36px;
+  height: 36px;
+  padding: 9px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.social:hover {
+  color: #fff;
+}
+.social:hover svg {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 14px;
+  color: #aab8a4;
+}
+.col h5 {
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.col h5.second {
+  margin-top: 16px;
+}
+.col a {
+  position: relative;
+  width: fit-content;
+  color: #cfdac9;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.col a:hover {
+  color: #8fe06b;
+  transform: translateX(3px);
+}
+.col p {
+  line-height: 1.6;
+}
+.addr {
+  line-height: 1.65;
+}
+
+/* ---- legal line ---- */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 48px;
+  padding: 22px 0 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: #93a38d;
+}
+.legal {
+  display: inline-flex;
+  gap: 22px;
+}
+.bottom a {
+  color: #cfdac9;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+.bottom a:hover {
+  color: #8fe06b;
+}
+.dev {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.25);
+  text-underline-offset: 3px;
+}
+
+/* ---- responsive ---- */
+@media (max-width: 1100px) {
+  .trust {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 30px 24px;
+  }
+  .main {
+    padding: 48px 24px 0;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 34px 28px;
+  }
+  .about {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 700px) {
+  .trust {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 16px;
+  }
+  .trust li {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  /* nine brand names as tappable pills instead of a long list */
+  .brandsCol {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .brandsCol h5 {
+    flex-basis: 100%;
+  }
+  .brandsCol a {
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-size: 13px;
+  }
+  .brandsCol a:hover {
+    transform: none;
+    border-color: #8fe06b;
+  }
+}
+@media (max-width: 460px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .col:last-child {
+    grid-column: 1 / -1;
+  }
+  .trust small {
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trustIcon,
+  .col a,
+  .callBtn,
+  .dirBtn {
+    transition: none;
+  }
+}
