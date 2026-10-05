@@ -861,3 +861,46 @@
   font-weight: 800;
   color: #1b8a4b;
 }
+
+/* Oyekid shop-by-age pills above the results */
+.agePills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.agePillsLabel {
+  width: 100%;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.agePill,
+.agePillOn {
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.agePill:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+.agePillOn {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.agePillCount {
+  margin-left: 4px;
+  font-size: 11px;
+  opacity: 0.7;
+}

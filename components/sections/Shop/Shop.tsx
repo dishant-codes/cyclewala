@@ -378,6 +378,35 @@ export default function Shop() {
 
             {/* ---------- results ---------- */}
             <div>
+              <div className={styles.agePills} role="tablist" aria-label="Oyekid cycles by age">
+                <span className={styles.agePillsLabel}>Oyekid · Shop by age</span>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={selectedGroups.length === 0}
+                  className={selectedGroups.length === 0 ? styles.agePillOn : styles.agePill}
+                  onClick={() => setSelectedGroups([])}
+                >
+                  All ages
+                </button>
+                {OYEKID_GROUPS.map((g) => {
+                  const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
+                  const n = products.filter((p) => p.group === g.id).length;
+                  return (
+                    <button
+                      key={g.id}
+                      type="button"
+                      role="tab"
+                      aria-selected={on}
+                      className={on ? styles.agePillOn : styles.agePill}
+                      onClick={() => setSelectedGroups([g.id])}
+                    >
+                      {g.label} <span className={styles.agePillCount}>{n}</span>
+                    </button>
+                  );
+                })}
+              </div>
+
               <div className={styles.resultsBar}>
                 <p className={styles.count}>{filtered.length} cycles</p>
                 <div className={styles.resultsActions}>
