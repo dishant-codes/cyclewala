@@ -417,7 +417,7 @@ export default function Shop() {
             </aside>
 
             {/* ---------- results ---------- */}
-            <div>
+            <div className={styles.results}>
               <div className={styles.browse}>
                 <div className={styles.browseTabs} role="tablist" aria-label="Browse by brand">
                   {BROWSE_TABS.map((t) => (

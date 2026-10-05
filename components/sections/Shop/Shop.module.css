@@ -124,7 +124,7 @@
 .layout {
   margin-top: 48px;
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 260px minmax(0, 1fr);
   gap: 24px;
   align-items: start;
 }
@@ -758,7 +758,7 @@
     padding: 80px 24px 90px;
   }
   .layout {
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 220px minmax(0, 1fr);
     gap: 24px;
   }
 }
@@ -791,7 +791,7 @@
 
 @media (max-width: 860px) {
   .layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .sidebar {
     position: static;
@@ -809,7 +809,7 @@
 
 @media (max-width: 560px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .cardList {
     flex-direction: column;
@@ -937,19 +937,27 @@
   color: var(--ink-3);
 }
 .browsePills {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
   gap: 8px;
   margin-top: 12px;
-  padding-bottom: 4px;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-  scrollbar-width: thin;
+}
+@media (max-width: 700px) {
+  /* phones: one swipeable row instead of a grid */
+  .browsePills {
+    display: flex;
+    padding-bottom: 4px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: thin;
+  }
 }
 .pill,
 .pillOn {
   flex: none;
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
   gap: 7px;
   scroll-snap-align: start;
   font-size: 13px;
@@ -994,4 +1002,13 @@
   .browse {
     padding: 10px;
   }
+}
+
+/* let the results column shrink so the scrolling pill row never widens the page */
+.results {
+  min-width: 0;
+}
+.browse {
+  max-width: 100%;
+  min-width: 0;
 }
