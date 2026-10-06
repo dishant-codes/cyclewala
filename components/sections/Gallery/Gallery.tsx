@@ -218,7 +218,7 @@ export default function Gallery() {
                     <img
                       src={f.src}
                       alt={i < col.length ? t("gallery.alt") : ""}
-                      loading={ci < 3 && i < 2 ? "eager" : "lazy"}
+                      loading="lazy"
                       decoding="async"
                       draggable={false}
                     />

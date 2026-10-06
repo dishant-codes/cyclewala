@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import type { Service } from "@/data/services";
+import { FREE_PICKUP_KM, type Service } from "@/data/services";
 import { SHOP } from "@/lib/site";
 import { isValidIndianMobile, PHONE_HINT } from "@/lib/validate";
 import styles from "./BookingModal.module.css";
@@ -19,6 +19,7 @@ export default function BookingModal({ service, onClose }: { service: Service; o
   const [cycle, setCycle] = useState("");
   const [date, setDate] = useState("");
   const [note, setNote] = useState("");
+  const [pickup, setPickup] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [bookingId, setBookingId] = useState("");
@@ -39,8 +40,8 @@ export default function BookingModal({ service, onClose }: { service: Service; o
       setError(PHONE_HINT);
       return;
     }
-    if (service.requiresAddress && !address.trim()) {
-      setError("Please add your address so we can visit.");
+    if ((service.requiresAddress || pickup) && !address.trim()) {
+      setError("Please add your address so we can pick up your cycle.");
       return;
     }
     setSubmitting(true);
@@ -48,7 +49,7 @@ export default function BookingModal({ service, onClose }: { service: Service; o
       const res = await fetch("/api/bookings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ serviceId: service.id, customer: { name, phone, address, cycle, date, note } }),
+        body: JSON.stringify({ serviceId: service.id, customer: { name, phone, address, cycle, date, note, pickup } }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Couldn't send the request");
@@ -117,13 +118,19 @@ export default function BookingModal({ service, onClose }: { service: Service; o
                   />
                   {showPhoneError && <span className={styles.fieldError}>{PHONE_HINT}</span>}
                 </label>
+                <label className={`${styles.field} ${styles.wide}`} style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
+                  <input type="checkbox" checked={pickup} onChange={(e) => setPickup(e.target.checked)} style={{ width: 18, height: 18, flex: "none" }} />
+                  <span>
+                    Pick up &amp; drop my cycle — <b>free within {FREE_PICKUP_KM} km</b>
+                  </span>
+                </label>
                 <label className={`${styles.field} ${styles.wide}`}>
-                  {service.requiresAddress ? "Address for the visit *" : "Address (optional)"}
+                  {service.requiresAddress || pickup ? "Address for pickup *" : "Address (optional)"}
                   <textarea
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     rows={2}
-                    required={service.requiresAddress}
+                    required={service.requiresAddress || pickup}
                   />
                 </label>
                 <label className={styles.field}>

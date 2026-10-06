@@ -10,6 +10,7 @@ import ColorSwatches from "@/components/shop/ColorSwatches";
 import SortMenu, { SORT_ICONS, type SortOption } from "@/components/shop/SortMenu";
 import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
 import styles from "./Shop.module.css";
+import { loadProducts } from "@/lib/catalogue";
 import { useLang } from "@/lib/i18n";
 
 /* The brands behind the models above — real, taken from each brand's own catalogue or website. */
@@ -332,9 +333,8 @@ export default function Shop() {
   }, []);
 
   useEffect(() => {
-    fetch("/api/products")
-      .then((r) => r.json())
-      .then((data: Product[]) => setProducts(data))
+    loadProducts()
+      .then((data) => setProducts(data))
       .catch(() => setProducts([]));
   }, []);
 
@@ -438,7 +438,7 @@ export default function Shop() {
                 >
                   <span className={`${styles.circlePhoto} ${on ? styles.circleOn : ""}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={c.image} alt="" loading="lazy" />
+                    <img src={c.image} alt="" loading="lazy" decoding="async" />
                   </span>
                   <span className={on ? styles.circleLabelOn : styles.circleLabel}>{c.label}</span>
                 </button>
@@ -555,7 +555,7 @@ export default function Shop() {
                       }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={t.logo} alt="" className={styles.browseTabLogo} />
+                      <img src={t.logo} alt="" className={styles.browseTabLogo} loading="lazy" decoding="async" />
                       <span>
                         <span className={styles.browseTabName}>{t.name}</span>
                         <span className={styles.browseTabHint}>{t.hint}</span>
@@ -681,7 +681,7 @@ export default function Shop() {
                     <article className={view === "grid" ? styles.card : styles.cardList} key={item.slug}>
                       <div className={styles.cardPhoto}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={shown.image} alt={`${item.brand} ${item.model}${shown.color ? ` – ${shown.color}` : ""}`} loading="lazy" />
+                        <img src={shown.image} alt={`${item.brand} ${item.model}${shown.color ? ` – ${shown.color}` : ""}`} loading="lazy" decoding="async" />
                         <span className={shown.inStock ? styles.stockBadge : styles.stockBadgeOut}>
                           {shown.inStock ? "In Stock" : "Out of Stock"}
                         </span>
@@ -803,7 +803,7 @@ export default function Shop() {
                   <span className={styles.brandMark}>
                     {b.logo ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img src={b.logo} alt="" className={styles.brandMarkImg} />
+                      <img src={b.logo} alt="" className={styles.brandMarkImg} loading="lazy" decoding="async" />
                     ) : (
                       b.name[0]
                     )}

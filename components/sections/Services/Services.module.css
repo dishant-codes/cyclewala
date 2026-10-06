@@ -43,11 +43,152 @@
 }
 
 .grid {
-  max-width: 1040px;
+  max-width: 1180px;
   margin: 52px auto 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 26px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+/* the free pickup & drop promise: a dark banner with a truck driving along a dashed road */
+.pickup {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  max-width: 1180px;
+  margin: 40px auto 0;
+  padding: 36px 40px 62px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px 44px;
+  color: #fff;
+  border-radius: 28px;
+  background:
+    radial-gradient(60% 100% at 0% 100%, rgba(76, 175, 46, 0.16), transparent 70%),
+    linear-gradient(150deg, #1d1d1d, #0e0e0e);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.65);
+}
+.pickupGlow {
+  position: absolute;
+  z-index: -1;
+  right: -90px;
+  top: -110px;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(76, 175, 46, 0.35), transparent 70%);
+  animation: pickupPulse 6s ease-in-out infinite alternate;
+}
+@keyframes pickupPulse {
+  to { transform: translate(-40px, 30px) scale(1.2); }
+}
+.pickupBadge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0e0e0e;
+  background: var(--accent);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+.pickupMain h3 {
+  margin-top: 14px;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+.pickupMain p {
+  margin-top: 10px;
+  max-width: 460px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #bdbdbd;
+}
+.pickupMain b {
+  color: #6fdc4a;
+}
+.pickupSteps {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.pickupSteps li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+}
+.pickupSteps li:hover {
+  transform: translateX(6px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(111, 220, 74, 0.6);
+}
+.pickupSteps span {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 900;
+  color: #0e0e0e;
+  background: var(--accent);
+}
+.pickupSteps b {
+  font-size: 15px;
+  font-weight: 800;
+}
+.pickupRoad {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 22px;
+  height: 28px;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+}
+.pickupTruck {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  display: inline-flex;
+  color: var(--accent);
+  animation: pickupDrive 9s linear infinite;
+}
+@keyframes pickupDrive {
+  from { left: -4%; }
+  to { left: 100%; }
+}
+@media (max-width: 900px) {
+  .pickup {
+    grid-template-columns: 1fr;
+    padding: 28px 22px 60px;
+  }
+  .pickupRoad {
+    left: 22px;
+    right: 22px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pickupGlow,
+  .pickupTruck {
+    animation: none;
+  }
+  .pickupTruck {
+    left: 50%;
+  }
 }
 
 .card {
@@ -145,7 +286,13 @@
   background: var(--accent);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 760px;
+  }
+}
+@media (max-width: 700px) {
   .grid {
     grid-template-columns: 1fr;
     max-width: 440px;

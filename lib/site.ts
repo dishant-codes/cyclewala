@@ -30,6 +30,18 @@ export const SHOP = {
   facebook: "",
 };
 
+/* Search-engine copy. SEO_KEYWORDS are the five tags the shop wants to be found for. */
+export const SEO_TITLE = `${SHOP.name} — Cycle Shop in Chhatrapati Sambhajinagar | Kids, Geared & MTB Cycles, Service`;
+export const SEO_DESCRIPTION =
+  "Cycle Wala, Nirala Bazar — buy kids cycles, geared & mountain bikes, e-bikes and accessories from Oyekid, Hero, Hercules, Neufman, BSA, Kross and more. Expert cycle service with free pickup & drop within 5 km.";
+export const SEO_KEYWORDS = [
+  "cycle shop in Chhatrapati Sambhajinagar",
+  "kids cycles",
+  "gear cycles and mountain bikes",
+  "cycle repair and service",
+  "Cycle Wala",
+];
+
 export const SAME_AS = [SHOP.instagram, SHOP.facebook].filter(Boolean);
 
 /* Address broken into the parts search engines want (all from SHOP.address) */

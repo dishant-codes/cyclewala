@@ -87,23 +87,25 @@ const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURICom
 export default function SiteFooter() {
   return (
     <footer className={styles.footer}>
-      <ul className={styles.trust}>
-        {TRUST.map((t) => (
-          <li key={t.title}>
-            <span className={styles.trustIcon}>{t.icon}</span>
-            <span>
-              <b>{t.title}</b>
-              <small>{t.body}</small>
-            </span>
-          </li>
-        ))}
-      </ul>
+      <div className={styles.trustBand}>
+        <ul className={styles.trust}>
+          {TRUST.map((t) => (
+            <li key={t.title}>
+              <span className={styles.trustIcon}>{t.icon}</span>
+              <span>
+                <b>{t.title}</b>
+                <small>{t.body}</small>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <div className={styles.main}>
         <div className={styles.grid}>
           <div className={styles.about}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/cyclewala-logo.png" alt={SHOP.name} className={styles.logo} />
+            <img src="/images/logo/cyclewala-logo.png" alt={SHOP.name} className={styles.logo} loading="lazy" decoding="async" />
             <p>{SHOP.description}</p>
             <div className={styles.cta}>
               <a href={SHOP.phoneHref} className={styles.callBtn}>
@@ -143,7 +145,7 @@ export default function SiteFooter() {
             ))}
             <h5 className={styles.second}>Cycle care</h5>
             <a href="/#services">Book a service</a>
-            <a href="/#support">Service at your doorstep</a>
+            <a href="/#services">Free pickup &amp; drop</a>
           </nav>
 
           <nav className={styles.col} aria-label="Pages">

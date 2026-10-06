@@ -4,7 +4,8 @@ import SmoothScroll from "@/components/layout/SmoothScroll";
 import CartDrawer from "@/components/cart/CartDrawer";
 import { LanguageProvider } from "@/lib/i18n";
 import { CartProvider } from "@/lib/cart";
-import { SITE_URL, SHOP, SAME_AS, ADDRESS_PARTS } from "@/lib/site";
+import { SITE_URL, SHOP, SAME_AS, ADDRESS_PARTS, SEO_KEYWORDS, SEO_TITLE, SEO_DESCRIPTION } from "@/lib/site";
+import { SERVICES } from "@/data/services";
 import "./globals.css";
 
 const inter = Inter({
@@ -33,7 +34,7 @@ const baloo = Baloo_2({
   variable: "--font-brand",
 });
 
-const DESCRIPTION = SHOP.description;
+const DESCRIPTION = SEO_DESCRIPTION;
 
 /* Preview image for link shares (WhatsApp, Facebook, Google) — the shop's own photo */
 const SHARE_IMAGE = { url: "/images/hero-cycle.jpg", alt: `${SHOP.name} — bicycle shop` };
@@ -45,12 +46,23 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SHOP.name} — ${SHOP.tagline}`,
+    default: SEO_TITLE,
     template: "%s",
   },
   description: DESCRIPTION,
+  keywords: SEO_KEYWORDS,
+  applicationName: SHOP.name,
+  authors: [{ name: SHOP.name, url: SITE_URL }],
+  category: "shopping",
+  alternates: { canonical: SITE_URL },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+  },
+  formatDetection: { telephone: true, address: true, email: false },
   openGraph: {
-    title: `${SHOP.name} — ${SHOP.tagline}`,
+    title: SEO_TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
     siteName: SHOP.name,
@@ -60,7 +72,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SHOP.name} — ${SHOP.tagline}`,
+    title: SEO_TITLE,
     description: DESCRIPTION,
     images: [SHARE_IMAGE.url],
   },
@@ -74,10 +86,40 @@ const businessJsonLd = {
   ...(SHOP.email ? { email: SHOP.email } : {}),
   telephone: SHOP.phone,
   address: { "@type": "PostalAddress", ...ADDRESS_PARTS },
-  openingHours: "Tu-Su 11:00-21:00",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "11:00",
+      closes: "21:00",
+    },
+  ],
+  priceRange: "₹₹",
+  currenciesAccepted: "INR",
+  paymentAccepted: "Cash",
+  areaServed: { "@type": "City", name: ADDRESS_PARTS.addressLocality },
+  keywords: SEO_KEYWORDS.join(", "),
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Cycle servicing",
+    itemListElement: SERVICES.map((s) => ({
+      "@type": "Offer",
+      priceCurrency: "INR",
+      price: s.price,
+      itemOffered: { "@type": "Service", name: s.title, description: s.subtitle },
+    })),
+  },
   url: SITE_URL,
   image: `${SITE_URL}${SHARE_IMAGE.url}`,
   ...(SAME_AS.length ? { sameAs: SAME_AS } : {}),
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SHOP.name,
+  url: SITE_URL,
+  inLanguage: "en-IN",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -96,6 +138,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
       </body>
     </html>

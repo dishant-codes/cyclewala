@@ -546,8 +546,13 @@
   border-radius: 50%;
   background: var(--accent);
 }
+/* cards in a row share a height; pin the price + buttons to the bottom so a short card (one colour, no
+   options) does not leave a blank gap under its buttons */
+.cardBody > :nth-last-child(2) {
+  margin-bottom: 14px;
+}
 .foot {
-  margin-top: 14px;
+  margin-top: auto;
   padding-top: 14px;
   border-top: 1px solid var(--line);
   display: flex;

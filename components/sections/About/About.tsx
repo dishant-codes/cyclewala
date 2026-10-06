@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import styles from "./About.module.css";
+import { loadProducts } from "@/lib/catalogue";
 import { useLang } from "@/lib/i18n";
 
 /* Real milestones — 2020 founding, 2022 storefront, 2023 accessories wall,
@@ -104,8 +105,7 @@ export default function About() {
   const [counts, setCounts] = useState(FALLBACK_COUNTS);
 
   useEffect(() => {
-    fetch("/api/products")
-      .then((r) => r.json())
+    loadProducts()
       .then((rows: CatalogueRow[]) => {
         if (!Array.isArray(rows) || rows.length === 0) return;
         const brands = new Set(rows.map((p) => p.brand.trim().toLowerCase()).filter(Boolean)).size;
@@ -200,7 +200,7 @@ export default function About() {
           <div className={styles.photoWrap}>
             <div className={styles.photoCard}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/gallery/shop-1.png" alt="Inside the Cycle Wala shop" loading="lazy" />
+              <img src="/images/gallery/shop-1.webp" alt="Inside the Cycle Wala shop" loading="lazy" />
             </div>
             <div className={styles.sinceBadge}>
               <span className={styles.sinceIcon}>{ICONS.pin}</span>
