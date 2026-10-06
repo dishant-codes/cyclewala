@@ -77,6 +77,7 @@ const PAGES = [
   { label: "Home", href: "/#home" },
   { label: "Shop", href: "/#shop" },
   { label: "About Us", href: "/#about" },
+  { label: "Meet the Owner", href: "/owner" },
   { label: "Services", href: "/#services" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Contact", href: "/#contact" },
