@@ -37,7 +37,7 @@ const SECTIONS: { id: string; title: string; body: React.ReactNode; variant?: "c
             you chose (brand, model, colour, wheel size and setup).
           </li>
           <li>
-            <b>When you book a service:</b> your name, mobile number, address (for home service), the cycle that needs work, a
+            <b>When you book a service:</b> your name, mobile number, address (for pickup & drop), the cycle that needs work, a
             preferred date and an optional note.
           </li>
           <li>

@@ -50,7 +50,7 @@ export default function Support() {
           <div className={styles.frame} aria-hidden="true" />
           <div className={styles.photo}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/gallery/shop-2.png" alt="Inside the Cycle Wala shop" loading="lazy" />
+            <img src="/images/gallery/shop-2.webp" alt="Inside the Cycle Wala shop" loading="lazy" />
           </div>
           <p className={styles.chip}>
             {ICONS.pin}

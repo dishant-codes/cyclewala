@@ -33,9 +33,12 @@ export async function POST(request: NextRequest) {
     if (!isValidIndianMobile(phone)) {
       return NextResponse.json({ error: "Please enter a valid 10-digit mobile number" }, { status: 400 });
     }
-    if (service.requiresAddress && !address) {
-      return NextResponse.json({ error: "Address is required for home service" }, { status: 400 });
+    const pickup = c.pickup === true;
+    if ((service.requiresAddress || pickup) && !address) {
+      return NextResponse.json({ error: "Address is required for pickup" }, { status: 400 });
     }
+    // the shop reads the note, so the pickup request rides along there
+    const note = [pickup ? "PICKUP & DROP requested" : "", clip(c.note, 400)].filter(Boolean).join(" — ");
 
     const booking = await createBooking({
       service: { id: service.id, title: service.title, price: service.price },
@@ -45,7 +48,7 @@ export async function POST(request: NextRequest) {
         address: address || undefined,
         cycle: clip(c.cycle, 120) || undefined,
         date: clip(c.date, 20) || undefined,
-        note: clip(c.note, 400) || undefined,
+        note: note || undefined,
       },
     });
 

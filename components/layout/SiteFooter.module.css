@@ -1,14 +1,17 @@
 .footer {
   position: relative;
   margin-top: 76px;
-  color: #dfe8da;
+  color: #e6e6e6;
   background:
-    radial-gradient(60% 120% at 0% 0%, rgba(76, 175, 46, 0.22), transparent 70%),
-    radial-gradient(50% 100% at 100% 100%, rgba(76, 175, 46, 0.12), transparent 70%),
-    linear-gradient(160deg, #0d1a0b 0%, #14240f 100%);
+    radial-gradient(50% 100% at 100% 100%, rgba(76, 175, 46, 0.1), transparent 70%),
+    linear-gradient(160deg, #161616 0%, #0b0b0b 100%);
 }
 
-/* ---- trust strip ---- */
+/* ---- trust strip: a slightly lighter charcoal band on top of the footer ---- */
+.trustBand {
+  background: linear-gradient(150deg, #212121, #151515);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
 .trust {
   list-style: none;
   max-width: var(--max);
@@ -17,7 +20,6 @@
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .trust li {
   display: flex;
@@ -54,7 +56,7 @@
   margin-top: 5px;
   font-size: 12.5px;
   line-height: 1.55;
-  color: #aab8a4;
+  color: #a8a8a8;
 }
 
 /* ---- columns ---- */
@@ -72,7 +74,7 @@
   margin-top: 16px;
   font-size: 14px;
   line-height: 1.7;
-  color: #aab8a4;
+  color: #a8a8a8;
   max-width: 340px;
 }
 .logo {
@@ -122,7 +124,7 @@
   margin-top: 18px;
   font-size: 13px;
   font-weight: 700;
-  color: #dfe8da;
+  color: #e6e6e6;
   transition: color 0.2s ease;
 }
 .social svg {
@@ -147,7 +149,7 @@
   flex-direction: column;
   gap: 9px;
   font-size: 14px;
-  color: #aab8a4;
+  color: #a8a8a8;
 }
 .col h5 {
   font-size: 12.5px;
@@ -163,7 +165,7 @@
 .col a {
   position: relative;
   width: fit-content;
-  color: #cfdac9;
+  color: #d2d2d2;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 .col a:hover {
@@ -188,14 +190,14 @@
   padding: 22px 0 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 13px;
-  color: #93a38d;
+  color: #8c8c8c;
 }
 .legal {
   display: inline-flex;
   gap: 22px;
 }
 .bottom a {
-  color: #cfdac9;
+  color: #d2d2d2;
   font-weight: 700;
   transition: color 0.2s ease;
 }
