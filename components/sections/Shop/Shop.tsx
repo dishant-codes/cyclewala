@@ -297,6 +297,8 @@ export default function Shop() {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<ProductCategory[]>([]);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
+  /* the brand whose whole collection is showing (null = every brand, featured first) */
+  const [brandSel, setBrandSel] = useState<string | null>(null);
   const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
@@ -323,7 +325,7 @@ export default function Shop() {
       const name = BROWSE_TABS.find((t) => t.id === brand)?.name ?? "";
       // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of the URL on arrival
       setBrowseTab(brand as (typeof BROWSE_TABS)[number]["id"]);
-      setQuery(name);
+      setBrandSel(name);
     } else if (cat && CATEGORY_META.some((c) => c.id === cat)) {
       setSelectedCategories([cat as ProductCategory]);
     }
@@ -346,14 +348,17 @@ export default function Shop() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- a new filter/search/sort result starts back at the compact preview
     setShowAll(false);
-  }, [selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
+  }, [selectedCategories, selectedGroups, brandSel, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
   const scrollCircles = (dir: 1 | -1) => circlesRef.current?.scrollBy({ left: dir * 180, behavior: "smooth" });
 
   const showBrand = (name: string) => {
     setSelectedCategories((prev) => (prev.length ? [] : prev));
     setSelectedGroups([]);
-    setQuery(name);
+    setQuery("");
+    setBrandSel(name);
+    const tab = BROWSE_TABS.find((x) => x.name === name);
+    if (tab) setBrowseTab(tab.id);
     document.getElementById("shop")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
@@ -375,6 +380,7 @@ export default function Shop() {
     if (!products) return [];
     let list = products;
     if (selectedCategories.length) list = list.filter((p) => selectedCategories.includes(p.category));
+    if (brandSel) list = list.filter((p) => p.brand === brandSel);
     if (selectedGroups.length) list = list.filter((p) => p.group !== undefined && selectedGroups.includes(p.group));
     if (minPrice) list = list.filter((p) => p.price !== null && p.price >= Number(minPrice));
     if (maxPrice) list = list.filter((p) => p.price !== null && p.price <= Number(maxPrice));
@@ -392,16 +398,17 @@ export default function Shop() {
     else if (sort === "rating") sorted.sort((a, b) => b.rating - a.rating);
     else sorted.sort((a, b) => featuredRank(a) - featuredRank(b)); // "featured" — stable, so ties keep catalogue order
     return sorted;
-  }, [products, selectedCategories, selectedGroups, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
+  }, [products, selectedCategories, selectedGroups, brandSel, minPrice, maxPrice, minRating, inStockOnly, query, sort]);
 
   const visible = showAll ? filtered : filtered.slice(0, PAGE_SIZE);
   const remaining = filtered.length - visible.length;
 
   const activeFilterCount =
-    selectedCategories.length + selectedGroups.length + (minPrice ? 1 : 0) + (maxPrice ? 1 : 0) + (minRating ? 1 : 0) + (inStockOnly ? 1 : 0) + (query ? 1 : 0);
+    selectedCategories.length + selectedGroups.length + (brandSel ? 1 : 0) + (minPrice ? 1 : 0) + (maxPrice ? 1 : 0) + (minRating ? 1 : 0) + (inStockOnly ? 1 : 0) + (query ? 1 : 0);
   const clearAll = () => {
     setSelectedCategories([]);
     setSelectedGroups([]);
+    setBrandSel(null);
     setMinPrice("");
     setMaxPrice("");
     setMinRating(0);
@@ -540,7 +547,12 @@ export default function Shop() {
                       role="tab"
                       aria-selected={browseTab === t.id}
                       className={browseTab === t.id ? styles.browseTabOn : styles.browseTab}
-                      onClick={() => setBrowseTab(t.id)}
+                      onClick={() => {
+                        setBrowseTab(t.id);
+                        setBrandSel(t.name);
+                        setSelectedGroups([]);
+                        setQuery("");
+                      }}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={t.logo} alt="" className={styles.browseTabLogo} />
@@ -558,7 +570,7 @@ export default function Shop() {
                     className={selectedGroups.length === 0 ? styles.pillOn : styles.pill}
                     onClick={() => setSelectedGroups([])}
                   >
-                    All cycles
+                    {brandSel ? `All ${brandSel}` : "All cycles"}
                   </button>
                   {GROUPS_BY_TAB[browseTab].map((g) => {
                     const on = selectedGroups.length === 1 && selectedGroups[0] === g.id;
@@ -610,6 +622,11 @@ export default function Shop() {
                       <button onClick={() => toggleCategory(c)}>×</button>
                     </span>
                   ))}
+                  {brandSel && (
+                    <span className={styles.chip}>
+                      {brandSel} <button onClick={() => setBrandSel(null)}>×</button>
+                    </span>
+                  )}
                   {selectedGroups.map((g) => (
                     <span className={styles.chip} key={g}>
                       {ALL_GROUPS.find((m) => m.id === g)?.label ?? g} <button onClick={() => toggleGroup(g)}>×</button>
