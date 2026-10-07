@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { useCustomer } from "@/lib/customer";
 import { cartKey, optionsLabel, useCart } from "@/lib/cart";
 import { SHOP } from "@/lib/site";
 import { isValidIndianMobile, PHONE_HINT } from "@/lib/validate";
@@ -14,7 +16,10 @@ type Step = "cart" | "checkout" | "confirmed";
 export default function CartDrawer() {
   const { items, open, setOpen, removeFromCart, setQty, clearCart } = useCart();
   const [step, setStep] = useState<Step>("cart");
-  const [name, setName] = useState("");
+  const { customer } = useCustomer();
+  const [typedName, setName] = useState("");
+  // a signed-in customer's name is filled in for them (they can still change it)
+  const name = typedName || customer?.name || "";
   const [phone, setPhone] = useState("");
   const [phoneTouched, setPhoneTouched] = useState(false);
   const [address, setAddress] = useState("");
@@ -105,6 +110,11 @@ export default function CartDrawer() {
               We&apos;ll call you at {phone || "the number you gave"} to confirm — pay in person when you collect it
               or it&apos;s delivered.
             </p>
+            {customer ? (
+              <Link className={styles.callCta} href="/account#orders" onClick={close}>
+                Track it in My orders
+              </Link>
+            ) : null}
             <a className={styles.callCta} href={SHOP.phoneHref}>
               Or Call Us Now
             </a>

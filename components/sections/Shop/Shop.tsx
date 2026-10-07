@@ -11,6 +11,9 @@ import SortMenu, { SORT_ICONS, type SortOption } from "@/components/shop/SortMen
 import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
 import styles from "./Shop.module.css";
 import { loadProducts } from "@/lib/catalogue";
+import Link from "next/link";
+import WishlistButton from "@/components/account/WishlistButton";
+import { SHOP_SEARCH_EVENT, type ShopSearchDetail } from "@/lib/shop-search";
 import { useLang } from "@/lib/i18n";
 
 /* The brands behind the models above — real, taken from each brand's own catalogue or website. */
@@ -315,6 +318,8 @@ export default function Shop() {
   const [view, setView] = useState<"grid" | "list">("grid");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [showAll, setShowAll] = useState(false);
+  /** a cycle to open as soon as the list has loaded (from ?product= or the header search) */
+  const [pendingOpen, setPendingOpen] = useState<string | null>(null);
   const circlesRef = useRef<HTMLDivElement>(null);
 
   /* footer links: /?brand=Kross#shop opens that brand's tab; /?cat=kids#shop filters a category */
@@ -322,15 +327,45 @@ export default function Shop() {
     const params = new URLSearchParams(window.location.search);
     const brand = params.get("brand")?.toLowerCase();
     const cat = params.get("cat");
+    const productSlug = params.get("product");
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of the URL on arrival
+    if (productSlug) setPendingOpen(productSlug);
     if (brand && BROWSE_TABS.some((t) => t.id === brand)) {
       const name = BROWSE_TABS.find((t) => t.id === brand)?.name ?? "";
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of the URL on arrival
       setBrowseTab(brand as (typeof BROWSE_TABS)[number]["id"]);
       setBrandSel(name);
+      const group = params.get("group");
+      if (group && GROUPS_BY_TAB[brand as keyof typeof GROUPS_BY_TAB].some((g) => g.id === group)) setSelectedGroups([group]);
     } else if (cat && CATEGORY_META.some((c) => c.id === cat)) {
       setSelectedCategories([cat as ProductCategory]);
     }
   }, []);
+
+  /* header search: show the shop filtered to what was typed, and open a picked cycle's popup */
+  useEffect(() => {
+    const onSearch = (e: Event) => {
+      const d = (e as CustomEvent<ShopSearchDetail>).detail;
+      if (!d) return;
+      setSelectedCategories([]);
+      setSelectedGroups([]);
+      setBrandSel(null);
+      setMinPrice("");
+      setMaxPrice("");
+      setMinRating(0);
+      setInStockOnly(false);
+      setQuery(d.query);
+      setPendingOpen(d.openSlug ?? null);
+    };
+    window.addEventListener(SHOP_SEARCH_EVENT, onSearch);
+    return () => window.removeEventListener(SHOP_SEARCH_EVENT, onSearch);
+  }, []);
+  useEffect(() => {
+    if (!pendingOpen || !products) return;
+    const found = products.find((p) => p.slug === pendingOpen);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot: open the cycle that was picked in the header search
+    if (found) setSelectedProduct(found);
+    setPendingOpen(null);
+  }, [pendingOpen, products]);
 
   useEffect(() => {
     loadProducts()
@@ -589,6 +624,11 @@ export default function Shop() {
                     );
                   })}
                 </div>
+                {browseTab === "oyekid" && (
+                  <p className={styles.sizeHint}>
+                    Not sure which age group fits? <Link href="/size-guide">Open the size guide →</Link>
+                  </p>
+                )}
               </div>
 
               <div className={styles.resultsBar}>
@@ -685,6 +725,7 @@ export default function Shop() {
                         <span className={shown.inStock ? styles.stockBadge : styles.stockBadgeOut}>
                           {shown.inStock ? "In Stock" : "Out of Stock"}
                         </span>
+                        <WishlistButton slug={item.slug} name={`${item.brand} ${item.model}`} />
                       </div>
                       <div className={styles.cardBody}>
                         <p className={styles.brand}>

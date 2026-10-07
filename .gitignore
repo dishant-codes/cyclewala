@@ -38,6 +38,7 @@ yarn-error.log*
 /data/orders.json
 /data/bookings.json
 /data/uploads/
+/data/customers/
 *.tmp
 
 # vercel
@@ -47,3 +48,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /.next-prod/
+/.next-test/

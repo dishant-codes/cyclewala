@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createBooking } from "@/lib/bookings";
+import { currentCustomer } from "@/lib/customers";
 import { getService } from "@/data/services";
 import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
 import { isValidIndianMobile } from "@/lib/validate";
@@ -40,7 +41,9 @@ export async function POST(request: NextRequest) {
     // the shop reads the note, so the pickup request rides along there
     const note = [pickup ? "PICKUP & DROP requested" : "", clip(c.note, 400)].filter(Boolean).join(" — ");
 
+    const account = await currentCustomer(request).catch(() => null);
     const booking = await createBooking({
+      customerKey: account?.key,
       service: { id: service.id, title: service.title, price: service.price },
       customer: {
         name,

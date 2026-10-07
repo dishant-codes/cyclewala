@@ -78,6 +78,7 @@ const PAGES = [
   { label: "Shop", href: "/#shop" },
   { label: "About Us", href: "/#about" },
   { label: "Meet the Owner", href: "/owner" },
+  { label: "Size Guide", href: "/size-guide" },
   { label: "Services", href: "/#services" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Contact", href: "/#contact" },

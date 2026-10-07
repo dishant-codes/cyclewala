@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
   // lets a production build run beside the dev server (NEXT_DIST_DIR=.next-prod) for speed testing
   distDir: process.env.NEXT_DIST_DIR || ".next",
   poweredByHeader: false,
+  // the MySQL driver is loaded by Node at runtime, not bundled
+  serverExternalPackages: ["mysql2"],
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },
