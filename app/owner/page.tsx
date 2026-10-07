@@ -54,10 +54,10 @@ const MARQUEE = [
 ];
 
 const STATS = [
+  { to: 80, suffix: "K+", label: "Happy customers" },
   { to: 2020, suffix: "", label: "Shop founded", plain: true },
   { to: 10, suffix: "", label: "Brands on the floor" },
   { to: 400, suffix: "+", label: "Cycle models" },
-  { to: 5, suffix: " km", label: "Free pickup & drop" },
 ];
 
 const VALUES = [
