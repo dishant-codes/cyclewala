@@ -23,6 +23,7 @@ import path from "path";
 import { randomBytes } from "crypto";
 import { getStore } from "@netlify/blobs";
 import { get, put } from "@vercel/blob";
+import { db, mysqlConfigured } from "@/lib/db";
 
 const ON_NETLIFY = !!process.env.SITE_ID;
 const ON_VERCEL = !ON_NETLIFY && process.env.VERCEL === "1";
@@ -48,6 +49,11 @@ export function newId(prefix: string) {
 /* ---------- JSON collections: products / orders / bookings ---------- */
 
 export async function readCollection<T>(name: string, fallback: T): Promise<T> {
+  if (mysqlConfigured()) {
+    const pool = await db();
+    const [rows] = await pool.query<(import("mysql2").RowDataPacket & { value: string })[]>("SELECT value FROM collections WHERE name = ? LIMIT 1", [name]);
+    return rows[0] ? (JSON.parse(rows[0].value) as T) : fallback;
+  }
   if (ON_NETLIFY) {
     const value = await getStore("cyclewala-data").get(name, { type: "json" });
     return value === null ? fallback : (value as T);
@@ -65,6 +71,11 @@ export async function readCollection<T>(name: string, fallback: T): Promise<T> {
 }
 
 export async function writeCollection(name: string, data: unknown): Promise<void> {
+  if (mysqlConfigured()) {
+    const pool = await db();
+    await pool.query("INSERT INTO collections (name, value) VALUES (?, ?) ON DUPLICATE KEY UPDATE value = VALUES(value)", [name, JSON.stringify(data)]);
+    return;
+  }
   if (ON_NETLIFY) {
     await getStore("cyclewala-data").setJSON(name, data);
     return;
@@ -91,6 +102,14 @@ export async function writeCollection(name: string, data: unknown): Promise<void
 /* ---------- admin photo uploads ---------- */
 
 export async function writeUpload(filename: string, bytes: Buffer, contentType: string): Promise<void> {
+  if (mysqlConfigured()) {
+    const pool = await db();
+    await pool.query(
+      "INSERT INTO uploads (filename, content_type, bytes) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE content_type = VALUES(content_type), bytes = VALUES(bytes)",
+      [filename, contentType, bytes]
+    );
+    return;
+  }
   if (ON_NETLIFY) {
     // Blobs wants a real standalone ArrayBuffer, not a Buffer/Uint8Array view
     // (Buffer.buffer can be a larger pooled allocation, hence the slice)
@@ -115,6 +134,14 @@ export async function writeUpload(filename: string, bytes: Buffer, contentType: 
 const EXT_TYPE: Record<string, string> = { jpg: "image/jpeg", png: "image/png", webp: "image/webp" };
 
 export async function readUpload(filename: string): Promise<{ bytes: Buffer; contentType: string } | null> {
+  if (mysqlConfigured()) {
+    const pool = await db();
+    const [rows] = await pool.query<(import("mysql2").RowDataPacket & { bytes: Buffer; content_type: string })[]>(
+      "SELECT bytes, content_type FROM uploads WHERE filename = ? LIMIT 1",
+      [filename]
+    );
+    return rows[0] ? { bytes: Buffer.from(rows[0].bytes), contentType: rows[0].content_type } : null;
+  }
   if (ON_NETLIFY) {
     const result = await getStore("cyclewala-uploads").getWithMetadata(filename, { type: "arrayBuffer" });
     if (!result) return null;

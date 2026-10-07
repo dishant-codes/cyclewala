@@ -11,7 +11,7 @@
  * active.
  */
 import { SEED_PRODUCTS } from "@/data/products-seed";
-import { readCollection, writeCollection } from "@/lib/storage";
+import { productStore } from "@/lib/product-store";
 import OYEKID_CATALOG from "@/data/oyekid-catalog.json";
 import NEUFMAN_CATALOG from "@/data/neufman-catalog.json";
 import SCHNELL_CATALOG from "@/data/schnell-catalog.json";
@@ -22,9 +22,6 @@ import RADIANT_CATALOG from "@/data/radiant-catalog.json";
 import BSA_CATALOG from "@/data/bsa-catalog.json";
 import KROSS_CATALOG from "@/data/kross-catalog.json";
 
-const COLLECTION = "products";
-/** slugs of catalogue products already copied into the live collection */
-const IMPORTS = "catalog-imports";
 /** the hand-made Oyekid placeholders the full Oyekid catalogue supersedes */
 const SUPERSEDED = ["oyekid-mermaid", "oyekid-shark-tank", "oyekid-yuvaa"];
 
@@ -81,7 +78,8 @@ let catalogChecked = false; // per server instance: the catalogue is checked onc
  *  ordinary one: admin edits and deletes stick (it's recorded as imported). */
 async function importCatalog(products: Product[]): Promise<Product[]> {
   if (catalogChecked) return products;
-  const imported = await readCollection<string[]>(IMPORTS, []);
+  const store = productStore();
+  const imported = await store.readImports();
   type Entry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
   const catalog = [
     ...(OYEKID_CATALOG as unknown as Entry[]),
@@ -103,8 +101,8 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
       if (replaces?.length) next = next.filter((p) => !replaces.includes(p.slug));
       if (!next.some((p) => p.slug === c.slug)) next.push({ ...c, createdAt: now, updatedAt: now });
     }
-    await writeCollection(COLLECTION, next);
-    await writeCollection(IMPORTS, [...imported, ...fresh.map((c) => c.slug)]);
+    await store.replaceAll(next);
+    await store.writeImports([...imported, ...fresh.map((c) => c.slug)]);
     products = next;
   }
   catalogChecked = true;
@@ -112,13 +110,14 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
 }
 
 export async function getProducts(): Promise<Product[]> {
-  const existing = await readCollection<Product[] | null>(COLLECTION, null);
+  const store = productStore();
+  const existing = await store.readAll();
   if (existing) return importCatalog(existing);
 
   // first run: seed once from the shop's real, verified starting catalogue
   const now = new Date().toISOString();
   const seeded: Product[] = SEED_PRODUCTS.map((p) => ({ ...p, createdAt: now, updatedAt: now }));
-  await writeCollection(COLLECTION, seeded);
+  await store.replaceAll(seeded);
   return importCatalog(seeded);
 }
 
@@ -134,8 +133,7 @@ export async function createProduct(input: Omit<Product, "createdAt" | "updatedA
   }
   const now = new Date().toISOString();
   const product: Product = { ...input, createdAt: now, updatedAt: now };
-  products.push(product);
-  await writeCollection(COLLECTION, products);
+  await productStore().insert(product);
   return product;
 }
 
@@ -144,20 +142,17 @@ export async function updateProduct(
   updates: Partial<Omit<Product, "slug" | "createdAt">>
 ): Promise<Product | null> {
   const products = await getProducts();
-  const index = products.findIndex((p) => p.slug === slug);
-  if (index === -1) return null;
-  const updated: Product = { ...products[index], ...updates, updatedAt: new Date().toISOString() };
-  products[index] = updated;
-  await writeCollection(COLLECTION, products);
+  const current = products.find((p) => p.slug === slug);
+  if (!current) return null;
+  const updated: Product = { ...current, ...updates, updatedAt: new Date().toISOString() };
+  await productStore().update(updated);
   return updated;
 }
 
 export async function deleteProduct(slug: string): Promise<boolean> {
   const products = await getProducts();
-  const filtered = products.filter((p) => p.slug !== slug);
-  if (filtered.length === products.length) return false;
-  await writeCollection(COLLECTION, filtered);
-  return true;
+  if (!products.some((p) => p.slug === slug)) return false;
+  return productStore().remove(slug);
 }
 
 /* ---------- input validation for the admin API ---------- */

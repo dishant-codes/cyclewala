@@ -4,6 +4,7 @@ import SmoothScroll from "@/components/layout/SmoothScroll";
 import CartDrawer from "@/components/cart/CartDrawer";
 import { LanguageProvider } from "@/lib/i18n";
 import { CartProvider } from "@/lib/cart";
+import { CustomerProvider } from "@/lib/customer";
 import { SITE_URL, SHOP, SAME_AS, ADDRESS_PARTS, SEO_KEYWORDS, SEO_TITLE, SEO_DESCRIPTION } from "@/lib/site";
 import { SERVICES } from "@/data/services";
 import "./globals.css";
@@ -130,10 +131,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body>
         <LanguageProvider>
-          <CartProvider>
-            <SmoothScroll>{children}</SmoothScroll>
-            <CartDrawer />
-          </CartProvider>
+          <CustomerProvider>
+            <CartProvider>
+              <SmoothScroll>{children}</SmoothScroll>
+              <CartDrawer />
+            </CartProvider>
+          </CustomerProvider>
         </LanguageProvider>
         <script
           type="application/ld+json"

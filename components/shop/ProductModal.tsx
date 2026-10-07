@@ -6,6 +6,7 @@ import type { Product } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import { SHOP } from "@/lib/site";
 import StarRating from "@/components/ui/StarRating";
+import WishlistButton from "@/components/account/WishlistButton";
 import ColorSwatches from "@/components/shop/ColorSwatches";
 import { discountPct, optionValues, selectOption, shownFor, type OptionKey, type Selection } from "@/lib/variants";
 import styles from "./ProductModal.module.css";
@@ -54,6 +55,7 @@ export default function ProductModal({
             <span className={shown.inStock ? styles.stockBadge : styles.stockBadgeOut}>
               {shown.inStock ? "In Stock" : "Out of Stock"}
             </span>
+            <WishlistButton slug={product.slug} name={`${product.brand} ${product.model}`} />
           </div>
 
           <div className={styles.info}>

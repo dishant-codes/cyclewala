@@ -4,7 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { CATEGORY_META } from "@/data/products-seed";
 import { useLang } from "@/lib/i18n";
 import { useCart } from "@/lib/cart";
+import { useCustomer } from "@/lib/customer";
 import { SHOP } from "@/lib/site";
+import NavSearch from "./NavSearch";
 import styles from "./Nav.module.css";
 
 /* Nav sequence: Home, Categories (dropdown), Shop, About Us, Services,
@@ -58,6 +60,57 @@ function CartGlyph() {
   );
 }
 
+function SearchGlyph() {
+  return (
+    <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="11" cy="11" r="6.5" />
+        <path d="M16 16l4.5 4.5" />
+      </g>
+    </svg>
+  );
+}
+
+function UserGlyph() {
+  return (
+    <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="8" r="3.6" />
+        <path d="M4.5 20c.9-3.6 3.8-5.4 7.5-5.4s6.6 1.8 7.5 5.4" />
+      </g>
+    </svg>
+  );
+}
+
+function HeartGlyph() {
+  return (
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+      <path
+        d="M12 20.5s-7.5-4.6-9.3-9.2C1.5 8.2 3.3 5 6.5 5c2 0 3.6 1.1 5.5 3.2C13.9 6.1 15.5 5 17.5 5c3.2 0 5 3.2 3.8 6.3-1.8 4.6-9.3 9.2-9.3 9.2z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function PhoneGlyph() {
+  return (
+    <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">
+      <path
+        d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export default function Nav() {
   const ref = useRef<HTMLElement>(null);
   const { t } = useLang();
@@ -65,6 +118,12 @@ export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [categoryOpen, setCategoryOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [acctOpen, setAcctOpen] = useState(false);
+  const acctRef = useRef<HTMLDivElement>(null);
+  const { customer, ready, openAuth, signOut } = useCustomer();
+  const panelRef = useRef<HTMLDivElement>(null);
+  const searchBtnRef = useRef<HTMLButtonElement>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -94,6 +153,45 @@ export default function Nav() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // the small-screen search panel: Escape or a tap anywhere else closes it
+  useEffect(() => {
+    if (!searchOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSearchOpen(false);
+    };
+    const onDown = (e: PointerEvent) => {
+      const el = e.target as Node;
+      if (panelRef.current?.contains(el) || searchBtnRef.current?.contains(el)) return;
+      setSearchOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onDown);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onDown);
+    };
+  }, [searchOpen]);
+
+  // the account menu closes on Escape or a tap anywhere else
+  useEffect(() => {
+    if (!acctOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setAcctOpen(false);
+    };
+    const onDown = (e: PointerEvent) => {
+      if (!acctRef.current?.contains(e.target as Node)) setAcctOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onDown);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onDown);
+    };
+  }, [acctOpen]);
+
+  const initial = customer?.name.trim().charAt(0).toUpperCase() ?? "";
+  const wishCount = customer?.wishlist.length ?? 0;
 
   const openDropdown = () => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
@@ -158,12 +256,73 @@ export default function Nav() {
         </nav>
 
         <div className={styles.right}>
+          {/* wide screens: the box sits right in the bar */}
+          <NavSearch variant="inline" />
+          {/* tablets and phones: an icon that drops the box down under the bar */}
+          <button
+            ref={searchBtnRef}
+            type="button"
+            className={styles.searchBtn}
+            aria-label="Search cycles"
+            aria-expanded={searchOpen}
+            onClick={() => {
+              setMenuOpen(false);
+              setSearchOpen((o) => !o);
+            }}
+          >
+            <SearchGlyph />
+          </button>
           <button type="button" className={styles.cartBtn} aria-label="Your list" onClick={() => setCartOpen(true)}>
             <CartGlyph />
             {cartCount > 0 && <span className={styles.cartBadge}>{cartCount}</span>}
           </button>
+          <div className={styles.acct} ref={acctRef}>
+            <button
+              type="button"
+              className={`${styles.acctBtn} ${customer ? styles.acctOn : ""}`}
+              aria-label={customer ? "Your account" : "Sign in or create an account"}
+              aria-expanded={acctOpen}
+              aria-haspopup={customer ? "menu" : "dialog"}
+              onClick={() => {
+                setSearchOpen(false);
+                setMenuOpen(false);
+                if (customer) setAcctOpen((o) => !o);
+                else openAuth({ mode: "signin" });
+              }}
+            >
+              {customer ? <span className={styles.avatar}>{initial}</span> : <UserGlyph />}
+              {customer && wishCount > 0 && <span className={styles.wishBadge}>{wishCount}</span>}
+            </button>
+            {acctOpen && customer && (
+              <div className={styles.acctMenu} role="menu">
+                <p className={styles.acctName}>
+                  <b>{customer.name}</b>
+                  <small>{customer.email}</small>
+                </p>
+                <a href="/account" role="menuitem">
+                  <HeartGlyph /> My wishlist{wishCount > 0 ? ` (${wishCount})` : ""}
+                </a>
+                <a href="/account#settings" role="menuitem">
+                  Account settings
+                </a>
+                <button
+                  type="button"
+                  role="menuitem"
+                  onClick={() => {
+                    setAcctOpen(false);
+                    void signOut();
+                  }}
+                >
+                  Sign out
+                </button>
+              </div>
+            )}
+          </div>
           <a className={styles.callBtn} href={SHOP.phoneHref}>
-            {t("nav.call")}
+            <span className={styles.callText}>{t("nav.call")}</span>
+            <span className={styles.callIcon}>
+              <PhoneGlyph />
+            </span>
           </a>
           <button
             type="button"
@@ -171,7 +330,10 @@ export default function Nav() {
             aria-label={menuOpen ? t("nav.close") : t("nav.menu")}
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
-            onClick={() => setMenuOpen((o) => !o)}
+            onClick={() => {
+              setSearchOpen(false);
+              setMenuOpen((o) => !o);
+            }}
           >
             <span aria-hidden="true" />
             <span aria-hidden="true" />
@@ -179,9 +341,53 @@ export default function Nav() {
         </div>
       </div>
 
+      {/* ---------- search panel (tablets and phones) ---------- */}
+      {searchOpen && (
+        <div className={styles.searchPanel} ref={panelRef}>
+          <NavSearch variant="panel" autoFocus onDone={() => setSearchOpen(false)} />
+        </div>
+      )}
+
       {/* ---------- mobile drawer ---------- */}
       <div className={`${styles.sheet} ${menuOpen ? styles.sheetOpen : ""}`} id="mobile-nav" hidden={!menuOpen}>
         <nav aria-label="Primary mobile">
+          {ready &&
+            (customer ? (
+              <div className={styles.sheetAcct}>
+                <p>
+                  <b>Hi, {customer.name.split(" ")[0]}</b>
+                  <small>{customer.email}</small>
+                </p>
+                <a href="/account" onClick={() => setMenuOpen(false)}>
+                  <HeartGlyph /> My wishlist{wishCount > 0 ? ` (${wishCount})` : ""}
+                </a>
+                <a href="/account#settings" onClick={() => setMenuOpen(false)}>
+                  Account settings
+                </a>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMenuOpen(false);
+                    void signOut();
+                  }}
+                >
+                  Sign out
+                </button>
+              </div>
+            ) : (
+              <div className={styles.sheetAcct}>
+                <button
+                  type="button"
+                  className={styles.sheetSignIn}
+                  onClick={() => {
+                    setMenuOpen(false);
+                    openAuth({ mode: "signin" });
+                  }}
+                >
+                  Sign in / Create account
+                </button>
+              </div>
+            ))}
           {LINKS.map((l) => (
             <a key={l.key} href={l.href} onClick={() => setMenuOpen(false)}>
               {t(l.key)}

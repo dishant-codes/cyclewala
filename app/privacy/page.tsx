@@ -45,12 +45,16 @@ const SECTIONS: { id: string; title: string; body: React.ReactNode; variant?: "c
             back. We do not receive it until you press Place Order.
           </li>
           <li>
+            <b>If you create an account:</b> your name, email address and a password (we keep only a scrambled, salted version of it — never the password
+            itself), plus the cycles you save to your wishlist.
+          </li>
+          <li>
             <b>Technical information:</b> like most websites, our hosting provider records standard server logs (such as your IP
             address and browser type), and our order form notes your IP address briefly to stop spam and abuse.
           </li>
         </ul>
         <p>
-          You do not need an account to use this site, and we do not ask for card, UPI or bank details — see <a href="#payments">Payments</a>.
+          You do not need an account to browse or order, and we do not ask for card, UPI or bank details — see <a href="#payments">Payments</a>.
         </p>
       </>
     ),
@@ -111,7 +115,7 @@ const SECTIONS: { id: string; title: string; body: React.ReactNode; variant?: "c
     body: (
       <p>
         Visitors do not get tracking cookies. The website saves your cart and a few display preferences in your browser&apos;s local
-        storage so they are remembered on your device. A sign-in cookie is used only by shop staff in the admin area. You can clear
+        storage so they are remembered on your device. One sign-in cookie is used if you choose to sign in to your customer account (it keeps you signed in and is removed when you sign out), and another only by shop staff in the admin area. You can clear
         local storage and cookies at any time from your browser settings.
       </p>
     ),

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { currentCustomer } from "@/lib/customers";
 import { createOrder, type OrderItem } from "@/lib/orders";
 import { getProductBySlug } from "@/lib/products";
 import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
@@ -93,9 +94,12 @@ export async function POST(request: NextRequest) {
       cleanItems.push({ slug: product.slug, ...chosen, brand: product.brand, model: product.model, price, qty });
     }
 
+    // a signed-in customer's order is also filed under their account
+    const account = await currentCustomer(request).catch(() => null);
     const order = await createOrder({
       customer: { name, phone, address, note: clip(c.note, 400) || undefined },
       items: cleanItems,
+      customerKey: account?.key,
     });
 
     rateLimitRecord(request, "order");
