@@ -83,9 +83,9 @@ const MILESTONES: { year: string; title: string; story: string; icon: keyof type
   },
 ];
 
-/* Real, defensible numbers only — no fabricated customer/repair counts. The brand, category and
-   model counts are read from the live catalogue (below), so they grow by themselves when brands or
-   cycles are added in the admin; these are what shows until it loads. */
+/* The brand and model counts are read from the live catalogue (below), so they grow by themselves when
+   brands or cycles are added in the admin; these are what shows until it loads. The "80K+ happy
+   customers" figure is the shop's own number (supplied by the shop) — update it in one place here. */
 const FALLBACK_COUNTS = { brands: 10, categories: 4, models: "400+" };
 
 type CatalogueRow = { brand: string; category: string };
@@ -118,10 +118,10 @@ export default function About() {
   }, []);
 
   const STATS = [
+    { value: "80K+", label: "Happy customers" },
     { value: "2020", label: "Founded in" },
     { value: String(counts.brands), label: "Brands stocked" },
     { value: String(counts.models), label: "Cycle models" },
-    { value: String(counts.categories), label: "Cycle categories" },
   ];
 
   /* The journey draws itself as you reach it: each milestone fades in from its own side, its

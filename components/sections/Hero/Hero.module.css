@@ -256,3 +256,33 @@ a.infoItem:hover {
     -webkit-backdrop-filter: none;
   }
 }
+
+/* "80K+ happy customers" under the buttons */
+.proof {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+  padding: 7px 16px 7px 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
+.proof b {
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+}
+.proofIcon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 50%;
+}

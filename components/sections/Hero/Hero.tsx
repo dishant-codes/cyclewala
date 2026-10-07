@@ -77,6 +77,20 @@ export default function Hero() {
               {t("hero.cta2")}
             </a>
           </div>
+
+          <p className={styles.proof}>
+            <span className={styles.proofIcon} aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="15" height="15">
+                <path
+                  d="M12 20.5s-7.5-4.6-9.3-9.2C1.5 8.2 3.3 5 6.5 5c2 0 3.6 1.1 5.5 3.2C13.9 6.1 15.5 5 17.5 5c3.2 0 5 3.2 3.8 6.3-1.8 4.6-9.3 9.2-9.3 9.2z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span>
+              <b>80K+</b> happy customers
+            </span>
+          </p>
         </div>
       </div>
 
