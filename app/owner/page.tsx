@@ -56,7 +56,7 @@ const MARQUEE = [
 const STATS = [
   { to: 80, suffix: "K+", label: "Happy customers" },
   { to: 2020, suffix: "", label: "Shop founded", plain: true },
-  { to: 10, suffix: "", label: "Brands on the floor" },
+  { to: 13, suffix: "", label: "Brands on the floor" },
   { to: 400, suffix: "+", label: "Cycle models" },
 ];
 
@@ -212,7 +212,7 @@ export default function OwnerPage() {
               rider — can walk in, ask questions and ride away knowing their cycle is sorted.
             </p>
             <p data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-              Today the shop stocks more than 400 models from ten brands — Oyekid, Neufman, Schnell, Hero, Keysto, Hercules, Radiant, BSA, Kross
+              Today the shop stocks more than 400 models from thirteen brands — Oyekid, Neufman, Schnell, Hero, Keysto, Hercules, Radiant, BSA, Kross, Allwyn, Firefox, Corrado
               and more — alongside genuine accessories and a workshop that services every cycle by hand.
             </p>
             <p data-reveal style={{ "--d": "240ms" } as React.CSSProperties}>
