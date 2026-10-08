@@ -21,6 +21,9 @@ import HERCULES_CATALOG from "@/data/hercules-catalog.json";
 import RADIANT_CATALOG from "@/data/radiant-catalog.json";
 import BSA_CATALOG from "@/data/bsa-catalog.json";
 import KROSS_CATALOG from "@/data/kross-catalog.json";
+import ALLWYN_CATALOG from "@/data/allwyn-catalog.json";
+import FIREFOX_CATALOG from "@/data/firefox-catalog.json";
+import CORRADO_CATALOG from "@/data/corrado-catalog.json";
 
 /** the hand-made Oyekid placeholders the full Oyekid catalogue supersedes */
 const SUPERSEDED = ["oyekid-mermaid", "oyekid-shark-tank", "oyekid-yuvaa"];
@@ -91,6 +94,9 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
     ...(RADIANT_CATALOG as unknown as Entry[]),
     ...(BSA_CATALOG as unknown as Entry[]),
     ...(KROSS_CATALOG as unknown as Entry[]),
+    ...(ALLWYN_CATALOG as unknown as Entry[]),
+    ...(FIREFOX_CATALOG as unknown as Entry[]),
+    ...(CORRADO_CATALOG as unknown as Entry[]),
   ];
   const fresh = catalog.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {

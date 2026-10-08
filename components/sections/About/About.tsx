@@ -86,7 +86,7 @@ const MILESTONES: { year: string; title: string; story: string; icon: keyof type
 /* The brand and model counts are read from the live catalogue (below), so they grow by themselves when
    brands or cycles are added in the admin; these are what shows until it loads. The "80K+ happy
    customers" figure is the shop's own number (supplied by the shop) — update it in one place here. */
-const FALLBACK_COUNTS = { brands: 10, categories: 4, models: "400+" };
+const FALLBACK_COUNTS = { brands: 13, categories: 4, models: "400+" };
 
 type CatalogueRow = { brand: string; category: string };
 

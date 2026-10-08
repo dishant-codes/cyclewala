@@ -35,6 +35,12 @@ const BRANDS = [
   { name: "BSA", note: "Kids' cycles, Ladybird bikes for girls, and e-bikes.", logo: "/images/logo/bsalogo.png" },
   // shield from krossbikes.in
   { name: "Kross", note: "Kids' cycles and mountain bikes — V Rock, Preteen and Premium ranges.", logo: "/images/logo/krosslogo.png" },
+  // emblem from allwynbikes.com
+  { name: "Allwyn", note: "Kids' cycles, girls' cycles and MTBs — made in India, with 12T to 29T frames.", logo: "/images/logo/allwynlogo.png" },
+  // fox emblem from firefoxlife.com
+  { name: "Firefox", note: "MTBs, city and gravel bikes — Tremor X, Sigma, Rush and more.", logo: "/images/logo/firefoxlogo.png" },
+  // triangle emblem from corradobikes.com
+  { name: "Corrado", note: "Italian-styled MTBs, kids' cycles, ladies' and fat bikes with disc brakes.", logo: "/images/logo/corradologo.png" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -108,6 +114,27 @@ const KROSS_GROUPS = [
   { id: "Kross Women", label: "Women" },
   { id: "Kross Hybrid", label: "Hybrid" },
 ];
+/* Allwyn's ranges (allwynbikes.com categories). */
+const ALLWYN_GROUPS = [
+  { id: "Allwyn Kids", label: "Kids" },
+  { id: "Allwyn Girls", label: "Girls" },
+  { id: "Allwyn MTB", label: "MTB" },
+  { id: "Allwyn City", label: "City" },
+];
+/* Firefox's ranges (firefoxlife.com). */
+const FIREFOX_GROUPS = [
+  { id: "Firefox MTB", label: "MTB" },
+  { id: "Firefox City", label: "City" },
+  { id: "Firefox Specialty", label: "Specialty" },
+];
+/* Corrado's ranges (corradobikes.com). */
+const CORRADO_GROUPS = [
+  { id: "Corrado Kids", label: "Kids" },
+  { id: "Corrado MTB", label: "MTB" },
+  { id: "Corrado Ladies", label: "Ladies" },
+  { id: "Corrado Hybrid", label: "Hybrid" },
+  { id: "Corrado Fat Bike", label: "Fat Bike" },
+];
 const ALL_GROUPS = [
   ...OYEKID_GROUPS,
   ...NEUFMAN_GROUPS,
@@ -118,6 +145,9 @@ const ALL_GROUPS = [
   ...RADIANT_GROUPS,
   ...BSA_GROUPS,
   ...KROSS_GROUPS,
+  ...ALLWYN_GROUPS,
+  ...FIREFOX_GROUPS,
+  ...CORRADO_GROUPS,
 ];
 const GROUPS_BY_TAB = {
   oyekid: OYEKID_GROUPS,
@@ -129,6 +159,9 @@ const GROUPS_BY_TAB = {
   radiant: RADIANT_GROUPS,
   bsa: BSA_GROUPS,
   kross: KROSS_GROUPS,
+  allwyn: ALLWYN_GROUPS,
+  firefox: FIREFOX_GROUPS,
+  corrado: CORRADO_GROUPS,
 } as const;
 
 const BROWSE_TABS = [
@@ -141,6 +174,9 @@ const BROWSE_TABS = [
   { id: "radiant", name: "Radiant", hint: "Shop by type", logo: "/images/logo/radiantlogo.png" },
   { id: "bsa", name: "BSA", hint: "Shop by type", logo: "/images/logo/bsalogo.png" },
   { id: "kross", name: "Kross", hint: "Shop by type", logo: "/images/logo/krosslogo.png" },
+  { id: "allwyn", name: "Allwyn", hint: "Shop by type", logo: "/images/logo/allwynlogo.png" },
+  { id: "firefox", name: "Firefox", hint: "Shop by type", logo: "/images/logo/firefoxlogo.png" },
+  { id: "corrado", name: "Corrado", hint: "Shop by type", logo: "/images/logo/corradologo.png" },
 ] as const;
 
 /* "Featured" order: the first screen of the shop is what draws people in, so it leads with
@@ -303,7 +339,7 @@ export default function Shop() {
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   /* the brand whose whole collection is showing (null = every brand, featured first) */
   const [brandSel, setBrandSel] = useState<string | null>(null);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross" | "allwyn" | "firefox" | "corrado">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);

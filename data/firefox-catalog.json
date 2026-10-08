@@ -1,0 +1,1093 @@
+[
+  {
+    "slug": "firefox-sigma-pro",
+    "brand": "Firefox",
+    "model": "Sigma Pro",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "L",
+    "specs": [
+      "Frame size: L",
+      "Gears: Single Speed"
+    ],
+    "description": "Comes with a fender, bell, and lock for added convenience and security.",
+    "price": 24990,
+    "rating": 0,
+    "image": "/firefox/sigma-pro-silver.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/sigma-pro-silver.webp",
+        "price": 24990,
+        "regularPrice": 24990,
+        "inStock": false,
+        "sku": "112993912"
+      }
+    ],
+    "defaultColor": "Silver",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-drift-pro",
+    "brand": "Firefox",
+    "model": "Drift Pro",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "M",
+    "specs": [
+      "Frame size: M",
+      "Gears: Single Speed"
+    ],
+    "description": "Experience the thrill of the streets with the Firefox Drift Pro, a hybrid cycle that's built for speed, style, and adventure.",
+    "price": 20990,
+    "rating": 0,
+    "image": "/firefox/drift-pro-blue.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/drift-pro-blue.webp",
+        "price": 20990,
+        "regularPrice": 20990,
+        "inStock": false,
+        "sku": "112990624"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-dominator-pro",
+    "brand": "Firefox",
+    "model": "Dominator + Pro",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "L",
+    "specs": [
+      "Frame size: L",
+      "Gears: Single Speed"
+    ],
+    "description": "Comes with a fender, bell, and lock for added convenience and security.",
+    "price": 22990,
+    "rating": 0,
+    "image": "/firefox/dominator-pro-black.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/dominator-pro-black.webp",
+        "price": 22990,
+        "regularPrice": 22990,
+        "inStock": false,
+        "sku": "112990632"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-rush-pro",
+    "brand": "Firefox",
+    "model": "Rush Pro",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "L · 29T",
+    "specs": [
+      "Frame size: L, wheel 29T",
+      "Gears: Multi-Speed"
+    ],
+    "description": "Comes with a fender, bell, and lock for added convenience and security.",
+    "price": 26990,
+    "rating": 0,
+    "image": "/firefox/rush-pro-black.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/rush-pro-black.webp",
+        "price": 26990,
+        "regularPrice": 26990,
+        "inStock": false,
+        "sku": "112990628"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-tremor-x-stranger-things-edition",
+    "brand": "Firefox",
+    "model": "Tremor X Stranger Things Edition",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "M / L",
+    "specs": [],
+    "description": "Firefox Tremor X is more than just a bike - it's a statement. Built for thrill-seekers and trendsetters, this all-terrain bike delivers unstoppable performance and style. With its high-strength steel frame, 60mm suspension, and disc brakes, Tremor X is ready to take on any terrain and deliver an unforgettable ride",
+    "price": 18990,
+    "rating": 0,
+    "image": "/firefox/tremor-x-stranger-things-edition-red-2.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/firefox/tremor-x-stranger-things-edition-red-2.webp",
+        "price": 18990,
+        "regularPrice": 18990,
+        "inStock": true,
+        "sku": "112065425",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/firefox/tremor-x-stranger-things-edition-red.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": false,
+        "sku": "112992921",
+        "size": "L",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-skull",
+    "brand": "Firefox",
+    "model": "Skull",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "M",
+    "specs": [
+      "Frame size: M",
+      "Gears: Single Speed",
+      "Built for thrill-seekers",
+      "Gyro Brakes ",
+      "Rear Stunt Pegs ",
+      "Wide Tires",
+      "Low Center of Gravity",
+      "High-Quality Brakes",
+      "Aesthetics"
+    ],
+    "description": "Built for the fearless who ride by instinct, not instruction. SKULL's rugged frame, wide tyres, and low center of gravity make it the ultimate weapon for carving through chaos when the world goes to smoke.",
+    "price": 17990,
+    "rating": 0,
+    "image": "/firefox/skull-black.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/skull-black.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": false,
+        "sku": "112065426"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-sigma-stranger-things-edition",
+    "brand": "Firefox",
+    "model": "Sigma+ Stranger Things Edition",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "L",
+    "specs": [
+      "Frame size: L",
+      "Gears: 21-Speed"
+    ],
+    "description": "Its lightweight alloy frame delivers a responsive, agile base while its 21-speed Shimano drivetrain gives you instant control over pace and gradient. This allows seamless shifts whether you're sprinting through open stretches or navigating tight corners.",
+    "price": 22990,
+    "rating": 0,
+    "image": "/firefox/sigma-stranger-things-edition-black.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/sigma-stranger-things-edition-black.webp",
+        "price": 22990,
+        "regularPrice": 22990,
+        "inStock": false,
+        "sku": "112990633"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-sigma",
+    "brand": "Firefox",
+    "model": "Sigma",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "L · 27.5T / L · 29T",
+    "specs": [],
+    "description": "Unapologetically independent, uncompromisingly bold. This bike is for those who defy conventions, crave autonomy, and ride to their own beat. With its alloy frame, 100mm suspension, and mechanical disc brakes, Sigma embodies the spirit of self-reliance and adventure",
+    "price": 17990,
+    "rating": 0,
+    "image": "/firefox/sigma-silver.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/sigma-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112990634",
+        "size": "L · 27.5T",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/sigma-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112993912",
+        "size": "L · 29T",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/sigma-silver.webp",
+        "price": 22990,
+        "regularPrice": 22990,
+        "inStock": false,
+        "sku": "112990635",
+        "size": "L · 27.5T",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/sigma-silver.webp",
+        "price": 22990,
+        "regularPrice": 22990,
+        "inStock": true,
+        "sku": "112993913",
+        "size": "L · 29T",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Silver",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-tremor-x",
+    "brand": "Firefox",
+    "model": "Tremor X",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "S / M",
+    "specs": [
+      "Shock Absorbing 60mm Suspension",
+      "Stop on a Dime with Disc Brakes",
+      "Stronger Wheels, Smoother Ride",
+      "Grip It and Rip It with Comfortable Handlebar Grip",
+      "Sit Back, Ride Easy",
+      "Compact Control"
+    ],
+    "description": "Firefox Tremor X is more than just a bike - it's a statement. Built for thrill-seekers and trendsetters, this all-terrain bike delivers unstoppable performance and style. With its high-strength steel frame, 60mm suspension, and disc brakes, Tremor X is ready to take on any terrain and deliver an unforgettable ride",
+    "price": 13990,
+    "rating": 0,
+    "image": "/firefox/tremor-x-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/tremor-x-grey.webp",
+        "price": 13990,
+        "regularPrice": 13990,
+        "inStock": true,
+        "sku": "112472933",
+        "size": "S",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/tremor-x-grey-2.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112689114",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/tremor-x-grey-3.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112992921",
+        "size": "M",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/tremor-x-orange.webp",
+        "price": 13990,
+        "regularPrice": 13990,
+        "inStock": true,
+        "sku": "112472934",
+        "size": "S",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/firefox/tremor-x-green.webp",
+        "price": 14990,
+        "regularPrice": 14990,
+        "inStock": true,
+        "sku": "112472935",
+        "size": "S",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/firefox/tremor-x-green-2.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112472927",
+        "size": "S",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/firefox/tremor-x-green-2.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112795421",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/tremor-x-blue.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112992811",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/tremor-x-blue-2.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112795521",
+        "size": "M",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/tremor-x-silver.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112992821",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Light Blue",
+        "swatch": "#6fb4f2",
+        "image": "/firefox/tremor-x-light-blue.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112795511",
+        "size": "M",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Light Grey",
+        "swatch": "#b9bec6",
+        "image": "/firefox/tremor-x-light-grey.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112992923",
+        "size": "M",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Grey",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-dominator",
+    "brand": "Firefox",
+    "model": "Dominator",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "S / M / L",
+    "specs": [],
+    "description": "Conquer any terrain with Firefox Dominator, a versatile all-terrain bike built for riders who crave adventure and freedom. With its hardtail steel frame, Shimano gears, and mechanical disc brakes, it's designed for superior durability, control, and performance on any trail, road, or path.",
+    "price": 16990,
+    "rating": 0,
+    "image": "/firefox/dominator-matt-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matt Green",
+        "swatch": "#3f6b4a",
+        "image": "/firefox/dominator-matt-green.webp",
+        "price": 16990,
+        "regularPrice": 16990,
+        "inStock": true,
+        "sku": "112796223",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Matt Green",
+        "swatch": "#3f6b4a",
+        "image": "/firefox/dominator-green.webp",
+        "price": 16990,
+        "regularPrice": 16990,
+        "inStock": true,
+        "sku": "112990632",
+        "size": "L",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/firefox/dominator-green.webp",
+        "price": 16990,
+        "regularPrice": 16990,
+        "inStock": true,
+        "sku": "112689121",
+        "size": "M",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Matt Black",
+        "swatch": "#1b1b1d",
+        "image": "/firefox/dominator-matt-green.webp",
+        "price": 20990,
+        "regularPrice": 20990,
+        "inStock": true,
+        "sku": "112689120",
+        "size": "M",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Matt Black",
+        "swatch": "#1b1b1d",
+        "image": "/firefox/dominator-black.webp",
+        "price": 20990,
+        "regularPrice": 20990,
+        "inStock": true,
+        "sku": "112990631",
+        "size": "L",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/dominator-black.webp",
+        "price": 20990,
+        "regularPrice": 20990,
+        "inStock": true,
+        "sku": "112796222",
+        "size": "M",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/dominator-matt-green.webp",
+        "price": 18990,
+        "regularPrice": 18990,
+        "inStock": true,
+        "sku": "112472938",
+        "size": "S",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Matt Green",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-rush",
+    "brand": "Firefox",
+    "model": "Rush",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "L",
+    "specs": [
+      "Frame size: L"
+    ],
+    "description": "Experience the thrill of the streets with the Firefox Rush—a hybrid cycle built for speed, style, and adventure, featuring a lightweight alloy frame, front suspension, and bold street-smart design",
+    "price": 17990,
+    "rating": 0,
+    "image": "/firefox/rush-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/rush-blue.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112990626",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/rush-black.webp",
+        "price": 22990,
+        "regularPrice": 22990,
+        "inStock": true,
+        "sku": "112990628",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-drift",
+    "brand": "Firefox",
+    "model": "Drift",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "M",
+    "specs": [
+      "Frame size: M"
+    ],
+    "description": "Experience the thrill of the streets with the Firefox Drift, a hybrid cycle that's built for speed, style, and adventure.",
+    "price": 15990,
+    "rating": 0,
+    "image": "/firefox/drift-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/drift-blue.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112990624",
+        "type": "Single Speed"
+      },
+      {
+        "color": "Red",
+        "swatch": "#d62828",
+        "image": "/firefox/drift-red.webp",
+        "price": 20990,
+        "regularPrice": 20990,
+        "inStock": true,
+        "sku": "112990625",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-viper",
+    "brand": "Firefox",
+    "model": "Viper",
+    "category": "mtb",
+    "group": "Firefox Specialty",
+    "sizes": "M",
+    "specs": [
+      "Frame size: M",
+      "Gears: 21-Speed"
+    ],
+    "description": "Experience the perfect blend of form and function with Viper's minimalist design and cutting-edge features. With its dual crown suspension, 21-gear combination, alloy frame, and dual disc brakes, Viper delivers a smooth, powerful, and exhilarating ride that's sure to ignite your passion for cycling.",
+    "price": 32990,
+    "rating": 0,
+    "image": "/firefox/viper-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/viper-black.webp",
+        "price": 32990,
+        "regularPrice": 32990,
+        "inStock": true,
+        "sku": "112689117"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-maddok",
+    "brand": "Firefox",
+    "model": "Maddok",
+    "category": "mtb",
+    "group": "Firefox Specialty",
+    "sizes": "S",
+    "specs": [
+      "Frame size: S",
+      "Gears: Single Speed",
+      "Built for thrill-seekers",
+      "Durable Frame",
+      "Precise Handling",
+      "Wide Tires",
+      "Low Center of Gravity",
+      "High-Quality Brakes",
+      "Aesthetics"
+    ],
+    "description": "Designed for the bold and the fearless, Maddok is the perfect bike for tricks, stunts, and adrenaline-fueled adventures. Its rugged frame, wide tyres, and low center of gravity make it the ultimate ride for those who crave excitement and live life on their own terms.",
+    "price": 17990,
+    "rating": 0,
+    "image": "/firefox/maddok-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/maddok-blue.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112472931"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/maddok-orange.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112472932"
+      },
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/maddok-silver.webp",
+        "price": 17990,
+        "regularPrice": 17990,
+        "inStock": true,
+        "sku": "112472311"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-combat",
+    "brand": "Firefox",
+    "model": "Combat",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "M / L",
+    "specs": [
+      "Gears: 24-Speed",
+      "Dominate The Trails",
+      "Shift With Control",
+      "Stop With Confidence",
+      "Convenience At Its Best",
+      "Comfort On The Trails"
+    ],
+    "description": "Unleash your fury on the trails with Firefox Combat, a high-performance MTB bike built for thrill-seekers. With its alloy frame, Shimano Altus gears, and disc brakes, it's designed for superior strength, agility, and control.",
+    "price": 24990,
+    "rating": 0,
+    "image": "/firefox/combat-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/combat-orange.webp",
+        "price": 24990,
+        "regularPrice": 24990,
+        "inStock": true,
+        "sku": "112791421",
+        "size": "M"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/combat-orange-2.webp",
+        "price": 24990,
+        "regularPrice": 24990,
+        "inStock": true,
+        "sku": "112791422",
+        "size": "L"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/combat-grey.webp",
+        "price": 24990,
+        "regularPrice": 24990,
+        "inStock": true,
+        "sku": "112791411",
+        "size": "M"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/combat-grey-2.webp",
+        "price": 24990,
+        "regularPrice": 24990,
+        "inStock": true,
+        "sku": "112791412",
+        "size": "L"
+      }
+    ],
+    "defaultColor": "Orange",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-charger",
+    "brand": "Firefox",
+    "model": "Charger",
+    "category": "mtb",
+    "group": "Firefox MTB",
+    "sizes": "M / L",
+    "specs": [
+      "Gears: 27-Speed",
+      "Dominate The Trails",
+      "Shift With Control",
+      "Fearless Stops",
+      "Pedal Like A Pro",
+      "Convenience At Its Best",
+      "Comfort On The Trails"
+    ],
+    "description": "Firefox Charger is your rugged companion, designed for thrill and adventure. Featuring an alloy frame, hydraulic disc brakes, hydraulic lockout suspension, and 27 gears, this MTB bike is ready to take on any off-road terrain. Ride the trails, ride the hills - the Charger is your perfect partner for every mountain biking escapade.",
+    "price": 44910,
+    "rating": 0,
+    "image": "/firefox/charger-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/charger-black.webp",
+        "price": 44910,
+        "regularPrice": 44910,
+        "inStock": true,
+        "sku": "112791211",
+        "size": "M"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/charger-black-2.webp",
+        "price": 44910,
+        "regularPrice": 44910,
+        "inStock": false,
+        "sku": "112791212",
+        "size": "L"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/charger-orange.webp",
+        "price": 44910,
+        "regularPrice": 44910,
+        "inStock": true,
+        "sku": "112791221",
+        "size": "M"
+      },
+      {
+        "color": "Orange",
+        "swatch": "#f08a1c",
+        "image": "/firefox/charger-orange-2.webp",
+        "price": 44910,
+        "regularPrice": 44910,
+        "inStock": false,
+        "sku": "112791222",
+        "size": "L"
+      }
+    ],
+    "defaultColor": "Black",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-road-runner-pro-v",
+    "brand": "Firefox",
+    "model": "Road Runner Pro V",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "M / L",
+    "specs": [
+      "Gears: 21-Speed",
+      "Shift With Ease",
+      "Style Meets Substance",
+      "Ride In Comfort",
+      "Smooth Ride",
+      "Hands At Ease",
+      "Convenience At Its Best",
+      "Ride With Confidence"
+    ],
+    "description": "Firefox Road Runner Pro V is your city companion, designed for performance and style. Featuring an alloy frame, unisex design, 21 gears and high-quality components, this bike is ready to take on any urban terrain. Ride to work, ride for fun - the Road Runner Pro V is your perfect partner.",
+    "price": 27000,
+    "rating": 0,
+    "image": "/firefox/road-runner-pro-v-silver.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/road-runner-pro-v-silver.webp",
+        "price": 27000,
+        "regularPrice": 27000,
+        "inStock": false,
+        "sku": "112684441",
+        "size": "M"
+      },
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/road-runner-pro-v-silver-2.webp",
+        "price": 27000,
+        "regularPrice": 27000,
+        "inStock": false,
+        "sku": "112684444",
+        "size": "L"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/road-runner-pro-v-black.webp",
+        "price": 27000,
+        "regularPrice": 27000,
+        "inStock": false,
+        "sku": "112684431",
+        "size": "M"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/road-runner-pro-v-black-2.webp",
+        "price": 27000,
+        "regularPrice": 27000,
+        "inStock": false,
+        "sku": "112684434",
+        "size": "L"
+      },
+      {
+        "color": "Matt Silver",
+        "swatch": "#a9aeb5",
+        "image": "/firefox/road-runner-pro-v-silver.webp",
+        "price": 27000,
+        "regularPrice": 27000,
+        "inStock": false,
+        "sku": "112684442",
+        "size": "L"
+      }
+    ],
+    "defaultColor": "Silver",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-pirate",
+    "brand": "Firefox",
+    "model": "Pirate",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "L",
+    "specs": [
+      "Frame size: L",
+      "Gears: 16-Speed",
+      "Drop Into Action",
+      "Unbridled Control",
+      "Shift With Precision",
+      "Pedal Like A Pro",
+      "Style On Wheels",
+      "Quick Release",
+      "Ride With Confidence"
+    ],
+    "description": "Meet Firefox Pirate, the ultimate gravel bike that's ready to take on any terrain. With its sleek alloy frame and drop handlebar, this bike is built for speed and style. Whether you're cruising down dirt roads or shredding through trails, Pirate's got you covered.",
+    "price": 57470,
+    "rating": 0,
+    "image": "/firefox/pirate-light-grey.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Light Grey",
+        "swatch": "#b9bec6",
+        "image": "/firefox/pirate-light-grey.webp",
+        "price": 57470,
+        "regularPrice": 57470,
+        "inStock": false,
+        "sku": "112792321"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/pirate-black.webp",
+        "price": 57470,
+        "regularPrice": 57470,
+        "inStock": false,
+        "sku": "112792331"
+      },
+      {
+        "color": "Grey",
+        "swatch": "#8a8f98",
+        "image": "/firefox/pirate-grey.webp",
+        "price": 57470,
+        "regularPrice": 57470,
+        "inStock": false,
+        "sku": "112792332"
+      }
+    ],
+    "defaultColor": "Light Grey",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-karma",
+    "brand": "Firefox",
+    "model": "Karma",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "M",
+    "specs": [
+      "Frame size: M",
+      "Built For Ease & Performance",
+      "Smooth Shifts",
+      "Custom Fit",
+      "Quick & Easy",
+      "Comfort Guaranteed",
+      "Style Unleashed",
+      "Peace Of Mind"
+    ],
+    "description": "Make a statement with Firefox Karma, a vibrant city bike that combines style and comfort. Ride in ease with suspension, gears, and palm support, and turn heads with our bold, eye-catching colors.",
+    "price": 18990,
+    "rating": 0,
+    "image": "/firefox/karma-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/karma-blue.webp",
+        "price": 18990,
+        "regularPrice": 18990,
+        "inStock": true,
+        "sku": "112789611",
+        "type": "7-Speed"
+      },
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/karma-blue-2.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112685331",
+        "type": "21-Speed"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/karma-black.webp",
+        "price": 19990,
+        "regularPrice": 19990,
+        "inStock": true,
+        "sku": "112685321",
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  },
+  {
+    "slug": "firefox-breeze",
+    "brand": "Firefox",
+    "model": "Breeze",
+    "category": "hybrid",
+    "group": "Firefox City",
+    "sizes": "S / M",
+    "specs": [
+      "Gears: Single Speed",
+      "Comfort On Wheels",
+      "Designed For You",
+      "Stop With Confidence",
+      "Everyday Essentials",
+      "Peace Of Mind"
+    ],
+    "description": "Get ready to roll in style with Firefox Breeze, the ultimate ride for girls who love freedom and fun! Its comfy frame geometry makes it perfect for chill rides with friends or solo adventures.",
+    "price": 15990,
+    "rating": 0,
+    "image": "/firefox/breeze-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue",
+        "swatch": "#1f5fbf",
+        "image": "/firefox/breeze-blue.webp",
+        "price": 16990,
+        "regularPrice": 16990,
+        "inStock": true,
+        "sku": "112682512",
+        "size": "M"
+      },
+      {
+        "color": "Silver",
+        "swatch": "#c4c8ce",
+        "image": "/firefox/breeze-silver.webp",
+        "price": 16990,
+        "regularPrice": 16990,
+        "inStock": false,
+        "sku": "112682571",
+        "size": "M"
+      },
+      {
+        "color": "Black",
+        "swatch": "#161616",
+        "image": "/firefox/breeze-black.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112471361",
+        "size": "S"
+      },
+      {
+        "color": "Green",
+        "swatch": "#2e8b57",
+        "image": "/firefox/breeze-green.webp",
+        "price": 15990,
+        "regularPrice": 15990,
+        "inStock": true,
+        "sku": "112471371",
+        "size": "S"
+      }
+    ],
+    "defaultColor": "Blue",
+    "source": "firefoxlife.com"
+  }
+]

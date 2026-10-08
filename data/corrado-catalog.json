@@ -1,0 +1,3500 @@
+[
+  {
+    "slug": "corrado-voltar",
+    "brand": "Corrado",
+    "model": "Voltar",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless dual suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight magnesium alloy frame with inner cables"
+    ],
+    "price": 16499,
+    "rating": 0,
+    "image": "/corrado/voltar-teal-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/voltar-teal-black.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Lime/Navy",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #a6d62b 0.0%, #a6d62b 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/voltar-lime-navy.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Lavender/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #b8a9e8 0.0%, #b8a9e8 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/voltar-lavender-grey.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Teal/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-cooper-ibc",
+    "brand": "Corrado",
+    "model": "Cooper IBC",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with inbuilt carrier"
+    ],
+    "price": 15499,
+    "rating": 0,
+    "image": "/corrado/cooper-ibc-khaki.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Khaki",
+        "size": "24T",
+        "swatch": "#b9ad84",
+        "image": "/corrado/cooper-ibc-khaki.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Khaki",
+        "size": "26T",
+        "swatch": "#b9ad84",
+        "image": "/corrado/cooper-ibc-khaki.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/cooper-ibc-grey-blue.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/cooper-ibc-grey-blue.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Olive Green/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #6b7a2e 0.0%, #6b7a2e 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/cooper-ibc-olive-green-lime.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Olive Green/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #6b7a2e 0.0%, #6b7a2e 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/cooper-ibc-olive-green-lime.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Khaki",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-18",
+    "brand": "Corrado",
+    "model": "V-18",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 13999,
+    "rating": 0,
+    "image": "/corrado/v-18-grey-teal.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Teal",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/v-18-grey-teal.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Teal",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/v-18-grey-teal.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "24T",
+        "swatch": "#d62828",
+        "image": "/corrado/v-18-red.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/corrado/v-18-red.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green",
+        "size": "24T",
+        "swatch": "#9db79a",
+        "image": "/corrado/v-18-sage-green.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green",
+        "size": "26T",
+        "swatch": "#9db79a",
+        "image": "/corrado/v-18-sage-green.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-18-blue-yellow.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Blue/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-18-blue-yellow.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Teal",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-coral",
+    "brand": "Corrado",
+    "model": "Coral",
+    "category": "mtb",
+    "group": "Corrado Ladies",
+    "sizes": "26T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Chainwheel: Quarterless",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 15499,
+    "rating": 0,
+    "image": "/corrado/coral-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Pink",
+        "size": "26T",
+        "swatch": "#f06fa4",
+        "image": "/corrado/coral-pink.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/corrado/coral-silver-pink.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Pink",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-bloom",
+    "brand": "Corrado",
+    "model": "Bloom",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Single wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 12999,
+    "rating": 0,
+    "image": "/corrado/bloom-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red",
+        "size": "20T",
+        "swatch": "#d62828",
+        "image": "/corrado/bloom-red.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Lime",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/bloom-black-lime.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      },
+      {
+        "color": "Sky Blue",
+        "size": "20T",
+        "swatch": "#59b8ee",
+        "image": "/corrado/bloom-sky-blue.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/bloom-grey-blue.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-active",
+    "brand": "Corrado",
+    "model": "Active",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Brakes: Mechanical discbrake",
+      "Gears: 21 speed castello gears",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 16999,
+    "rating": 0,
+    "image": "/corrado/active-grey-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/active-grey-orange.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/active-grey-orange.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/active-grey-orange.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/active-grey-orange.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/active-mint-green-lime.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/active-mint-green-lime.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/active-mint-green-lime.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/active-mint-green-lime.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Light Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #9be3a0 50.0%, #9be3a0 100.0%)",
+        "image": "/corrado/active-grey-light-green.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Light Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #9be3a0 50.0%, #9be3a0 100.0%)",
+        "image": "/corrado/active-grey-light-green.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Light Green",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #9be3a0 50.0%, #9be3a0 100.0%)",
+        "image": "/corrado/active-grey-light-green.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Light Green",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #9be3a0 50.0%, #9be3a0 100.0%)",
+        "image": "/corrado/active-grey-light-green.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Teal Blue",
+        "size": "24T",
+        "swatch": "#1f8aa8",
+        "image": "/corrado/active-teal-blue.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Teal Blue",
+        "size": "26T",
+        "swatch": "#1f8aa8",
+        "image": "/corrado/active-teal-blue.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Teal Blue",
+        "size": "27.5T",
+        "swatch": "#1f8aa8",
+        "image": "/corrado/active-teal-blue.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Teal Blue",
+        "size": "29T",
+        "swatch": "#1f8aa8",
+        "image": "/corrado/active-teal-blue.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Orange",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-neo",
+    "brand": "Corrado",
+    "model": "Neo",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Chainwheel: Quarterless",
+      "Bottom bracket: Branded sealed bottom",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 14999,
+    "rating": 0,
+    "image": "/corrado/neo-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/neo-black-yellow.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/neo-black-yellow.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/neo-black-yellow.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/neo-black-yellow.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/neo-grey-orange.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/neo-grey-orange.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/neo-grey-orange.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/neo-grey-orange.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/neo-grey-black.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/neo-grey-black.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/neo-grey-black.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/neo-grey-black.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/neo-black-lime.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/neo-black-lime.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/neo-black-lime.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/neo-black-lime.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Yellow",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-metteo",
+    "brand": "Corrado",
+    "model": "Metteo",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless dual suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Gears: 7 speed microshift",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight magnesium alloy frame with inner cables"
+    ],
+    "price": 18999,
+    "rating": 0,
+    "image": "/corrado/metteo-grey-orange.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Grey/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/metteo-grey-orange.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": false
+      },
+      {
+        "color": "Mint Green",
+        "size": "20T",
+        "swatch": "#8fe3b5",
+        "image": "/corrado/metteo-mint-green.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": false
+      }
+    ],
+    "defaultColor": "Grey/Orange",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-fairy",
+    "brand": "Corrado",
+    "model": "Fairy",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Single wall alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 10999,
+    "rating": 0,
+    "image": "/corrado/fairy-peach-purple.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Peach/Purple",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f6b79a 0.0%, #f6b79a 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/corrado/fairy-peach-purple.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Peach/Purple",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f6b79a 0.0%, #f6b79a 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/corrado/fairy-peach-purple.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Orange",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/fairy-teal-orange.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Orange",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/fairy-teal-orange.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Navy/Red",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #16377a 0.0%, #16377a 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/fairy-navy-red.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Navy/Red",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #16377a 0.0%, #16377a 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/fairy-navy-red.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Pink/Lilac",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #c8a2e0 50.0%, #c8a2e0 100.0%)",
+        "image": "/corrado/fairy-pink-lilac.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Pink/Lilac",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #c8a2e0 50.0%, #c8a2e0 100.0%)",
+        "image": "/corrado/fairy-pink-lilac.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Peach/Purple",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-colt",
+    "brand": "Corrado",
+    "model": "Colt",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "26T / 27.5T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Gears: Ef 500 / 21 speed, Shimano tourney TY/TX",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight magnesium alloy frame with inner cables"
+    ],
+    "price": 27999,
+    "rating": 0,
+    "image": "/corrado/colt-cream-teal.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Cream/Teal",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/colt-cream-teal.webp",
+        "price": 27999,
+        "regularPrice": 27999,
+        "inStock": false
+      },
+      {
+        "color": "Cream/Teal",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/colt-cream-teal.webp",
+        "price": 28999,
+        "regularPrice": 28999,
+        "inStock": false
+      }
+    ],
+    "defaultColor": "Cream/Teal",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-curious",
+    "brand": "Corrado",
+    "model": "Curious",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T",
+    "specs": [
+      "Gears: 21-Speed",
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight magnesium alloy frame with inner cables"
+    ],
+    "price": 22499,
+    "rating": 0,
+    "image": "/corrado/curious-cream-black.webp",
+    "inStock": false,
+    "variants": [
+      {
+        "color": "Cream/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/curious-cream-black.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": false
+      },
+      {
+        "color": "Teal/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/curious-teal-black.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": false
+      }
+    ],
+    "defaultColor": "Cream/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-spark",
+    "brand": "Corrado",
+    "model": "Spark",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "20T / 24T / 26T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 12499,
+    "rating": 0,
+    "image": "/corrado/spark-black-yellow.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/spark-black-yellow.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/spark-black-yellow.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spark-grey-black.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spark-grey-black.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/spark-teal-lime.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/spark-teal-lime.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/spark-teal-lime.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green",
+        "size": "20T",
+        "swatch": "#8fe3b5",
+        "image": "/corrado/spark-mint-green.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green",
+        "size": "24T",
+        "swatch": "#8fe3b5",
+        "image": "/corrado/spark-mint-green.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green",
+        "size": "26T",
+        "swatch": "#8fe3b5",
+        "image": "/corrado/spark-mint-green.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Yellow",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-spin",
+    "brand": "Corrado",
+    "model": "Spin",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile steel frame with inner cable"
+    ],
+    "price": 13999,
+    "rating": 0,
+    "image": "/corrado/spin-yellow-navy.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow/Navy",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-yellow-navy.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Navy",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-yellow-navy.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Navy",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-yellow-navy.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Navy",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-yellow-navy.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-silver-black.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-silver-black.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-silver-black.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-silver-black.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey/Navy",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #b9bec6 0.0%, #b9bec6 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-light-grey-navy.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey/Navy",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #b9bec6 0.0%, #b9bec6 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-light-grey-navy.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey/Navy",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #b9bec6 0.0%, #b9bec6 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-light-grey-navy.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey/Navy",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #b9bec6 0.0%, #b9bec6 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/spin-light-grey-navy.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-red-black.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-red-black.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-red-black.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/spin-red-black.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Yellow/Navy",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-furious",
+    "brand": "Corrado",
+    "model": "Furious",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless dual suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500 / 21 speed, Shimano TZ",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 20999,
+    "rating": 0,
+    "image": "/corrado/furious-black-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/furious-black-red.webp",
+        "price": 20999,
+        "regularPrice": 20999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/furious-black-red.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/furious-black-red.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Red",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-grasso-3-0",
+    "brand": "Corrado",
+    "model": "Grasso 3.0",
+    "category": "mtb",
+    "group": "Corrado Fat Bike",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Tyre: 3.00 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy broad rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500 / 21 speed, Shimano tourney TZ",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 17999,
+    "rating": 0,
+    "image": "/corrado/grasso-3-0-orange-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Orange/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/grasso-3-0-orange-grey.webp",
+        "price": 20999,
+        "regularPrice": 20999,
+        "inStock": true,
+        "type": "21-Speed"
+      },
+      {
+        "color": "Red/Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/grasso-3-0-red-grey.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Red/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/grasso-3-0-red-grey.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Blue/Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/grasso-3-0-blue-grey.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Blue/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/grasso-3-0-blue-grey.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Orange/White",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/corrado/grasso-3-0-orange-white.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Orange/White",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #f5f5f5 50.0%, #f5f5f5 100.0%)",
+        "image": "/corrado/grasso-3-0-orange-white.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true,
+        "type": "Single Speed"
+      }
+    ],
+    "defaultColor": "Orange/Grey",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-vc-9",
+    "brand": "Corrado",
+    "model": "VC-9",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 11999,
+    "rating": 0,
+    "image": "/corrado/vc-9-blue-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Blue/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1f5fbf 0.0%, #1f5fbf 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/vc-9-blue-grey.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Lime/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #a6d62b 0.0%, #a6d62b 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/vc-9-lime-grey.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Lime Green/Teal",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #8fd62a 0.0%, #8fd62a 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vc-9-lime-green-teal.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vc-9-red-black.webp",
+        "price": 11999,
+        "regularPrice": 11999,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vc-9-red-black.webp",
+        "price": 12499,
+        "regularPrice": 12499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/vc-9-lime-green-teal.webp",
+        "price": 11999,
+        "regularPrice": 11999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Navy",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/vc-9-lime-grey.webp",
+        "price": 11999,
+        "regularPrice": 11999,
+        "inStock": true
+      },
+      {
+        "color": "Pink/Teal",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f06fa4 0.0%, #f06fa4 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vc-9-pink-teal.webp",
+        "price": 11999,
+        "regularPrice": 11999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue/Grey",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-36-700c",
+    "brand": "Corrado",
+    "model": "V-36 700C",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Gears: Multi-Speed",
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Dynamic steel frame with attractive water sticker",
+      "Frame size: 15 inch"
+    ],
+    "price": 21499,
+    "rating": 0,
+    "image": "/corrado/v-36-700c-red-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Black",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-36-700c-red-black.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-36-700c-grey-black.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-stout",
+    "brand": "Corrado",
+    "model": "Stout",
+    "category": "mtb",
+    "group": "Corrado Fat Bike",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Type: Fat tyre single speed",
+      "Tyre: 26*400 branded nylon fat tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Strong dynamic steel frame with attractive water sticker"
+    ],
+    "price": 21499,
+    "rating": 0,
+    "image": "/corrado/stout-white-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/stout-white-red.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true,
+        "type": "Single Speed"
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/stout-teal-lime.webp",
+        "price": 24999,
+        "regularPrice": 24999,
+        "inStock": true,
+        "type": "21-Speed"
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/stout-teal-lime.webp",
+        "price": 25499,
+        "regularPrice": 25499,
+        "inStock": true,
+        "type": "21-Speed"
+      },
+      {
+        "color": "Red",
+        "size": "24T",
+        "swatch": "#d62828",
+        "image": "/corrado/stout-red.webp",
+        "price": 24999,
+        "regularPrice": 24999,
+        "inStock": true,
+        "type": "21-Speed"
+      },
+      {
+        "color": "Red",
+        "size": "26T",
+        "swatch": "#d62828",
+        "image": "/corrado/stout-red.webp",
+        "price": 25499,
+        "regularPrice": 25499,
+        "inStock": true,
+        "type": "21-Speed"
+      }
+    ],
+    "defaultColor": "White/Red",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-vitus",
+    "brand": "Corrado",
+    "model": "Vitus",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 15499,
+    "rating": 0,
+    "image": "/corrado/vitus-grey-teal.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Teal",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vitus-grey-teal.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Teal",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vitus-grey-teal.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Teal",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vitus-grey-teal.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Teal",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/vitus-grey-teal.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "24T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/vitus-navy-blue.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "26T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/vitus-navy-blue.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "27.5T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/vitus-navy-blue.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "29T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/vitus-navy-blue.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey",
+        "size": "24T",
+        "swatch": "#b9bec6",
+        "image": "/corrado/vitus-light-grey.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey",
+        "size": "26T",
+        "swatch": "#b9bec6",
+        "image": "/corrado/vitus-light-grey.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey",
+        "size": "27.5T",
+        "swatch": "#b9bec6",
+        "image": "/corrado/vitus-light-grey.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Light Grey",
+        "size": "29T",
+        "swatch": "#b9bec6",
+        "image": "/corrado/vitus-light-grey.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Cream",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #efe6cc 50.0%, #efe6cc 100.0%)",
+        "image": "/corrado/vitus-black-cream.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Cream",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #efe6cc 50.0%, #efe6cc 100.0%)",
+        "image": "/corrado/vitus-black-cream.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Cream",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #efe6cc 50.0%, #efe6cc 100.0%)",
+        "image": "/corrado/vitus-black-cream.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Cream",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #efe6cc 50.0%, #efe6cc 100.0%)",
+        "image": "/corrado/vitus-black-cream.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Teal",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-vitus-gt",
+    "brand": "Corrado",
+    "model": "Vitus GT",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500/21 speed, Shimano tourney TZ",
+      "Frame: High tensile, steel frame with inner cables",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle"
+    ],
+    "price": 19999,
+    "rating": 0,
+    "image": "/corrado/vitus-gt-grey-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vitus-gt-grey-black.webp",
+        "price": 19999,
+        "regularPrice": 19999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vitus-gt-grey-black.webp",
+        "price": 20499,
+        "regularPrice": 20499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vitus-gt-grey-black.webp",
+        "price": 20999,
+        "regularPrice": 20999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/vitus-gt-grey-black.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/vitus-gt-white-blue.webp",
+        "price": 19999,
+        "regularPrice": 19999,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/vitus-gt-white-blue.webp",
+        "price": 20499,
+        "regularPrice": 20499,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/vitus-gt-white-blue.webp",
+        "price": 20999,
+        "regularPrice": 20999,
+        "inStock": true
+      },
+      {
+        "color": "White/Blue",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/vitus-gt-white-blue.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/vitus-gt-grey-lime.webp",
+        "price": 19999,
+        "regularPrice": 19999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/vitus-gt-grey-lime.webp",
+        "price": 20499,
+        "regularPrice": 20499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/vitus-gt-grey-lime.webp",
+        "price": 20999,
+        "regularPrice": 20999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/vitus-gt-grey-lime.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-33",
+    "brand": "Corrado",
+    "model": "V-33",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Lock in lock out threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical discbrake",
+      "Gears: 21 speed, Shimano tourney",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 21499,
+    "rating": 0,
+    "image": "/corrado/v-33-mint-green-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mint Green/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-mint-green-grey.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-mint-green-grey.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-mint-green-grey.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-cream-grey.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-cream-grey.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-cream-grey.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/v-33-grey-red.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/v-33-grey-red.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Red",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/v-33-grey-red.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Cyan",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #19b6d2 50.0%, #19b6d2 100.0%)",
+        "image": "/corrado/v-33-grey-cyan.webp",
+        "price": 21499,
+        "regularPrice": 21499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Cyan",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #19b6d2 50.0%, #19b6d2 100.0%)",
+        "image": "/corrado/v-33-grey-cyan.webp",
+        "price": 21999,
+        "regularPrice": 21999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Cyan",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #19b6d2 50.0%, #19b6d2 100.0%)",
+        "image": "/corrado/v-33-grey-cyan.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Mint Green/Grey",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-amara-lady",
+    "brand": "Corrado",
+    "model": "Amara Lady",
+    "category": "mtb",
+    "group": "Corrado Ladies",
+    "sizes": "26T",
+    "specs": [
+      "Tyre: 2.10 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical disc-brake",
+      "Gears: 07 speed, micro-shift",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 17499,
+    "rating": 0,
+    "image": "/corrado/amara-lady-teal.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal",
+        "size": "26T",
+        "swatch": "#1b8a8f",
+        "image": "/corrado/amara-lady-teal.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Pearl White/Purple",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f0efe9 0.0%, #f0efe9 50.0%, #6a2c91 50.0%, #6a2c91 100.0%)",
+        "image": "/corrado/amara-lady-pearl-white-purple.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Teal",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-99-700c",
+    "brand": "Corrado",
+    "model": "V-99 700C",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Lock in lock out threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight alloy frame with inner cable",
+      "Gears: Shimano altus 24speed"
+    ],
+    "price": 35499,
+    "rating": 0,
+    "image": "/corrado/v-99-700c-bronze-orange.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Bronze/Orange",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #a8793f 0.0%, #a8793f 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/v-99-700c-bronze-orange.webp",
+        "price": 35499,
+        "regularPrice": 35499,
+        "inStock": true
+      },
+      {
+        "color": "Lime/Grey",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #a6d62b 0.0%, #a6d62b 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-99-700c-lime-grey.webp",
+        "price": 35499,
+        "regularPrice": 35499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Bronze/Orange",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-33-xr",
+    "brand": "Corrado",
+    "model": "V-33 XR",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "26T / 27T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Lock in lock out threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500 / 21 speed, Shimano TZ",
+      "Frame: High tensile, steel frame with inner cables and smooth welding"
+    ],
+    "price": 22499,
+    "rating": 0,
+    "image": "/corrado/v-33-xr-teal-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-teal-black.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "27T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-teal-black.webp",
+        "price": 22999,
+        "regularPrice": 22999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-teal-black.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-red-black.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "27T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-red-black.webp",
+        "price": 22999,
+        "regularPrice": 22999,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-red-black.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-xr-black-grey.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "27T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-xr-black-grey.webp",
+        "price": 22999,
+        "regularPrice": 22999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-33-xr-black-grey.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-cream-black.webp",
+        "price": 22499,
+        "regularPrice": 22499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "27T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-cream-black.webp",
+        "price": 22999,
+        "regularPrice": 22999,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-33-xr-cream-black.webp",
+        "price": 23499,
+        "regularPrice": 23499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Teal/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-21-dual-tone",
+    "brand": "Corrado",
+    "model": "V-21 Dual Tone",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with inner cables and smooth welding"
+    ],
+    "price": 16999,
+    "rating": 0,
+    "image": "/corrado/v-21-dual-tone-grey-lime.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-lime.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-lime.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-lime.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-lime.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-mint-green-black.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-mint-green-black.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-mint-green-black.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8fe3b5 0.0%, #8fe3b5 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-mint-green-black.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-black.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-black.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-black.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-grey-black.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-cream-black.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-cream-black.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-cream-black.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Cream/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #efe6cc 0.0%, #efe6cc 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-21-dual-tone-cream-black.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Lime",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-austin",
+    "brand": "Corrado",
+    "model": "Austin",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "14T / 16T / 20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Single wall alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 10499,
+    "rating": 0,
+    "image": "/corrado/austin-yellow-teal.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Yellow/Teal",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/austin-yellow-teal.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Teal",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/austin-yellow-teal.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Yellow/Teal",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f2c40f 0.0%, #f2c40f 50.0%, #1b8a8f 50.0%, #1b8a8f 100.0%)",
+        "image": "/corrado/austin-yellow-teal.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/austin-teal-lime.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/austin-teal-lime.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/austin-teal-lime.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/austin-red-black.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/austin-red-black.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Red/Black",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/austin-red-black.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Grey",
+        "size": "14T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/austin-orange-grey.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Grey",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/austin-orange-grey.webp",
+        "price": 10999,
+        "regularPrice": 10999,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Grey",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/austin-orange-grey.webp",
+        "price": 11499,
+        "regularPrice": 11499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Yellow/Teal",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-buddy",
+    "brand": "Corrado",
+    "model": "Buddy",
+    "category": "kids",
+    "group": "Corrado Kids",
+    "sizes": "16T / 20T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Single wall steel rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 10499,
+    "rating": 0,
+    "image": "/corrado/buddy-red-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red/Blue",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/buddy-red-blue.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Red/Blue",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #d62828 0.0%, #d62828 50.0%, #1f5fbf 50.0%, #1f5fbf 100.0%)",
+        "image": "/corrado/buddy-red-blue.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green/Yellow",
+        "size": "16T",
+        "swatch": "linear-gradient(-45deg, #9db79a 0.0%, #9db79a 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/buddy-sage-green-yellow.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green/Yellow",
+        "size": "20T",
+        "swatch": "linear-gradient(-45deg, #9db79a 0.0%, #9db79a 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/buddy-sage-green-yellow.webp",
+        "price": 10499,
+        "regularPrice": 10499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Red/Blue",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-veneto-700c-lockout-suspension",
+    "brand": "Corrado",
+    "model": "Veneto 700C Lockout Suspension",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Lock in lock out threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight alloy frame with inner cable"
+    ],
+    "price": 19499,
+    "rating": 0,
+    "image": "/corrado/veneto-700c-lockout-suspension-grey-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Grey/Black",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/veneto-700c-lockout-suspension-grey-black.webp",
+        "price": 19499,
+        "regularPrice": 19499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "700C",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/veneto-700c-lockout-suspension-navy-blue.webp",
+        "price": 19499,
+        "regularPrice": 19499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Grey/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-60",
+    "brand": "Corrado",
+    "model": "V-60",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Lock in lock out threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Hub: Imported branded hub",
+      "Chainwheel: Quarterless",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500 / 21 speed, Shimano tourney TY/TX",
+      "Frame: Light weight alloy frame with inner cable"
+    ],
+    "price": 26499,
+    "rating": 0,
+    "image": "/corrado/v-60-green-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Green/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-60-green-grey.webp",
+        "price": 26499,
+        "regularPrice": 26499,
+        "inStock": true
+      },
+      {
+        "color": "Green/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #2e8b57 0.0%, #2e8b57 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-60-green-grey.webp",
+        "price": 27499,
+        "regularPrice": 27499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-60-grey-lime.webp",
+        "price": 26499,
+        "regularPrice": 26499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-60-grey-lime.webp",
+        "price": 27499,
+        "regularPrice": 27499,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-60-orange-black.webp",
+        "price": 26499,
+        "regularPrice": 26499,
+        "inStock": true
+      },
+      {
+        "color": "Orange/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f08a1c 0.0%, #f08a1c 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-60-orange-black.webp",
+        "price": 27499,
+        "regularPrice": 27499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-60-black-grey.webp",
+        "price": 26499,
+        "regularPrice": 26499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-60-black-grey.webp",
+        "price": 27499,
+        "regularPrice": 27499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Green/Grey",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-torus",
+    "brand": "Corrado",
+    "model": "Torus",
+    "category": "mtb",
+    "group": "Corrado Fat Bike",
+    "sizes": "24T",
+    "specs": [
+      "Tyre: 3.00 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy broad rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Brakes: Mechanical discbrake",
+      "Gears: Ef 500 / 21 speed, Shimano tourney TZ",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 20499,
+    "rating": 0,
+    "image": "/corrado/torus-black-lime.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/torus-black-lime.webp",
+        "price": 20499,
+        "regularPrice": 20499,
+        "inStock": true
+      },
+      {
+        "color": "Navy/Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #16377a 0.0%, #16377a 50.0%, #f08a1c 50.0%, #f08a1c 100.0%)",
+        "image": "/corrado/torus-navy-orange.webp",
+        "price": 20499,
+        "regularPrice": 20499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Lime",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-tour",
+    "brand": "Corrado",
+    "model": "V-Tour",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with inner cables"
+    ],
+    "price": 15999,
+    "rating": 0,
+    "image": "/corrado/v-tour-teal-black.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Teal/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-tour-teal-black.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-tour-teal-black.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-tour-teal-black.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-tour-teal-black.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-tour-black-yellow.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-tour-black-yellow.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-tour-black-yellow.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Yellow",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #f2c40f 50.0%, #f2c40f 100.0%)",
+        "image": "/corrado/v-tour-black-yellow.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "24T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/v-tour-navy-blue.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "26T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/v-tour-navy-blue.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "27.5T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/v-tour-navy-blue.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "29T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/v-tour-navy-blue.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-tour-black-grey.webp",
+        "price": 15999,
+        "regularPrice": 15999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-tour-black-grey.webp",
+        "price": 16499,
+        "regularPrice": 16499,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-tour-black-grey.webp",
+        "price": 16999,
+        "regularPrice": 16999,
+        "inStock": true
+      },
+      {
+        "color": "Black/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-tour-black-grey.webp",
+        "price": 17499,
+        "regularPrice": 17499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Teal/Black",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-olivia-lady",
+    "brand": "Corrado",
+    "model": "Olivia Lady",
+    "category": "mtb",
+    "group": "Corrado Ladies",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Tyre: 2.10 branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 14499,
+    "rating": 0,
+    "image": "/corrado/olivia-lady-silver-pink.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Silver/Pink",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/corrado/olivia-lady-silver-pink.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Silver/Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #f06fa4 50.0%, #f06fa4 100.0%)",
+        "image": "/corrado/olivia-lady-silver-pink.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green",
+        "size": "24T",
+        "swatch": "#9db79a",
+        "image": "/corrado/olivia-lady-sage-green.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green",
+        "size": "26T",
+        "swatch": "#9db79a",
+        "image": "/corrado/olivia-lady-sage-green.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Silver/Pink",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-volta",
+    "brand": "Corrado",
+    "model": "Volta",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 26T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Branded hub",
+      "Brakes: V-brake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 13999,
+    "rating": 0,
+    "image": "/corrado/volta-olive-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Olive Green",
+        "size": "24T",
+        "swatch": "#6b7a2e",
+        "image": "/corrado/volta-olive-green.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Olive Green",
+        "size": "26T",
+        "swatch": "#6b7a2e",
+        "image": "/corrado/volta-olive-green.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Olive Green",
+        "size": "29T",
+        "swatch": "#6b7a2e",
+        "image": "/corrado/volta-olive-green.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/volta-teal-black.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/volta-teal-black.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/volta-teal-black.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "White/Grey",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/volta-white-grey.webp",
+        "price": 13999,
+        "regularPrice": 13999,
+        "inStock": true
+      },
+      {
+        "color": "White/Grey",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/volta-white-grey.webp",
+        "price": 14499,
+        "regularPrice": 14499,
+        "inStock": true
+      },
+      {
+        "color": "White/Grey",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/volta-white-grey.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Olive Green",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-veneto-700c-rigid-fork",
+    "brand": "Corrado",
+    "model": "Veneto 700C Rigid Fork",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight alloy frame with inner cable"
+    ],
+    "price": 18499,
+    "rating": 0,
+    "image": "/corrado/veneto-700c-rigid-fork-black-lime.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Lime",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/veneto-700c-rigid-fork-black-lime.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "700C",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/veneto-700c-rigid-fork-navy-blue.webp",
+        "price": 18499,
+        "regularPrice": 18499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Lime",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-15-700c-rigid-fork",
+    "brand": "Corrado",
+    "model": "V-15 700C Rigid Fork",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Dynamic steel frame with attractive water sticker",
+      "Frame size: 15 inch"
+    ],
+    "price": 12999,
+    "rating": 0,
+    "image": "/corrado/v-15-700c-rigid-fork-navy-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Navy/Red",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #16377a 0.0%, #16377a 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/v-15-700c-rigid-fork-navy-red.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      },
+      {
+        "color": "Slate Grey",
+        "size": "700C",
+        "swatch": "#5c6b7a",
+        "image": "/corrado/v-15-700c-rigid-fork-slate-grey.webp",
+        "price": 12999,
+        "regularPrice": 12999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Navy/Red",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-15-700c-suspension-fork",
+    "brand": "Corrado",
+    "model": "V-15 700C Suspension Fork",
+    "category": "hybrid",
+    "group": "Corrado Hybrid",
+    "sizes": "700C",
+    "specs": [
+      "Tyre: 700c branded nylon tyre",
+      "Fork: Threadless suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Dynamic steel frame with attractive water sticker"
+    ],
+    "price": 15499,
+    "rating": 0,
+    "image": "/corrado/v-15-700c-suspension-fork-black-grey.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black/Grey",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #161616 0.0%, #161616 50.0%, #8a8f98 50.0%, #8a8f98 100.0%)",
+        "image": "/corrado/v-15-700c-suspension-fork-black-grey.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Olive Green",
+        "size": "700C",
+        "swatch": "#6b7a2e",
+        "image": "/corrado/v-15-700c-suspension-fork-olive-green.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Navy",
+        "size": "700C",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #16377a 50.0%, #16377a 100.0%)",
+        "image": "/corrado/v-15-700c-suspension-fork-teal-navy.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Sage Green",
+        "size": "700C",
+        "swatch": "#9db79a",
+        "image": "/corrado/v-15-700c-suspension-fork-sage-green.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black/Grey",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-45-fat-bike",
+    "brand": "Corrado",
+    "model": "V-45 Fat Bike",
+    "category": "mtb",
+    "group": "Corrado Fat Bike",
+    "sizes": "26T",
+    "specs": [
+      "Type: Fat tyre single speed",
+      "Tyre: 26*400 branded nylon fat tyre",
+      "Fork: Threadless rigid fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Strong dynamic steel frame with attractive water sticker"
+    ],
+    "price": 18999,
+    "rating": 0,
+    "image": "/corrado/v-45-fat-bike-white-red.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "White/Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5f5f5 0.0%, #f5f5f5 50.0%, #d62828 50.0%, #d62828 100.0%)",
+        "image": "/corrado/v-45-fat-bike-white-red.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "White/Red",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-v-27",
+    "brand": "Corrado",
+    "model": "V-27",
+    "category": "mtb",
+    "group": "Corrado MTB",
+    "sizes": "24T / 27.5T / 29T",
+    "specs": [
+      "Tyre: 2.40 branded nylon tyre",
+      "Fork: Lock in lock out suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: Light weight alloy frame with inner cable"
+    ],
+    "price": 17999,
+    "rating": 0,
+    "image": "/corrado/v-27-light-green.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Light Green",
+        "size": "24T",
+        "swatch": "#9be3a0",
+        "image": "/corrado/v-27-light-green.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Light Green",
+        "size": "27.5T",
+        "swatch": "#9be3a0",
+        "image": "/corrado/v-27-light-green.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": true
+      },
+      {
+        "color": "Light Green",
+        "size": "29T",
+        "swatch": "#9be3a0",
+        "image": "/corrado/v-27-light-green.webp",
+        "price": 19499,
+        "regularPrice": 19499,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-27-grey-black.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-27-grey-black.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": true
+      },
+      {
+        "color": "Grey/Black",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #8a8f98 0.0%, #8a8f98 50.0%, #161616 50.0%, #161616 100.0%)",
+        "image": "/corrado/v-27-grey-black.webp",
+        "price": 19499,
+        "regularPrice": 19499,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-27-teal-lime.webp",
+        "price": 17999,
+        "regularPrice": 17999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "27.5T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-27-teal-lime.webp",
+        "price": 18999,
+        "regularPrice": 18999,
+        "inStock": true
+      },
+      {
+        "color": "Teal/Lime",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #1b8a8f 0.0%, #1b8a8f 50.0%, #a6d62b 50.0%, #a6d62b 100.0%)",
+        "image": "/corrado/v-27-teal-lime.webp",
+        "price": 19499,
+        "regularPrice": 19499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Light Green",
+    "source": "corradobikes.com"
+  },
+  {
+    "slug": "corrado-lady-pearl",
+    "brand": "Corrado",
+    "model": "Lady Pearl",
+    "category": "mtb",
+    "group": "Corrado Ladies",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Tyre: 2.10 branded nylon tyre",
+      "Fork: Suspension fork",
+      "Rim: Double wall, alloy rim",
+      "Bottom bracket: Branded sealed bottom",
+      "Chainwheel: Quarterless",
+      "Saddle: Good quality saddle",
+      "Hub: Imported branded hub",
+      "Brakes: Mechanical discbrake",
+      "Frame: High tensile, steel frame with attractive water sticker"
+    ],
+    "price": 14999,
+    "rating": 0,
+    "image": "/corrado/lady-pearl-navy-blue.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Navy Blue",
+        "size": "24T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/lady-pearl-navy-blue.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Navy Blue",
+        "size": "26T",
+        "swatch": "#1c2f6e",
+        "image": "/corrado/lady-pearl-navy-blue.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      },
+      {
+        "color": "Copper Brown",
+        "size": "24T",
+        "swatch": "#6b4423",
+        "image": "/corrado/lady-pearl-copper-brown.webp",
+        "price": 14999,
+        "regularPrice": 14999,
+        "inStock": true
+      },
+      {
+        "color": "Copper Brown",
+        "size": "26T",
+        "swatch": "#6b4423",
+        "image": "/corrado/lady-pearl-copper-brown.webp",
+        "price": 15499,
+        "regularPrice": 15499,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Navy Blue",
+    "source": "corradobikes.com"
+  }
+]
