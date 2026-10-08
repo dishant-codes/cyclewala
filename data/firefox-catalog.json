@@ -14,7 +14,7 @@
     "price": 24990,
     "rating": 0,
     "image": "/firefox/sigma-pro-silver.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Silver",
@@ -22,7 +22,7 @@
         "image": "/firefox/sigma-pro-silver.webp",
         "price": 24990,
         "regularPrice": 24990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112993912"
       }
     ],
@@ -44,7 +44,7 @@
     "price": 20990,
     "rating": 0,
     "image": "/firefox/drift-pro-blue.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Blue",
@@ -52,7 +52,7 @@
         "image": "/firefox/drift-pro-blue.webp",
         "price": 20990,
         "regularPrice": 20990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112990624"
       }
     ],
@@ -74,7 +74,7 @@
     "price": 22990,
     "rating": 0,
     "image": "/firefox/dominator-pro-black.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Black",
@@ -82,7 +82,7 @@
         "image": "/firefox/dominator-pro-black.webp",
         "price": 22990,
         "regularPrice": 22990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112990632"
       }
     ],
@@ -104,7 +104,7 @@
     "price": 26990,
     "rating": 0,
     "image": "/firefox/rush-pro-black.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Black",
@@ -112,7 +112,7 @@
         "image": "/firefox/rush-pro-black.webp",
         "price": 26990,
         "regularPrice": 26990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112990628"
       }
     ],
@@ -150,7 +150,7 @@
         "image": "/firefox/tremor-x-stranger-things-edition-red.webp",
         "price": 19990,
         "regularPrice": 19990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112992921",
         "size": "L",
         "type": "21-Speed"
@@ -181,7 +181,7 @@
     "price": 17990,
     "rating": 0,
     "image": "/firefox/skull-black.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Black",
@@ -189,7 +189,7 @@
         "image": "/firefox/skull-black.webp",
         "price": 17990,
         "regularPrice": 17990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112065426"
       }
     ],
@@ -211,7 +211,7 @@
     "price": 22990,
     "rating": 0,
     "image": "/firefox/sigma-stranger-things-edition-black.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Black",
@@ -219,7 +219,7 @@
         "image": "/firefox/sigma-stranger-things-edition-black.webp",
         "price": 22990,
         "regularPrice": 22990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112990633"
       }
     ],
@@ -268,7 +268,7 @@
         "image": "/firefox/sigma-silver.webp",
         "price": 22990,
         "regularPrice": 22990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112990635",
         "size": "L · 27.5T",
         "type": "21-Speed"
@@ -808,7 +808,7 @@
         "image": "/firefox/charger-black-2.webp",
         "price": 44910,
         "regularPrice": 44910,
-        "inStock": false,
+        "inStock": true,
         "sku": "112791212",
         "size": "L"
       },
@@ -828,7 +828,7 @@
         "image": "/firefox/charger-orange-2.webp",
         "price": 44910,
         "regularPrice": 44910,
-        "inStock": false,
+        "inStock": true,
         "sku": "112791222",
         "size": "L"
       }
@@ -857,7 +857,7 @@
     "price": 27000,
     "rating": 0,
     "image": "/firefox/road-runner-pro-v-silver.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Silver",
@@ -865,7 +865,7 @@
         "image": "/firefox/road-runner-pro-v-silver.webp",
         "price": 27000,
         "regularPrice": 27000,
-        "inStock": false,
+        "inStock": true,
         "sku": "112684441",
         "size": "M"
       },
@@ -875,7 +875,7 @@
         "image": "/firefox/road-runner-pro-v-silver-2.webp",
         "price": 27000,
         "regularPrice": 27000,
-        "inStock": false,
+        "inStock": true,
         "sku": "112684444",
         "size": "L"
       },
@@ -885,7 +885,7 @@
         "image": "/firefox/road-runner-pro-v-black.webp",
         "price": 27000,
         "regularPrice": 27000,
-        "inStock": false,
+        "inStock": true,
         "sku": "112684431",
         "size": "M"
       },
@@ -895,7 +895,7 @@
         "image": "/firefox/road-runner-pro-v-black-2.webp",
         "price": 27000,
         "regularPrice": 27000,
-        "inStock": false,
+        "inStock": true,
         "sku": "112684434",
         "size": "L"
       },
@@ -905,7 +905,7 @@
         "image": "/firefox/road-runner-pro-v-silver.webp",
         "price": 27000,
         "regularPrice": 27000,
-        "inStock": false,
+        "inStock": true,
         "sku": "112684442",
         "size": "L"
       }
@@ -935,7 +935,7 @@
     "price": 57470,
     "rating": 0,
     "image": "/firefox/pirate-light-grey.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Light Grey",
@@ -943,7 +943,7 @@
         "image": "/firefox/pirate-light-grey.webp",
         "price": 57470,
         "regularPrice": 57470,
-        "inStock": false,
+        "inStock": true,
         "sku": "112792321"
       },
       {
@@ -952,7 +952,7 @@
         "image": "/firefox/pirate-black.webp",
         "price": 57470,
         "regularPrice": 57470,
-        "inStock": false,
+        "inStock": true,
         "sku": "112792331"
       },
       {
@@ -961,7 +961,7 @@
         "image": "/firefox/pirate-grey.webp",
         "price": 57470,
         "regularPrice": 57470,
-        "inStock": false,
+        "inStock": true,
         "sku": "112792332"
       }
     ],
@@ -1062,7 +1062,7 @@
         "image": "/firefox/breeze-silver.webp",
         "price": 16990,
         "regularPrice": 16990,
-        "inStock": false,
+        "inStock": true,
         "sku": "112682571",
         "size": "M"
       },

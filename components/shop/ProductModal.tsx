@@ -153,7 +153,7 @@ export default function ProductModal({
                   })
                 }
               >
-                Add to Cart
+                {shown.inStock ? "Add to Cart" : "Out of stock"}
               </button>
               <a className={styles.askBtn} href={SHOP.phoneHref}>
                 Ask about this →

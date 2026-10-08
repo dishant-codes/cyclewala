@@ -1,6 +1,7 @@
 /* Shared "database" for products, orders and bookings, plus admin photo
- * uploads. Two backends, chosen automatically:
+ * uploads. Backends, chosen automatically:
  *
+ *   - MongoDB, whenever MONGODB_URI is set (see lib/db.ts). Wins over all the others.
  *   - Netlify Blobs, when running as a deployed Netlify Function. Netlify
  *     Functions have a read-only filesystem outside of /tmp — plain `fs`
  *     writes there fail silently at runtime (this is exactly what broke
@@ -23,7 +24,8 @@ import path from "path";
 import { randomBytes } from "crypto";
 import { getStore } from "@netlify/blobs";
 import { get, put } from "@vercel/blob";
-import { db, mysqlConfigured } from "@/lib/db";
+import { Binary } from "mongodb";
+import { db, dbConfigured } from "@/lib/db";
 
 const ON_NETLIFY = !!process.env.SITE_ID;
 const ON_VERCEL = !ON_NETLIFY && process.env.VERCEL === "1";
@@ -49,10 +51,9 @@ export function newId(prefix: string) {
 /* ---------- JSON collections: products / orders / bookings ---------- */
 
 export async function readCollection<T>(name: string, fallback: T): Promise<T> {
-  if (mysqlConfigured()) {
-    const pool = await db();
-    const [rows] = await pool.query<(import("mysql2").RowDataPacket & { value: string })[]>("SELECT value FROM collections WHERE name = ? LIMIT 1", [name]);
-    return rows[0] ? (JSON.parse(rows[0].value) as T) : fallback;
+  if (dbConfigured()) {
+    const doc = await (await db()).collection<{ _id: string; value: string }>("collections").findOne({ _id: name });
+    return doc ? (JSON.parse(doc.value) as T) : fallback;
   }
   if (ON_NETLIFY) {
     const value = await getStore("cyclewala-data").get(name, { type: "json" });
@@ -71,9 +72,10 @@ export async function readCollection<T>(name: string, fallback: T): Promise<T> {
 }
 
 export async function writeCollection(name: string, data: unknown): Promise<void> {
-  if (mysqlConfigured()) {
-    const pool = await db();
-    await pool.query("INSERT INTO collections (name, value) VALUES (?, ?) ON DUPLICATE KEY UPDATE value = VALUES(value)", [name, JSON.stringify(data)]);
+  if (dbConfigured()) {
+    await (await db())
+      .collection<{ _id: string; value: string; updatedAt: Date }>("collections")
+      .updateOne({ _id: name }, { $set: { value: JSON.stringify(data), updatedAt: new Date() } }, { upsert: true });
     return;
   }
   if (ON_NETLIFY) {
@@ -102,12 +104,10 @@ export async function writeCollection(name: string, data: unknown): Promise<void
 /* ---------- admin photo uploads ---------- */
 
 export async function writeUpload(filename: string, bytes: Buffer, contentType: string): Promise<void> {
-  if (mysqlConfigured()) {
-    const pool = await db();
-    await pool.query(
-      "INSERT INTO uploads (filename, content_type, bytes) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE content_type = VALUES(content_type), bytes = VALUES(bytes)",
-      [filename, contentType, bytes]
-    );
+  if (dbConfigured()) {
+    await (await db())
+      .collection<{ _id: string; contentType: string; bytes: Binary; createdAt: Date }>("uploads")
+      .updateOne({ _id: filename }, { $set: { contentType, bytes: new Binary(bytes), createdAt: new Date() } }, { upsert: true });
     return;
   }
   if (ON_NETLIFY) {
@@ -134,13 +134,9 @@ export async function writeUpload(filename: string, bytes: Buffer, contentType: 
 const EXT_TYPE: Record<string, string> = { jpg: "image/jpeg", png: "image/png", webp: "image/webp" };
 
 export async function readUpload(filename: string): Promise<{ bytes: Buffer; contentType: string } | null> {
-  if (mysqlConfigured()) {
-    const pool = await db();
-    const [rows] = await pool.query<(import("mysql2").RowDataPacket & { bytes: Buffer; content_type: string })[]>(
-      "SELECT bytes, content_type FROM uploads WHERE filename = ? LIMIT 1",
-      [filename]
-    );
-    return rows[0] ? { bytes: Buffer.from(rows[0].bytes), contentType: rows[0].content_type } : null;
+  if (dbConfigured()) {
+    const doc = await (await db()).collection<{ _id: string; contentType: string; bytes: Binary }>("uploads").findOne({ _id: filename });
+    return doc ? { bytes: Buffer.from(doc.bytes.buffer), contentType: doc.contentType } : null;
   }
   if (ON_NETLIFY) {
     const result = await getStore("cyclewala-uploads").getWithMetadata(filename, { type: "arrayBuffer" });

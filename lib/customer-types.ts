@@ -1,4 +1,4 @@
-/* Shapes shared by the customer code and its two storage back-ends (MySQL and plain files). */
+/* Shapes shared by the customer code and its two storage back-ends (MongoDB and plain files). */
 
 export type Customer = {
   /** the account's stable id as text — what the sign-in cookie and orders refer to */
