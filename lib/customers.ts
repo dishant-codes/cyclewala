@@ -1,6 +1,6 @@
 /* Customer accounts — sign up / sign in, and each customer's wishlist.
  *
- * Storage: MySQL when DB_HOST / DB_NAME / DB_USER are set (see lib/db.ts and lib/customer-store-mysql.ts);
+ * Storage: MongoDB when MONGODB_URI is set (see lib/db.ts and lib/customer-store-mongo.ts);
  * otherwise the shop's general storage — Vercel Blob, Netlify Blobs or files (lib/customer-store-file.ts).
  *
  * Passwords: never stored. Only a salted scrypt hash (memory-hard, from Node's own crypto — no extra

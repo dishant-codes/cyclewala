@@ -75,6 +75,24 @@ export type Product = {
 
 let catalogChecked = false; // per server instance: the catalogue is checked once, then cached
 
+type CatalogEntry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
+
+/** every brand's built-in catalogue, in the order the shop lists them */
+const CATALOG: CatalogEntry[] = [
+  ...(OYEKID_CATALOG as unknown as CatalogEntry[]),
+  ...(NEUFMAN_CATALOG as unknown as CatalogEntry[]),
+  ...(SCHNELL_CATALOG as unknown as CatalogEntry[]),
+  ...(HERO_CATALOG as unknown as CatalogEntry[]),
+  ...(KEYSTO_CATALOG as unknown as CatalogEntry[]),
+  ...(HERCULES_CATALOG as unknown as CatalogEntry[]),
+  ...(RADIANT_CATALOG as unknown as CatalogEntry[]),
+  ...(BSA_CATALOG as unknown as CatalogEntry[]),
+  ...(KROSS_CATALOG as unknown as CatalogEntry[]),
+  ...(ALLWYN_CATALOG as unknown as CatalogEntry[]),
+  ...(FIREFOX_CATALOG as unknown as CatalogEntry[]),
+  ...(CORRADO_CATALOG as unknown as CatalogEntry[]),
+];
+
 /** Copies any catalogue product the live collection hasn't seen yet into it,
  *  once. Needed because the live collection (e.g. Vercel Blob) already exists
  *  and is never re-seeded from the repo. After the copy the product is an
@@ -83,22 +101,7 @@ async function importCatalog(products: Product[]): Promise<Product[]> {
   if (catalogChecked) return products;
   const store = productStore();
   const imported = await store.readImports();
-  type Entry = Omit<Product, "createdAt" | "updatedAt"> & { replaces?: string[] };
-  const catalog = [
-    ...(OYEKID_CATALOG as unknown as Entry[]),
-    ...(NEUFMAN_CATALOG as unknown as Entry[]),
-    ...(SCHNELL_CATALOG as unknown as Entry[]),
-    ...(HERO_CATALOG as unknown as Entry[]),
-    ...(KEYSTO_CATALOG as unknown as Entry[]),
-    ...(HERCULES_CATALOG as unknown as Entry[]),
-    ...(RADIANT_CATALOG as unknown as Entry[]),
-    ...(BSA_CATALOG as unknown as Entry[]),
-    ...(KROSS_CATALOG as unknown as Entry[]),
-    ...(ALLWYN_CATALOG as unknown as Entry[]),
-    ...(FIREFOX_CATALOG as unknown as Entry[]),
-    ...(CORRADO_CATALOG as unknown as Entry[]),
-  ];
-  const fresh = catalog.filter((c) => !imported.includes(c.slug));
+  const fresh = CATALOG.filter((c) => !imported.includes(c.slug));
   if (fresh.length) {
     const now = new Date().toISOString();
     let next = imported.length ? [...products] : products.filter((p) => !SUPERSEDED.includes(p.slug));
@@ -127,6 +130,36 @@ export async function getProducts(): Promise<Product[]> {
   return importCatalog(seeded);
 }
 
+/** The catalogue as shipped in the code, with no storage involved — the last resort when storage is down. */
+function builtInCatalog(): Product[] {
+  const now = new Date().toISOString();
+  const replaced = new Set(CATALOG.flatMap((c) => c.replaces ?? []));
+  const out: Product[] = SEED_PRODUCTS.filter((p) => !SUPERSEDED.includes(p.slug) && !replaced.has(p.slug)).map((p) => ({ ...p, createdAt: now, updatedAt: now }));
+  for (const { replaces, ...c } of CATALOG) {
+    void replaces;
+    if (!out.some((p) => p.slug === c.slug)) out.push({ ...c, createdAt: now, updatedAt: now });
+  }
+  return out;
+}
+
+let recent: { at: number; list: Product[] } | null = null;
+const RECENT_MS = 10_000;
+
+/** What the public shop shows. Never throws: if storage (the database or Blob) is unreachable, the shop keeps
+ *  showing the last list it managed to read, or the built-in catalogue, instead of an empty page. Orders and
+ *  the admin use getProducts(), which does throw — they must never act on a stand-in list. */
+export async function getPublicProducts(): Promise<Product[]> {
+  if (recent && Date.now() - recent.at < RECENT_MS) return recent.list;
+  try {
+    const list = await getProducts();
+    recent = { at: Date.now(), list };
+    return list;
+  } catch (err) {
+    console.error("[products] storage unavailable, serving a fallback list:", err);
+    return recent?.list ?? builtInCatalog();
+  }
+}
+
 export async function getProductBySlug(slug: string): Promise<Product | undefined> {
   const products = await getProducts();
   return products.find((p) => p.slug === slug);
@@ -140,6 +173,7 @@ export async function createProduct(input: Omit<Product, "createdAt" | "updatedA
   const now = new Date().toISOString();
   const product: Product = { ...input, createdAt: now, updatedAt: now };
   await productStore().insert(product);
+  recent = null;
   return product;
 }
 
@@ -152,12 +186,14 @@ export async function updateProduct(
   if (!current) return null;
   const updated: Product = { ...current, ...updates, updatedAt: new Date().toISOString() };
   await productStore().update(updated);
+  recent = null;
   return updated;
 }
 
 export async function deleteProduct(slug: string): Promise<boolean> {
   const products = await getProducts();
   if (!products.some((p) => p.slug === slug)) return false;
+  recent = null;
   return productStore().remove(slug);
 }
 

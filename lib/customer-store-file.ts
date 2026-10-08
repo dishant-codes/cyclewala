@@ -1,4 +1,4 @@
-/* Customer accounts as small documents in the shop's general storage — used whenever MySQL is NOT
+/* Customer accounts as small documents in the shop's general storage — used whenever MongoDB is NOT
    configured (see lib/customer-store.ts): Vercel Blob on Vercel, Netlify Blobs on Netlify, plain files on a
    server or your own machine. One document per customer, keyed by a hash of their email, through the same
    lib/storage.ts the orders and catalogue use. */

@@ -701,7 +701,7 @@
     "price": 18999,
     "rating": 0,
     "image": "/corrado/metteo-grey-orange.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Grey/Orange",
@@ -710,7 +710,7 @@
         "image": "/corrado/metteo-grey-orange.webp",
         "price": 18999,
         "regularPrice": 18999,
-        "inStock": false
+        "inStock": true
       },
       {
         "color": "Mint Green",
@@ -719,7 +719,7 @@
         "image": "/corrado/metteo-mint-green.webp",
         "price": 18999,
         "regularPrice": 18999,
-        "inStock": false
+        "inStock": true
       }
     ],
     "defaultColor": "Grey/Orange",
@@ -846,7 +846,7 @@
     "price": 27999,
     "rating": 0,
     "image": "/corrado/colt-cream-teal.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Cream/Teal",
@@ -855,7 +855,7 @@
         "image": "/corrado/colt-cream-teal.webp",
         "price": 27999,
         "regularPrice": 27999,
-        "inStock": false
+        "inStock": true
       },
       {
         "color": "Cream/Teal",
@@ -864,7 +864,7 @@
         "image": "/corrado/colt-cream-teal.webp",
         "price": 28999,
         "regularPrice": 28999,
-        "inStock": false
+        "inStock": true
       }
     ],
     "defaultColor": "Cream/Teal",
@@ -892,7 +892,7 @@
     "price": 22499,
     "rating": 0,
     "image": "/corrado/curious-cream-black.webp",
-    "inStock": false,
+    "inStock": true,
     "variants": [
       {
         "color": "Cream/Black",
@@ -901,7 +901,7 @@
         "image": "/corrado/curious-cream-black.webp",
         "price": 22499,
         "regularPrice": 22499,
-        "inStock": false
+        "inStock": true
       },
       {
         "color": "Teal/Black",
@@ -910,7 +910,7 @@
         "image": "/corrado/curious-teal-black.webp",
         "price": 22499,
         "regularPrice": 22499,
-        "inStock": false
+        "inStock": true
       }
     ],
     "defaultColor": "Cream/Black",

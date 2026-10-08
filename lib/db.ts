@@ -1,165 +1,73 @@
-/* MySQL connection for the whole shop: customer accounts, orders, service bookings, the product
- * catalogue, admin photo uploads and a small key-value table (Hostinger's MySQL, or Laragon's locally).
+/* MongoDB connection for the whole shop: customer accounts, orders, service bookings, the product
+ * catalogue, admin photo uploads and a small key-value collection.
  *
  * Configure with these environment variables (see .env.example):
- *   DB_HOST       usually "localhost" on Hostinger
- *   DB_PORT       default 3306
- *   DB_NAME       the database you created in hPanel
- *   DB_USER       the database user
- *   DB_PASSWORD   that user's password
- *   DB_SSL        "true" only if your provider requires an encrypted connection
+ *   MONGODB_URI   the connection string, e.g. mongodb+srv://user:password@cluster0.abcde.mongodb.net/
+ *   MONGODB_DB    the database name (default "cyclewala")
  *
- * One small connection pool is shared by the whole server process (and survives dev hot-reloads).
- * The tables are created on first use, so there is nothing to import by hand — db/schema.sql is the same
- * thing in case you would rather run it yourself in phpMyAdmin.
+ * MongoDB Atlas (free M0 cluster) works from Vercel, Hostinger or your own machine — the only host-side
+ * setting is Atlas -> Network Access, which must allow the host's address (0.0.0.0/0 on Vercel, whose
+ * addresses change).
  *
- * Times are stored in UTC; every connection is switched to UTC so the answer never depends on the
- * database server's own time zone.
+ * One client is shared by the whole server process (and survives dev hot-reloads). Collections and indexes
+ * are created on first use, so there is nothing to set up by hand.
+ *
+ * Without MONGODB_URI the shop keeps using its general storage exactly as before — Vercel Blob on Vercel,
+ * Netlify Blobs on Netlify, plain files elsewhere. Set USE_DATABASE=false to switch MongoDB off while
+ * leaving the URI in place.
  */
-import mysql, { type Pool } from "mysql2/promise";
+import { MongoClient, type Db } from "mongodb";
 
-/* THE DATABASE IS SWITCHED OFF BY DEFAULT.
- *
- * Everything below (and lib/customer-store-mysql.ts, the MySQL branches in lib/orders.ts, lib/bookings.ts,
- * lib/product-store.ts and lib/storage.ts, and scripts/migrate-files-to-mysql.mjs) stays in the code but is
- * inert: nothing touches MySQL unless USE_DATABASE=true is set in the environment. Until then the shop
- * stores everything exactly as it did before — Vercel Blob on Vercel, Netlify Blobs on Netlify, plain
- * files elsewhere.
- *
- * To turn it on (e.g. on Hostinger): set USE_DATABASE=true together with DB_HOST, DB_NAME, DB_USER and
- * DB_PASSWORD. Having the DB_* values present is NOT enough on its own.
- */
-export function mysqlConfigured(): boolean {
-  return process.env.USE_DATABASE === "true" && !!(process.env.DB_HOST && process.env.DB_NAME && process.env.DB_USER);
+export function dbConfigured(): boolean {
+  return process.env.USE_DATABASE !== "false" && !!process.env.MONGODB_URI;
 }
 
-const T = "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci";
+const RETRY_AFTER_MS = 10_000;
 
-const SCHEMA = [
-  `CREATE TABLE IF NOT EXISTS customers (
-    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
-    public_id VARCHAR(32) NOT NULL,
-    email VARCHAR(254) NOT NULL,
-    name VARCHAR(80) NOT NULL,
-    password_hash VARCHAR(255) NOT NULL,
-    failed_attempts INT UNSIGNED NOT NULL DEFAULT 0,
-    locked_until BIGINT UNSIGNED NOT NULL DEFAULT 0,
-    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (id),
-    UNIQUE KEY uq_customers_email (email),
-    UNIQUE KEY uq_customers_public_id (public_id)
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS wishlist_items (
-    customer_id BIGINT UNSIGNED NOT NULL,
-    product_slug VARCHAR(160) NOT NULL,
-    created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    PRIMARY KEY (customer_id, product_slug),
-    KEY idx_wishlist_customer_created (customer_id, created_at),
-    CONSTRAINT fk_wishlist_customer FOREIGN KEY (customer_id) REFERENCES customers (id) ON DELETE CASCADE
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS orders (
-    id VARCHAR(40) NOT NULL,
-    customer_key VARCHAR(40) NULL,
-    name VARCHAR(100) NOT NULL,
-    phone VARCHAR(20) NOT NULL,
-    address VARCHAR(400) NOT NULL,
-    note VARCHAR(400) NULL,
-    items LONGTEXT NOT NULL,
-    total DECIMAL(12,2) NOT NULL,
-    status VARCHAR(16) NOT NULL DEFAULT 'new',
-    created_at DATETIME(3) NOT NULL,
-    updated_at DATETIME(3) NOT NULL,
-    PRIMARY KEY (id),
-    KEY idx_orders_customer (customer_key),
-    KEY idx_orders_created (created_at)
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS bookings (
-    id VARCHAR(40) NOT NULL,
-    customer_key VARCHAR(40) NULL,
-    service_id VARCHAR(40) NOT NULL,
-    service_title VARCHAR(120) NOT NULL,
-    service_price DECIMAL(10,2) NOT NULL,
-    name VARCHAR(100) NOT NULL,
-    phone VARCHAR(20) NOT NULL,
-    address VARCHAR(400) NULL,
-    cycle VARCHAR(120) NULL,
-    preferred_date VARCHAR(20) NULL,
-    note VARCHAR(400) NULL,
-    status VARCHAR(16) NOT NULL DEFAULT 'new',
-    created_at DATETIME(3) NOT NULL,
-    updated_at DATETIME(3) NOT NULL,
-    PRIMARY KEY (id),
-    KEY idx_bookings_customer (customer_key),
-    KEY idx_bookings_created (created_at)
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS products (
-    seq BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
-    slug VARCHAR(100) NOT NULL,
-    data LONGTEXT NOT NULL,
-    created_at DATETIME(3) NOT NULL,
-    updated_at DATETIME(3) NOT NULL,
-    PRIMARY KEY (seq),
-    UNIQUE KEY uq_products_slug (slug)
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS uploads (
-    filename VARCHAR(160) NOT NULL,
-    content_type VARCHAR(60) NOT NULL,
-    bytes MEDIUMBLOB NOT NULL,
-    created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    PRIMARY KEY (filename)
-  ) ${T}`,
-  `CREATE TABLE IF NOT EXISTS collections (
-    name VARCHAR(120) NOT NULL,
-    value LONGTEXT NOT NULL,
-    updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
-    PRIMARY KEY (name)
-  ) ${T}`,
-];
+type Shared = { ready?: Promise<Db>; uri?: string; failed?: { at: number; err: unknown } };
+const g = globalThis as unknown as { __cwMongo?: Shared };
+const shared: Shared = (g.__cwMongo ??= {});
 
-type Shared = { pool?: Pool; ready?: Promise<Pool>; sig?: string };
-const g = globalThis as unknown as { __cwDb?: Shared };
-const shared: Shared = (g.__cwDb ??= {});
-
-/* Changes whenever the list of tables does. In development the pool outlives a hot reload, so without this a
-   server that was already running would never create a table added later. */
-const SIG = SCHEMA.join("\n");
-
-/** The pool, with the tables guaranteed to exist. */
-export function db(): Promise<Pool> {
-  if (shared.ready && shared.sig === SIG) return shared.ready;
-  if (shared.pool) void shared.pool.end().catch(() => {});
-  shared.pool = undefined;
-  shared.sig = SIG;
+/** The database, with the collections' indexes guaranteed to exist. */
+export function db(): Promise<Db> {
+  const uri = process.env.MONGODB_URI;
+  if (!uri) return Promise.reject(new Error("MONGODB_URI is not set"));
+  if (shared.ready && shared.uri === uri) return shared.ready;
+  // after a failed connection, answer straight away for a few seconds instead of making every request wait
+  // out the connection timeout again
+  if (shared.failed && Date.now() - shared.failed.at < RETRY_AFTER_MS) return Promise.reject(shared.failed.err);
+  shared.uri = uri;
+  const client = new MongoClient(uri, {
+    // serverless functions and shared hosts only need a handful of connections
+    maxPoolSize: 5,
+    serverSelectionTimeoutMS: 8_000,
+    connectTimeoutMS: 10_000,
+  });
   shared.ready = (async () => {
-    const pool = mysql.createPool({
-      host: process.env.DB_HOST,
-      port: Number(process.env.DB_PORT) || 3306,
-      database: process.env.DB_NAME,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD ?? "",
-      charset: "utf8mb4",
-      timezone: "Z",
-      decimalNumbers: true,
-      waitForConnections: true,
-      // shared hosting allows only a handful of connections per database
-      connectionLimit: 5,
-      queueLimit: 50,
-      connectTimeout: 10_000,
-      enableKeepAlive: true,
-      ssl: process.env.DB_SSL === "true" ? { rejectUnauthorized: true } : undefined,
-    });
-    pool.on("connection", (conn) => {
-      conn.query("SET time_zone = '+00:00'");
-    });
-    for (const sql of SCHEMA) await pool.query(sql);
-    shared.pool = pool;
-    return pool;
+    const database = client.db(process.env.MONGODB_DB || "cyclewala");
+    await Promise.all([
+      database.collection("customers").createIndexes([
+        { key: { email: 1 }, unique: true, name: "uq_customers_email" },
+        { key: { publicId: 1 }, unique: true, name: "uq_customers_public_id" },
+      ]),
+      database.collection("orders").createIndexes([
+        { key: { customerKey: 1 }, name: "idx_orders_customer" },
+        { key: { createdAt: -1 }, name: "idx_orders_created" },
+      ]),
+      database.collection("bookings").createIndexes([
+        { key: { customerKey: 1 }, name: "idx_bookings_customer" },
+        { key: { createdAt: -1 }, name: "idx_bookings_created" },
+      ]),
+      database.collection("products").createIndexes([{ key: { seq: 1 }, name: "idx_products_seq" }]),
+    ]);
+    shared.failed = undefined;
+    return database;
   })().catch((err) => {
-    // let the next request try again instead of caching the failure forever
+    // let a later request try again instead of caching the failure forever
     shared.ready = undefined;
+    shared.failed = { at: Date.now(), err };
+    void client.close().catch(() => {});
     throw err;
   });
   return shared.ready;
 }
-

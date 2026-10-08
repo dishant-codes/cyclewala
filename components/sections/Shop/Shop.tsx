@@ -831,7 +831,7 @@ export default function Shop() {
                                 })
                               }
                             >
-                              Add to Cart
+                              {shown.inStock ? "Add to Cart" : "Out of stock"}
                             </button>
                             <button className={styles.viewBtn} onClick={() => openWithOptions(item, shown)}>
                               {multi ? "Select options" : "View"}
