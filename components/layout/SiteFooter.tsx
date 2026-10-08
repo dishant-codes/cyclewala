@@ -107,7 +107,7 @@ export default function SiteFooter() {
         <div className={styles.grid}>
           <div className={styles.about}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/cyclewala-logo.png" alt={SHOP.name} className={styles.logo} loading="lazy" decoding="async" />
+            <img src="/images/logo-wordmark.png" alt={SHOP.name} className={styles.logo} loading="lazy" decoding="async" />
             <p>{SHOP.description}</p>
             <div className={styles.cta}>
               <a href={SHOP.phoneHref} className={styles.callBtn}>

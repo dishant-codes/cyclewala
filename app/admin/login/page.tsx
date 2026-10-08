@@ -40,7 +40,7 @@ export default function AdminLogin() {
     <main className={styles.page}>
       <div className={styles.card}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/logo/cyclewala-logo-remove-back.png" alt="Cycle Wala" className={styles.logo} />
+        <img src="/images/logo-wordmark.png" alt="Cycle Wala" className={styles.logo} />
         <h1 className={styles.h1}>Admin Access</h1>
         <p className={styles.sub}>Manage cycles, prices and photos.</p>
 

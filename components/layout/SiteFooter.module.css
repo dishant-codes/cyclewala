@@ -78,13 +78,17 @@
   max-width: 340px;
 }
 .logo {
-  height: 46px;
+  height: 28px;
   width: auto;
   display: block;
-  /* the logo is dark-on-light artwork; sit it on a white pill so it reads on the green */
-  background: #fff;
-  padding: 7px 12px;
-  border-radius: 12px;
+  /* the same green-on-black wordmark as the navigation bar, on the same black pill */
+  box-sizing: content-box;
+  background: #0a0a0c;
+  padding: 12px 20px;
+  border-radius: 999px;
+  /* a fine green rim so the black pill stands out on the charcoal footer */
+  border: 1px solid rgba(76, 175, 46, 0.55);
+  box-shadow: 0 0 22px rgba(76, 175, 46, 0.18);
 }
 .cta {
   display: flex;

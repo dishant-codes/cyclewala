@@ -105,13 +105,21 @@ export default function AdminDashboard() {
     );
   }
 
+  const stats = products && [
+    { label: "Cycles", value: products.length },
+    { label: "Brands", value: new Set(products.map((x) => x.brand.trim().toLowerCase())).size },
+    { label: "In stock", value: products.filter((x) => x.inStock).length, tone: "ok" },
+    { label: "Out of stock", value: products.filter((x) => !x.inStock).length, tone: "out" },
+  ];
+
   return (
     <main className={styles.page}>
       <div className={styles.wrap}>
+        <header className={styles.hero}>
         <div className={styles.head}>
           <div className={styles.brand}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/cyclewala-logo-remove-back.png" alt="Cycle Wala" className={styles.headerLogo} />
+            <img src="/images/logo-wordmark.png" alt="Cycle Wala" className={styles.headerLogo} />
             <div>
               <p className={styles.kicker}>Admin</p>
               <h1 className={styles.h1}>Manage the Shop</h1>
@@ -137,6 +145,17 @@ export default function AdminDashboard() {
             </button>
           </div>
         </div>
+        {stats && (
+          <div className={styles.stats}>
+            {stats.map((s) => (
+              <div className={styles.stat} key={s.label} data-tone={s.tone}>
+                <strong>{s.value.toLocaleString("en-IN")}</strong>
+                <span>{s.label}</span>
+              </div>
+            ))}
+          </div>
+        )}
+        </header>
 
         <div className={styles.tabs}>
           <button className={tab === "cycles" ? styles.tabOn : styles.tab} onClick={() => setTab("cycles")}>
