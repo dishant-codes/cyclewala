@@ -31,10 +31,12 @@ const LOGOS: Record<string, string> = {
   allwyn: "/images/logo/allwynlogo.png",
   firefox: "/images/logo/firefoxlogo.png",
   corrado: "/images/logo/corradologo.png",
+  gang: "/images/logo/ganglogo.png",
+  avon: "/images/logo/avonlogo.png",
 };
 
 /* same order as the shop's brand tabs; anything else follows alphabetically */
-const ORDER = ["oyekid", "neufman", "schnell", "hero", "keysto", "hercules", "radiant", "bsa", "kross", "allwyn", "firefox", "corrado", "denvok"];
+const ORDER = ["oyekid", "neufman", "schnell", "hero", "keysto", "hercules", "radiant", "bsa", "kross", "allwyn", "firefox", "corrado", "gang", "avon", "denvok"];
 
 const keyOf = (brand: string) => brand.trim().toLowerCase();
 const anchorId = (key: string) => `brand-${key.replace(/[^a-z0-9]+/g, "-")}`;

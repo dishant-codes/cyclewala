@@ -24,6 +24,8 @@ import KROSS_CATALOG from "@/data/kross-catalog.json";
 import ALLWYN_CATALOG from "@/data/allwyn-catalog.json";
 import FIREFOX_CATALOG from "@/data/firefox-catalog.json";
 import CORRADO_CATALOG from "@/data/corrado-catalog.json";
+import GANG_CATALOG from "@/data/gang-catalog.json";
+import AVON_CATALOG from "@/data/avon-catalog.json";
 
 /** the hand-made Oyekid placeholders the full Oyekid catalogue supersedes */
 const SUPERSEDED = ["oyekid-mermaid", "oyekid-shark-tank", "oyekid-yuvaa"];
@@ -91,6 +93,8 @@ const CATALOG: CatalogEntry[] = [
   ...(ALLWYN_CATALOG as unknown as CatalogEntry[]),
   ...(FIREFOX_CATALOG as unknown as CatalogEntry[]),
   ...(CORRADO_CATALOG as unknown as CatalogEntry[]),
+  ...(GANG_CATALOG as unknown as CatalogEntry[]),
+  ...(AVON_CATALOG as unknown as CatalogEntry[]),
 ];
 
 /** Copies any catalogue product the live collection hasn't seen yet into it,

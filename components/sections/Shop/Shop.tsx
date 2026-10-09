@@ -41,6 +41,10 @@ const BRANDS = [
   { name: "Firefox", note: "MTBs, city and gravel bikes — Tremor X, Sigma, Rush and more.", logo: "/images/logo/firefoxlogo.png" },
   // triangle emblem from corradobikes.com
   { name: "Corrado", note: "Italian-styled MTBs, kids' cycles, ladies' and fat bikes with disc brakes.", logo: "/images/logo/corradologo.png" },
+  // roundel from gangcycles.com
+  { name: "Gang", note: "Kids', ladies' and mountain cycles from SK Bikes — Vivox, Skyrock, Jeriko and more.", logo: "/images/logo/ganglogo.png" },
+  // emblem from avoncycles.com
+  { name: "Avon", note: "India's own: kids' cycles, ladies' cycles, MTBs, geared bikes and roadsters.", logo: "/images/logo/avonlogo.png" },
 ];
 
 /* Oyekid's own shop-by-age menu (oyekidbikes.com) — `group` on each Oyekid
@@ -135,6 +139,23 @@ const CORRADO_GROUPS = [
   { id: "Corrado Hybrid", label: "Hybrid" },
   { id: "Corrado Fat Bike", label: "Fat Bike" },
 ];
+/* Gang's ranges (gangcycles.com). */
+const GANG_GROUPS = [
+  { id: "Gang Kids", label: "Kids" },
+  { id: "Gang Ladies", label: "Ladies" },
+  { id: "Gang MTB", label: "MTB" },
+  { id: "Gang Multi Speed & Fat", label: "Multi Speed & Fat" },
+  { id: "Gang City", label: "City" },
+];
+/* Avon's ranges (avoncycles.com). */
+const AVON_GROUPS = [
+  { id: "Avon Kids", label: "Kids" },
+  { id: "Avon Ladies", label: "Ladies" },
+  { id: "Avon MTB", label: "MTB" },
+  { id: "Avon Geared", label: "Geared" },
+  { id: "Avon Roadster", label: "Roadster" },
+  { id: "Avon E-Bike", label: "E-Bike" },
+];
 const ALL_GROUPS = [
   ...OYEKID_GROUPS,
   ...NEUFMAN_GROUPS,
@@ -148,6 +169,8 @@ const ALL_GROUPS = [
   ...ALLWYN_GROUPS,
   ...FIREFOX_GROUPS,
   ...CORRADO_GROUPS,
+  ...GANG_GROUPS,
+  ...AVON_GROUPS,
 ];
 const GROUPS_BY_TAB = {
   oyekid: OYEKID_GROUPS,
@@ -162,6 +185,8 @@ const GROUPS_BY_TAB = {
   allwyn: ALLWYN_GROUPS,
   firefox: FIREFOX_GROUPS,
   corrado: CORRADO_GROUPS,
+  gang: GANG_GROUPS,
+  avon: AVON_GROUPS,
 } as const;
 
 const BROWSE_TABS = [
@@ -177,6 +202,8 @@ const BROWSE_TABS = [
   { id: "allwyn", name: "Allwyn", hint: "Shop by type", logo: "/images/logo/allwynlogo.png" },
   { id: "firefox", name: "Firefox", hint: "Shop by type", logo: "/images/logo/firefoxlogo.png" },
   { id: "corrado", name: "Corrado", hint: "Shop by type", logo: "/images/logo/corradologo.png" },
+  { id: "gang", name: "Gang", hint: "Shop by type", logo: "/images/logo/ganglogo.png" },
+  { id: "avon", name: "Avon", hint: "Shop by type", logo: "/images/logo/avonlogo.png" },
 ] as const;
 
 /* "Featured" order: the first screen of the shop is what draws people in, so it leads with
@@ -339,7 +366,7 @@ export default function Shop() {
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   /* the brand whose whole collection is showing (null = every brand, featured first) */
   const [brandSel, setBrandSel] = useState<string | null>(null);
-  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross" | "allwyn" | "firefox" | "corrado">("oyekid");
+  const [browseTab, setBrowseTab] = useState<"oyekid" | "neufman" | "schnell" | "hero" | "keysto" | "hercules" | "radiant" | "bsa" | "kross" | "allwyn" | "firefox" | "corrado" | "gang" | "avon">("oyekid");
   /* phones: the filter panel is tucked behind a button instead of pushing the
      cycles ~1500px down the page */
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -357,6 +384,15 @@ export default function Shop() {
   /** a cycle to open as soon as the list has loaded (from ?product= or the header search) */
   const [pendingOpen, setPendingOpen] = useState<string | null>(null);
   const circlesRef = useRef<HTMLDivElement>(null);
+  const tabsRef = useRef<HTMLDivElement>(null);
+  // the brand strip scrolls sideways: keep the chosen brand's tab in view (later brands sit off-screen on a phone)
+  useEffect(() => {
+    const strip = tabsRef.current;
+    const on = strip?.querySelector<HTMLElement>('[aria-selected="true"]');
+    if (!strip || !on) return;
+    const x = on.getBoundingClientRect().left - strip.getBoundingClientRect().left + strip.scrollLeft;
+    strip.scrollTo({ left: x - (strip.clientWidth - on.offsetWidth) / 2, behavior: "smooth" });
+  }, [browseTab, products]);
 
   /* footer links: /?brand=Kross#shop opens that brand's tab; /?cat=kids#shop filters a category */
   useEffect(() => {
@@ -610,7 +646,7 @@ export default function Shop() {
             {/* ---------- results ---------- */}
             <div className={styles.results}>
               <div className={styles.browse}>
-                <div className={styles.browseTabs} role="tablist" aria-label="Browse by brand">
+                <div ref={tabsRef} className={styles.browseTabs} role="tablist" aria-label="Browse by brand">
                   {BROWSE_TABS.map((t) => (
                     <button
                       key={t.id}

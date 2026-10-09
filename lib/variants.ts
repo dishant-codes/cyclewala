@@ -49,7 +49,9 @@ export function variantFor(product: Product, sel: Selection = {}): ProductVarian
 export function shownFor(product: Product, sel: Selection = {}): Shown {
   const v = variantFor(product, sel);
   if (v) {
-    const owner = (product.variants ?? []).find((x) => x.image === v.image);
+    // when several colours share one photo it belongs to the product's default colour, else to the first of them
+    const sharing = (product.variants ?? []).filter((x) => x.image === v.image);
+    const owner = sharing.find((x) => x.color === product.defaultColor) ?? sharing[0];
     return {
       color: v.color,
       size: v.size,

@@ -33,7 +33,7 @@ export const SHOP = {
 /* Search-engine copy. SEO_KEYWORDS are the five tags the shop wants to be found for. */
 export const SEO_TITLE = `${SHOP.name} — Cycle Shop in Chhatrapati Sambhajinagar | Kids, Geared & MTB Cycles, Service`;
 export const SEO_DESCRIPTION =
-  "Cycle Wala, Nirala Bazar — buy kids cycles, geared & mountain bikes, e-bikes and accessories from Oyekid, Hero, Hercules, Neufman, BSA, Kross, Allwyn, Firefox, Corrado and more. Expert cycle service with free pickup & drop within 5 km.";
+  "Cycle Wala, Nirala Bazar — buy kids cycles, geared & mountain bikes, e-bikes and accessories from Oyekid, Hero, Hercules, Neufman, BSA, Kross, Allwyn, Firefox, Corrado, Gang, Avon and more. Expert cycle service with free pickup & drop within 5 km.";
 export const SEO_KEYWORDS = [
   "cycle shop in Chhatrapati Sambhajinagar",
   "kids cycles",

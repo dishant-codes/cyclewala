@@ -1,0 +1,2099 @@
+[
+  {
+    "slug": "gang-zapper-ibc",
+    "brand": "Gang",
+    "model": "Zapper IBC",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Frame size: 16.2 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper",
+      "Gears: single speed",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Zapper IBC is a mountain cycle from Gang, in 4 colours and 26T wheels. It has a non-suspension frame, caliper brakes, single speed and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-zapper-ibc-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gloss Black / Blue",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-zapper-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Gloss Black / Yellow",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #f6c915 50.0%, #f6c915 100.0%)",
+        "image": "/gang/gang-zapper-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Red / Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #2e8b3a 50.0%, #2e8b3a 100.0%)",
+        "image": "/gang/gang-zapper-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Fluoro Orange",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #ff6a00 50.0%, #ff6a00 100.0%)",
+        "image": "/gang/gang-zapper-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Gloss Black / Yellow",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-vivox-16t",
+    "brand": "Gang",
+    "model": "Vivox 16T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "16T",
+    "specs": [
+      "Wheel size: 16T",
+      "Steel rim",
+      "Carrier"
+    ],
+    "description": "Vivox 16T is a kids' cycle from Gang, in 4 colours and 16T wheels. It has steel rims and a rear carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-vivox-16t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brilliant Red / Lemon Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-vivox-16t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Light Blue",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #7ec8f0 50.0%, #7ec8f0 100.0%)",
+        "image": "/gang/gang-vivox-16t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green / Blue",
+        "swatch": "linear-gradient(-45deg, #bcd631 0.0%, #bcd631 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-vivox-16t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-vivox-16t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Brilliant Red / Lemon Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-vivox-20t",
+    "brand": "Gang",
+    "model": "Vivox 20T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "Steel rim"
+    ],
+    "description": "Vivox 20T is a kids' cycle from Gang, in 4 colours and 20T wheels. It has steel rims. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-vivox-20t-4.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Dark Blue / Light Blue",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #7ec8f0 50.0%, #7ec8f0 100.0%)",
+        "image": "/gang/gang-vivox-20t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Red / Lemon Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-vivox-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green / Blue",
+        "swatch": "linear-gradient(-45deg, #bcd631 0.0%, #bcd631 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-vivox-20t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-vivox-20t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Dark Blue / Light Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-vivox-14t",
+    "brand": "Gang",
+    "model": "Vivox 14T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "14T",
+    "specs": [
+      "Wheel size: 14T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Vivox 14T is a kids' cycle from Gang, in 4 colours and 14T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-vivox-14t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brilliant Red / Lemon Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-vivox-14t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Light Blue",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #7ec8f0 50.0%, #7ec8f0 100.0%)",
+        "image": "/gang/gang-vivox-14t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green / Blue",
+        "swatch": "linear-gradient(-45deg, #bcd631 0.0%, #bcd631 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-vivox-14t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-vivox-14t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Brilliant Red / Lemon Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-tornado-ibc",
+    "brand": "Gang",
+    "model": "Tornado IBC",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Frame size: 18.5 inches",
+      "Suspension: front fork",
+      "Brakes: dual disc",
+      "Gears: single speed",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Tornado IBC is a mountain cycle from Gang, in 3 colours and 26T wheels. It has a front suspension fork, dual disc brakes, single speed and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-tornado-ibc-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Lemon Green",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-tornado-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Orange",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-tornado-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Blue",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-tornado-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Lemon Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-teerex-20t",
+    "brand": "Gang",
+    "model": "Teerex 20T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "Suspension: rear",
+      "Brakes: caliper"
+    ],
+    "description": "Teerex 20T is a kids' cycle from Gang, in 2 colours and 20T wheels. It has rear suspension and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-teerex-20t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mint Green",
+        "swatch": "#8fe3b3",
+        "image": "/gang/gang-teerex-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Bright Red / Black",
+        "swatch": "linear-gradient(-45deg, #e0262e 0.0%, #e0262e 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-teerex-20t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Mint Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-striker",
+    "brand": "Gang",
+    "model": "Striker",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame size: 18 / 17 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: V-brakes",
+      "Gears: single speed"
+    ],
+    "description": "Striker is a mountain cycle from Gang, in 4 colours and 24T and 26T wheels. It has a non-suspension frame, V-brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-striker-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-striker-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White / Brilliant Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f4f4f4 0.0%, #f4f4f4 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-striker-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Bright Red / Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #e0262e 0.0%, #e0262e 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-striker-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White",
+        "size": "24T",
+        "swatch": "#f4f4f4",
+        "image": "/gang/gang-striker-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Red",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-skyrock",
+    "brand": "Gang",
+    "model": "Skyrock",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: V-brakes"
+    ],
+    "description": "Skyrock is a mountain cycle from Gang, in 8 colours and 24T and 26T wheels. It has a non-suspension frame and V-brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-skyrock-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black / NMT Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #2fbf71 50.0%, #2fbf71 100.0%)",
+        "image": "/gang/gang-skyrock-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / NMT Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #2fbf71 50.0%, #2fbf71 100.0%)",
+        "image": "/gang/gang-skyrock-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White / Brilliant Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f4f4f4 0.0%, #f4f4f4 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-skyrock-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White / Brilliant Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f4f4f4 0.0%, #f4f4f4 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-skyrock-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "24T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-skyrock-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "26T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-skyrock-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Red",
+        "size": "24T",
+        "swatch": "#b8232f",
+        "image": "/gang/gang-skyrock-9.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Red",
+        "size": "26T",
+        "swatch": "#b8232f",
+        "image": "/gang/gang-skyrock-9.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green",
+        "size": "24T",
+        "swatch": "#bcd631",
+        "image": "/gang/gang-skyrock-7.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green",
+        "size": "26T",
+        "swatch": "#bcd631",
+        "image": "/gang/gang-skyrock-7.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey / Red",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7d8084 0.0%, #7d8084 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-skyrock-8.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey / Red",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7d8084 0.0%, #7d8084 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-skyrock-8.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White",
+        "size": "24T",
+        "swatch": "#f4f4f4",
+        "image": "/gang/gang-skyrock-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White",
+        "size": "26T",
+        "swatch": "#f4f4f4",
+        "image": "/gang/gang-skyrock-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Yellow",
+        "size": "24T",
+        "swatch": "#f6c915",
+        "image": "/gang/gang-skyrock-5.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Yellow",
+        "size": "26T",
+        "swatch": "#f6c915",
+        "image": "/gang/gang-skyrock-5.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black / NMT Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-rovr-20t",
+    "brand": "Gang",
+    "model": "Rovr 20T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Rovr 20T is a kids' cycle from Gang, in 4 colours and 20T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-rovr-20t-4.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Bright Red",
+        "swatch": "#e0262e",
+        "image": "/gang/gang-rovr-20t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Lemon Green",
+        "swatch": "#bcd631",
+        "image": "/gang/gang-rovr-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey",
+        "swatch": "#7d8084",
+        "image": "/gang/gang-rovr-20t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Bright Pink",
+        "swatch": "#f0489d",
+        "image": "/gang/gang-rovr-20t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Bright Red",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-rovr-16t",
+    "brand": "Gang",
+    "model": "Rovr 16T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "16T",
+    "specs": [
+      "Wheel size: 16T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Rovr 16T is a kids' cycle from Gang, in 3 colours and 16T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-rovr-16t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Lemon Green",
+        "swatch": "#bcd631",
+        "image": "/gang/gang-rovr-16t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Bright Red",
+        "swatch": "#e0262e",
+        "image": "/gang/gang-rovr-16t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey",
+        "swatch": "#7d8084",
+        "image": "/gang/gang-rovr-16t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Lemon Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-rickrock-14t",
+    "brand": "Gang",
+    "model": "Rickrock 14T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "14T",
+    "specs": [
+      "Wheel size: 14T",
+      "Frame size: 8 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper",
+      "Gears: single speed",
+      "Support wheels"
+    ],
+    "description": "Rickrock 14T is a kids' cycle from Gang, in 2 colours and 14T wheels. It has a non-suspension frame, caliper brakes, single speed and support wheels. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-rickrock-14t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brilliant Red",
+        "swatch": "#d7263d",
+        "image": "/gang/gang-rickrock-14t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Blue / Orange",
+        "swatch": "linear-gradient(-45deg, #1e5bd8 0.0%, #1e5bd8 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-rickrock-14t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Blue / Orange",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-radion-multi-speed",
+    "brand": "Gang",
+    "model": "Radion Multi Speed",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "27T",
+    "specs": [
+      "Wheel size: 27T",
+      "Frame size: 16.5 inches",
+      "Suspension: front fork",
+      "Brakes: dual disc",
+      "Gears: multi speed (21 gears)"
+    ],
+    "description": "Radion Multi Speed is a mountain cycle from Gang, in 2 colours and 27T wheels. It has a front suspension fork, dual disc brakes and multi-speed gearing (21 gears). Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-radion-multi-speed-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gloss Black",
+        "swatch": "#111113",
+        "image": "/gang/gang-radion-multi-speed-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Charcoal Grey / Orange",
+        "swatch": "linear-gradient(-45deg, #4b4f55 0.0%, #4b4f55 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-radion-multi-speed-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Charcoal Grey / Orange",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-radion",
+    "brand": "Gang",
+    "model": "Radion",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "24T / 26T / 27T / 29T",
+    "specs": [
+      "Wheel size: 24T / 26T / 27T / 29T",
+      "Frame size: 14.5,16.5,17.5 inches",
+      "Suspension: front fork",
+      "Brakes: dual disc",
+      "Gears: single speed"
+    ],
+    "description": "Radion is a mountain cycle from Gang, in 2 colours and 24T, 26T, 27T and 29T wheels. It has a front suspension fork, dual disc brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-radion-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gloss Black",
+        "size": "29T",
+        "swatch": "#111113",
+        "image": "/gang/gang-radion-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Charcoal Grey / Orange",
+        "size": "29T",
+        "swatch": "linear-gradient(-45deg, #4b4f55 0.0%, #4b4f55 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-radion-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Charcoal Grey / Orange",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-platinum",
+    "brand": "Gang",
+    "model": "Platinum",
+    "category": "mtb",
+    "group": "Gang Ladies",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Platinum is a ladies' cycle from Gang, in 5 colours and 24T and 26T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-platinum-3.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Metallic Violet / Silky Pink",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #6f46c8 0.0%, #6f46c8 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-platinum-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Violet / Silky Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #6f46c8 0.0%, #6f46c8 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-platinum-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Pink",
+        "size": "24T",
+        "swatch": "#ec4899",
+        "image": "/gang/gang-platinum-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Pink",
+        "size": "26T",
+        "swatch": "#ec4899",
+        "image": "/gang/gang-platinum-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White / Reddish Pink",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f4f4f4 0.0%, #f4f4f4 50.0%, #e8688a 50.0%, #e8688a 100.0%)",
+        "image": "/gang/gang-platinum-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant White / Reddish Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f4f4f4 0.0%, #f4f4f4 50.0%, #e8688a 50.0%, #e8688a 100.0%)",
+        "image": "/gang/gang-platinum-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "24T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-platinum-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "26T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-platinum-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Purple",
+        "size": "24T",
+        "swatch": "#6a35a8",
+        "image": "/gang/gang-platinum-6.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Purple",
+        "size": "26T",
+        "swatch": "#6a35a8",
+        "image": "/gang/gang-platinum-6.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Metallic Violet / Silky Pink",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-newtron-x",
+    "brand": "Gang",
+    "model": "Newtron X",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Suspension: front fork",
+      "Brakes: dual disc"
+    ],
+    "description": "Newtron X is a mountain cycle from Gang, in 2 colours and 24T and 26T wheels. It has a front suspension fork and dual disc brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-newtron-x-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Grey",
+        "size": "24T",
+        "swatch": "#7d8084",
+        "image": "/gang/gang-newtron-x-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey",
+        "size": "26T",
+        "swatch": "#7d8084",
+        "image": "/gang/gang-newtron-x-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "24T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-newtron-x-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue",
+        "size": "26T",
+        "swatch": "#14307a",
+        "image": "/gang/gang-newtron-x-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Grey",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-mutane",
+    "brand": "Gang",
+    "model": "Mutane",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Suspension: dual (front + rear)",
+      "Brakes: caliper"
+    ],
+    "description": "Mutane is a mountain cycle from Gang, in 5 colours and 24T and 26T wheels. It has dual suspension and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-mutane-5.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Aqua Green / Lemon Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #2cc7b0 0.0%, #2cc7b0 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-mutane-5.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Aqua Green / Lemon Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2cc7b0 0.0%, #2cc7b0 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-mutane-5.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-mutane-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-mutane-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Red / Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Red / Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Pantone Green / Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #00a36c 0.0%, #00a36c 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Pantone Green / Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #00a36c 0.0%, #00a36c 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-mutane-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Aqua Green / Lemon Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-maxro",
+    "brand": "Gang",
+    "model": "Maxro",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Suspension: front fork",
+      "Brakes: dual disc"
+    ],
+    "description": "Maxro is a mountain cycle from Gang, in 3 colours and 26T wheels. It has a front suspension fork and dual disc brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-maxro-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Blue",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-maxro-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Red",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-maxro-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Fluoro Orange / Black",
+        "swatch": "linear-gradient(-45deg, #ff6a00 0.0%, #ff6a00 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-maxro-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-marigold",
+    "brand": "Gang",
+    "model": "Marigold",
+    "category": "mtb",
+    "group": "Gang Ladies",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Marigold is a ladies' cycle from Gang, in 5 colours and 24T and 26T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-marigold-3.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Zaff Blue",
+        "size": "24T",
+        "swatch": "#3b6fd4",
+        "image": "/gang/gang-marigold-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Zaff Blue",
+        "size": "26T",
+        "swatch": "#3b6fd4",
+        "image": "/gang/gang-marigold-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Aqua Green",
+        "size": "24T",
+        "swatch": "#2cc7b0",
+        "image": "/gang/gang-marigold-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Aqua Green",
+        "size": "26T",
+        "swatch": "#2cc7b0",
+        "image": "/gang/gang-marigold-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Violet",
+        "size": "24T",
+        "swatch": "#6f46c8",
+        "image": "/gang/gang-marigold-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Violet",
+        "size": "26T",
+        "swatch": "#6f46c8",
+        "image": "/gang/gang-marigold-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Pink / Metallic Purple",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #ec4899 0.0%, #ec4899 50.0%, #6a35a8 50.0%, #6a35a8 100.0%)",
+        "image": "/gang/gang-marigold-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Pink / Metallic Purple",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #ec4899 0.0%, #ec4899 50.0%, #6a35a8 50.0%, #6a35a8 100.0%)",
+        "image": "/gang/gang-marigold-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Ruby Pink",
+        "size": "24T",
+        "swatch": "#d81b60",
+        "image": "/gang/gang-marigold-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Ruby Pink",
+        "size": "26T",
+        "swatch": "#d81b60",
+        "image": "/gang/gang-marigold-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Zaff Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-linear-ibc",
+    "brand": "Gang",
+    "model": "Linear IBC",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Frame size: 18.5 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper",
+      "Gears: single speed",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Linear IBC is a mountain cycle from Gang, in 4 colours and 26T wheels. It has a non-suspension frame, caliper brakes, single speed and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-linear-ibc-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Military Green",
+        "swatch": "#4e5c3b",
+        "image": "/gang/gang-linear-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Gloss Black / Red",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-linear-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Blue",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-linear-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey",
+        "swatch": "#7d8084",
+        "image": "/gang/gang-linear-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black / Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-jeriko",
+    "brand": "Gang",
+    "model": "Jeriko",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame size: 14.5 / 16.5 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: dual disc",
+      "Gears: single speed"
+    ],
+    "description": "Jeriko is a mountain cycle from Gang, in 4 colours and 24T and 26T wheels. It has a non-suspension frame, dual disc brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-jeriko-6.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Military Green / Khaki",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #4e5c3b 0.0%, #4e5c3b 50.0%, #a39b6b 50.0%, #a39b6b 100.0%)",
+        "image": "/gang/gang-jeriko-6.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Rivera Blue / Matte Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #2b59c3 0.0%, #2b59c3 50.0%, #1c1c1e 50.0%, #1c1c1e 100.0%)",
+        "image": "/gang/gang-jeriko-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Military Grey / Matte Black",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8f9488 0.0%, #8f9488 50.0%, #1c1c1e 50.0%, #1c1c1e 100.0%)",
+        "image": "/gang/gang-jeriko-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Military Green / Matte Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #4e5c3b 0.0%, #4e5c3b 50.0%, #1c1c1e 50.0%, #1c1c1e 100.0%)",
+        "image": "/gang/gang-jeriko-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Military Green / Khaki",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #4e5c3b 0.0%, #4e5c3b 50.0%, #a39b6b 50.0%, #a39b6b 100.0%)",
+        "image": "/gang/gang-jeriko-6.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Military Grey / Matte Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8f9488 0.0%, #8f9488 50.0%, #1c1c1e 50.0%, #1c1c1e 100.0%)",
+        "image": "/gang/gang-jeriko-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Rivera Blue / Matte Black",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #2b59c3 0.0%, #2b59c3 50.0%, #1c1c1e 50.0%, #1c1c1e 100.0%)",
+        "image": "/gang/gang-jeriko-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Military Green / Khaki",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-groovy-16t",
+    "brand": "Gang",
+    "model": "Groovy 16T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "16T",
+    "specs": [
+      "Wheel size: 16T",
+      "Frame size: 8 inches",
+      "Gears: single speed",
+      "Support wheels",
+      "Chain cover"
+    ],
+    "description": "Groovy 16T is a kids' cycle from Gang, in 2 colours and 16T wheels. It has single speed, support wheels and a chain cover. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-groovy-16t-3.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brilliant Red / Fluoro Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #7be038 50.0%, #7be038 100.0%)",
+        "image": "/gang/gang-groovy-16t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Blue / Fluoro Green",
+        "swatch": "linear-gradient(-45deg, #1e5bd8 0.0%, #1e5bd8 50.0%, #7be038 50.0%, #7be038 100.0%)",
+        "image": "/gang/gang-groovy-16t-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Brilliant Red / Fluoro Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-groovy-20t",
+    "brand": "Gang",
+    "model": "Groovy 20T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "Frame size: 11 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: V-brakes",
+      "Gears: single speed"
+    ],
+    "description": "Groovy 20T is a kids' cycle from Gang, in 6 colours and 20T wheels. It has a non-suspension frame, V-brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-groovy-20t-4.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Yellow",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #f6c915 50.0%, #f6c915 100.0%)",
+        "image": "/gang/gang-groovy-20t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Slate Grey / Orange",
+        "swatch": "linear-gradient(-45deg, #6b7280 0.0%, #6b7280 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-groovy-20t-6.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Orange / Black",
+        "swatch": "linear-gradient(-45deg, #ff7a1a 0.0%, #ff7a1a 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-groovy-20t-7.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Mauritious Blue / Lime Green",
+        "swatch": "linear-gradient(-45deg, #1e5bd8 0.0%, #1e5bd8 50.0%, #2e8b3a 50.0%, #2e8b3a 100.0%)",
+        "image": "/gang/gang-groovy-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Shiny Silver / Orange",
+        "swatch": "linear-gradient(-45deg, #c4c8ce 0.0%, #c4c8ce 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-groovy-20t-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Red / Green",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #2e8b3a 50.0%, #2e8b3a 100.0%)",
+        "image": "/gang/gang-groovy-20t-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Yellow",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-graphyte-700c",
+    "brand": "Gang",
+    "model": "Graphyte 700C",
+    "category": "hybrid",
+    "group": "Gang City",
+    "sizes": "700C",
+    "specs": [
+      "Wheel size: 700C",
+      "Frame size: 18 inches",
+      "Fork: rigid",
+      "Brakes: V-brakes",
+      "Gears: single speed"
+    ],
+    "description": "Graphyte 700C is a hybrid city cycle from Gang, in 3 colours and 700C wheels. It has a rigid fork, V-brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-graphyte-700c-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gloss Black / Blue",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-graphyte-700c-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Military Green",
+        "swatch": "#2e8b3a",
+        "image": "/gang/gang-graphyte-700c-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Gloss Black / Orange",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-graphyte-700c-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Gloss Black / Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-furious",
+    "brand": "Gang",
+    "model": "Furious",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "27.5T",
+    "specs": [
+      "Wheel size: 27.5T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: dual disc"
+    ],
+    "description": "Furious is a mountain cycle from Gang, in 3 colours and 27.5T wheels. It has a non-suspension frame and dual disc brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-furious-2.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Lemon Green / Black",
+        "swatch": "linear-gradient(-45deg, #bcd631 0.0%, #bcd631 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-furious-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Red / Black",
+        "swatch": "linear-gradient(-45deg, #b8232f 0.0%, #b8232f 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-furious-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey / Orange",
+        "swatch": "linear-gradient(-45deg, #7d8084 0.0%, #7d8084 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-furious-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Lemon Green / Black",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-fire",
+    "brand": "Gang",
+    "model": "Fire",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame size: 16.5 / 14.5 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: dual disc",
+      "Gears: single speed",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Fire is a mountain cycle from Gang, in 2 colours and 24T and 26T wheels. It has a non-suspension frame, dual disc brakes, single speed and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-fire-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-fire-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey Blue / Orange",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1e5bd8 0.0%, #1e5bd8 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-fire-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-fire-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Grey Blue / Orange",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1e5bd8 0.0%, #1e5bd8 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-fire-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Orange",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-extreme",
+    "brand": "Gang",
+    "model": "Extreme",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Suspension: dual (front + rear)",
+      "Brakes: dual disc"
+    ],
+    "description": "Extreme is a mountain cycle from Gang, in 3 colours and 26T wheels. It has dual suspension and dual disc brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-extreme-3.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Blue",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-extreme-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Red",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-extreme-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Bright Green",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #35c759 50.0%, #35c759 100.0%)",
+        "image": "/gang/gang-extreme-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-cygor",
+    "brand": "Gang",
+    "model": "Cygor",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame size: 17 / 15 inches",
+      "Suspension: front fork",
+      "Brakes: dual disc",
+      "Gears: multi speed (21 gears)"
+    ],
+    "description": "Cygor is a mountain cycle from Gang, in 2 colours and 24T and 26T wheels. It has a front suspension fork, dual disc brakes and multi-speed gearing (21 gears). Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-cygor-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Green",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #2e8b3a 50.0%, #2e8b3a 100.0%)",
+        "image": "/gang/gang-cygor-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Red",
+        "size": "26T",
+        "swatch": "#b8232f",
+        "image": "/gang/gang-cygor-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Black / Green",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #2e8b3a 50.0%, #2e8b3a 100.0%)",
+        "image": "/gang/gang-cygor-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Matte Red",
+        "size": "24T",
+        "swatch": "#b8232f",
+        "image": "/gang/gang-cygor-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-compact-ibc",
+    "brand": "Gang",
+    "model": "Compact IBC",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Compact IBC is a mountain cycle from Gang, in 4 colours and 26T wheels. It has a non-suspension frame, caliper brakes and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-compact-ibc-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Matte Black / Bright Green",
+        "swatch": "linear-gradient(-45deg, #1c1c1e 0.0%, #1c1c1e 50.0%, #35c759 50.0%, #35c759 100.0%)",
+        "image": "/gang/gang-compact-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Dark Blue / Bright Green",
+        "swatch": "linear-gradient(-45deg, #14307a 0.0%, #14307a 50.0%, #35c759 50.0%, #35c759 100.0%)",
+        "image": "/gang/gang-compact-ibc-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Red / Black",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-compact-ibc-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Gloss Black",
+        "swatch": "#111113",
+        "image": "/gang/gang-compact-ibc-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Matte Black / Bright Green",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-collide",
+    "brand": "Gang",
+    "model": "Collide",
+    "category": "mtb",
+    "group": "Gang Multi Speed & Fat",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Frame size: 16.5 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: dual disc",
+      "Gears: single speed"
+    ],
+    "description": "Collide is a mountain cycle from Gang, in 2 colours and 26T wheels. It has a non-suspension frame, dual disc brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-collide-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Gloss Military Black",
+        "swatch": "#1f2220",
+        "image": "/gang/gang-collide-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Gloss Black / Red",
+        "swatch": "linear-gradient(-45deg, #111113 0.0%, #111113 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-collide-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Gloss Black / Red",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-brooks-16t",
+    "brand": "Gang",
+    "model": "Brooks 16T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "16T",
+    "specs": [
+      "Wheel size: 16T",
+      "Frame size: 8 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper",
+      "Gears: single speed"
+    ],
+    "description": "Brooks 16T is a kids' cycle from Gang, in 2 colours and 16T wheels. It has a non-suspension frame, caliper brakes and single speed. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-brooks-16t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Brilliant Red / Black Gloss",
+        "swatch": "#d7263d",
+        "image": "/gang/gang-brooks-16t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Fluoro Orange / Black Gloss",
+        "swatch": "#ff6a00",
+        "image": "/gang/gang-brooks-16t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Brilliant Red / Black Gloss",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-blaster",
+    "brand": "Gang",
+    "model": "Blaster",
+    "category": "mtb",
+    "group": "Gang MTB",
+    "sizes": "26T",
+    "specs": [
+      "Wheel size: 26T",
+      "Suspension: rear",
+      "Brakes: caliper"
+    ],
+    "description": "Blaster is a mountain cycle from Gang, in 4 colours and 26T wheels. It has rear suspension and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-blaster-2.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Bluish Grey / Red",
+        "swatch": "linear-gradient(-45deg, #7b8aa0 0.0%, #7b8aa0 50.0%, #d7263d 50.0%, #d7263d 100.0%)",
+        "image": "/gang/gang-blaster-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Pantone Green / Black",
+        "swatch": "linear-gradient(-45deg, #00a36c 0.0%, #00a36c 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-blaster-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Brilliant Red / Black",
+        "swatch": "linear-gradient(-45deg, #d7263d 0.0%, #d7263d 50.0%, #151517 50.0%, #151517 100.0%)",
+        "image": "/gang/gang-blaster-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Sea Green",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #2e9e7d 50.0%, #2e9e7d 100.0%)",
+        "image": "/gang/gang-blaster-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Bluish Grey / Red",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-benito-ibc-20t",
+    "brand": "Gang",
+    "model": "Benito IBC 20T",
+    "category": "kids",
+    "group": "Gang Kids",
+    "sizes": "20T",
+    "specs": [
+      "Wheel size: 20T",
+      "Frame size: 11 inches",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: V-brakes",
+      "Gears: single speed",
+      "In-built carrier (IBC)"
+    ],
+    "description": "Benito IBC 20T is a kids' cycle from Gang, in 3 colours and 20T wheels. It has a non-suspension frame, V-brakes, single speed and an in-built carrier. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-benito-ibc-20t-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Black / Orange",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #ff7a1a 50.0%, #ff7a1a 100.0%)",
+        "image": "/gang/gang-benito-ibc-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Lemon Green",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #bcd631 50.0%, #bcd631 100.0%)",
+        "image": "/gang/gang-benito-ibc-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Black / Blue",
+        "swatch": "linear-gradient(-45deg, #151517 0.0%, #151517 50.0%, #1e5bd8 50.0%, #1e5bd8 100.0%)",
+        "image": "/gang/gang-benito-ibc-20t-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Black / Blue",
+    "source": "gangcycles.com"
+  },
+  {
+    "slug": "gang-alice",
+    "brand": "Gang",
+    "model": "Alice",
+    "category": "mtb",
+    "group": "Gang Ladies",
+    "sizes": "24T / 26T",
+    "specs": [
+      "Wheel size: 24T / 26T",
+      "Frame: non-suspension (hardtail)",
+      "Brakes: caliper"
+    ],
+    "description": "Alice is a ladies' cycle from Gang, in 7 colours and 24T and 26T wheels. It has a non-suspension frame and caliper brakes. Quality bikes from the house of SK Bikes.",
+    "price": null,
+    "rating": 0,
+    "image": "/gang/gang-alice-1.webp",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Mint Green",
+        "size": "24T",
+        "swatch": "#8fe3b3",
+        "image": "/gang/gang-alice-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green",
+        "size": "26T",
+        "swatch": "#8fe3b3",
+        "image": "/gang/gang-alice-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Peach / Silky Pink",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #ffb38a 0.0%, #ffb38a 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-alice-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Peach / Silky Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #ffb38a 0.0%, #ffb38a 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-alice-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Silky Pink / Purple",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #f5a3c7 0.0%, #f5a3c7 50.0%, #7a3ea1 50.0%, #7a3ea1 100.0%)",
+        "image": "/gang/gang-alice-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Silky Pink / Purple",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #f5a3c7 0.0%, #f5a3c7 50.0%, #7a3ea1 50.0%, #7a3ea1 100.0%)",
+        "image": "/gang/gang-alice-2.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Purple",
+        "size": "24T",
+        "swatch": "#6a35a8",
+        "image": "/gang/gang-alice-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Metallic Purple",
+        "size": "26T",
+        "swatch": "#6a35a8",
+        "image": "/gang/gang-alice-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green / Purple",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #8fe3b3 0.0%, #8fe3b3 50.0%, #7a3ea1 50.0%, #7a3ea1 100.0%)",
+        "image": "/gang/gang-alice-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Mint Green / Purple",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #8fe3b3 0.0%, #8fe3b3 50.0%, #7a3ea1 50.0%, #7a3ea1 100.0%)",
+        "image": "/gang/gang-alice-1.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Ruby Pink",
+        "size": "24T",
+        "swatch": "#d81b60",
+        "image": "/gang/gang-alice-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Ruby Pink",
+        "size": "26T",
+        "swatch": "#d81b60",
+        "image": "/gang/gang-alice-4.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Silky Purple / Silky Pink",
+        "size": "24T",
+        "swatch": "linear-gradient(-45deg, #7a3ea1 0.0%, #7a3ea1 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-alice-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      },
+      {
+        "color": "Silky Purple / Silky Pink",
+        "size": "26T",
+        "swatch": "linear-gradient(-45deg, #7a3ea1 0.0%, #7a3ea1 50.0%, #f5a3c7 50.0%, #f5a3c7 100.0%)",
+        "image": "/gang/gang-alice-3.webp",
+        "price": null,
+        "regularPrice": null,
+        "inStock": true
+      }
+    ],
+    "defaultColor": "Mint Green",
+    "source": "gangcycles.com"
+  }
+]
