@@ -755,7 +755,23 @@ export default function Shop() {
                     const multi = needsOptions(item);
                     return (
                     <article className={view === "grid" ? styles.card : styles.cardList} key={item.slug}>
-                      <div className={styles.cardPhoto}>
+                      <div
+                        className={styles.cardPhoto}
+                        role="button"
+                        tabIndex={0}
+                        aria-label={`View ${item.brand} ${item.model}`}
+                        onClick={(e) => {
+                          // the heart (and any other button inside) keeps its own job
+                          if ((e.target as HTMLElement).closest("button")) return;
+                          openWithOptions(item, shown);
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.target === e.currentTarget && (e.key === "Enter" || e.key === " ")) {
+                            e.preventDefault();
+                            openWithOptions(item, shown);
+                          }
+                        }}
+                      >
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img src={shown.image} alt={`${item.brand} ${item.model}${shown.color ? ` – ${shown.color}` : ""}`} loading="lazy" decoding="async" />
                         <span className={shown.inStock ? styles.stockBadge : styles.stockBadgeOut}>
