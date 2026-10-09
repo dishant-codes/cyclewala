@@ -1214,3 +1214,12 @@
     font-size: 12px;
   }
 }
+
+/* the cycle photo opens the same details pop-up as the View button */
+.cardPhoto {
+  cursor: pointer;
+}
+.cardPhoto:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}

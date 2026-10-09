@@ -27,7 +27,7 @@
   position: absolute;
   top: 14px;
   right: 14px;
-  z-index: 2;
+  z-index: 5;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -217,6 +217,10 @@
   }
   .photo img {
     padding: 12px;
+  }
+  /* the close button sits in the same corner as the photo's heart — slide the heart left of it */
+  .photo > button {
+    right: 56px;
   }
   .info {
     padding: 26px 22px;

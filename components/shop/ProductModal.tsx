@@ -123,7 +123,7 @@ export default function ProductModal({
           <div className={styles.foot}>
             <span className={shown.price === null ? styles.priceTbc : styles.price}>
               {shown.price === null ? (
-                "Add: price"
+                "Price on request"
               ) : (
                 <>
                   ₹{shown.price.toLocaleString("en-IN")}

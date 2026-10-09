@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
       { source: "/:path*", headers: securityHeaders },
       {
         // brand photos and logos rarely change: let browsers and the CDN keep them
-        source: "/:dir(images|oykid|neufman|schnell|hero|keysto|hercules|radiant|bsa|kross)/:path*",
+        source: "/:dir(images|oykid|neufman|schnell|hero|keysto|hercules|radiant|bsa|kross|allwyn|firefox|corrado|gang|avon)/:path*",
         headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }],
       },
       {

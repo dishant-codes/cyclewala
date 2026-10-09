@@ -64,7 +64,7 @@ const TRUST = [
 ];
 
 /* the shop's brand tabs, in the same order */
-const BRANDS = ["Oyekid", "Neufman", "Schnell", "Hero", "Keysto", "Hercules", "Radiant", "BSA", "Kross", "Allwyn", "Firefox", "Corrado"];
+const BRANDS = ["Oyekid", "Neufman", "Schnell", "Hero", "Keysto", "Hercules", "Radiant", "BSA", "Kross", "Allwyn", "Firefox", "Corrado", "Gang", "Avon"];
 
 const CATEGORIES = [
   { label: "Kids' Cycles", key: "kids" },

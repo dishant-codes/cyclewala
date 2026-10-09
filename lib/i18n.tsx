@@ -64,7 +64,7 @@ export const DICT: Record<string, Entry> = {
   "shop.lede": {
     en: "A curated look at what's in the shop — real models, real specs, straight from our supplier catalogues.",
   },
-  "shop.addPrice": { en: "Add: price" },
+  "shop.addPrice": { en: "Price on request" },
   "shop.ask": { en: "Ask about this →" },
   "shop.all": { en: "All Cycles" },
   "shop.loading": { en: "Curating cycles…" },

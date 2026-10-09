@@ -212,7 +212,7 @@ export default function OwnerPage() {
               rider — can walk in, ask questions and ride away knowing their cycle is sorted.
             </p>
             <p data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-              Today the shop stocks more than 400 models from thirteen brands — Oyekid, Neufman, Schnell, Hero, Keysto, Hercules, Radiant, BSA, Kross, Allwyn, Firefox, Corrado
+              Today the shop stocks more than 550 models from fifteen brands — Oyekid, Neufman, Schnell, Hero, Keysto, Hercules, Radiant, BSA, Kross, Allwyn, Firefox, Corrado, Gang, Avon
               and more — alongside genuine accessories and a workshop that services every cycle by hand.
             </p>
             <p data-reveal style={{ "--d": "240ms" } as React.CSSProperties}>

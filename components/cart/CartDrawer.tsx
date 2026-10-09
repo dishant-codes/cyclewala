@@ -134,7 +134,7 @@ export default function CartDrawer() {
                       {i.brand} {i.model}
                       {optionsLabel(i) ? ` (${optionsLabel(i)})` : ""} × {i.qty}
                     </span>
-                    <span>{i.price === null ? "Add: price" : `₹${(i.price * i.qty).toLocaleString("en-IN")}`}</span>
+                    <span>{i.price === null ? "Price on request" : `₹${(i.price * i.qty).toLocaleString("en-IN")}`}</span>
                   </div>
                 ))}
               </div>
@@ -199,7 +199,7 @@ export default function CartDrawer() {
                     <p className={styles.itemModel}>{item.model}</p>
                     {optionsLabel(item) && <p className={styles.itemBrand}>{optionsLabel(item)}</p>}
                     <p className={styles.itemPrice}>
-                      {item.price === null ? "Add: price" : `₹${item.price.toLocaleString("en-IN")}`}
+                      {item.price === null ? "Price on request" : `₹${item.price.toLocaleString("en-IN")}`}
                     </p>
                   </div>
                   <div className={styles.itemQty}>
@@ -222,10 +222,10 @@ export default function CartDrawer() {
               <div className={styles.totalRow}>
                 <span>Estimated total</span>
                 <span className={styles.totalValue}>
-                  {hasUnknownPrice ? `From ₹${total.toLocaleString("en-IN")}` : `₹${total.toLocaleString("en-IN")}`}
+                  {hasUnknownPrice ? (total > 0 ? `From ₹${total.toLocaleString("en-IN")}` : "Price on request") : `₹${total.toLocaleString("en-IN")}`}
                 </span>
               </div>
-              {hasUnknownPrice && <p className={styles.totalNote}>Some items don&apos;t have a price yet.</p>}
+              {hasUnknownPrice && <p className={styles.totalNote}>Some items are priced on request — we&apos;ll confirm the price when we call.</p>}
 
               <button className={styles.callCta} onClick={() => setStep("checkout")}>
                 Place Order
