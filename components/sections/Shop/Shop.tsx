@@ -6,6 +6,7 @@ import type { Product, ProductCategory } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import StarRating from "@/components/ui/StarRating";
 import ProductModal from "@/components/shop/ProductModal";
+import ImageViewer, { type ViewerImage } from "@/components/shop/ImageViewer";
 import ColorSwatches from "@/components/shop/ColorSwatches";
 import SortMenu, { SORT_ICONS, type SortOption } from "@/components/shop/SortMenu";
 import { discountPct, needsOptions, selectOption, shownFor, type Selection, type Shown } from "@/lib/variants";
@@ -380,6 +381,8 @@ export default function Shop() {
   const [sort, setSort] = useState<SortKey>("featured");
   const [view, setView] = useState<"grid" | "list">("grid");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  /** the full-screen photo viewer: opens on a card's photo */
+  const [viewer, setViewer] = useState<{ title: string; images: ViewerImage[]; start: number } | null>(null);
   const [showAll, setShowAll] = useState(false);
   /** a cycle to open as soon as the list has loaded (from ?product= or the header search) */
   const [pendingOpen, setPendingOpen] = useState<string | null>(null);
@@ -471,6 +474,24 @@ export default function Shop() {
 
   const toggleCategory = (c: ProductCategory) => {
     setSelectedCategories((prev) => (prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]));
+  };
+
+  /** every distinct photo of a cycle (one per colour), opening on the one the card is showing */
+  const openPhoto = (item: Product, shown: Shown) => {
+    const images: ViewerImage[] = [];
+    for (const v of item.variants ?? []) {
+      if (!v.image || images.some((im) => im.src === v.image)) continue;
+      // colours that share a photo: it belongs to the default colour, else the first of them
+      const sharing = (item.variants ?? []).filter((x) => x.image === v.image);
+      const owner = sharing.find((x) => x.color === item.defaultColor) ?? sharing[0];
+      images.push({ src: v.image, label: owner.color });
+    }
+    if (!images.some((im) => im.src === shown.image)) images.unshift({ src: shown.image, label: shown.color });
+    setViewer({
+      title: `${item.brand} ${item.model}`,
+      images,
+      start: Math.max(0, images.findIndex((im) => im.src === shown.image)),
+    });
   };
 
   /** open the popup with the card's current colour / size / setup preselected */
@@ -795,16 +816,16 @@ export default function Shop() {
                         className={styles.cardPhoto}
                         role="button"
                         tabIndex={0}
-                        aria-label={`View ${item.brand} ${item.model}`}
+                        aria-label={`Open photo of ${item.brand} ${item.model}`}
                         onClick={(e) => {
                           // the heart (and any other button inside) keeps its own job
                           if ((e.target as HTMLElement).closest("button")) return;
-                          openWithOptions(item, shown);
+                          openPhoto(item, shown);
                         }}
                         onKeyDown={(e) => {
                           if (e.target === e.currentTarget && (e.key === "Enter" || e.key === " ")) {
                             e.preventDefault();
-                            openWithOptions(item, shown);
+                            openPhoto(item, shown);
                           }
                         }}
                       >
@@ -954,6 +975,7 @@ export default function Shop() {
         </div>
       </div>
 
+      {viewer && <ImageViewer title={viewer.title} images={viewer.images} start={viewer.start} onClose={() => setViewer(null)} />}
       {selectedProduct && <ProductModal product={selectedProduct} initialSelection={picked[selectedProduct.slug]} onClose={() => setSelectedProduct(null)} />}
     </section>
   );
