@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createBooking } from "@/lib/bookings";
+import { notifyNewBooking } from "@/lib/notify";
 import { currentCustomer } from "@/lib/customers";
 import { getService } from "@/data/services";
 import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
@@ -56,6 +57,7 @@ export async function POST(request: NextRequest) {
     });
 
     rateLimitRecord(request, "booking");
+    notifyNewBooking(booking);
     return NextResponse.json({ id: booking.id }, { status: 201 });
   } catch {
     return NextResponse.json({ error: "Couldn't send the request — try again" }, { status: 400 });

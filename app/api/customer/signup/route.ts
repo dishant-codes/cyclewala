@@ -10,6 +10,7 @@ import {
   setSessionCookie,
   toPublic,
 } from "@/lib/customers";
+import { notifyNewCustomer } from "@/lib/notify";
 import { rateLimit, tooMany } from "@/lib/rate-limit";
 
 /* Create an account, then sign the new customer straight in. */
@@ -36,6 +37,8 @@ export async function POST(request: NextRequest) {
 
   try {
     const customer = await createCustomer({ email, name, password });
+    // tell the shop owner (sent after the response; a failed mail never blocks the sign-up)
+    notifyNewCustomer({ name: customer.name, email: customer.email, id: customer.id, createdAt: customer.createdAt });
     const res = NextResponse.json({ customer: toPublic(customer) }, { status: 201, headers: { "Cache-Control": "no-store" } });
     if (!setSessionCookie(res, request, customer)) return fail("Sign-in is not available right now. Please try again later.", 503);
     return res;

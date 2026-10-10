@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { currentCustomer } from "@/lib/customers";
+import { notifyNewOrder } from "@/lib/notify";
 import { createOrder, type OrderItem } from "@/lib/orders";
 import { getProductBySlug } from "@/lib/products";
 import { rateLimit, rateLimitPeek, rateLimitRecord, tooMany } from "@/lib/rate-limit";
@@ -103,6 +104,8 @@ export async function POST(request: NextRequest) {
     });
 
     rateLimitRecord(request, "order");
+    // email the shop owner (sent after the response; a failed mail never fails the order)
+    notifyNewOrder(order);
     return NextResponse.json({ id: order.id, total: order.total }, { status: 201 });
   } catch (error) {
     console.error("[orders] Failed to place order", error);

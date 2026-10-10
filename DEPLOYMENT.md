@@ -33,6 +33,7 @@ Copy `.env.example` and set these in the host's environment settings:
 | `MONGODB_DB` | optional | Database name inside the cluster (default `cyclewala`) |
 | `USE_DATABASE` | optional | Set to `false` to switch MongoDB off while keeping `MONGODB_URI` in place |
 | `CUSTOMER_SESSION_SECRET` | yes, for customer accounts | Long random string (`openssl rand -hex 32`) that signs customer sign-in cookies. Without any secret in production, customers cannot sign in. Needed on Vercel too |
+| `SMTP_USER`, `SMTP_PASS` | for email alerts | Gmail address and its **App password** (not the normal password): the shop gets an email at `cyclewalastore@gmail.com` for each new customer account, order and service booking. `NOTIFY_EMAIL` changes the recipient. Without them nothing is emailed |
 
 On Vercel, add `ADMIN_EMAIL`, `ADMIN_PASSWORD` (at least 10 characters), and
 optionally `ADMIN_SESSION_SECRET` under **Project Settings → Environment
